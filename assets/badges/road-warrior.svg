@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 132" width="120" height="132" role="img" aria-label="Road Warrior badge">
+<title>Road Warrior badge</title>
+<g id="ribbon" fill="#DA291C" stroke="#1A1A1A" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M34 62h27l-5 62-16-12-13 12z" transform="rotate(-13 47 70)"/>
+  <g transform="translate(120,0) scale(-1,1)"><path d="M34 62h27l-5 62-16-12-13 12z" transform="rotate(-13 47 70)"/></g>
+</g>
+<rect x="44" y="80" width="32" height="15" rx="6" fill="#FFC20E" stroke="#1A1A1A" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round"/>
+<g id="medal">
+  <circle cx="60" cy="50" r="43" fill="#FFC20E" stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="60" cy="50" r="43" fill="none" stroke="#E0A400" stroke-width="2"/>
+  <circle cx="60" cy="50" r="34" fill="#D8E6F5" stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <g id="icon" transform="translate(60,50)"><g stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+  <circle cx="22" cy="-19" r="9" fill="#FFC20E"/>
+  <path d="M-34 30c14-10 20-24 22-42" fill="none" stroke="#59616B" stroke-width="13"/>
+  <path d="M-34 30c14-10 20-24 22-42" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-dasharray="6 8"/>
+  <g transform="translate(2,10)">
+    <path d="M-26 4c0-5 3-8 8-8l4-9c1-3 4-5 7-5h10c3 0 6 2 8 4l8 10c5 1 9 4 9 8v6c0 3-2 5-5 5h-44c-3 0-5-2-5-5z" fill="#DA291C"/>
+    <path d="M-11-13h8v9h-12zM1-13h8c2 0 4 1 5 3l5 6H1z" fill="#CDEBFA" stroke="#1A1A1A" stroke-width="3"/>
+    <circle cx="-14" cy="14" r="8" fill="#1A1A1A"/><circle cx="-14" cy="14" r="3" fill="#FFFFFF"/>
+    <circle cx="14" cy="14" r="8" fill="#1A1A1A"/><circle cx="14" cy="14" r="3" fill="#FFFFFF"/>
+  </g></g></g>
+</g>
+</svg>

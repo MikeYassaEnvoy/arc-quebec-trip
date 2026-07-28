@@ -66,6 +66,7 @@ export const badges = {
   'photographer': new URL('./badges/photographer.svg', import.meta.url).href,
   'race-champion': new URL('./badges/race-champion.svg', import.meta.url).href,
   'race-rookie': new URL('./badges/race-rookie.svg', import.meta.url).href,
+  'road-warrior': new URL('./badges/road-warrior.svg', import.meta.url).href,
   'time-traveler': new URL('./badges/time-traveler.svg', import.meta.url).href,
 } as const;
 export type BadgeId = keyof typeof badges;

@@ -2,7 +2,9 @@ import type React from 'react';
 import type { MiniGameProps } from '../types';
 import type { Ceremonies } from './ceremonyTypes';
 import StubMiniGame from './stubs/StubMiniGame';
-import { stubCeremonies } from './stubs/ceremonies';
+import { coreGames, coreGameAliases } from '../minigames/registry.core';
+import { arcadeGames } from '../minigames/registry.arcade';
+import { ceremonyAdapters } from '../ghosts/engineAdapter';
 
 /**
  * ============================================================================
@@ -28,9 +30,13 @@ export type MiniGameComponent = React.ComponentType<MiniGameProps>;
 export type MiniGameRegistry = Record<string, MiniGameComponent>;
 
 /** Registry keys may be the full content id ('trivia:leg-1') or a bare family/game id ('trivia'). */
-export const minigameRegistry: MiniGameRegistry = {};
+export const minigameRegistry: MiniGameRegistry = {
+  ...coreGames,
+  ...coreGameAliases,
+  ...arcadeGames,
+};
 
-export const ceremonies: Ceremonies = stubCeremonies;
+export const ceremonies: Ceremonies = ceremonyAdapters;
 
 /** Fallback rendered when a content minigameId has no registry entry. */
 export const fallbackMiniGame: MiniGameComponent = StubMiniGame;

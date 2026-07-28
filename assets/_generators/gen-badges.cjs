@@ -38,6 +38,17 @@ ${checks}
   <path d="M-16 5v22M-27 16h22" stroke-width="3"/>
   <path d="M14 16h16" stroke-width="5"/></g>`,
 
+  'road-warrior': () => `<g ${S(4)}>
+  <circle cx="22" cy="-19" r="9" fill="${YELLOW}"/>
+  <path d="M-34 30c14-10 20-24 22-42" fill="none" stroke="#59616B" stroke-width="13"/>
+  <path d="M-34 30c14-10 20-24 22-42" fill="none" stroke="${WHITE}" stroke-width="3" stroke-dasharray="6 8"/>
+  <g transform="translate(2,10)">
+    <path d="M-26 4c0-5 3-8 8-8l4-9c1-3 4-5 7-5h10c3 0 6 2 8 4l8 10c5 1 9 4 9 8v6c0 3-2 5-5 5h-44c-3 0-5-2-5-5z" fill="${RED}"/>
+    <path d="M-11-13h8v9h-12zM1-13h8c2 0 4 1 5 3l5 6H1z" fill="#CDEBFA" stroke="${OUT}" stroke-width="3"/>
+    <circle cx="-14" cy="14" r="8" fill="${OUT}"/><circle cx="-14" cy="14" r="3" fill="${WHITE}"/>
+    <circle cx="14" cy="14" r="8" fill="${OUT}"/><circle cx="14" cy="14" r="3" fill="${WHITE}"/>
+  </g></g>`,
+
   'metro-master': () => `<g ${S(4)}>
   <path d="M-30 28h60" stroke-width="5"/>
   <circle cx="-13" cy="23" r="5" fill="${OUT}"/><circle cx="13" cy="23" r="5" fill="${OUT}"/>
@@ -134,6 +145,7 @@ ${seeds}
 const badges = [
   ['race-rookie', 'Race Rookie', '#8ED2F5'],
   ['cannon-blaster', 'Cannon Blaster', '#A8E6A0'],
+  ['road-warrior', 'Road Warrior', '#D8E6F5'],
   ['metro-master', 'Metro Master', '#FFD98A'],
   ['bagel-boss', 'Bagel Boss', '#FFC8C2'],
   ['penguin-pal', 'Penguin Pal', '#BFEAFB'],
