@@ -48,7 +48,9 @@ export function Onboarding() {
                 onClick={() => setAvatarId(a.id)}
                 aria-pressed={avatarId === a.id}
               >
-                <span className="avatarpick__face">{a.emoji}</span>
+                <span className="avatarpick__face">
+                  {a.art ? <img className="avatarpick__img" src={a.art} alt={a.name} draggable={false} /> : a.emoji}
+                </span>
                 <span className="avatarpick__name">{a.name}</span>
               </button>
             ))}

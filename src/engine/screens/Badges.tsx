@@ -1,6 +1,13 @@
 import { BADGES } from '../badges';
 import { useRouter } from '../router';
 import { useRaceStore } from '../store';
+import { badgeArt } from '../art';
+
+function BadgeArt({ id, emoji }: { id: string; emoji: string }) {
+  const art = badgeArt(id);
+  if (art) return <img className="badge__img" src={art} alt="" draggable={false} />;
+  return <>{emoji}</>;
+}
 
 export function Badges() {
   const back = useRouter((s) => s.back);
@@ -31,7 +38,7 @@ export function Badges() {
           const got = earned.includes(b.id);
           return (
             <div key={b.id} className={`badge${got ? ' is-earned' : ''}`}>
-              <span className="badge__art">{got ? b.emoji : '❔'}</span>
+              <span className="badge__art">{got ? <BadgeArt id={b.id} emoji={b.emoji} /> : '❔'}</span>
               <span className="badge__name">{got ? b.name : '???'}</span>
               <span className="badge__how">{b.how}</span>
             </div>
@@ -44,7 +51,9 @@ export function Badges() {
             .filter((id) => !BADGES.some((b) => b.id === id))
             .map((id) => (
               <div key={id} className="badge is-earned">
-                <span className="badge__art">🏅</span>
+                <span className="badge__art">
+                  <BadgeArt id={id} emoji="🏅" />
+                </span>
                 <span className="badge__name">{id}</span>
                 <span className="badge__how">Awarded during a ceremony</span>
               </div>

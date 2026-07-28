@@ -4,6 +4,7 @@ import { useRouter } from '../router';
 import { useRaceStore } from '../store';
 import { useLeg } from '../useContent';
 import { Loading } from './Loading';
+import { ui } from '../../../assets';
 
 type Phase = 'sealed' | 'ripping' | 'riddle' | 'revealed';
 
@@ -42,12 +43,14 @@ export function ClueEnvelope({ legId, stepId }: { legId: number; stepId: string 
       </button>
 
       {phase === 'sealed' || phase === 'ripping' ? (
-        <button className={`envelope${phase === 'ripping' ? ' is-ripping' : ''}`} onClick={rip}>
-          <span className="envelope__flap" />
-          <span className="envelope__body">
-            <span className="envelope__seal">🍁</span>
-            <span className="envelope__hint">{phase === 'ripping' ? 'RIIIIP!' : 'TAP TO RIP IT OPEN'}</span>
-          </span>
+        <button className={`envelope envelope--art${phase === 'ripping' ? ' is-ripping' : ''}`} onClick={rip}>
+          <img
+            className="envelope__img"
+            src={phase === 'ripping' ? ui['envelope-open'] : ui['envelope-closed']}
+            alt="Clue envelope"
+            draggable={false}
+          />
+          <span className="envelope__hint">{phase === 'ripping' ? 'RIIIIP!' : 'TAP TO RIP IT OPEN'}</span>
         </button>
       ) : (
         <div className="cluecard">

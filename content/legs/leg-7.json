@@ -72,6 +72,15 @@
           "points": 10
         },
         {
+          "id": "l7-drive-maze",
+          "type": "minigame",
+          "title": "Hedge-Maze Training",
+          "instructions": "Practice for the big maze. Drag your racer to the red exit gate. No cutting through hedges!",
+          "minigameId": "maze-escape",
+          "config": { "level": 2 },
+          "points": 10
+        },
+        {
           "id": "l7-drive-trivia",
           "type": "minigame",
           "title": "Dinosaur Road Trivia",

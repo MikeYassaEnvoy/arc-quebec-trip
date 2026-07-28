@@ -1,4 +1,22 @@
+import type { CSSProperties } from 'react';
+import { ui } from '../../../assets';
+
 const LABELS = ['', 'Nope!', 'Meh', 'Pretty good', 'Yum!', 'BEST EVER!'];
+
+/**
+ * Workstream E's maple-leaf.svg fills from currentColor, so it is applied as a
+ * CSS mask over a currentColor box: gold when selected, grey when not.
+ */
+const leafMask: CSSProperties = {
+  WebkitMaskImage: `url(${ui['maple-leaf']})`,
+  maskImage: `url(${ui['maple-leaf']})`,
+  WebkitMaskRepeat: 'no-repeat',
+  maskRepeat: 'no-repeat',
+  WebkitMaskPosition: 'center',
+  maskPosition: 'center',
+  WebkitMaskSize: 'contain',
+  maskSize: 'contain',
+};
 
 /** 1–5 maple-leaf taste rating (§7A). */
 export function MapleRating({
@@ -23,7 +41,7 @@ export function MapleRating({
             className={`maple__leaf${n <= value ? ' is-on' : ''}`}
             onClick={() => onChange(n)}
           >
-            🍁
+            <span className="maple__leafart" style={leafMask} aria-hidden="true" />
           </button>
         ))}
       </div>

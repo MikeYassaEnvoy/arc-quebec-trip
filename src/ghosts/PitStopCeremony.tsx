@@ -48,6 +48,8 @@ export interface PitStopCeremonyProps {
   pitStopName?: string;
   /** Pretty badge name; defaults to a title-cased badgeId. */
   badgeLabel?: string;
+  /** Workstream E's pit-stop mat art (SVG url); falls back to the CSS mat. */
+  matArtUrl?: string;
 }
 
 type Phase = 'mat' | 'standings' | 'elimination' | 'badge' | 'tease';
@@ -67,6 +69,7 @@ export default function PitStopCeremony({
   hostName = 'The Host',
   pitStopName,
   badgeLabel,
+  matArtUrl,
 }: PitStopCeremonyProps) {
   const [phase, setPhase] = useState<Phase>('mat');
   const [standingsSettled, setStandingsSettled] = useState(false);
@@ -139,7 +142,10 @@ export default function PitStopCeremony({
       {phase === 'mat' && (
         <div className="arc-pitstop-stage">
           <div className="arc-mat">
-            <div className="arc-mat-surface">
+            <div className={`arc-mat-surface${matArtUrl ? ' arc-mat-surface--art' : ''}`}>
+              {matArtUrl && (
+                <img className="arc-mat-art" src={matArtUrl} alt="" draggable={false} aria-hidden="true" />
+              )}
               <TeamAvatar
                 avatarId={playerAvatarId}
                 name={teamName}

@@ -19,6 +19,7 @@ import { useEffect, useState } from 'react';
 import type { GhostTeam, LegScriptEntry } from '../types';
 import type { AvatarResolver, HistoryEntry, ScriptEntry, SeasonScript } from './types';
 import { entryForLeg, loadSeasonScript } from './script';
+import { ui as uiArt } from '../../assets';
 import MeetTheTeamsView from './MeetTheTeams';
 import PitStopCeremonyView from './PitStopCeremony';
 import StandingsBoardView from './StandingsBoard';
@@ -161,6 +162,7 @@ export function PitStopCeremonyAdapter(props: EngineContext & EngineCallbacks) {
       pitStopName={props.pitStop?.hotelName}
       playerAvatarId={props.avatarId ?? 'team-player'}
       avatarResolver={artResolver}
+      matArtUrl={uiArt.mat}
       onDone={() => {
         if (badgeId) props.onAwardBadge(badgeId);
         props.onFinish();

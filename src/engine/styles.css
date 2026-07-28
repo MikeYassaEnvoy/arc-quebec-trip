@@ -1508,3 +1508,87 @@ body {
     font-size: 1.35em;
   }
 }
+
+/* --- integration: Workstream E art wiring -------------------------------- */
+
+/* kid avatar art */
+.topbar__avatarimg {
+  width: 62px;
+  height: 62px;
+  object-fit: contain;
+  display: block;
+}
+.avatarpick__img {
+  width: 96px;
+  height: 96px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+.avatarpick__face {
+  line-height: 1;
+}
+
+/* inline souvenir route map (assets/map/route-map.svg) */
+.routemap-art {
+  width: 100%;
+}
+.routemap-art svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+}
+
+/* clue envelope art */
+.envelope--art {
+  border: none;
+  background: none;
+  box-shadow: none;
+  overflow: visible;
+  aspect-ratio: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.envelope__img {
+  width: min(560px, 64vw);
+  height: auto;
+  filter: drop-shadow(0 14px 0 rgba(0, 0, 0, 0.35));
+}
+
+/* maple-leaf rating art (mask filled from currentColor) */
+.maple__leaf {
+  color: #b9b3a2;
+  display: grid;
+  place-items: center;
+  filter: none;
+  opacity: 0.75;
+}
+.maple__leaf.is-on {
+  color: var(--red);
+  opacity: 1;
+}
+.maple__leafart {
+  display: block;
+  width: 64%;
+  height: 78%;
+  background: currentColor;
+}
+
+/* step list icons */
+.stepcard__iconimg {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  display: block;
+}
+
+/* badge art */
+.badge__img {
+  width: 96px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}

@@ -1,4 +1,4 @@
-import { useMemo, useRef } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import type { Challenge, LegResult } from '../../types';
 import { challengesForStep, findStep, FINAL_LEG_ID } from '../content';
 import { useRouter } from '../router';
@@ -12,6 +12,7 @@ import { useLeg, useSeasonScript } from '../useContent';
 import { ceremonies } from '../wiring';
 import type { CeremonyContext, CompletedChallengeSummary } from '../ceremonyTypes';
 import { DEFAULT_LEG_BADGE } from '../badges';
+import { primePhotoUrls } from '../art';
 import { Loading } from './Loading';
 
 /**
@@ -31,6 +32,20 @@ export function PitStopScreen({ legId, stepId }: { legId: number; stepId: string
   const overrideResult = useRef<LegResult | null>(null);
 
   const scriptEntry = useMemo(() => script.legs.find((e) => e.legId === legId), [script, legId]);
+
+  // The finale photo reel needs IndexedDB blobs resolved to object URLs before
+  // FinaleSequence mounts (its adapter resolves keys synchronously).
+  const isFinale = legId === FINAL_LEG_ID;
+  const [photosReady, setPhotosReady] = useState(!isFinale);
+  const photoKeys = useMemo(() => state.photos.map((p) => p.key), [state.photos]);
+  useEffect(() => {
+    if (!isFinale) return;
+    let alive = true;
+    void primePhotoUrls(photoKeys).then(() => alive && setPhotosReady(true));
+    return () => {
+      alive = false;
+    };
+  }, [isFinale, photoKeys]);
 
   const context: CeremonyContext | null = useMemo(() => {
     if (!leg) return null;
@@ -82,7 +97,7 @@ export function PitStopScreen({ legId, stepId }: { legId: number; stepId: string
     };
   }, [leg, script, scriptEntry, state, legId]);
 
-  if (loading || !leg || !context) return <Loading what="the pit stop" />;
+  if (loading || !leg || !context || !photosReady) return <Loading what="the pit stop" />;
   const step = findStep(leg, stepId);
   if (!step) return <Loading what="the pit stop" />;
 

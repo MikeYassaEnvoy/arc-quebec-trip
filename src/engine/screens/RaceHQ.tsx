@@ -4,6 +4,7 @@ import { useAllLegs } from '../useContent';
 import { avatarById } from '../ui/avatars';
 import { FINAL_LEG_ID } from '../content';
 import { VersionTapper } from './ParentMenu';
+import { RouteMap } from '../ui/RouteMap';
 
 const ordinal = (n: number) => {
   const s = ['th', 'st', 'nd', 'rd'];
@@ -26,7 +27,7 @@ export function RaceHQ() {
       <header className="topbar">
         <div className="topbar__team">
           <span className="topbar__avatar" style={{ ['--avatar-color' as string]: avatar.color }}>
-            {avatar.emoji}
+            {avatar.art ? <img className="topbar__avatarimg" src={avatar.art} alt="" draggable={false} /> : avatar.emoji}
           </span>
           <div>
             <p className="kicker">Race HQ</p>
@@ -52,30 +53,12 @@ export function RaceHQ() {
       <main className="hq__body">
         <section className="hq__map card">
           <h2 className="h2">Route Map</h2>
-          <div className="routemap">
-            <div className="routemap__line" />
-            {(legs ?? []).map(({ leg }) => {
-              const done = state.legsCompleted.includes(leg.id);
-              const unlocked = leg.id <= state.unlockedLegId;
-              const current = leg.id === state.currentLegId;
-              return (
-                <button
-                  key={leg.id}
-                  className={`routemap__node${done ? ' is-done' : ''}${unlocked ? ' is-open' : ' is-locked'}${
-                    current ? ' is-current' : ''
-                  }`}
-                  disabled={!unlocked}
-                  onClick={() => go({ name: 'leg', legId: leg.id })}
-                  title={leg.title}
-                >
-                  <span className="routemap__dot">{done ? '⭐️' : unlocked ? leg.id : '🔒'}</span>
-                  <span className="routemap__label">
-                    {leg.id === PRACTICE_LEG_ID ? 'Practice' : leg.pitStop.city}
-                  </span>
-                </button>
-              );
-            })}
-          </div>
+          <RouteMap
+            legsCompleted={state.legsCompleted}
+            currentLegId={state.currentLegId}
+            unlockedLegId={state.unlockedLegId}
+            onSelectLeg={(legId) => go({ name: 'leg', legId })}
+          />
           {loading && <p className="muted">Loading the route…</p>}
         </section>
 

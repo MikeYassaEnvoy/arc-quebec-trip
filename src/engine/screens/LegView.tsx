@@ -4,6 +4,7 @@ import { useRouter } from '../router';
 import { selectPointsForLeg, useRaceStore, PRACTICE_LEG_ID } from '../store';
 import { useLeg } from '../useContent';
 import { Loading } from './Loading';
+import { ui } from '../../../assets';
 
 const KIND_ICON: Record<Step['kind'], string> = {
   'route-marker': '📍',
@@ -12,6 +13,15 @@ const KIND_ICON: Record<Step['kind'], string> = {
   'speed-bump': '⚡️',
   drive: '🚗',
   'pit-stop': '🏁',
+};
+
+/** Workstream E art for the step kinds that have a dedicated asset. */
+const KIND_ART: Partial<Record<Step['kind'], string>> = {
+  'route-marker': ui.marker,
+  detour: ui.marker,
+  roadblock: ui.marker,
+  'speed-bump': ui.starburst,
+  'pit-stop': ui['checkered-flag'],
 };
 
 const KIND_LABEL: Record<Step['kind'], string> = {
@@ -97,7 +107,17 @@ export function LegView({ legId }: { legId: number }) {
               onClick={() => openStep(step, i)}
               disabled={!open}
             >
-              <span className="stepcard__icon">{done ? '✅' : open ? KIND_ICON[step.kind] : '🔒'}</span>
+              <span className="stepcard__icon">
+                {done ? (
+                  '✅'
+                ) : !open ? (
+                  <img className="stepcard__iconimg" src={ui.lock} alt="Locked" draggable={false} />
+                ) : KIND_ART[step.kind] ? (
+                  <img className="stepcard__iconimg" src={KIND_ART[step.kind]} alt="" draggable={false} />
+                ) : (
+                  KIND_ICON[step.kind]
+                )}
+              </span>
               <span className="stepcard__body">
                 <span className="stepcard__kind">{KIND_LABEL[step.kind]}</span>
                 <span className="stepcard__loc">{step.location}</span>
