@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 132" width="120" height="132" role="img" aria-label="Race Rookie badge">
+<title>Race Rookie badge</title>
+<g id="ribbon" fill="#DA291C" stroke="#1A1A1A" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M34 62h27l-5 62-16-12-13 12z" transform="rotate(-13 47 70)"/>
+  <g transform="translate(120,0) scale(-1,1)"><path d="M34 62h27l-5 62-16-12-13 12z" transform="rotate(-13 47 70)"/></g>
+</g>
+<rect x="44" y="80" width="32" height="15" rx="6" fill="#FFC20E" stroke="#1A1A1A" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round"/>
+<g id="medal">
+  <circle cx="60" cy="50" r="43" fill="#FFC20E" stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="60" cy="50" r="43" fill="none" stroke="#E0A400" stroke-width="2"/>
+  <circle cx="60" cy="50" r="34" fill="#8ED2F5" stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <g id="icon" transform="translate(60,50)"><g stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M-20-28v54" stroke-width="6"/>
+  <rect x="-16" y="-26" width="40" height="30" fill="#FFFFFF"/></g>
+<rect x="-16" y="-26" width="10" height="10" fill="#1A1A1A"/><rect x="-16" y="-6" width="10" height="10" fill="#1A1A1A"/><rect x="-6" y="-16" width="10" height="10" fill="#1A1A1A"/><rect x="4" y="-26" width="10" height="10" fill="#1A1A1A"/><rect x="4" y="-6" width="10" height="10" fill="#1A1A1A"/><rect x="14" y="-16" width="10" height="10" fill="#1A1A1A"/>
+<rect x="-16" y="-26" width="40" height="30" fill="none" stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M-26 26h12" stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+</svg>

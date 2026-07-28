@@ -1,0 +1,62 @@
+[
+  {
+    "q": "What colour is the ceiling inside Notre-Dame Basilica?",
+    "choices": ["Deep blue", "Bright red", "Plain white", "Dark green"],
+    "answerIndex": 0,
+    "funFact": "Thousands of gold stars are painted across that blue ceiling."
+  },
+  {
+    "q": "Which giant instrument has thousands of pipes in the basilica?",
+    "choices": ["The organ", "The piano", "The drum", "The guitar"],
+    "answerIndex": 0,
+    "funFact": "The Notre-Dame organ has around seven thousand pipes."
+  },
+  {
+    "q": "Montréal metro trains are unusual because they roll on what?",
+    "choices": ["Rubber tires", "Ice skates", "Magnets", "Wooden wheels"],
+    "answerIndex": 0,
+    "funFact": "Rubber tires make the ride quieter and help on slopes."
+  },
+  {
+    "q": "Which busy station is where three metro lines meet?",
+    "choices": ["Berri-UQAM", "Viau", "Laurier", "Place-d'Armes"],
+    "answerIndex": 0,
+    "funFact": "Green, orange and yellow lines all stop at Berri-UQAM."
+  },
+  {
+    "q": "Which colour is the metro line at Guy-Concordia station?",
+    "choices": ["Green", "Orange", "Yellow", "Blue"],
+    "answerIndex": 0,
+    "funFact": "The green line runs right across the island of Montréal."
+  },
+  {
+    "q": "Who was Jacques Cartier, the man the square is named after?",
+    "choices": ["A sailor and explorer", "A chef", "A king", "A hockey player"],
+    "answerIndex": 0,
+    "funFact": "He sailed up the St. Lawrence River back in 1535."
+  },
+  {
+    "q": "What are the old streets of Old Montréal paved with?",
+    "choices": ["Cobblestones", "Carpet", "Glass", "Sand"],
+    "answerIndex": 0,
+    "funFact": "Cobblestones are bumpy — that is why carriages rattle."
+  },
+  {
+    "q": "The Montréal Science Centre sits right beside what?",
+    "choices": ["The Old Port", "A forest", "An airport", "A farm"],
+    "answerIndex": 0,
+    "funFact": "Real cargo ships once tied up at that very pier."
+  },
+  {
+    "q": "A cannoli is a sweet treat from which country?",
+    "choices": ["Italy", "Japan", "Mexico", "Norway"],
+    "answerIndex": 0,
+    "funFact": "Montréal's Mile End is full of Italian cafés like Olimpico."
+  },
+  {
+    "q": "In what year did Canada become a country?",
+    "choices": ["1867", "1492", "1935", "2001"],
+    "answerIndex": 0,
+    "funFact": "Notre-Dame Basilica was already finished long before that."
+  }
+]

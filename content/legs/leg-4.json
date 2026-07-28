@@ -1,0 +1,226 @@
+{
+  "id": 4,
+  "title": "Bagels, Beasts & Bugs",
+  "date": "2026-08-05",
+  "routeText": "Mile End → Olympic Park → Quartier des Spectacles",
+  "pitStop": { "hotelName": "Hôtel Monroe – Downtown Montreal", "city": "Montréal, Québec" },
+  "steps": [
+    {
+      "id": "l4-s1",
+      "kind": "detour",
+      "location": "St-Viateur Bagel",
+      "scheduledTime": "8:30 AM",
+      "clueRiddle": "Round bread with a hole, baked over real fire.\nWatch it or taste it — racer, you choose.",
+      "clueReveal": "Take the metro to Laurier and walk to 263 Rue Saint-Viateur Ouest. This is a Detour: pick Watch or Taste. You only have to do one.",
+      "detour": {
+        "a": {
+          "label": "Watch",
+          "blurb": "Study the bakers at work. Learn the bagel secret, then prove it.",
+          "challenges": [
+            {
+              "id": "l4-detour-watch-look",
+              "type": "scavenger",
+              "title": "Baker Watch",
+              "instructions": "Stand where you can see the bakery. Watch the bakers for a few minutes. Check off each thing you see.",
+              "checklist": [
+                "A baker rolling dough by hand",
+                "Bagels boiling in a pot",
+                "The long wooden paddle",
+                "Real flames in the oven"
+              ],
+              "points": 8
+            },
+            {
+              "id": "l4-detour-watch-trivia",
+              "type": "trivia",
+              "title": "The Bagel Secret",
+              "instructions": "You just watched the bakers work. Now answer three questions. The answers are all things you saw.",
+              "trivia": [
+                {
+                  "q": "What is added to the water Montréal bagels are boiled in?",
+                  "choices": ["Honey", "Salt", "Milk", "Butter"],
+                  "answerIndex": 0,
+                  "funFact": "The honey water is why Montréal bagels taste a little sweet."
+                },
+                {
+                  "q": "What kind of oven bakes these bagels?",
+                  "choices": ["A wood-fired oven", "A microwave", "A toaster", "An electric oven"],
+                  "answerIndex": 0,
+                  "funFact": "The wood fire here burns all day and all night."
+                },
+                {
+                  "q": "What tool does the baker use to reach into the oven?",
+                  "choices": ["A long wooden paddle", "A fishing rod", "A broom", "A spoon"],
+                  "answerIndex": 0,
+                  "funFact": "That paddle is called a peel, and it can hold many bagels."
+                }
+              ],
+              "points": 12
+            }
+          ]
+        },
+        "b": {
+          "label": "Taste",
+          "blurb": "Close your eyes and taste two bagels. Can you tell them apart?",
+          "challenges": [
+            {
+              "id": "l4-detour-taste",
+              "type": "taste",
+              "title": "Blind Bagel Test",
+              "instructions": "Close your eyes while a parent hands you a bite. Guess sesame or plain each time. Then rate your favourite bagel.",
+              "checklist": [
+                "Bite one: I guessed",
+                "Bite two: I guessed",
+                "I got at least one right",
+                "I rated my favourite"
+              ],
+              "points": 20
+            }
+          ]
+        }
+      },
+      "funFact": "St-Viateur Bagel has been baking day and night since 1957."
+    },
+    {
+      "id": "l4-s2",
+      "kind": "roadblock",
+      "location": "Montréal Biodôme",
+      "scheduledTime": "10:15 AM",
+      "clueRiddle": "Five whole worlds are hiding under one roof.\nPenguins waddle here — go find the proof.",
+      "clueReveal": "Who's the animal expert? Ride the green line to Viau station. The Biodôme is right there — hunt for five animals.",
+      "challenges": [
+        {
+          "id": "l4-biodome-hunt",
+          "type": "scavenger",
+          "title": "Ecosystem Hunt",
+          "instructions": "Walk through all five ecosystems. Find each animal on the list. The sloth is the hardest — he hides!",
+          "checklist": [
+            "A penguin",
+            "The sloth (hard mode!)",
+            "A fish bigger than your head",
+            "A bird with a long beak",
+            "The lynx"
+          ],
+          "photoPrompt": "Penguin pose!",
+          "points": 15
+        },
+        {
+          "id": "l4-biodome-trivia",
+          "type": "trivia",
+          "title": "Animal Expert Test",
+          "instructions": "Three questions about the animals here. Read the signs if you need help. Then tap your answer.",
+          "trivia": [
+            {
+              "q": "How many ecosystems does the Biodôme have?",
+              "choices": ["Three", "Five", "Ten", "Twenty"],
+              "answerIndex": 1,
+              "funFact": "Each ecosystem has its own temperature, plants and animals."
+            },
+            {
+              "q": "Why is a sloth so hard to spot?",
+              "choices": ["It moves very slowly and hides high up", "It is invisible", "It only comes out in winter", "It lives underground"],
+              "answerIndex": 0,
+              "funFact": "Sloths move so slowly that green algae can grow on their fur."
+            },
+            {
+              "q": "Where do penguins live in the wild?",
+              "choices": ["The far south, not the Arctic", "The North Pole", "The desert", "The rainforest"],
+              "answerIndex": 0,
+              "funFact": "Penguins and polar bears never meet — they live at opposite ends."
+            }
+          ],
+          "points": 15
+        }
+      ],
+      "funFact": "The Biodôme building was the cycling track for the 1976 Montréal Olympics."
+    },
+    {
+      "id": "l4-s3",
+      "kind": "route-marker",
+      "location": "Poutine Centrale",
+      "scheduledTime": "12:30 PM",
+      "clueRiddle": "Fries, squeaky cheese and hot gravy on top.\nJudge Québec's messiest lunch stop.",
+      "clueReveal": "Walk twelve minutes south to 3971 Rue Hochelaga. Order a classic poutine. Taste it, name the parts, and rate it.",
+      "challenges": [
+        {
+          "id": "l4-poutine-judge",
+          "type": "taste",
+          "title": "Judge's Table: Poutine",
+          "instructions": "Try a big forkful of poutine. Check off the three real ingredients. Then give your maple leaf rating.",
+          "checklist": [
+            "Fries (frites)",
+            "Cheese curds that squeak",
+            "Hot gravy",
+            "A napkin — you will need it!"
+          ],
+          "points": 10
+        }
+      ],
+      "funFact": "Fresh cheese curds squeak on your teeth — that is how you know they are fresh."
+    },
+    {
+      "id": "l4-s4",
+      "kind": "route-marker",
+      "location": "Montréal Insectarium",
+      "scheduledTime": "2:00 PM",
+      "clueRiddle": "Six legs, two antennae and wings so thin.\nA garden of butterflies waits within.",
+      "clueReveal": "Walk fifteen minutes north to 4581 Rue Sherbrooke Est. Go through the butterfly garden slowly. Find four bugs on your card.",
+      "challenges": [
+        {
+          "id": "l4-insectarium-bingo",
+          "type": "scavenger",
+          "title": "Bug Bingo",
+          "instructions": "Move slowly so the bugs stay calm. Find each thing on the list. Never touch — just look closely.",
+          "checklist": [
+            "A butterfly landing on something",
+            "Something with more than six legs",
+            "An insect shaped like a leaf",
+            "The biggest beetle you can find"
+          ],
+          "points": 15
+        }
+      ],
+      "funFact": "All insects have exactly six legs, so a spider is not an insect."
+    },
+    {
+      "id": "l4-s5",
+      "kind": "route-marker",
+      "location": "Place des Festivals",
+      "scheduledTime": "7:30 PM",
+      "clueRiddle": "Lights in the ground and water that leaps.\nDrums and teepees — this square never sleeps.",
+      "clueReveal": "Take the green line to Place-des-Arts station. Play in the light-and-water fountains. Then join one First Peoples' Festival activity.",
+      "challenges": [
+        {
+          "id": "l4-festivals-fountain",
+          "type": "physical",
+          "title": "Light Fountain Dare",
+          "instructions": "Wait for the water jets to drop. Dash across the lit fountains. Try not to get too soaked.",
+          "points": 5
+        },
+        {
+          "id": "l4-festivals-firstpeoples",
+          "type": "scavenger",
+          "title": "First Peoples' Festival",
+          "instructions": "Explore the festival with your team. Do at least two things from this list. Listen carefully to the drumming.",
+          "checklist": [
+            "Listen to a drum group",
+            "Visit a teepee",
+            "Watch a dance",
+            "Visit an artisan kiosk"
+          ],
+          "points": 5
+        }
+      ],
+      "funFact": "The First Peoples' Festival celebrates Indigenous music, dance and film every August."
+    },
+    {
+      "id": "l4-s6",
+      "kind": "pit-stop",
+      "location": "Hôtel Monroe – Downtown Montreal",
+      "scheduledTime": "9:15 PM",
+      "clueRiddle": "Bagels, beasts and bugs are behind you now.\nRun to the mat — this could be your day.",
+      "clueReveal": "Ride the metro back to Guy-Concordia. Walk to Hôtel Monroe on Rue Mackay. Step onto the pit stop mat.",
+      "funFact": "Tonight is your last night in Montréal — tomorrow the road goes east."
+    }
+  ]
+}

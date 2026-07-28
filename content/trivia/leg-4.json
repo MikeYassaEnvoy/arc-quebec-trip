@@ -1,0 +1,62 @@
+[
+  {
+    "q": "Montréal bagels are boiled in water mixed with what?",
+    "choices": ["Honey", "Salt", "Milk", "Lemon"],
+    "answerIndex": 0,
+    "funFact": "That honey water is why they taste slightly sweet."
+  },
+  {
+    "q": "What kind of oven bakes a real Montréal bagel?",
+    "choices": ["A wood-fired oven", "A microwave", "A toaster", "A campfire"],
+    "answerIndex": 0,
+    "funFact": "The wood fire at St-Viateur burns 24 hours a day."
+  },
+  {
+    "q": "What shape is a bagel?",
+    "choices": ["A ring with a hole", "A square", "A triangle", "A star"],
+    "answerIndex": 0,
+    "funFact": "The hole helps the bagel bake evenly all the way through."
+  },
+  {
+    "q": "How many ecosystems live inside the Montréal Biodôme?",
+    "choices": ["Five", "Two", "Nine", "Twenty"],
+    "answerIndex": 0,
+    "funFact": "You can walk from a rainforest to icy waters in minutes."
+  },
+  {
+    "q": "The Biodôme building was built for the 1976 Olympics. For which sport?",
+    "choices": ["Cycling", "Swimming", "Skiing", "Hockey"],
+    "answerIndex": 0,
+    "funFact": "It was a velodrome — a track with steep banked curves."
+  },
+  {
+    "q": "Which Biodôme animal is famous for moving very slowly?",
+    "choices": ["The sloth", "The penguin", "The lynx", "The otter"],
+    "answerIndex": 0,
+    "funFact": "Sloths are so slow that algae grows on their fur."
+  },
+  {
+    "q": "How many legs does every insect have?",
+    "choices": ["Six", "Four", "Eight", "Ten"],
+    "answerIndex": 0,
+    "funFact": "Count them at the Insectarium — always six."
+  },
+  {
+    "q": "How many legs does a spider have?",
+    "choices": ["Eight", "Six", "Four", "Twelve"],
+    "answerIndex": 0,
+    "funFact": "Eight legs means a spider is not an insect at all."
+  },
+  {
+    "q": "Butterflies can taste with which body part?",
+    "choices": ["Their feet", "Their wings", "Their eyes", "Their antennae"],
+    "answerIndex": 0,
+    "funFact": "A butterfly lands on a leaf to find out how it tastes."
+  },
+  {
+    "q": "Which three things make a classic poutine?",
+    "choices": ["Fries, cheese curds, gravy", "Rice, beans, salsa", "Bread, ham, mustard", "Noodles, butter, salt"],
+    "answerIndex": 0,
+    "funFact": "Poutine was invented in Québec in the 1950s."
+  }
+]

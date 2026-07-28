@@ -1,0 +1,206 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="Souvenir route map — Ontario to Québec">
+<title>Souvenir route map — Ontario to Québec</title>
+<defs>
+  <clipPath id="mapclip"><rect x="4" y="4" width="892" height="512" rx="22"/></clipPath>
+</defs>
+<style>
+  .segment{transition:opacity .45s ease}
+  .segment.locked{opacity:.14}
+  .segment.done .seg-line{stroke:#DA291C}
+  .node{transition:opacity .45s ease}
+  .node.locked .node-disc{fill:#DCD5C1}
+  .node.locked .node-num{fill:#8B856E}
+  .node-pulse{opacity:0;transform-box:fill-box;transform-origin:center}
+  .node.current .node-pulse{opacity:1;animation:ar-pulse 1.7s ease-out infinite}
+  @keyframes ar-pulse{0%{transform:scale(.85);opacity:.85}100%{transform:scale(2.1);opacity:0}}
+  @media (prefers-reduced-motion:reduce){.node.current .node-pulse{animation:none;opacity:.5}}
+</style>
+<g clip-path="url(#mapclip)">
+  <rect x="4" y="4" width="892" height="512" fill="#F6ECD2"/>
+  <!-- Canadian side -->
+  <path d="M-10-10H910V150C820 190 742 226 668 262 596 296 540 322 452 360 386 388 330 410 250 430L-10 396Z" fill="#CCE6AE"/>
+  <path d="M-10 300C60 286 140 292 214 322 268 344 300 372 286 402 268 442 150 470 40 470L-10 452Z" fill="#BCDD9C"/>
+  <!-- provincial border -->
+  <path d="M556-10 570 96 596 210 616 330" fill="none" stroke="#7A9A5C" stroke-width="5" stroke-dasharray="14 12" stroke-linecap="round"/>
+  <!-- Lake Ontario + the St. Lawrence -->
+  <ellipse cx="120" cy="478" rx="230" ry="108" fill="#4FA3D9"/>
+  <path d="M250 500C330 476 386 456 452 428C540 390 596 366 668 330C752 288 812 256 900 226" fill="none" stroke="#4FA3D9" stroke-width="52" stroke-linecap="round"/>
+  <path d="M250 500C330 476 386 456 452 428C540 390 596 366 668 330C752 288 812 256 900 226" fill="none" stroke="#6FC0EA" stroke-width="36" stroke-linecap="round"/>
+  <ellipse cx="120" cy="478" rx="214" ry="94" fill="#6FC0EA"/>
+  <g fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.7">
+    <path d="M300 470c14-8 26-8 40 0s26 8 40 0"/><path d="M520 400c14-8 26-8 40 0s26 8 40 0"/>
+    <path d="M740 300c14-8 26-8 40 0s26 8 40 0"/><path d="M60 460c14-8 26-8 40 0s26 8 40 0"/>
+  </g>
+  <!-- little boat -->
+  <g transform="translate(392 452)" stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M-22 6h44l-8 14h-28z" fill="#FFFFFF"/><path d="M0 6v-24l18 18z" fill="#DA291C"/>
+  </g>
+  <!-- trees -->
+  <g stroke="#1A1A1A" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><g transform="translate(70 120) scale(1.15)">
+    <rect x="-3" y="6" width="6" height="12" fill="#8A5A1E"/>
+    <path d="M0-22 14 6H-14z" fill="#4FA33A"/></g><g transform="translate(128 96) scale(0.9)">
+    <rect x="-3" y="6" width="6" height="12" fill="#8A5A1E"/>
+    <path d="M0-22 14 6H-14z" fill="#3E8E2E"/></g><g transform="translate(196 140) scale(0.9)">
+    <rect x="-3" y="6" width="6" height="12" fill="#8A5A1E"/>
+    <path d="M0-22 14 6H-14z" fill="#4FA33A"/></g><g transform="translate(262 96) scale(1.15)">
+    <rect x="-3" y="6" width="6" height="12" fill="#8A5A1E"/>
+    <path d="M0-22 14 6H-14z" fill="#3E8E2E"/></g><g transform="translate(352 128) scale(0.9)">
+    <rect x="-3" y="6" width="6" height="12" fill="#8A5A1E"/>
+    <path d="M0-22 14 6H-14z" fill="#4FA33A"/></g><g transform="translate(430 90) scale(0.9)">
+    <rect x="-3" y="6" width="6" height="12" fill="#8A5A1E"/>
+    <path d="M0-22 14 6H-14z" fill="#3E8E2E"/></g><g transform="translate(520 132) scale(1.15)">
+    <rect x="-3" y="6" width="6" height="12" fill="#8A5A1E"/>
+    <path d="M0-22 14 6H-14z" fill="#4FA33A"/></g><g transform="translate(560 76) scale(0.9)">
+    <rect x="-3" y="6" width="6" height="12" fill="#8A5A1E"/>
+    <path d="M0-22 14 6H-14z" fill="#3E8E2E"/></g><g transform="translate(640 108) scale(0.9)">
+    <rect x="-3" y="6" width="6" height="12" fill="#8A5A1E"/>
+    <path d="M0-22 14 6H-14z" fill="#4FA33A"/></g><g transform="translate(714 66) scale(1.15)">
+    <rect x="-3" y="6" width="6" height="12" fill="#8A5A1E"/>
+    <path d="M0-22 14 6H-14z" fill="#3E8E2E"/></g><g transform="translate(790 92) scale(0.9)">
+    <rect x="-3" y="6" width="6" height="12" fill="#8A5A1E"/>
+    <path d="M0-22 14 6H-14z" fill="#4FA33A"/></g><g transform="translate(880 96) scale(0.9)">
+    <rect x="-3" y="6" width="6" height="12" fill="#8A5A1E"/>
+    <path d="M0-22 14 6H-14z" fill="#3E8E2E"/></g><g transform="translate(316 200) scale(1.15)">
+    <rect x="-3" y="6" width="6" height="12" fill="#8A5A1E"/>
+    <path d="M0-22 14 6H-14z" fill="#4FA33A"/></g><g transform="translate(468 96) scale(0.9)">
+    <rect x="-3" y="6" width="6" height="12" fill="#8A5A1E"/>
+    <path d="M0-22 14 6H-14z" fill="#3E8E2E"/></g></g>
+  <!-- labels -->
+  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700" fill="#6C8A50" opacity="0.85">
+    <text x="150" y="70" font-size="26" letter-spacing="6">ONTARIO</text>
+    <text x="686" y="52" font-size="26" letter-spacing="6">QUÉBEC</text>
+  </g>
+  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700" fill="#B9A87C" opacity="0.95">
+    <text x="628" y="490" font-size="20" letter-spacing="5">NEW YORK</text>
+  </g>
+  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700" fill="#1F6FA8" opacity="0.9">
+    <text x="52" y="486" font-size="15" letter-spacing="2">LAKE ONTARIO</text>
+    <text x="560" y="404" font-size="15" letter-spacing="2" transform="rotate(-24 560 404)">ST. LAWRENCE RIVER</text>
+  </g>
+  <!-- ================= ROUTE ================= -->
+  <g id="route" fill="none" stroke-linecap="round">
+    <g id="segment-0" class="segment">
+      <path class="seg-shadow" d="M110 374C58 386 30 356 46 332 62 310 100 334 110 374" stroke="#1A1A1A" stroke-width="13" opacity="0.16"/>
+      <path class="seg-line" d="M110 374C58 386 30 356 46 332 62 310 100 334 110 374" stroke="#1A1A1A" stroke-width="7" stroke-dasharray="17 13"/>
+    </g>
+    <g id="segment-1" class="segment">
+      <path class="seg-shadow" d="M110 374C162 392 228 376 300 344" stroke="#1A1A1A" stroke-width="13" opacity="0.16"/>
+      <path class="seg-line" d="M110 374C162 392 228 376 300 344" stroke="#1A1A1A" stroke-width="7" stroke-dasharray="17 13"/>
+    </g>
+    <g id="segment-2" class="segment">
+      <path class="seg-shadow" d="M300 344C368 330 400 316 455 300C520 282 552 268 598 254" stroke="#1A1A1A" stroke-width="13" opacity="0.16"/>
+      <path class="seg-line" d="M300 344C368 330 400 316 455 300C520 282 552 268 598 254" stroke="#1A1A1A" stroke-width="7" stroke-dasharray="17 13"/>
+    </g>
+    <g id="segment-3" class="segment">
+      <path class="seg-shadow" d="M598 254C616 274 642 268 652 240" stroke="#1A1A1A" stroke-width="13" opacity="0.16"/>
+      <path class="seg-line" d="M598 254C616 274 642 268 652 240" stroke="#1A1A1A" stroke-width="7" stroke-dasharray="17 13"/>
+    </g>
+    <g id="segment-4" class="segment">
+      <path class="seg-shadow" d="M652 240C666 218 652 194 628 196" stroke="#1A1A1A" stroke-width="13" opacity="0.16"/>
+      <path class="seg-line" d="M652 240C666 218 652 194 628 196" stroke="#1A1A1A" stroke-width="7" stroke-dasharray="17 13"/>
+    </g>
+    <g id="segment-5" class="segment">
+      <path class="seg-shadow" d="M628 196C664 214 704 218 742 206C760 200 772 194 784 192" stroke="#1A1A1A" stroke-width="13" opacity="0.16"/>
+      <path class="seg-line" d="M628 196C664 214 704 218 742 206C760 200 772 194 784 192" stroke="#1A1A1A" stroke-width="7" stroke-dasharray="17 13"/>
+    </g>
+    <g id="segment-6" class="segment">
+      <path class="seg-shadow" d="M784 192C794 170 814 154 832 160" stroke="#1A1A1A" stroke-width="13" opacity="0.16"/>
+      <path class="seg-line" d="M784 192C794 170 814 154 832 160" stroke="#1A1A1A" stroke-width="7" stroke-dasharray="17 13"/>
+    </g>
+    <g id="segment-7" class="segment">
+      <path class="seg-shadow" d="M832 160C702 108 560 138 480 190C446 212 420 238 400 262" stroke="#1A1A1A" stroke-width="13" opacity="0.16"/>
+      <path class="seg-line" d="M832 160C702 108 560 138 480 190C446 212 420 238 400 262" stroke="#1A1A1A" stroke-width="7" stroke-dasharray="17 13"/>
+    </g>
+    <g id="segment-8" class="segment">
+      <path class="seg-shadow" d="M400 262C334 244 256 258 214 288 200 298 188 308 176 318" stroke="#1A1A1A" stroke-width="13" opacity="0.16"/>
+      <path class="seg-line" d="M400 262C334 244 256 258 214 288 200 298 188 308 176 318" stroke="#1A1A1A" stroke-width="7" stroke-dasharray="17 13"/>
+    </g>
+  </g>
+  <!-- ================= NODES ================= -->
+  <g id="node-0" class="node">
+    <circle class="node-pulse" cx="110" cy="374" r="20" fill="none" stroke="#DA291C" stroke-width="5"/>
+    <circle cx="110" cy="374" r="21" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="5"/>
+    <circle class="node-disc" cx="110" cy="374" r="14" fill="#FFC20E" stroke="#1A1A1A" stroke-width="3"/>
+    <text class="node-num" x="110" y="380" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1A1A1A">0</text>
+    <text x="110" y="416" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1A1A1A" stroke="#FFFFFF" stroke-width="5" paint-order="stroke">HOME · AJAX</text>
+    <g id="sticker-slot-0" transform="translate(110 328)"></g>
+  </g>
+  <g id="node-1" class="node">
+    <circle class="node-pulse" cx="300" cy="344" r="20" fill="none" stroke="#DA291C" stroke-width="5"/>
+    <circle cx="300" cy="344" r="21" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="5"/>
+    <circle class="node-disc" cx="300" cy="344" r="14" fill="#FFC20E" stroke="#1A1A1A" stroke-width="3"/>
+    <text class="node-num" x="300" y="350" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1A1A1A">1</text>
+    <text x="300" y="386" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1A1A1A" stroke="#FFFFFF" stroke-width="5" paint-order="stroke">KINGSTON</text>
+    <g id="sticker-slot-1" transform="translate(300 298)"></g>
+  </g>
+  <g id="node-2" class="node">
+    <circle class="node-pulse" cx="598" cy="254" r="20" fill="none" stroke="#DA291C" stroke-width="5"/>
+    <circle cx="598" cy="254" r="21" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="5"/>
+    <circle class="node-disc" cx="598" cy="254" r="14" fill="#FFC20E" stroke="#1A1A1A" stroke-width="3"/>
+    <text class="node-num" x="598" y="260" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1A1A1A">2</text>
+    <g id="sticker-slot-2" transform="translate(598 208)"></g>
+  </g>
+  <g id="node-3" class="node">
+    <circle class="node-pulse" cx="652" cy="240" r="20" fill="none" stroke="#DA291C" stroke-width="5"/>
+    <circle cx="652" cy="240" r="21" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="5"/>
+    <circle class="node-disc" cx="652" cy="240" r="14" fill="#FFC20E" stroke="#1A1A1A" stroke-width="3"/>
+    <text class="node-num" x="652" y="246" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1A1A1A">3</text>
+    <text x="640" y="300" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1A1A1A" stroke="#FFFFFF" stroke-width="5" paint-order="stroke">MONTRÉAL</text>
+    <g id="sticker-slot-3" transform="translate(652 194)"></g>
+  </g>
+  <g id="node-4" class="node">
+    <circle class="node-pulse" cx="628" cy="196" r="20" fill="none" stroke="#DA291C" stroke-width="5"/>
+    <circle cx="628" cy="196" r="21" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="5"/>
+    <circle class="node-disc" cx="628" cy="196" r="14" fill="#FFC20E" stroke="#1A1A1A" stroke-width="3"/>
+    <text class="node-num" x="628" y="202" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1A1A1A">4</text>
+    <g id="sticker-slot-4" transform="translate(628 150)"></g>
+  </g>
+  <g id="node-5" class="node">
+    <circle class="node-pulse" cx="784" cy="192" r="20" fill="none" stroke="#DA291C" stroke-width="5"/>
+    <circle cx="784" cy="192" r="21" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="5"/>
+    <circle class="node-disc" cx="784" cy="192" r="14" fill="#FFC20E" stroke="#1A1A1A" stroke-width="3"/>
+    <text class="node-num" x="784" y="198" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1A1A1A">5</text>
+    <g id="sticker-slot-5" transform="translate(784 146)"></g>
+  </g>
+  <g id="node-6" class="node">
+    <circle class="node-pulse" cx="832" cy="160" r="20" fill="none" stroke="#DA291C" stroke-width="5"/>
+    <circle cx="832" cy="160" r="21" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="5"/>
+    <circle class="node-disc" cx="832" cy="160" r="14" fill="#FFC20E" stroke="#1A1A1A" stroke-width="3"/>
+    <text class="node-num" x="832" y="166" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1A1A1A">6</text>
+    <text x="798" y="118" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1A1A1A" stroke="#FFFFFF" stroke-width="5" paint-order="stroke">QUÉBEC CITY</text>
+    <g id="sticker-slot-6" transform="translate(832 114)"></g>
+  </g>
+  <g id="node-7" class="node">
+    <circle class="node-pulse" cx="400" cy="262" r="20" fill="none" stroke="#DA291C" stroke-width="5"/>
+    <circle cx="400" cy="262" r="21" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="5"/>
+    <circle class="node-disc" cx="400" cy="262" r="14" fill="#FFC20E" stroke="#1A1A1A" stroke-width="3"/>
+    <text class="node-num" x="400" y="268" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1A1A1A">7</text>
+    <text x="396" y="228" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1A1A1A" stroke="#FFFFFF" stroke-width="5" paint-order="stroke">BROCKVILLE</text>
+    <g id="sticker-slot-7" transform="translate(400 216)"></g>
+  </g>
+  <g id="node-8" class="node">
+    <circle class="node-pulse" cx="176" cy="318" r="20" fill="none" stroke="#DA291C" stroke-width="5"/>
+    <circle cx="176" cy="318" r="21" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="5"/>
+    <circle class="node-disc" cx="176" cy="318" r="14" fill="#FFC20E" stroke="#1A1A1A" stroke-width="3"/>
+    <text class="node-num" x="176" y="324" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1A1A1A">8</text>
+    <text x="176" y="278" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1A1A1A" stroke="#FFFFFF" stroke-width="5" paint-order="stroke">FINISH</text>
+    <g id="sticker-slot-8" transform="translate(176 272)"></g>
+  </g>
+  <!-- finish flag -->
+  <g transform="translate(214 300) scale(0.6)" stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M-4 34V-26" stroke-width="7"/>
+    <rect x="-4" y="-26" width="44" height="30" fill="#FFFFFF"/>
+    <rect x="-4" y="-26" width="11" height="10" fill="#1A1A1A" stroke="none"/><rect x="-4" y="-6" width="11" height="10" fill="#1A1A1A" stroke="none"/><rect x="7" y="-16" width="11" height="10" fill="#1A1A1A" stroke="none"/><rect x="18" y="-26" width="11" height="10" fill="#1A1A1A" stroke="none"/><rect x="18" y="-6" width="11" height="10" fill="#1A1A1A" stroke="none"/><rect x="29" y="-16" width="11" height="10" fill="#1A1A1A" stroke="none"/>
+    <rect x="-4" y="-26" width="44" height="30" fill="none"/>
+  </g>
+  <!-- compass rose -->
+  <g transform="translate(846 448)">
+    <circle r="34" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="4" opacity="0.94"/>
+    <path d="M0-27 8-4 0 4-8-4z" fill="#DA291C" stroke="#1A1A1A" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M0 27 8 4 0-4-8 4z" fill="#59616B" stroke="#1A1A1A" stroke-width="3" stroke-linejoin="round"/>
+    <text x="0" y="-30" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#1A1A1A">N</text>
+  </g>
+</g>
+<rect x="4" y="4" width="892" height="512" rx="22" fill="none" stroke="#1A1A1A" stroke-width="8"/>
+<rect x="16" y="16" width="868" height="488" rx="14" fill="none" stroke="#FFC20E" stroke-width="5" opacity="0.85"/>
+</svg>

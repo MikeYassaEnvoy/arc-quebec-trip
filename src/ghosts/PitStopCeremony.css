@@ -1,0 +1,188 @@
+.arc-pitstop {
+  padding: 18px 32px 0;
+}
+
+.arc-pitstop-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  text-align: center;
+}
+
+.arc-pitstop-title {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.arc-pitstop-stage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  gap: 18px;
+  padding-bottom: 18px;
+  min-height: 0;
+}
+
+/* ---------------- the mat ---------------- */
+
+.arc-mat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.arc-mat-surface {
+  position: relative;
+  width: 320px;
+  height: 190px;
+  display: grid;
+  place-items: center;
+  border-radius: 18px;
+  background:
+    repeating-linear-gradient(45deg, #ffd43b 0 26px, #14161a 26px 52px);
+  border: 8px solid #fff;
+  box-shadow: 0 14px 0 rgba(0, 0, 0, 0.45);
+  transform: perspective(700px) rotateX(28deg);
+}
+
+.arc-mat-team {
+  animation: arc-land 620ms cubic-bezier(0.2, 1.5, 0.35, 1) both;
+}
+
+@keyframes arc-land {
+  0% { transform: translateY(-160px) scale(0.7); opacity: 0; }
+  70% { transform: translateY(10px) scale(1.06); opacity: 1; }
+  100% { transform: none; }
+}
+
+.arc-mat-place {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arc-mat-placenum {
+  font-size: 130px;
+  line-height: 0.9;
+  font-weight: 900;
+  color: var(--arc-yellow, #ffd43b);
+  text-shadow: 0 8px 0 rgba(0, 0, 0, 0.45);
+  animation: arc-place-pop 480ms cubic-bezier(0.2, 1.5, 0.35, 1) 380ms both;
+}
+
+@keyframes arc-place-pop {
+  from { transform: scale(0.3) rotate(-12deg); opacity: 0; }
+  to { transform: none; opacity: 1; }
+}
+
+.arc-mat-placeword {
+  font-size: 26px;
+  font-weight: 800;
+  color: #e9ecef;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.arc-legstats {
+  display: flex;
+  justify-content: center;
+  gap: 34px;
+  font-size: 24px;
+  color: #dee2e6;
+}
+
+.arc-legstats strong {
+  font-size: 30px;
+  color: #fff;
+}
+
+/* ---------------- elimination ---------------- */
+
+.arc-elim-team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.arc-elim-gray {
+  filter: grayscale(1);
+  opacity: 0.6;
+  transition: filter 700ms ease, opacity 700ms ease;
+}
+
+.arc-elim-name {
+  margin: 6px 0 0;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.arc-elim-members {
+  margin: 0;
+  font-size: 22px;
+  color: #ced4da;
+}
+
+.arc-elim-farewell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.arc-elim-quote {
+  margin: 0;
+  max-width: 34ch;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--arc-yellow, #ffd43b);
+}
+
+.arc-elim-quote-sub {
+  font-size: 24px;
+  color: #ced4da;
+  font-weight: 600;
+}
+
+/* ---------------- badge award ---------------- */
+
+.arc-award,
+.arc-tease {
+  align-items: center;
+  text-align: center;
+}
+
+.arc-award-title {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 900;
+  color: var(--arc-yellow, #ffd43b);
+}
+
+.arc-award-sub {
+  margin: 0;
+  font-size: 24px;
+  color: #dee2e6;
+}
+
+.arc-tease-text {
+  margin: 0;
+  max-width: 30ch;
+  font-size: 38px;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+@media (max-height: 800px) {
+  .arc-pitstop-title { font-size: 32px; }
+  .arc-mat-surface { width: 260px; height: 150px; }
+  .arc-mat-placenum { font-size: 104px; }
+  .arc-tease-text { font-size: 32px; }
+}

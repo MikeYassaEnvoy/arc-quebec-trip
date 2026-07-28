@@ -1,0 +1,125 @@
+{
+  "id": 8,
+  "title": "THE FINALE: Race to the Finish",
+  "date": "2026-08-09",
+  "routeText": "Brockville → Ajax (HOME)",
+  "steps": [
+    {
+      "id": "l8-s1",
+      "kind": "route-marker",
+      "location": "Richard's Coffeehouse",
+      "scheduledTime": "8:30 AM",
+      "clueRiddle": "The last breakfast of the race is downtown.\nFuel up, finalist.",
+      "clueReveal": "Eat breakfast at Richard's Coffeehouse in Brockville. Rate it.",
+      "challenges": [
+        {
+          "id": "l8-richards-taste",
+          "type": "taste",
+          "title": "Final Breakfast Judge",
+          "instructions": "Order your breakfast. Eat every bite. Give it a maple-leaf rating.",
+          "points": 5
+        }
+      ],
+      "funFact": "Brockville is nicknamed the City of the 1000 Islands."
+    },
+    {
+      "id": "l8-s2",
+      "kind": "roadblock",
+      "location": "The Aquatarium",
+      "scheduledTime": "10:00 AM",
+      "clueRiddle": "Otters, fish, and a ship you can climb.\nAre your hands brave enough to get wet?",
+      "clueReveal": "Who's brave enough for the touch tank? Explore the Aquatarium on the waterfront. Then climb the ship.",
+      "challenges": [
+        {
+          "id": "l8-aquatarium-touch",
+          "type": "physical",
+          "title": "Touch Tank Dare",
+          "instructions": "Roll up your sleeves. Touch something in the touch tank. Hold on for three seconds.",
+          "points": 12
+        },
+        {
+          "id": "l8-aquatarium-hunt",
+          "type": "scavenger",
+          "title": "River Life Hunt",
+          "instructions": "Search every floor of the Aquatarium. Tick off all five. Save the ship for last.",
+          "checklist": [
+            "An otter",
+            "Something with claws",
+            "The biggest fish you can find",
+            "The ship's wheel",
+            "Climb the ship structure"
+          ],
+          "photoPrompt": "Captain of the ship!",
+          "points": 18
+        }
+      ],
+      "funFact": "River otters can hold their breath underwater for minutes at a time."
+    },
+    {
+      "id": "l8-s3",
+      "kind": "drive",
+      "location": "Highway 401 — westbound to Ajax",
+      "scheduledTime": "11:45 AM",
+      "clueRiddle": "The finish line sits three hours west.\nTwo championship games stand in your way.",
+      "clueReveal": "Drive west on Highway 401 toward home. Play the championship round.",
+      "challenges": [
+        {
+          "id": "l8-drive-bagel",
+          "type": "minigame",
+          "title": "Bagel Catch Championship",
+          "instructions": "Slide the basket to catch falling bagels. Dodge the pigeons. Beat your best score.",
+          "minigameId": "bagel-catch",
+          "points": 10
+        },
+        {
+          "id": "l8-drive-recap",
+          "type": "minigame",
+          "title": "The Recap Round",
+          "instructions": "Questions about every place you visited this week. Think back. Trust your memory.",
+          "minigameId": "trivia",
+          "config": { "deck": "leg-8" },
+          "points": 10
+        }
+      ],
+      "funFact": "Your race has covered about 1,500 kilometres in eight days."
+    },
+    {
+      "id": "l8-s4",
+      "kind": "route-marker",
+      "location": "The Big Apple, Colborne",
+      "scheduledTime": "1:45 PM",
+      "clueRiddle": "A giant apple watches the highway go by.\nInside there is pie. Outside there is a putter.",
+      "clueReveal": "Stop at The Big Apple. Play mini-golf, then taste the famous apple pie.",
+      "challenges": [
+        {
+          "id": "l8-bigapple-golf",
+          "type": "physical",
+          "title": "The Final Challenge",
+          "instructions": "Play mini-golf head-to-head against a parent. Count every stroke. Lowest score wins!",
+          "points": 15
+        },
+        {
+          "id": "l8-bigapple-pie",
+          "type": "taste",
+          "title": "Apple Pie Verdict",
+          "instructions": "Try the famous apple pie. Chew slowly and think. Give your final rating.",
+          "points": 10
+        }
+      ],
+      "funFact": "The Big Apple is so big that you can walk around inside it."
+    },
+    {
+      "id": "l8-s5",
+      "kind": "pit-stop",
+      "location": "HOME — Ajax, Ontario · THE FINISH LINE",
+      "scheduledTime": "4:30 PM",
+      "clueRiddle": "The very last clue is the easiest one.\nYour own front door is the finish line.",
+      "clueReveal": "Drive home to Ajax. Run to the mat on your own driveway. This is the finish line!",
+      "funFact": "Eight legs, two provinces, one champion. Welcome home."
+    }
+  ],
+  "pitStop": {
+    "hotelName": "HOME — the Finish Line",
+    "city": "Ajax, ON"
+  }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "q": "Which dinosaur's name means \"tyrant lizard king\"?",
+    "choices": ["Tyrannosaurus rex", "Stegosaurus", "Iguanodon", "Ankylosaurus"],
+    "answerIndex": 0,
+    "funFact": "Some T. rex teeth were as long as a banana."
+  },
+  {
+    "q": "What did Stegosaurus have along its back?",
+    "choices": ["Big bony plates", "Feathers", "A shell", "Fur"],
+    "answerIndex": 0,
+    "funFact": "Stegosaurus also swung sharp spikes on its tail."
+  },
+  {
+    "q": "Which of these dinosaurs ate only plants?",
+    "choices": ["Triceratops", "Velociraptor", "Tyrannosaurus rex", "Allosaurus"],
+    "answerIndex": 0,
+    "funFact": "Triceratops ground up tough plants with hundreds of teeth."
+  },
+  {
+    "q": "About how long ago did the last big dinosaurs disappear?",
+    "choices": ["66 million years", "10,000 years", "500 years", "50 years"],
+    "answerIndex": 0,
+    "funFact": "A huge asteroid smashed into Earth around that time."
+  },
+  {
+    "q": "Which animals alive today came from dinosaurs?",
+    "choices": ["Birds", "Frogs", "Sharks", "Spiders"],
+    "answerIndex": 0,
+    "funFact": "Scientists say birds really are living dinosaurs."
+  },
+  {
+    "q": "Autoroute 20 turns into which highway in Ontario?",
+    "choices": ["Highway 401", "Highway 400", "Highway 11", "Highway 7"],
+    "answerIndex": 0,
+    "funFact": "The 401 is one of the busiest highways in North America."
+  },
+  {
+    "q": "Brockville sits beside which famous group of islands?",
+    "choices": ["The Thousand Islands", "The Galápagos", "Hawaii", "The Maritimes"],
+    "answerIndex": 0,
+    "funFact": "There are actually more than 1,800 islands out there."
+  },
+  {
+    "q": "What is a hedge maze made of?",
+    "choices": ["Bushes trimmed into walls", "Bricks", "Ice", "Glass"],
+    "answerIndex": 0,
+    "funFact": "Gardeners clip the hedges so the walls stay thick and green."
+  },
+  {
+    "q": "How are Ribfest ribs usually cooked?",
+    "choices": ["Slowly, with lots of smoke", "In a microwave", "In a blender", "In the freezer"],
+    "answerIndex": 0,
+    "funFact": "Pitmasters can smoke their ribs for many hours."
+  },
+  {
+    "q": "How many provinces does our race drive through?",
+    "choices": ["Two", "One", "Five", "Ten"],
+    "answerIndex": 0,
+    "funFact": "Ontario and Québec are Canada's two biggest provinces by people."
+  }
+]

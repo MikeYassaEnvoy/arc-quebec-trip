@@ -1,0 +1,174 @@
+{
+  "id": 2,
+  "title": "The Long Road to Montréal",
+  "date": "2026-08-03",
+  "routeText": "Kingston → Cornwall → Montréal",
+  "pitStop": { "hotelName": "Hôtel Monroe – Downtown Montreal", "city": "Montréal, Québec" },
+  "steps": [
+    {
+      "id": "l2-s1",
+      "kind": "drive",
+      "location": "Highway 401 to Autoroute 20",
+      "scheduledTime": "9:15 AM",
+      "clueRiddle": "Three hours east with a big river beside us.\nGames, bingo and French words will guide us.",
+      "clueReveal": "We drive from Kingston to Montréal today. Play all three car games on the way. Learn your first French words before we arrive.",
+      "challenges": [
+        {
+          "id": "l2-drive-trivia",
+          "type": "minigame",
+          "title": "Montréal Trivia Deck",
+          "instructions": "Answer questions about the city ahead. One big question at a time. Every answer comes with a fun fact.",
+          "minigameId": "trivia",
+          "config": { "deck": "leg-2" },
+          "points": 10
+        },
+        {
+          "id": "l2-drive-bingo",
+          "type": "minigame",
+          "title": "St. Lawrence Bingo",
+          "instructions": "Watch for each thing out the window. Tap a square when you spot it. Four in a row is bingo.",
+          "minigameId": "road-bingo",
+          "config": { "card": "st-lawrence" },
+          "points": 10
+        },
+        {
+          "id": "l2-drive-french",
+          "type": "minigame",
+          "title": "First French Words",
+          "instructions": "Flip the cards and say each word out loud. Then match the French to the English. Three words will get you far today.",
+          "minigameId": "french-phrases",
+          "config": { "pack": "starter-pack" },
+          "points": 10
+        }
+      ],
+      "funFact": "The moment you cross into Québec, every road sign switches to French."
+    },
+    {
+      "id": "l2-s2",
+      "kind": "detour",
+      "location": "Lamoureux Park, Cornwall",
+      "scheduledTime": "11:15 AM",
+      "clueRiddle": "A riverside park sits halfway there.\nGet soaked or go searching — choose with care!",
+      "clueReveal": "Stop at Lamoureux Park on Water Street East. This is a Detour: pick Splash or Search. You only have to do one.",
+      "detour": {
+        "a": {
+          "label": "Splash",
+          "blurb": "Get wet at the splash pad. Fast, loud and very refreshing.",
+          "challenges": [
+            {
+              "id": "l2-detour-splash",
+              "type": "physical",
+              "title": "Sprayer Relay",
+              "instructions": "Run through three different sprayers. Get properly wet at each one. Come back soaked to finish.",
+              "points": 20
+            }
+          ]
+        },
+        "b": {
+          "label": "Search",
+          "blurb": "Hunt along the riverfront path. Dry shoes, sharp eyes.",
+          "challenges": [
+            {
+              "id": "l2-detour-search",
+              "type": "scavenger",
+              "title": "Riverfront Search",
+              "instructions": "Walk the path beside the river. Find all five things on the list. Tap each one to check it off.",
+              "checklist": [
+                "A ship or a boat",
+                "A flag",
+                "A bench",
+                "A bird",
+                "Something red"
+              ],
+              "points": 20
+            }
+          ]
+        }
+      },
+      "funFact": "The St. Lawrence River carries ships all the way from the ocean to Lake Superior."
+    },
+    {
+      "id": "l2-s3",
+      "kind": "route-marker",
+      "location": "Kondiaronk Belvedere, Mount Royal",
+      "scheduledTime": "2:00 PM",
+      "clueRiddle": "Climb the little mountain that named the city.\nFrom up top, the whole view is pretty.",
+      "clueReveal": "Park at Beaver Lake and walk to the Kondiaronk Belvedere. It is a flat fifteen-minute path. Look out over the city and find five things.",
+      "challenges": [
+        {
+          "id": "l2-belvedere-scavenger",
+          "type": "scavenger",
+          "title": "Spot from the Top",
+          "instructions": "Stand at the railing and look far out. Find all five things in the view. Point at each one before you tap.",
+          "checklist": [
+            "A skyscraper",
+            "The river",
+            "A church roof",
+            "Something green",
+            "A bridge"
+          ],
+          "photoPrompt": "Team photo at the lookout!",
+          "points": 20
+        }
+      ],
+      "funFact": "Montréal is named after Mount Royal, the small mountain right in the middle."
+    },
+    {
+      "id": "l2-s4",
+      "kind": "route-marker",
+      "location": "Provigo",
+      "scheduledTime": "4:00 PM",
+      "clueRiddle": "Aisles and carts and a list in your hand.\nTonight's dinner is hiding — go find it fast!",
+      "clueReveal": "Go to the Provigo near the Bell Centre. Your parent will name four dinner items. Find them all, plus one French-only package.",
+      "challenges": [
+        {
+          "id": "l2-provigo-sweep",
+          "type": "scavenger",
+          "title": "Supermarket Sweep",
+          "instructions": "Ask your parent for the four dinner items. Find each one and put it in the cart. Then find a package with only French on it.",
+          "checklist": [
+            "Dinner item 1",
+            "Dinner item 2",
+            "Dinner item 3",
+            "Dinner item 4",
+            "One package with French only"
+          ],
+          "points": 15
+        }
+      ],
+      "funFact": "In Québec, food packages must always show French words first."
+    },
+    {
+      "id": "l2-s5",
+      "kind": "speed-bump",
+      "location": "Hôtel Monroe front desk",
+      "scheduledTime": "4:45 PM",
+      "clueRiddle": "One little word opens every door in Québec.\nSay it out loud to the person at the desk.",
+      "clueReveal": "Walk up to the hotel front desk. Say bonjour to the person working there. Smile — that is the whole challenge.",
+      "challenges": [
+        {
+          "id": "l2-frontdesk-bonjour",
+          "type": "speak-french",
+          "title": "Say Bonjour",
+          "instructions": "Read the phrase card out loud first. Then say it to the front desk person. Use a big, friendly voice.",
+          "frenchPhrase": {
+            "fr": "Bonjour!",
+            "phonetic": "bohn-ZHOOR",
+            "en": "Hello! (Good day!)"
+          },
+          "points": 5
+        }
+      ],
+      "funFact": "In Québec, people say bonjour when they arrive and bonsoir at night."
+    },
+    {
+      "id": "l2-s6",
+      "kind": "pit-stop",
+      "location": "Hôtel Monroe – Downtown Montreal",
+      "scheduledTime": "5:00 PM",
+      "clueRiddle": "Mackay Street is tonight's finish line.\nRoll your bag to the mat — leg two is done.",
+      "clueReveal": "Check in at Hôtel Monroe on Rue Mackay. Find your suite and drop your bags. Then step onto the pit stop mat.",
+      "funFact": "Your suite has a kitchen, so tonight the team cooks dinner together."
+    }
+  ]
+}

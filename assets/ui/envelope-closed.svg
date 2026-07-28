@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 168" width="240" height="168" role="img" aria-label="Clue envelope — sealed">
+<title>Clue envelope — sealed</title>
+<defs><clipPath id="ec"><rect x="6" y="6" width="228" height="156" rx="14"/></clipPath></defs>
+<rect x="6" y="6" width="228" height="156" rx="14" fill="#FFC20E"/>
+<g clip-path="url(#ec)">
+  <path d="M6 118h228v44H6z" fill="#DA291C"/>
+  <path d="M6 112h228v10H6z" fill="#FFFFFF"/>
+  <g><rect x="6" y="140" width="28.5" height="22" fill="#1A1A1A"/><rect x="63" y="140" width="28.5" height="22" fill="#1A1A1A"/><rect x="120" y="140" width="28.5" height="22" fill="#1A1A1A"/><rect x="177" y="140" width="28.5" height="22" fill="#1A1A1A"/></g>
+  <path d="M6 6h228L120 100z" fill="#DA291C"/>
+  <path d="M6 6 120 100 234 6" fill="none" stroke="#1A1A1A" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<rect x="6" y="6" width="228" height="156" rx="14" fill="none" stroke="#1A1A1A" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="120" cy="96" r="30" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(120 96) scale(0.21)"><path d="M0-100 11-64 33-68 26-44 56-52 49-32 89-8 78 2 84 18 46 10 50 24 20 52 28 60 8 64 8 100-8 100-8 64-28 60-20 52-50 24-46 10-84 18-78 2-89-8-49-32-56-52-26-44-33-68-11-64Z" fill="#DA291C" stroke="#1A1A1A" stroke-width="18" stroke-linejoin="round"/></g>
+</svg>

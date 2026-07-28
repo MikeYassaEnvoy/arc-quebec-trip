@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 216" width="240" height="216" role="img" aria-label="Clue envelope — opened with the clue card">
+<title>Clue envelope — opened with the clue card</title>
+<path d="M12 104 120 20 228 104Z" fill="#DA291C" stroke="#1A1A1A" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="rotate(-3 120 96)">
+  <rect x="38" y="10" width="164" height="140" rx="10" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+  <rect x="38" y="10" width="164" height="26" rx="10" fill="#FFC20E"/>
+  <path d="M38 36h164" stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <g fill="#C9C4B6"><rect x="56" y="54" width="128" height="10" rx="5"/><rect x="56" y="74" width="112" height="10" rx="5"/>
+    <rect x="56" y="94" width="128" height="10" rx="5"/><rect x="56" y="114" width="76" height="10" rx="5"/></g>
+</g>
+<path d="M12 100 120 158 228 100v96a10 10 0 0 1-10 10H22a10 10 0 0 1-10-10z" fill="#FFC20E" stroke="#1A1A1A" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M12 172h216" stroke="#DA291C" stroke-width="14" stroke-linecap="butt"/>
+<path d="M12 100 120 158 228 100" fill="none" stroke="#1A1A1A" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(178 176)">
+  <path d="M0 0h26l-26 26z" fill="#DA291C"/><path d="M30 0h26l-56 56v-26z" fill="#1A1A1A"/></g>
+<path d="M12 100 120 158 228 100v96a10 10 0 0 1-10 10H22a10 10 0 0 1-10-10z" fill="none" stroke="#1A1A1A" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

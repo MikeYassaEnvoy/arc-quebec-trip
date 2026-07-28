@@ -1,0 +1,174 @@
+{
+  "id": 3,
+  "title": "Secrets of Old Montréal",
+  "date": "2026-08-04",
+  "routeText": "Montréal — Old Montréal by Metro",
+  "pitStop": { "hotelName": "Hôtel Monroe – Downtown Montreal", "city": "Montréal, Québec" },
+  "steps": [
+    {
+      "id": "l3-s1",
+      "kind": "route-marker",
+      "location": "Guy-Concordia Metro Station",
+      "scheduledTime": "9:40 AM",
+      "clueRiddle": "An underground train that rolls on rubber tires.\nTrace the route before you ride it.",
+      "clueReveal": "Walk five minutes to Guy-Concordia station. First trace the route on the app map. Then ride it for real to Place-d'Armes.",
+      "challenges": [
+        {
+          "id": "l3-metro-navigator",
+          "type": "minigame",
+          "title": "Metro Navigator",
+          "instructions": "Drag your finger along the right lines. Go green to Berri-UQAM, then orange. Stop at Place-d'Armes station.",
+          "minigameId": "metro-navigator",
+          "config": {
+            "start": "Guy-Concordia",
+            "transfer": "Berri-UQAM",
+            "end": "Place-d'Armes",
+            "lines": ["green", "orange"]
+          },
+          "points": 10
+        }
+      ],
+      "funFact": "Montréal metro trains run on rubber tires, so the ride is very quiet."
+    },
+    {
+      "id": "l3-s2",
+      "kind": "route-marker",
+      "location": "Notre-Dame Basilica",
+      "scheduledTime": "10:00 AM",
+      "clueRiddle": "Blue as the night sky with stars made of gold,\nand an organ so loud the whole room shakes.",
+      "clueReveal": "The station exit is right by the basilica. Go inside at 110 Rue Notre-Dame Ouest. Use quiet voices and find five things.",
+      "challenges": [
+        {
+          "id": "l3-basilica-ispy",
+          "type": "scavenger",
+          "title": "I-Spy in the Basilica",
+          "instructions": "Look up, then look all around you. Find each of the five things. Keep your voice to a whisper.",
+          "checklist": [
+            "Gold stars on the ceiling",
+            "The giant organ pipes",
+            "Blue light",
+            "A spiral staircase",
+            "A candle"
+          ],
+          "points": 20
+        }
+      ],
+      "funFact": "The basilica ceiling is deep blue and covered with thousands of gold stars."
+    },
+    {
+      "id": "l3-s3",
+      "kind": "route-marker",
+      "location": "Place Jacques-Cartier",
+      "scheduledTime": "11:15 AM",
+      "clueRiddle": "Cobblestones, jugglers and a painter's chair.\nAn old square full of fun — find it there.",
+      "clueReveal": "Walk to Place Jacques-Cartier in Old Montréal. It is a busy cobblestone square. Spot five things while you wander.",
+      "challenges": [
+        {
+          "id": "l3-square-buskerbingo",
+          "type": "scavenger",
+          "title": "Busker Bingo",
+          "instructions": "Watch the performers in the square. Find all five things on your list. Clap for anyone who earns it.",
+          "checklist": [
+            "A street performer",
+            "An artist drawing someone",
+            "A flag",
+            "A horse, statue or carriage",
+            "Someone speaking French"
+          ],
+          "points": 15
+        }
+      ],
+      "funFact": "This square is named for Jacques Cartier, the sailor who mapped this river."
+    },
+    {
+      "id": "l3-s4",
+      "kind": "roadblock",
+      "location": "Montréal Science Centre",
+      "scheduledTime": "12:00 PM",
+      "clueRiddle": "Down by the old port, nothing says do not touch.\nUse your hands and your brain just as much.",
+      "clueReveal": "Who's got the brains? Walk downhill to 2 Rue de la Commune Ouest. Try the hands-on exhibits, then answer three questions.",
+      "challenges": [
+        {
+          "id": "l3-science-exhibits",
+          "type": "scavenger",
+          "title": "Hands-On Three",
+          "instructions": "Try any three exhibits from this list. Really play with them, do not just look. Check off the ones you did.",
+          "checklist": [
+            "An exhibit you push or pull",
+            "An exhibit with lights",
+            "An exhibit with water or air",
+            "An exhibit with a screen"
+          ],
+          "points": 15
+        },
+        {
+          "id": "l3-science-trivia",
+          "type": "trivia",
+          "title": "Science Test",
+          "instructions": "Three science questions for the roadblock. Read each one carefully. You can guess if you are stuck.",
+          "trivia": [
+            {
+              "q": "Which of these is a simple machine?",
+              "choices": ["A lever", "A cloud", "A sponge", "A shadow"],
+              "answerIndex": 0,
+              "funFact": "A lever lets a small push move a very heavy thing."
+            },
+            {
+              "q": "What do we call water when it turns into a gas?",
+              "choices": ["Ice", "Steam", "Snow", "Frost"],
+              "answerIndex": 1,
+              "funFact": "Water becomes steam at 100 degrees Celsius."
+            },
+            {
+              "q": "Which force pulls you back down when you jump?",
+              "choices": ["Gravity", "Magnetism", "Friction", "Electricity"],
+              "answerIndex": 0,
+              "funFact": "Gravity also keeps the Moon circling around the Earth."
+            }
+          ],
+          "points": 15
+        }
+      ],
+      "funFact": "The Science Centre sits on a pier where real ships used to dock."
+    },
+    {
+      "id": "l3-s5",
+      "kind": "route-marker",
+      "location": "Café Olimpico, Mile End",
+      "scheduledTime": "7:45 PM",
+      "clueRiddle": "A crispy tube filled with sweet white cream.\nAsk for it in French to live the dream.",
+      "clueReveal": "Take the metro to Laurier and walk to Café Olimpico. Order your cannoli in French. Then taste it and give your rating.",
+      "challenges": [
+        {
+          "id": "l3-olimpico-order",
+          "type": "speak-french",
+          "title": "Order in French",
+          "instructions": "Practise the phrase on the card twice. Then say it to the person at the counter. Do not forget to say merci.",
+          "frenchPhrase": {
+            "fr": "Un cannoli, s'il vous plaît.",
+            "phonetic": "uhn ka-no-LEE, seel voo PLEH",
+            "en": "One cannoli, please."
+          },
+          "points": 5
+        },
+        {
+          "id": "l3-olimpico-taste",
+          "type": "taste",
+          "title": "Cannoli Judge",
+          "instructions": "Take a bite of the cannoli. Think about the crunch and the cream. Give it your maple leaf rating.",
+          "points": 5
+        }
+      ],
+      "funFact": "Café Olimpico opened in 1970 and stays open until midnight."
+    },
+    {
+      "id": "l3-s6",
+      "kind": "pit-stop",
+      "location": "Hôtel Monroe – Downtown Montreal",
+      "scheduledTime": "9:30 PM",
+      "clueRiddle": "One last metro ride and the day is spent.\nBack to Mackay Street — leg three is done.",
+      "clueReveal": "Ride the metro back to Guy-Concordia. Walk to Hôtel Monroe on Rue Mackay. Step onto the pit stop mat.",
+      "funFact": "You walked through 400 years of Montréal history in a single day."
+    }
+  ]
+}

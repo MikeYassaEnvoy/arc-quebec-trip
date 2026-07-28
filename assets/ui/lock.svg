@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 140" width="120" height="140" role="img" aria-label="Locked leg padlock">
+<title>Locked leg padlock</title>
+<path d="M34 62V44a26 26 0 0 1 52 0v18" fill="none" stroke="#1A1A1A" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="16" y="60" width="88" height="70" rx="14" fill="#FFC20E" stroke="#1A1A1A" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="60" cy="88" r="11" fill="#1A1A1A"/>
+<path d="M60 94v18" stroke="#1A1A1A" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

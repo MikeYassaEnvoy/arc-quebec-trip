@@ -1,0 +1,372 @@
+.arc-finale {
+  padding: 18px 32px 0;
+}
+
+.arc-finale-stage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  text-align: center;
+  min-height: 0;
+}
+
+/* ---------------- photo finish ---------------- */
+
+.arc-track {
+  position: relative;
+  width: 100%;
+  max-width: 980px;
+  padding: 18px 0;
+  border-radius: 24px;
+  background: repeating-linear-gradient(90deg, #2b3242 0 60px, #333c4f 60px 120px);
+  border: 4px solid rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+}
+
+.arc-lane {
+  position: relative;
+  height: 120px;
+}
+
+.arc-lane + .arc-lane {
+  border-top: 4px dashed rgba(255, 255, 255, 0.22);
+}
+
+.arc-runner {
+  position: absolute;
+  top: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  font-size: 17px;
+  font-weight: 800;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.arc-runner-player {
+  animation: arc-run-player 5.6s cubic-bezier(0.35, 0, 0.5, 1) forwards;
+}
+
+.arc-runner-rival {
+  animation: arc-run-rival 5.6s cubic-bezier(0.35, 0, 0.5, 1) forwards;
+}
+
+@keyframes arc-run-player {
+  0% { left: 2%; }
+  55% { left: 46%; }
+  85% { left: 68%; }
+  100% { left: 82%; }
+}
+
+@keyframes arc-run-rival {
+  0% { left: 2%; }
+  55% { left: 50%; }
+  85% { left: 70%; }
+  100% { left: 74%; }
+}
+
+.arc-finishline {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 8%;
+  width: 26px;
+  background: repeating-linear-gradient(0deg, #fff 0 16px, #14161a 16px 32px);
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.4);
+}
+
+.arc-track-done .arc-runner-player {
+  filter: drop-shadow(0 0 16px rgba(255, 212, 59, 0.9));
+}
+
+.arc-finale-caption {
+  margin: 0;
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 1.25;
+  max-width: 30ch;
+}
+
+.arc-photofinish-flash {
+  margin: 0;
+  font-size: 56px;
+  font-weight: 900;
+  color: var(--arc-yellow, #ffd43b);
+  letter-spacing: 0.06em;
+  animation: arc-flash 700ms ease-in-out infinite alternate;
+}
+
+@keyframes arc-flash {
+  from { opacity: 1; transform: scale(1); }
+  to { opacity: 0.75; transform: scale(1.06); }
+}
+
+/* ---------------- the win ---------------- */
+
+.arc-finale-champs {
+  margin: 0;
+  font-size: 96px;
+  line-height: 1;
+  font-weight: 900;
+  color: var(--arc-yellow, #ffd43b);
+  text-shadow: 0 10px 0 rgba(0, 0, 0, 0.45);
+  animation: arc-champs 700ms cubic-bezier(0.2, 1.5, 0.35, 1) both;
+}
+
+@keyframes arc-champs {
+  from { transform: scale(0.2) rotate(-8deg); opacity: 0; }
+  to { transform: none; opacity: 1; }
+}
+
+.arc-finale-sub {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 700;
+  max-width: 32ch;
+}
+
+.arc-finale-quote {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 700;
+  color: #ffd43b;
+  max-width: 34ch;
+}
+
+/* ---------------- trophy ---------------- */
+
+.arc-trophy {
+  width: 240px;
+  height: 240px;
+  display: grid;
+  place-items: center;
+  font-size: 180px;
+  line-height: 1;
+  filter: drop-shadow(0 16px 24px rgba(0, 0, 0, 0.6));
+  animation: arc-trophy-rise 900ms cubic-bezier(0.2, 1.3, 0.35, 1) both;
+}
+
+.arc-trophy > svg,
+.arc-trophy > img {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes arc-trophy-rise {
+  from { transform: translateY(160px) scale(0.5); opacity: 0; }
+  to { transform: none; opacity: 1; }
+}
+
+.arc-trophy-title {
+  margin: 0;
+  font-size: 52px;
+  font-weight: 900;
+}
+
+.arc-trophy-sub {
+  margin: 0;
+  font-size: 26px;
+  color: #e9ecef;
+}
+
+/* ---------------- recap ---------------- */
+
+.arc-finale-recap {
+  flex: 1;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 24px;
+}
+
+.arc-recap-head {
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.arc-recap-title {
+  margin: 2px 0 0;
+  font-size: 46px;
+  font-weight: 900;
+}
+
+.arc-recap-line {
+  margin: 4px 0 0;
+  font-size: 24px;
+  color: #dee2e6;
+}
+
+.arc-recap-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.arc-stat {
+  min-width: 150px;
+  padding: 14px 20px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 3px solid rgba(255, 255, 255, 0.16);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arc-stat-value {
+  font-size: 44px;
+  font-weight: 900;
+  color: var(--arc-yellow, #ffd43b);
+  line-height: 1;
+}
+
+.arc-stat-label {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ced4da;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.arc-recap-section {
+  margin-top: 26px;
+}
+
+.arc-recap-h3 {
+  margin: 0 0 10px;
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--arc-yellow, #ffd43b);
+}
+
+.arc-timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.arc-timeline-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  min-height: 64px;
+  padding: 8px 18px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.08);
+  border-left: 8px solid rgba(255, 255, 255, 0.2);
+  font-size: 22px;
+}
+
+.arc-timeline-win {
+  border-left-color: var(--arc-yellow, #ffd43b);
+  background: rgba(255, 212, 59, 0.16);
+}
+
+.arc-timeline-leg {
+  font-weight: 900;
+  width: 90px;
+  flex: none;
+}
+
+.arc-timeline-place {
+  font-weight: 900;
+  width: 110px;
+  flex: none;
+  color: var(--arc-yellow, #ffd43b);
+}
+
+.arc-timeline-title {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #e9ecef;
+}
+
+.arc-timeline-cut {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ff8787;
+  white-space: nowrap;
+}
+
+.arc-badgewall {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.arc-photoreel {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 14px;
+}
+
+.arc-photo {
+  margin: 0;
+  border-radius: 16px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.1);
+  border: 4px solid #fff;
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.35);
+}
+
+.arc-photo img {
+  display: block;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.arc-photo-empty {
+  display: grid;
+  place-items: center;
+  height: 150px;
+  font-size: 44px;
+}
+
+.arc-photo figcaption {
+  padding: 8px 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #14161a;
+  background: #fff;
+}
+
+.arc-mapslot {
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 12px;
+  min-height: 120px;
+}
+
+.arc-empty {
+  margin: 0;
+  font-size: 20px;
+  color: #adb5bd;
+}
+
+@media (max-height: 800px) {
+  .arc-finale-champs { font-size: 74px; }
+  .arc-trophy { width: 190px; height: 190px; font-size: 140px; }
+  .arc-lane { height: 104px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .arc-runner-player,
+  .arc-runner-rival { animation-duration: 5.6s; }
+  .arc-photofinish-flash,
+  .arc-finale-champs,
+  .arc-trophy { animation: none; }
+}

@@ -1,0 +1,204 @@
+{
+  "id": 0,
+  "title": "Fixture Leg: Every Challenge Type",
+  "date": "2026-08-01",
+  "routeText": "Sample Town → Sample City",
+  "pitStop": { "hotelName": "The Placeholder Inn", "city": "Sample City" },
+  "steps": [
+    {
+      "id": "fx-s1",
+      "kind": "route-marker",
+      "location": "The Front Porch",
+      "scheduledTime": "9:00 AM",
+      "clueRiddle": "I hold your shoes and greet the sun. Stand on me and the race is begun!",
+      "clueReveal": "Go to the front porch. Answer three warm-up questions.",
+      "funFact": "Racers always read the clue out loud. It makes it official!",
+      "challenges": [
+        {
+          "id": "fx-trivia",
+          "type": "trivia",
+          "title": "Warm-Up Questions",
+          "instructions": "Three quick questions. Tap the answer you think is right.",
+          "points": 5,
+          "trivia": [
+            {
+              "q": "Which city has a castle hotel?",
+              "choices": ["Québec City", "Kingston", "Ajax"],
+              "answerIndex": 0,
+              "funFact": "The Château Frontenac looks just like a fairy-tale castle."
+            },
+            {
+              "q": "What do you say for hello in French?",
+              "choices": ["Merci", "Bonjour", "Poutine"],
+              "answerIndex": 1,
+              "funFact": "Bonjour means good day."
+            },
+            {
+              "q": "How many legs are in this race?",
+              "choices": ["Three", "Eight", "One hundred"],
+              "answerIndex": 1
+            }
+          ]
+        },
+        {
+          "id": "fx-speak",
+          "type": "speak-french",
+          "title": "Say It Out Loud",
+          "instructions": "Say the phrase to a grown-up. Use your biggest voice.",
+          "points": 5,
+          "frenchPhrase": { "fr": "Bonjour!", "phonetic": "bon-ZHOOR", "en": "Hello!" }
+        }
+      ]
+    },
+    {
+      "id": "fx-s2",
+      "kind": "route-marker",
+      "location": "The Backyard",
+      "clueRiddle": "Green below and sky above. Hunt for treasure in the grass.",
+      "clueReveal": "Head to the backyard and find everything on the list.",
+      "funFact": "Explorers always look down. That is where the best stuff hides.",
+      "challenges": [
+        {
+          "id": "fx-scavenger",
+          "type": "scavenger",
+          "title": "Explorer Training",
+          "instructions": "Find each thing. Tap it when you spot it.",
+          "points": 10,
+          "checklist": [
+            "Something green",
+            "A bug",
+            "A rock smaller than your thumb",
+            "Something that can fly",
+            "Something older than you"
+          ],
+          "photoPrompt": "Snap your best find!"
+        },
+        {
+          "id": "fx-count",
+          "type": "count",
+          "title": "Tree Census",
+          "instructions": "Count every tree you can see. Type your number.",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "fx-s3",
+      "kind": "detour",
+      "location": "The Driveway",
+      "clueRiddle": "Two roads, one racer. Which will you choose?",
+      "clueReveal": "Pick Splash or Search. You only have to do one.",
+      "funFact": "In the real race, a Detour is always a choice between two tasks.",
+      "detour": {
+        "a": {
+          "label": "Splash",
+          "blurb": "Get wet at three different sprayers.",
+          "challenges": [
+            {
+              "id": "fx-detour-a",
+              "type": "physical",
+              "title": "Sprayer Relay",
+              "instructions": "Run through three sprayers. Get soaked!",
+              "points": 20,
+              "timerSeconds": 60,
+              "photoPrompt": "Soggy victory pose!"
+            }
+          ]
+        },
+        "b": {
+          "label": "Search",
+          "blurb": "Find five things along the riverfront.",
+          "challenges": [
+            {
+              "id": "fx-detour-b",
+              "type": "scavenger",
+              "title": "Riverfront Hunt",
+              "instructions": "Find all five things. Tap each one you spot.",
+              "points": 20,
+              "checklist": ["A ship", "A flag", "A bench", "A bird", "Something red"]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "fx-s4",
+      "kind": "roadblock",
+      "location": "The Test Kitchen",
+      "clueRiddle": "Who is hungry enough for this one?",
+      "clueReveal": "Taste the mystery snack, then rate it on the maple leaves.",
+      "funFact": "A Roadblock is a task only one racer can do.",
+      "challenges": [
+        {
+          "id": "fx-taste",
+          "type": "taste",
+          "title": "Mystery Snack",
+          "instructions": "Take one bite. Rate it with the maple leaves.",
+          "points": 10,
+          "photoPrompt": "Show your taste-test face!"
+        },
+        {
+          "id": "fx-photo",
+          "type": "photo",
+          "title": "Trophy Shot",
+          "instructions": "Take a photo of your snack before it disappears.",
+          "points": 10,
+          "photoPrompt": "Snap the snack!"
+        }
+      ]
+    },
+    {
+      "id": "fx-s5",
+      "kind": "speed-bump",
+      "location": "Around the House",
+      "clueRiddle": "Two laps, one clock. Go go go!",
+      "clueReveal": "Run around the house twice. Beat sixty seconds.",
+      "funFact": "Even racers need to stretch first.",
+      "challenges": [
+        {
+          "id": "fx-physical",
+          "type": "physical",
+          "title": "Two Lap Dash",
+          "instructions": "Start the clock. Run two laps. Stop the clock.",
+          "points": 5,
+          "timerSeconds": 60,
+          "photoPrompt": "Victory pose!"
+        }
+      ]
+    },
+    {
+      "id": "fx-s6",
+      "kind": "drive",
+      "location": "Couch Test Drive",
+      "clueRiddle": "Buckle up. The road is long and the games are short.",
+      "clueReveal": "Play the car games while the wheels roll.",
+      "funFact": "Car time is game time.",
+      "challenges": [
+        {
+          "id": "fx-minigame-bingo",
+          "type": "minigame",
+          "title": "Road Bingo",
+          "instructions": "Stamp things you spot out the window.",
+          "points": 5,
+          "minigameId": "bingo:backyard"
+        },
+        {
+          "id": "fx-minigame-trivia",
+          "type": "minigame",
+          "title": "Trivia Runner",
+          "instructions": "Answer as many as you can.",
+          "points": 5,
+          "minigameId": "trivia:leg-0"
+        }
+      ]
+    },
+    {
+      "id": "fx-s7",
+      "kind": "pit-stop",
+      "location": "The Placeholder Inn",
+      "clueRiddle": "The mat is waiting. Run!",
+      "clueReveal": "Step on the mat to finish the leg.",
+      "funFact": "The last team to check in may be eliminated. Not you, though."
+    }
+  ]
+}

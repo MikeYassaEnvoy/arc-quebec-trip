@@ -1,0 +1,208 @@
+{
+  "id": 1,
+  "title": "Kingston: Forts & Cannons",
+  "date": "2026-08-02",
+  "routeText": "Ajax → Kingston",
+  "pitStop": { "hotelName": "Comfort Suites Kingston Central", "city": "Kingston, Ontario" },
+  "steps": [
+    {
+      "id": "l1-s1",
+      "kind": "drive",
+      "location": "Highway 401 East",
+      "scheduledTime": "9:30 AM",
+      "clueRiddle": "Wheels roll east on a road called four-oh-one.\nPlay while we drive — the race has begun!",
+      "clueReveal": "Buckle up for a two-hour drive to Kingston. Play the Kingston trivia deck. Then stamp your 401 East bingo card.",
+      "challenges": [
+        {
+          "id": "l1-drive-trivia",
+          "type": "minigame",
+          "title": "Kingston Trivia Deck",
+          "instructions": "Answer questions about today's city. Big cards, one question at a time. Streaks light a little fire.",
+          "minigameId": "trivia",
+          "config": { "deck": "leg-1" },
+          "points": 10
+        },
+        {
+          "id": "l1-drive-bingo",
+          "type": "minigame",
+          "title": "401 East Bingo",
+          "instructions": "Look out the window for each square. Tap it when you spot it. Four in a row is bingo.",
+          "minigameId": "road-bingo",
+          "config": { "card": "401-east" },
+          "points": 10
+        }
+      ],
+      "funFact": "Highway 401 is the busiest highway in all of North America."
+    },
+    {
+      "id": "l1-s2",
+      "kind": "route-marker",
+      "location": "Bread & Butter Bakery",
+      "scheduledTime": "11:30 AM",
+      "clueRiddle": "Warm and flaky with sugar on top.\nFind me first at the morning stop.",
+      "clueReveal": "Go to Bread & Butter Bakery on Bath Road. Choose any pastry you like. Rate it, then guess what is inside.",
+      "challenges": [
+        {
+          "id": "l1-bakery-taste",
+          "type": "taste",
+          "title": "Mystery Pastry",
+          "instructions": "Pick one pastry and take a big bite. Rate it on the maple leaf scale. Check every ingredient you can taste.",
+          "checklist": [
+            "Butter",
+            "Sugar",
+            "Cinnamon",
+            "Chocolate",
+            "Apple",
+            "Almonds"
+          ],
+          "points": 10
+        }
+      ],
+      "funFact": "Kingston is called the Limestone City because so many buildings are grey stone."
+    },
+    {
+      "id": "l1-s3",
+      "kind": "roadblock",
+      "location": "Fort Henry",
+      "scheduledTime": "1:00 PM",
+      "clueRiddle": "Stone walls, red coats and one very loud boom.\nA goat lives here — can you find him?",
+      "clueReveal": "Who's ready to be a soldier? Go to Fort Henry on Fort Henry Drive. March, count the cannons, and learn the fort's secrets.",
+      "challenges": [
+        {
+          "id": "l1-fort-drill",
+          "type": "physical",
+          "title": "Guard Drill",
+          "instructions": "Join the drill, or march like a guard yourself. Stand tall and swing your arms. Keep marching for 30 seconds.",
+          "timerSeconds": 30,
+          "photoPrompt": "Salute!",
+          "points": 10
+        },
+        {
+          "id": "l1-fort-cannons",
+          "type": "count",
+          "title": "Cannon Count",
+          "instructions": "Walk the walls and look for cannons. Count every single one you see. Type your number in the box.",
+          "points": 8
+        },
+        {
+          "id": "l1-fort-trivia",
+          "type": "trivia",
+          "title": "Soldier's Test",
+          "instructions": "You can find these answers at the fort. Ask a guard if you get stuck. Three questions to earn your stripes.",
+          "trivia": [
+            {
+              "q": "What year was the fort you are standing in finished?",
+              "choices": ["1636", "1736", "1836", "1936"],
+              "answerIndex": 2,
+              "funFact": "This is the second Fort Henry — the first one was made of wood."
+            },
+            {
+              "q": "What colour are the Fort Henry Guard's coats?",
+              "choices": ["Red", "Blue", "Green", "Black"],
+              "answerIndex": 0,
+              "funFact": "British soldiers wore red so smoke would not hide them in battle."
+            },
+            {
+              "q": "What animal is the mascot of the Fort Henry Guard?",
+              "choices": ["A goat", "A bulldog", "A horse", "An eagle"],
+              "answerIndex": 0,
+              "funFact": "The mascot goat is always named David, no matter which goat it is."
+            }
+          ],
+          "points": 12
+        }
+      ],
+      "funFact": "Fort Henry was built to guard the Rideau Canal, and no enemy ever attacked it."
+    },
+    {
+      "id": "l1-s4",
+      "kind": "route-marker",
+      "location": "Novel Idea Bookshop",
+      "scheduledTime": "3:15 PM",
+      "clueRiddle": "Thousands of stories stand side by side.\nOn Princess Street they wait inside.",
+      "clueReveal": "Walk to Novel Idea at 156 Princess Street. Hunt for four special books. Ask a bookseller if you need help.",
+      "challenges": [
+        {
+          "id": "l1-bookshop-scavenger",
+          "type": "scavenger",
+          "title": "Book Hunt",
+          "instructions": "Find each kind of book on the list. Tap to check it off. Put every book back where it was.",
+          "checklist": [
+            "A book with a boat on the cover",
+            "A book about Canada",
+            "A book with your first initial in the title",
+            "The kids' section"
+          ],
+          "points": 15
+        }
+      ],
+      "funFact": "At an independent bookshop, real people choose every book by hand."
+    },
+    {
+      "id": "l1-s5",
+      "kind": "speed-bump",
+      "location": "Lake Ontario Park",
+      "scheduledTime": "4:15 PM",
+      "clueRiddle": "Water sprays and swings fly high\nright where the lake meets the sky.",
+      "clueReveal": "Drive to Lake Ontario Park on King Street West. Do the whole playground circuit. Beat four minutes on the stopwatch.",
+      "challenges": [
+        {
+          "id": "l1-park-circuit",
+          "type": "physical",
+          "title": "Playground Circuit",
+          "instructions": "Go down the slide once. Then swing ten big swings. Finish with a dash through the splash pad.",
+          "timerSeconds": 240,
+          "points": 10
+        }
+      ],
+      "funFact": "Lake Ontario is the smallest Great Lake, but it is still very deep."
+    },
+    {
+      "id": "l1-s6",
+      "kind": "route-marker",
+      "location": "Copper Penny",
+      "scheduledTime": "6:00 PM",
+      "clueRiddle": "A small brown coin gave this place its name.\nTwo doors from the books, dinner is the game.",
+      "clueReveal": "Go to Copper Penny at 240 Princess Street. Order dinner with your team. Play trivia while you wait for food.",
+      "challenges": [
+        {
+          "id": "l1-dinner-trivia",
+          "type": "trivia",
+          "title": "Dinner Table Trivia",
+          "instructions": "Three questions about everything you did today. No looking things up. Just remember your day.",
+          "trivia": [
+            {
+              "q": "What animal is the Fort Henry mascot?",
+              "choices": ["A goat", "A moose", "A beaver", "A duck"],
+              "answerIndex": 0,
+              "funFact": "Every mascot goat at Fort Henry is called David."
+            },
+            {
+              "q": "What did you eat at Bread & Butter Bakery this morning?",
+              "choices": ["A pastry", "A pizza", "A hot dog", "A salad"],
+              "answerIndex": 0,
+              "funFact": "Bakeries open very early — the bread starts baking before sunrise."
+            },
+            {
+              "q": "Which big lake did you play beside this afternoon?",
+              "choices": ["Lake Ontario", "Lake Superior", "Lake Louise", "Lake Winnipeg"],
+              "answerIndex": 0,
+              "funFact": "Kingston sits where Lake Ontario pours into the St. Lawrence River."
+            }
+          ],
+          "points": 5
+        }
+      ],
+      "funFact": "Kingston was the very first capital city of Canada, way back in 1841."
+    },
+    {
+      "id": "l1-s7",
+      "kind": "pit-stop",
+      "location": "Comfort Suites Kingston Central",
+      "scheduledTime": "7:30 PM",
+      "clueRiddle": "Benson Street holds tonight's soft landing.\nRun to the mat — leg one is done!",
+      "clueReveal": "Drive to Comfort Suites at 33 Benson Street. Check in and find your room. Then step onto the pit stop mat.",
+      "funFact": "In the real race, the last team to reach the mat may be eliminated."
+    }
+  ]
+}

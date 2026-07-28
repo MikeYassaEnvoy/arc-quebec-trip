@@ -1,0 +1,240 @@
+/* Workstream D — shared ceremony styling.
+   iPad landscape first (1180x820 design target, works down to 1024x768).
+   All touch targets >= 64px. Everything scoped under .arc-* to avoid collisions. */
+
+.arc-scene {
+  --arc-yellow: #ffd43b;
+  --arc-red: #e03131;
+  --arc-ink: #14161a;
+  --arc-paper: #fff8e7;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 100svh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  background:
+    radial-gradient(120% 90% at 50% 0%, #2b3242 0%, #14161a 60%, #0a0b0d 100%);
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+/* ---------------- avatars ---------------- */
+
+.arc-avatar {
+  display: grid;
+  place-items: center;
+  border-radius: 24%;
+  border: 4px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.35);
+  font-weight: 800;
+  color: #fff;
+  line-height: 1;
+  flex: none;
+  overflow: hidden;
+}
+
+.arc-avatar > svg,
+.arc-avatar > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* ---------------- host dialogue ---------------- */
+
+.arc-dialogue {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+  min-height: 200px;
+  padding: 24px 28px;
+  text-align: left;
+  border: none;
+  border-radius: 28px;
+  background: var(--arc-paper, #fff8e7);
+  color: #14161a;
+  box-shadow: 0 10px 0 rgba(0, 0, 0, 0.4);
+  font: inherit;
+  cursor: pointer;
+  appearance: none;
+}
+
+.arc-dialogue:active {
+  transform: translateY(3px);
+  box-shadow: 0 7px 0 rgba(0, 0, 0, 0.4);
+}
+
+.arc-dialogue-host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.arc-dialogue-hostname {
+  font-size: 18px;
+  font-weight: 800;
+  color: #495057;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.arc-dialogue-body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.arc-dialogue-past {
+  margin: 0;
+  font-size: 26px;
+  line-height: 1.25;
+  color: #868e96;
+}
+
+.arc-dialogue-current {
+  margin: 0;
+  font-size: 38px;
+  line-height: 1.22;
+  font-weight: 800;
+  min-height: 1.22em;
+}
+
+.arc-caret {
+  display: inline-block;
+  width: 3px;
+  height: 0.9em;
+  margin-left: 4px;
+  vertical-align: -0.08em;
+  background: #14161a;
+  animation: arc-blink 0.7s steps(1) infinite;
+}
+
+@keyframes arc-blink {
+  50% { opacity: 0; }
+}
+
+.arc-tap-hint {
+  margin-top: auto;
+  align-self: flex-end;
+  font-size: 20px;
+  font-weight: 700;
+  color: #adb5bd;
+}
+
+/* ---------------- buttons ---------------- */
+
+.arc-bigbtn {
+  min-height: 76px;
+  padding: 18px 44px;
+  border: none;
+  border-radius: 999px;
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  appearance: none;
+  box-shadow: 0 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.arc-bigbtn:active {
+  transform: translateY(4px);
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.4);
+}
+
+.arc-bigbtn-primary {
+  background: var(--arc-yellow, #ffd43b);
+  color: #14161a;
+}
+
+.arc-bigbtn-quiet {
+  background: rgba(255, 255, 255, 0.16);
+  color: #fff;
+}
+
+/* ---------------- badge ---------------- */
+
+.arc-badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.arc-badge-disc {
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #fff3bf, #ffd43b 55%, #f08c00);
+  border: 6px solid #fff;
+  box-shadow: 0 8px 0 rgba(0, 0, 0, 0.35);
+}
+
+.arc-badge-disc > svg,
+.arc-badge-disc > img {
+  width: 78%;
+  height: 78%;
+}
+
+.arc-badge-label {
+  font-size: 20px;
+  font-weight: 800;
+  color: #fff;
+  max-width: 160px;
+}
+
+/* ---------------- confetti ---------------- */
+
+.arc-confetti {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 30;
+}
+
+.arc-confetti-bit {
+  position: absolute;
+  top: -8%;
+  border-radius: 2px;
+  animation-name: arc-fall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes arc-fall {
+  0% { transform: translateY(-10vh) rotate(0deg); opacity: 1; }
+  90% { opacity: 1; }
+  100% { transform: translateY(110vh) rotate(var(--spin, 540deg)); opacity: 0; }
+}
+
+/* ---------------- shared bits ---------------- */
+
+.arc-eyebrow {
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--arc-yellow, #ffd43b);
+}
+
+.arc-footer {
+  display: flex;
+  justify-content: center;
+  padding: 18px 0 26px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .arc-caret,
+  .arc-confetti-bit {
+    animation: none;
+  }
+}

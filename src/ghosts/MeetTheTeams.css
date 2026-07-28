@@ -1,0 +1,165 @@
+.arc-meet {
+  padding: 20px 32px 0;
+}
+
+.arc-meet-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.arc-meet-title {
+  margin: 0;
+  font-size: 46px;
+  font-weight: 900;
+  letter-spacing: -0.01em;
+}
+
+.arc-meet-stage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 22px;
+  padding-bottom: 22px;
+  min-height: 0;
+}
+
+/* player intro */
+
+.arc-meet-player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.arc-meet-playername {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.arc-meet-playertag {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--arc-yellow, #ffd43b);
+}
+
+/* rival card */
+
+.arc-meet-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  padding: 22px 28px;
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 3px solid rgba(255, 255, 255, 0.18);
+  animation: arc-card-in 420ms cubic-bezier(0.2, 1.2, 0.35, 1) both;
+}
+
+@keyframes arc-card-in {
+  from { opacity: 0; transform: translateX(48px) scale(0.96); }
+  to { opacity: 1; transform: none; }
+}
+
+.arc-meet-card-text {
+  min-width: 0;
+}
+
+.arc-meet-teamname {
+  margin: 0;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.05;
+}
+
+.arc-meet-members {
+  margin: 4px 0 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ced4da;
+}
+
+.arc-meet-tagline {
+  margin: 10px 0 0;
+  font-size: 30px;
+  font-weight: 800;
+  color: var(--arc-yellow, #ffd43b);
+}
+
+.arc-meet-personality {
+  margin: 8px 0 0;
+  font-size: 22px;
+  line-height: 1.35;
+  color: #e9ecef;
+  max-width: 62ch;
+}
+
+.arc-meet-count {
+  position: absolute;
+  top: 16px;
+  right: 22px;
+  font-size: 20px;
+  font-weight: 800;
+  color: #adb5bd;
+}
+
+/* line-up */
+
+.arc-meet-lineup {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+
+.arc-meet-lineup-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+/* go */
+
+.arc-meet-go {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  text-align: center;
+}
+
+.arc-meet-gotitle {
+  margin: 0;
+  font-size: 76px;
+  font-weight: 900;
+  color: var(--arc-yellow, #ffd43b);
+  text-shadow: 0 6px 0 rgba(0, 0, 0, 0.45);
+  animation: arc-pop 500ms cubic-bezier(0.2, 1.4, 0.4, 1) both;
+}
+
+@keyframes arc-pop {
+  from { transform: scale(0.4); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.arc-meet-gosub {
+  margin: 0;
+  font-size: 28px;
+  max-width: 26ch;
+  color: #e9ecef;
+}
+
+@media (max-height: 800px) {
+  .arc-meet-title { font-size: 38px; }
+  .arc-meet-teamname { font-size: 38px; }
+  .arc-meet-gotitle { font-size: 62px; }
+}
