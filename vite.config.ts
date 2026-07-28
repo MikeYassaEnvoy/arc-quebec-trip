@@ -38,7 +38,10 @@ function serveRootStaticDirs(dirs: string[]): Plugin {
     name: 'race-serve-root-static-dirs',
     configureServer(server) {
       server.middlewares.use((req, res, next) => {
-        const url = (req.url || '').split('?')[0];
+        const [url, query] = (req.url || '').split('?');
+        // Module requests must reach Vite's transform pipeline: TS sources under
+        // assets/ (index.ts) and any ?raw / ?import / ?url style asset imports.
+        if (query !== undefined || url.endsWith('.ts') || url.endsWith('.tsx')) return next();
         const hit = dirs.find((d) => url.startsWith(`/${d}/`));
         if (!hit) return next();
         const rel = decodeURIComponent(url.slice(1));

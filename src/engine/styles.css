@@ -1592,3 +1592,13 @@ body {
   display: block;
   margin: 0 auto;
 }
+
+/* Ceremony scenes (src/ghosts .arc-scene) render as direct children of .app.
+   They are taller than the viewport once team cards / standings stack up, so
+   the app shell must let them scroll like every other screen. */
+.app > .arc-scene {
+  height: 100%;
+  min-height: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
