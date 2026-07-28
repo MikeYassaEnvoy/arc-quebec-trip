@@ -7,3 +7,6 @@ dev-dist/
 
 # Personal itinerary with booking details — never commit
 content/reference/
+
+# CI needs the lockfile (overrides global ignore)
+!package-lock.json
