@@ -3,8 +3,7 @@
 The app is a PWA — install it once from Safari and it runs fullscreen and fully
 offline for the whole trip.
 
-**App URL:** `https://<YOUR-DEPLOYED-URL>/` *(fill in after deploying — any
-static host with HTTPS works, e.g. Netlify or GitHub Pages)*
+**App URL:** `https://mikeyassaenvoy.github.io/arc-quebec-trip/`
 
 ## Three steps
 
