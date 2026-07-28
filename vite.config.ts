@@ -14,6 +14,16 @@ const root = path.dirname(fileURLToPath(import.meta.url));
  *   - copies them into dist/ at build time (before vite-plugin-pwa's closeBundle
  *     runs its precache glob, so every JSON/SVG/PNG gets precached).
  */
+/**
+ * Never serve or ship these subpaths: content/reference/ holds the family's
+ * personal itinerary (hotel confirmation numbers). It stays on disk for
+ * authoring but must not reach the dev server, dist/, or the SW precache.
+ */
+const PRIVATE_SUBPATHS = ['content/reference'];
+
+const isPrivatePath = (rel: string) =>
+  PRIVATE_SUBPATHS.some((p) => rel === p || rel.startsWith(`${p}/`));
+
 function serveRootStaticDirs(dirs: string[]): Plugin {
   const mime: Record<string, string> = {
     '.json': 'application/json; charset=utf-8',
@@ -31,7 +41,10 @@ function serveRootStaticDirs(dirs: string[]): Plugin {
 
   const copyDir = (from: string, to: string) => {
     if (!fs.existsSync(from)) return;
-    fs.cpSync(from, to, { recursive: true });
+    fs.cpSync(from, to, {
+      recursive: true,
+      filter: (src) => !isPrivatePath(path.relative(root, src).split(path.sep).join('/')),
+    });
   };
 
   return {
@@ -45,6 +58,10 @@ function serveRootStaticDirs(dirs: string[]): Plugin {
         const hit = dirs.find((d) => url.startsWith(`/${d}/`));
         if (!hit) return next();
         const rel = decodeURIComponent(url.slice(1));
+        if (isPrivatePath(rel)) {
+          res.statusCode = 404;
+          return res.end('Not found');
+        }
         const abs = path.join(root, rel);
         if (!abs.startsWith(path.join(root, hit)) || !fs.existsSync(abs) || fs.statSync(abs).isDirectory()) {
           return next();
