@@ -99,6 +99,7 @@ export function ChallengeView({
           patch={patch}
           toggleCheck={toggleCheck}
           bumpCount={bumpCount}
+          onAutoComplete={complete}
           onPlayMinigame={() =>
             go({
               name: 'minigame',
@@ -120,11 +121,14 @@ export function ChallengeView({
         )}
       </main>
 
-      <footer className="challenge__foot">
-        <button className="btn btn--red btn--mega btn--complete" onClick={complete}>
-          {isDone ? '✅ DONE — TAP AGAIN TO RE-BANK' : 'CHALLENGE COMPLETE!'}
-        </button>
-      </footer>
+      {/* Trivia banks itself when the last question is answered — no manual button. */}
+      {challenge.type !== 'trivia' && (
+        <footer className="challenge__foot">
+          <button className="btn btn--red btn--mega btn--complete" onClick={complete}>
+            {isDone ? '✅ DONE — TAP AGAIN TO RE-BANK' : 'CHALLENGE COMPLETE!'}
+          </button>
+        </footer>
+      )}
     </div>
   );
 }
@@ -135,10 +139,11 @@ interface BodyProps {
   patch: (p: { rating?: number; said?: boolean; triviaCorrect?: number; count?: number }) => void;
   toggleCheck: (index: number, total: number) => void;
   bumpCount: (delta: number | 'clear', absolute?: number) => void;
+  onAutoComplete: () => void;
   onPlayMinigame: () => void;
 }
 
-function ChallengeBody({ challenge, progress, patch, toggleCheck, bumpCount, onPlayMinigame }: BodyProps) {
+function ChallengeBody({ challenge, progress, patch, toggleCheck, bumpCount, onAutoComplete, onPlayMinigame }: BodyProps) {
   switch (challenge.type) {
     case 'scavenger':
       return <Checklist items={challenge.checklist ?? []} progress={progress} onToggle={toggleCheck} />;
@@ -173,7 +178,11 @@ function ChallengeBody({ challenge, progress, patch, toggleCheck, bumpCount, onP
       return challenge.trivia?.length ? (
         <TriviaRunner
           questions={challenge.trivia}
-          onDone={(correct) => patch({ triviaCorrect: correct })}
+          onDone={(correct) => {
+            patch({ triviaCorrect: correct });
+            // Let the score card show for a beat, then bank automatically.
+            window.setTimeout(onAutoComplete, 1400);
+          }}
         />
       ) : (
         <p className="muted">No questions in this deck yet.</p>

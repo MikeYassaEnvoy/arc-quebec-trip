@@ -45,7 +45,7 @@ export function TriviaRunner({
         <p className="trivia__score">
           {correct} / {questions.length} correct!
         </p>
-        <p className="muted">Great answering. Now tap Challenge Complete.</p>
+        <p className="muted">Great answering. Banking your points…</p>
       </div>
     );
   }
