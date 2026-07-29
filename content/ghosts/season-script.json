@@ -106,13 +106,14 @@
       "ceremonyLines": [
         "{team}, you are team number TWO!",
         "First day of the race and you are already near the front.",
+        "This is a non-elimination leg — everyone races on!",
         "Rest up. Tomorrow is the longest road of the week."
       ],
       "closeCall": "Team Maple beat you to the mat by six minutes. Six!",
       "statsLines": {
-        "heavy": "You earned {points} points and finished every single thing at the fort. Nothing slowed you down!",
-        "mid": "{done} of {total} challenges done and {points} points in the bank. Solid first day.",
-        "light": "You banked {points} points. Team Maple nearly caught you at the cannons!"
+        "heavy": "You banked {points} points and finished every challenge at the fort — great for your season score! But Team Maple still ran the course six minutes faster.",
+        "mid": "{done} of {total} challenges done and {points} points banked for your season score. Team Maple just ran the course six minutes faster today.",
+        "light": "You banked {points} points for your season score. Team Maple ran the course six minutes faster — they were quick today!"
       },
       "nextLegTease": "Tomorrow: the long road to Montréal. Learn a French word tonight."
     },
@@ -126,13 +127,14 @@
       "ceremonyLines": [
         "{team}, you are team number four.",
         "A tough day. But look around — you are still in this race.",
+        "One team may be eliminated tonight.",
         "Heads up. Old Montréal has secrets for you tomorrow."
       ],
       "closeCall": "The Tide Riders slid onto the mat one minute ahead of you. One minute!",
       "statsLines": {
-        "heavy": "You worked so hard out there — {done} challenges and {points} points. The road was just longer than the day.",
-        "mid": "{points} points today. The drive was long, and the others drove fast.",
-        "light": "Only {points} points today, and the pack pulled away. That happens in this race."
+        "heavy": "You worked so hard out there — {done} challenges and {points} points, all going to your season score. But The Tide Riders reached the mat just one minute faster today.",
+        "mid": "{points} points banked for your season score today. The Tide Riders simply ran the course one minute faster.",
+        "light": "You banked {points} points for your season score. The road was long, and The Tide Riders found the faster time by just one minute."
       },
       "eliminationLines": [
         "Prairie Thunder... you were the fastest team out of Cornwall.",
@@ -150,12 +152,13 @@
       "ceremonyLines": [
         "{team}, you are team number three.",
         "You rode the metro, found the stars, and did not get lost once.",
+        "This is a non-elimination leg — everyone races on!",
         "You are climbing back. Keep going."
       ],
       "statsLines": {
-        "heavy": "{done} of {total} challenges and {points} points. You are getting faster every day.",
-        "mid": "{points} points today. Steady racing moves teams up the board.",
-        "light": "{points} points. Short day, but you kept your place."
+        "heavy": "{done} of {total} challenges and {points} points — all going to your season score. You're getting faster on the course every day.",
+        "mid": "{points} points banked for your season score today. Steady time on the course is what moves teams up the board.",
+        "light": "{points} points added to your season score. It was a short day, but your time on the course held your place."
       },
       "nextLegTease": "Tomorrow: bagels, beasts and bugs. Bring your appetite."
     },
@@ -169,13 +172,14 @@
       "ceremonyLines": [
         "{team}... you are team number ONE!",
         "Your first win of the race. Look at that mat — it is yours!",
+        "But one team may be eliminated tonight.",
         "From fourth place to first in two days. Wow."
       ],
       "closeCall": "Team Maple hit the mat forty seconds behind you. Forty seconds!",
       "statsLines": {
-        "heavy": "{points} points and {done} challenges. You beat the penguins, the bugs and everybody else.",
-        "mid": "{points} points and a first-place finish. What a day.",
-        "light": "{points} points was all you needed. You saved your speed for the Biodôme."
+        "heavy": "{points} points and {done} challenges — all going to your season score. And your time on the course today? Fastest of everyone, by forty seconds!",
+        "mid": "{points} points banked for your season score, plus a first-place finish. Your time on the course beat Team Maple by forty seconds.",
+        "light": "{points} points added to your season score today. Your time on the course was still the best, by forty seconds."
       },
       "eliminationLines": [
         "The Tide Riders... you found the bagels, the sloth and the fountains.",
@@ -193,13 +197,14 @@
       "ceremonyLines": [
         "{team}, you are team number two.",
         "So close! Team Maple caught the funicular right before you.",
-        "Nobody goes home tonight. Sleep well — the Citadelle is waiting."
+        "This is a non-elimination leg — everyone races on!",
+        "Sleep well — the Citadelle is waiting."
       ],
       "closeCall": "Team Maple reached the mat barely a minute ahead. You could see them from the hill!",
       "statsLines": {
-        "heavy": "{done} challenges, {points} points, and a castle photo. That is a big day of racing.",
-        "mid": "{points} points on a long driving day. Nicely done.",
-        "light": "{points} points. The drive ate the clock, but you held second."
+        "heavy": "{done} challenges and {points} points — all banked for your season score. Team Maple's time on the course was just one minute faster today.",
+        "mid": "{points} points added to your season score on a long driving day. Team Maple's time on the course edged you out by a minute.",
+        "light": "{points} points banked for your season score. The drive ate the clock, and Team Maple's time on the course was one minute quicker."
       },
       "nextLegTease": "Tomorrow: the Citadelle, the noon cannon, and a goat named Batisse."
     },
@@ -213,13 +218,13 @@
       "ceremonyLines": [
         "{team}... you are team number ONE!",
         "Two wins in three days. You are racing like champions now.",
-        "And that means tonight, everything changes."
+        "And that means one team may be eliminated tonight."
       ],
       "closeCall": "You beat The Rock Hoppers to the mat by eight minutes. Your best gap yet!",
       "statsLines": {
-        "heavy": "{points} points and {done} challenges — the cannon, the sprint, the prison, all of it.",
-        "mid": "{points} points and first place. You out-raced the whole field.",
-        "light": "{points} points, and it was enough. You picked the perfect day to be fast."
+        "heavy": "{points} points and {done} challenges — straight into your season score. Your time on the course beat The Rock Hoppers by eight minutes!",
+        "mid": "{points} points banked for your season score, and first place too. Your time on the course was the best of the whole field.",
+        "light": "{points} points added to your season score. Your time on the course was enough — eight minutes ahead of The Rock Hoppers!"
       },
       "eliminationLines": [
         "Team Maple... you led this race for five straight legs.",
@@ -237,13 +242,14 @@
       "ceremonyLines": [
         "{team}, you are team number two.",
         "The Rock Hoppers got here by two minutes. Two minutes!",
-        "But nobody goes home tonight. Tomorrow, one leg decides everything."
+        "This is a non-elimination leg — everyone races on!",
+        "Tomorrow, one leg decides everything."
       ],
       "closeCall": "Two minutes. After eight hours of racing, that is all that separated you.",
       "statsLines": {
-        "heavy": "{done} of {total} challenges and {points} points. You did everything right — they were just two minutes luckier.",
-        "mid": "{points} points on the longest day of the race. The maze cost you the lead.",
-        "light": "{points} points today. The Rock Hoppers caught you at the maze and never looked back."
+        "heavy": "{done} of {total} challenges and {points} points — all for your season score. Your time on the course was great, just two minutes behind The Rock Hoppers.",
+        "mid": "{points} points added to your season score on the longest day of the race. The Rock Hoppers' time on the course beat yours by two minutes at the maze.",
+        "light": "{points} points banked for your season score today. The Rock Hoppers found the faster time on the course at the maze and never looked back."
       },
       "nextLegTease": "Tomorrow is the finale. Whoever reaches home first wins the whole race."
     },
@@ -265,9 +271,9 @@
       ],
       "closeCall": "A photo finish! You crossed the mat one step ahead of The Rock Hoppers.",
       "statsLines": {
-        "heavy": "{points} points and {done} challenges on the final day. You left nothing out there.",
-        "mid": "{points} points on the last leg — exactly enough to bring it home.",
-        "light": "{points} points, one perfect finish. Champions do not need to be fancy."
+        "heavy": "{points} points and {done} challenges on the final day — all in your season score. And your time on the course? Just barely the fastest — a photo finish!",
+        "mid": "{points} points banked for your season score on the last leg. Your time on the course was exactly enough to win the photo finish.",
+        "light": "{points} points added to your season score, one perfect finish. Champions do not need to be fancy — just the fastest time on the course."
       },
       "recapLines": [
         "Let's look back at your whole race, {team}.",

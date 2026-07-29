@@ -1,5 +1,15 @@
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import type { TriviaQuestion } from '../../types';
+
+/** Fisher–Yates over indices 0..n-1. Never touches the source array. */
+function shuffledIndices(n: number): number[] {
+  const arr = Array.from({ length: n }, (_, i) => i);
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
 
 /**
  * Inline trivia runner used by `trivia` challenges (the drive-time TriviaRunner
@@ -18,25 +28,29 @@ export function TriviaRunner({
   const [finished, setFinished] = useState(false);
 
   const q = questions[index];
+
+  // Runtime answer shuffle (round 2 item 2): a fresh permutation per question, so the
+  // correct answer isn't always in the same slot. `order[displayIndex]` is the original
+  // choice index; the source `questions` array is never mutated.
+  const order = useMemo(() => (q ? shuffledIndices(q.choices.length) : []), [q]);
+  const correctDisplayIndex = q ? order.indexOf(q.answerIndex) : -1;
+
   if (!q) return null;
 
-  const pick = (i: number) => {
+  const pick = (displayIndex: number) => {
     if (picked !== null) return;
-    setPicked(i);
-    if (i === q.answerIndex) setCorrect((c) => c + 1);
+    setPicked(displayIndex);
+    if (displayIndex === correctDisplayIndex) setCorrect((c) => c + 1);
   };
 
   const next = () => {
-    const wasRight = picked === q.answerIndex;
-    const totalCorrect = correct;
     if (index + 1 >= questions.length) {
       setFinished(true);
-      onDone?.(totalCorrect, questions.length);
+      onDone?.(correct, questions.length);
     } else {
       setIndex(index + 1);
       setPicked(null);
     }
-    return wasRight;
   };
 
   if (finished) {
@@ -45,7 +59,7 @@ export function TriviaRunner({
         <p className="trivia__score">
           {correct} / {questions.length} correct!
         </p>
-        <p className="muted">Great answering. Banking your points…</p>
+        <p className="trivia__banking">Banking your points…</p>
       </div>
     );
   }
@@ -59,20 +73,26 @@ export function TriviaRunner({
       </div>
       <p className="trivia__q">{q.q}</p>
       <div className="trivia__choices">
-        {q.choices.map((c, i) => {
+        {order.map((origIndex, displayIndex) => {
           const state =
-            picked === null ? '' : i === q.answerIndex ? ' is-right' : i === picked ? ' is-wrong' : ' is-dim';
+            picked === null
+              ? ''
+              : displayIndex === correctDisplayIndex
+                ? ' is-right'
+                : displayIndex === picked
+                  ? ' is-wrong'
+                  : ' is-dim';
           return (
-            <button key={i} className={`btn btn--answer${state}`} onClick={() => pick(i)}>
-              {c}
+            <button key={origIndex} className={`btn btn--answer${state}`} onClick={() => pick(displayIndex)}>
+              {q.choices[origIndex]}
             </button>
           );
         })}
       </div>
       {picked !== null && (
         <div className="trivia__after">
-          <p className={picked === q.answerIndex ? 'good' : 'bad'}>
-            {picked === q.answerIndex ? '✅ Correct!' : `❌ The answer was: ${q.choices[q.answerIndex]}`}
+          <p className={picked === correctDisplayIndex ? 'good' : 'bad'}>
+            {picked === correctDisplayIndex ? '✅ Correct!' : `❌ The answer was: ${q.choices[q.answerIndex]}`}
           </p>
           {q.funFact && <p className="funfact">💡 {q.funFact}</p>}
           <button className="btn btn--yellow btn--huge" onClick={next}>

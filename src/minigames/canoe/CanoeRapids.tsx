@@ -9,6 +9,13 @@
  */
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { MiniGameProps } from '../../types';
+import {
+  canoeHalfWidth,
+  minLateralClearance,
+  minVerticalGapForSpeed,
+  pickClearLane,
+  type SpawnBox,
+} from './spawnLogic';
 
 /* ------------------------------------------------------------------ config */
 
@@ -423,35 +430,73 @@ function update(s: GameState, dt: number, cfg: CanoeConfig): void {
     }
   }
 
-  /* spawning */
+  /* spawning — a leaf must keep clearance from rocks/logs (and vice versa)
+     so every leaf that appears is genuinely collectable. See spawnLogic.ts. */
+  const canoeHalf = canoeHalfWidth(laneW);
+  const canoeWidth = canoeHalf * 2;
+  const minLateral = minLateralClearance(canoeWidth);
+  const minVertical = minVerticalGapForSpeed(speed);
+  const leafR = 17;
+
   s.spawnO -= dt;
   if (s.spawnO <= 0) {
     s.spawnO = 1.15 - 0.55 * progress + s.rng() * 0.35;
-    const lane = Math.floor(s.rng() * lanes);
     const isLog = s.rng() < 0.4;
     const w = isLog ? laneW * 1.5 : laneW * 0.66;
     const h = isLog ? 30 : 46;
-    const cx = rx + lane * laneW + laneW / 2;
-    s.obstacles.push({
-      kind: isLog ? 'log' : 'rock',
-      x: Math.max(rx + w / 2, Math.min(rx + rw - w / 2, cx)),
-      y: -h,
-      w,
-      h,
-      spin: (s.rng() - 0.5) * 0.4,
-    });
+    const oy = -h;
+    const existingLeaves: SpawnBox[] = s.leaves.map((l) => ({
+      x: l.x,
+      y: l.y,
+      halfW: l.r,
+      halfH: l.r,
+    }));
+    const lane = pickClearLane(
+      { lanes, laneW, rx, y: oy, halfW: w / 2, halfH: h / 2, minLateral, minVertical },
+      existingLeaves,
+      s.rng,
+    );
+    if (lane !== null) {
+      const cx = rx + lane * laneW + laneW / 2;
+      s.obstacles.push({
+        kind: isLog ? 'log' : 'rock',
+        x: Math.max(rx + w / 2, Math.min(rx + rw - w / 2, cx)),
+        y: oy,
+        w,
+        h,
+        spin: (s.rng() - 0.5) * 0.4,
+      });
+    }
+    // if every lane is blocked by an existing leaf, skip this cycle rather
+    // than force a leaf/obstacle overlap — the timer above already reset.
   }
+
   s.spawnL -= dt;
   if (s.spawnL <= 0) {
     s.spawnL = 0.8 - 0.25 * progress + s.rng() * 0.4;
-    const lane = Math.floor(s.rng() * lanes);
-    s.leaves.push({
-      x: rx + lane * laneW + laneW / 2,
-      y: -30,
-      r: 17,
-      rot: s.rng() * Math.PI,
-      spin: (s.rng() - 0.5) * 2,
-    });
+    const ly = -30;
+    const existingObstacles: SpawnBox[] = s.obstacles.map((o) => ({
+      x: o.x,
+      y: o.y,
+      halfW: o.w / 2,
+      halfH: o.h / 2,
+    }));
+    const lane = pickClearLane(
+      { lanes, laneW, rx, y: ly, halfW: leafR, halfH: leafR, minLateral, minVertical },
+      existingObstacles,
+      s.rng,
+    );
+    if (lane !== null) {
+      s.leaves.push({
+        x: rx + lane * laneW + laneW / 2,
+        y: ly,
+        r: leafR,
+        rot: s.rng() * Math.PI,
+        spin: (s.rng() - 0.5) * 2,
+      });
+    }
+    // if every lane is blocked by an existing rock/log, skip — better to
+    // miss a leaf spawn than spawn one that can't be collected safely.
   }
 
   /* movement + collisions */

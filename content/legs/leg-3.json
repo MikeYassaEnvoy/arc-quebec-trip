@@ -19,6 +19,7 @@
           "title": "Metro Navigator",
           "instructions": "Drag your finger along the right lines. Go green to Berri-UQAM, then orange. Stop at Place-d'Armes station.",
           "minigameId": "metro-navigator",
+          "launchText": "A game for the Métro ride!",
           "config": {
             "start": "Guy-Concordia",
             "transfer": "Berri-UQAM",
@@ -156,6 +157,7 @@
           "type": "taste",
           "title": "Cannoli Judge",
           "instructions": "Take a bite of the cannoli. Think about the crunch and the cream. Give it your maple leaf rating.",
+          "photoPrompt": "Snap a picture of you eating it!",
           "points": 5
         }
       ],

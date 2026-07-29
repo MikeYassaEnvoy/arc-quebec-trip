@@ -47,12 +47,22 @@ export function StepView({ legId, stepId }: { legId: number; stepId: string }) {
   };
 
   if (showFunFact) {
+    const stepIndex = leg.steps.findIndex((s) => s.id === step.id);
+    const nextStep = stepIndex >= 0 ? leg.steps[stepIndex + 1] : undefined;
     return (
       <div className="screen funfactscreen">
         <div className="card card--hot">
-          <p className="kicker">Stop complete — {step.location}</p>
-          <h1 className="h1">Did you know?</h1>
-          <p className="lead">{step.funFact}</p>
+          <p className="kicker">Stop complete!</p>
+          <h1 className="h1 h1--mega funfactscreen__title">{step.location}</h1>
+          {step.funFact && (
+            <>
+              <p className="kicker funfactscreen__didyouknow">Did you know?</p>
+              <p className="lead funfactscreen__funfact">{step.funFact}</p>
+            </>
+          )}
+          {nextStep && (
+            <p className="funfactscreen__teaser">Up next: {nextStep.location}</p>
+          )}
           <button className="btn btn--yellow btn--mega" onClick={() => replace({ name: 'leg', legId })}>
             NEXT CLUE →
           </button>

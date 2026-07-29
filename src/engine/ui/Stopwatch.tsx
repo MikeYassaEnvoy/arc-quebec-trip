@@ -1,26 +1,51 @@
 import { useEffect, useRef, useState } from 'react';
 
-function fmt(ms: number) {
-  const total = Math.max(0, Math.floor(ms / 100) / 10);
-  const m = Math.floor(total / 60);
-  const s = (total % 60).toFixed(1).padStart(4, '0');
-  return m > 0 ? `${m}:${s.padStart(4, '0')}` : `${s}s`;
+/** "30 seconds" / "5 minutes" / "2 min 15 sec" — used for the target label and milestone banner. */
+function describeDuration(seconds: number): string {
+  if (seconds >= 60 && seconds % 60 === 0) {
+    const m = seconds / 60;
+    return `${m} minute${m === 1 ? '' : 's'}`;
+  }
+  if (seconds >= 60) {
+    const m = Math.floor(seconds / 60);
+    const s = seconds % 60;
+    return `${m} min ${s} sec`;
+  }
+  return `${seconds} seconds`;
 }
 
 /**
- * Stopwatch for `physical` challenges. With `targetSeconds` it also runs a countdown
- * ring against the target ("beat 60 seconds"); without one it is a plain stopwatch.
+ * FIXES-ROUND2 item 5: a `timerSeconds` target ≥ 60s always renders as m:ss, even before
+ * the clock has organically reached a minute, so the running clock never disagrees with
+ * the target label.
+ */
+function fmt(ms: number, forceMinutes: boolean) {
+  const totalSeconds = Math.max(0, ms) / 1000;
+  if (forceMinutes || totalSeconds >= 60) {
+    const whole = Math.floor(totalSeconds);
+    const m = Math.floor(whole / 60);
+    const s = whole % 60;
+    return `${m}:${String(s).padStart(2, '0')}`;
+  }
+  return `${totalSeconds.toFixed(1)}s`;
+}
+
+/**
+ * Stopwatch for `physical` challenges. Always counts UP from 0:00 — there is no
+ * countdown mode. When `targetSeconds` is set, a persistent celebratory banner appears
+ * once elapsed time passes it, but the clock keeps running; kids can keep playing as
+ * long as they like. Pausing and resuming never resets the displayed time.
  */
 export function Stopwatch({
   targetSeconds,
   onFinish,
 }: {
   targetSeconds?: number;
-  onFinish?: (elapsedSeconds: number, beatTarget: boolean) => void;
+  onFinish?: (elapsedSeconds: number) => void;
 }) {
   const [elapsed, setElapsed] = useState(0);
   const [running, setRunning] = useState(false);
-  const [result, setResult] = useState<null | { seconds: number; beat: boolean }>(null);
+  const [result, setResult] = useState<null | { seconds: number }>(null);
   const startedAt = useRef(0);
   const raf = useRef<number | null>(null);
 
@@ -36,12 +61,12 @@ export function Stopwatch({
     };
   }, [running]);
 
-  const remaining = targetSeconds ? Math.max(0, targetSeconds * 1000 - elapsed) : 0;
-  const pct = targetSeconds ? Math.min(1, elapsed / (targetSeconds * 1000)) : 0;
-  const overTime = !!targetSeconds && elapsed > targetSeconds * 1000;
+  const forceMinutes = !!targetSeconds && targetSeconds >= 60;
+  const milestoneHit = !!targetSeconds && elapsed >= targetSeconds * 1000;
 
   const start = () => {
     setResult(null);
+    // Resume from wherever `elapsed` already is — never jumps back to 0.
     startedAt.current = performance.now() - elapsed;
     setRunning(true);
   };
@@ -52,9 +77,8 @@ export function Stopwatch({
     setRunning(false);
     setElapsed(finalMs);
     const seconds = finalMs / 1000;
-    const beat = targetSeconds ? seconds <= targetSeconds : true;
-    setResult({ seconds, beat });
-    onFinish?.(seconds, beat);
+    setResult({ seconds });
+    onFinish?.(seconds);
   };
   const reset = () => {
     setRunning(false);
@@ -63,20 +87,21 @@ export function Stopwatch({
   };
 
   return (
-    <div className={`stopwatch${overTime ? ' is-over' : ''}`}>
-      {targetSeconds ? (
-        <p className="stopwatch__target">Beat {targetSeconds} seconds!</p>
-      ) : (
-        <p className="stopwatch__target">Time yourself!</p>
-      )}
+    <div className="stopwatch">
+      <p className="stopwatch__target">
+        {targetSeconds ? `Try to play for ${describeDuration(targetSeconds)}!` : 'Time yourself!'}
+      </p>
 
       <div className="stopwatch__display" aria-live="off">
-        {targetSeconds && running ? fmt(remaining) : fmt(elapsed)}
+        {fmt(elapsed, forceMinutes)}
       </div>
-      {targetSeconds && (
-        <div className="stopwatch__bar">
-          <span style={{ width: `${pct * 100}%` }} />
-        </div>
+
+      {milestoneHit && (
+        <p className="stopwatch__milestone" aria-live="polite">
+          {targetSeconds && targetSeconds >= 60
+            ? `🎉 ${describeDuration(targetSeconds)} of play — done!`
+            : `🎉 ${targetSeconds} seconds — you did it!`}
+        </p>
       )}
 
       <div className="row">
@@ -95,10 +120,8 @@ export function Stopwatch({
       </div>
 
       {result && (
-        <p className={`stopwatch__result${result.beat ? ' is-good' : ''}`}>
-          {result.beat
-            ? `🎉 ${result.seconds.toFixed(1)} seconds — you beat the clock!`
-            : `${result.seconds.toFixed(1)} seconds. Try again, or keep racing!`}
+        <p className="stopwatch__result is-good">
+          🏁 Total time: {fmt(result.seconds * 1000, forceMinutes)}
         </p>
       )}
     </div>

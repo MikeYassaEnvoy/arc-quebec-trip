@@ -204,6 +204,9 @@ export default function FinaleSequence({
             <Stat value={badges.length} label="badges" />
             <Stat value={seasonStats.photosTaken ?? photoItems.length} label="photos" />
           </div>
+          <p className="arc-recap-note">
+            Your points are your season score — every leg's place came from time on the course.
+          </p>
 
           <section className="arc-recap-section">
             <h3 className="arc-recap-h3">Every leg</h3>

@@ -42,12 +42,15 @@ export const challengeSchema = z.object({
   title: z.string().min(1),
   instructions: z.string().min(1),
   checklist: z.array(z.string().min(1)).optional(),
+  checklistStyle: z.enum(['find', 'guess']).optional(),
   trivia: z.array(triviaQuestionSchema).optional(),
   frenchPhrase: z
     .object({ fr: z.string().min(1), phonetic: z.string().min(1), en: z.string().min(1) })
     .optional(),
   timerSeconds: z.number().int().positive().optional(),
   minigameId: z.string().min(1).optional(),
+  launchText: z.string().min(1).optional(),
+  countStyle: z.enum(['single', 'duel']).optional(),
   points: z.number().int().min(0),
   photoPrompt: z.string().min(1).optional(),
   // Content packs attach a mini-game config here, e.g. { deck: 'leg-1' } / { card: 'backyard' }.

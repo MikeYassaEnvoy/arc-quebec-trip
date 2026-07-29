@@ -22,7 +22,7 @@ export const BADGES: BadgeDef[] = [
   { id: 'maze-runner', name: 'Maze Runner', emoji: '🌀', how: 'Escape the hedge maze' },
   { id: 'race-champion', name: 'Race Champion', emoji: '🏆', how: 'Win the whole race' },
   { id: 'first-win', name: 'First Win', emoji: '🥇', how: 'Finish a leg in first place' },
-  { id: 'french-speaker', name: 'French Speaker', emoji: '🇫🇷', how: 'Say 5 French phrases out loud' },
+  { id: 'french-speaker', name: 'French Speaker', emoji: '🇫🇷', how: 'Complete a French phrase challenge' },
   { id: 'photographer', name: 'Photographer', emoji: '📸', how: 'Take 10 race photos' },
   { id: 'fearless', name: 'Fearless', emoji: '🐙', how: 'Touch the touch tank' },
 ];

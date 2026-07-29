@@ -828,6 +828,27 @@ body {
 .funfactscreen .card {
   max-width: 760px;
 }
+/* Round 2 item 4: the stop's location is the biggest thing on screen; the fun fact is
+   secondary; the next-stop teaser is at least as prominent as the fun fact. */
+.funfactscreen__title {
+  margin: 4px 0 10px;
+}
+.funfactscreen__didyouknow {
+  margin-top: 6px;
+}
+.funfactscreen__funfact {
+  font-size: 1.1em;
+}
+.funfactscreen__teaser {
+  margin: 14px 0 0;
+  font-size: 1.25em;
+  font-weight: 900;
+  background: var(--yellow);
+  border: 3px solid var(--ink);
+  border-radius: 14px;
+  padding: 10px 18px;
+  display: inline-block;
+}
 
 /* checklist */
 .checklist__count {
@@ -907,6 +928,29 @@ body {
   justify-content: center;
   margin-top: 12px;
 }
+.counter--duel .counter__duelrow {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.counter__single {
+  text-align: center;
+}
+.counter__duellabel {
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0 0 8px;
+}
+.counter__winner {
+  margin: 14px 0 0;
+  font-size: 1.3em;
+  font-weight: 900;
+  background: var(--yellow);
+  border: 3px solid var(--ink);
+  border-radius: 14px;
+  padding: 10px 18px;
+}
 
 /* maple rating */
 .maple {
@@ -958,21 +1002,14 @@ body {
   font-variant-numeric: tabular-nums;
   line-height: 1.1;
 }
-.stopwatch.is-over .stopwatch__display {
-  color: var(--red);
-}
-.stopwatch__bar {
-  height: 22px;
-  border: var(--line);
-  border-radius: 999px;
-  overflow: hidden;
-  background: #fff;
-  margin-bottom: 12px;
-}
-.stopwatch__bar span {
-  display: block;
-  height: 100%;
-  background: var(--red);
+.stopwatch__milestone {
+  background: var(--yellow);
+  border: 3px solid var(--ink);
+  border-radius: 14px;
+  padding: 10px 16px;
+  font-weight: 900;
+  font-size: 1.15em;
+  margin: 0 0 4px;
 }
 .stopwatch .row {
   justify-content: center;
@@ -1035,6 +1072,17 @@ body {
   font-size: 2em;
   font-weight: 900;
   text-align: center;
+  margin: 0;
+}
+.trivia--done {
+  display: grid;
+  gap: 10px;
+  justify-items: center;
+  text-align: center;
+}
+.trivia__banking {
+  font-size: 1.6em;
+  font-weight: 800;
   margin: 0;
 }
 
@@ -1654,6 +1702,12 @@ body {
   }
   .trivia__q {
     font-size: 1.15em;
+  }
+  .trivia__score {
+    font-size: 1.6em;
+  }
+  .trivia__banking {
+    font-size: 1.3em;
   }
   .celebrate__big {
     font-size: clamp(30px, 4.5vw, 50px);

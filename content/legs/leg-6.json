@@ -133,11 +133,20 @@
       "clueReveal": "Have dinner at Restaurant La Buche. Taste two things and rate them.",
       "challenges": [
         {
-          "id": "l6-labuche-taste",
+          "id": "l6-labuche-main",
           "type": "taste",
-          "title": "Sugar Shack Judge",
-          "instructions": "Try tourtière or shepherd's pie. Then try something maple. Rate both dishes.",
-          "points": 10
+          "title": "Judge's Table: Main Dish",
+          "instructions": "Order tourtière or shepherd's pie. Taste it slowly. Give it your maple leaf rating.",
+          "photoPrompt": "Snap a picture of you eating it!",
+          "points": 5
+        },
+        {
+          "id": "l6-labuche-dessert",
+          "type": "taste",
+          "title": "Judge's Table: Maple Dessert",
+          "instructions": "Order something sweet and maple. Taste it slowly. Give it your maple leaf rating.",
+          "photoPrompt": "Snap a picture of you eating it!",
+          "points": 5
         }
       ],
       "funFact": "Tourtière is a meat pie that Québec families love in winter."

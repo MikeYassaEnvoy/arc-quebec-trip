@@ -133,10 +133,10 @@ export function statsLineFor(entry: ScriptEntry, stats: LegStats, teamName: stri
   const authored = entry.statsLines?.[band];
   const fallback: Record<StatsBand, string> = {
     heavy:
-      'You finished {done} of {total} challenges and banked {points} points. Nothing could slow you down today!',
-    mid: 'You banked {points} points and finished {done} challenges. Good racing out there.',
+      "You finished {done} of {total} challenges and banked {points} points — great for your season score! Placement runs on time on the course, and today you were fast everywhere.",
+    mid: "You banked {points} points and finished {done} challenges — that's for your season score. Today's place came down to time on the course.",
     light:
-      'You picked up {points} points today. The other teams were close behind you the whole way!',
+      "You banked {points} points for your season score today. Points aren't what set today's place though — time on the course is, and the other teams found the faster time.",
   };
   return fillTokens(authored ?? fallback[band], teamName, stats);
 }

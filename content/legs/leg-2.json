@@ -48,18 +48,18 @@
       "kind": "detour",
       "location": "Lamoureux Park, Cornwall",
       "scheduledTime": "11:15 AM",
-      "clueRiddle": "A riverside park sits halfway there.\nGet soaked or go searching — choose with care!",
-      "clueReveal": "Stop at Lamoureux Park on Water Street East. This is a Detour: pick Splash or Search. You only have to do one.",
+      "clueRiddle": "A riverside park sits halfway there.\nCount what floats by, or go searching — choose with care!",
+      "clueReveal": "Stop at Lamoureux Park on Water Street East. This is a Detour: pick Count or Search. You only have to do one.",
       "detour": {
         "a": {
-          "label": "Splash",
-          "blurb": "Get wet at the splash pad. Fast, loud and very refreshing.",
+          "label": "Count",
+          "blurb": "Stand still by the river and count. Calm, quiet and easy.",
           "challenges": [
             {
-              "id": "l2-detour-splash",
-              "type": "physical",
-              "title": "Sprayer Relay",
-              "instructions": "Run through three different sprayers. Get properly wet at each one. Come back soaked to finish.",
+              "id": "l2-detour-count",
+              "type": "count",
+              "title": "Riverfront Count",
+              "instructions": "Count every boat on the St. Lawrence. Then count the gulls and the flags. Add up your grand total.",
               "points": 20
             }
           ]
@@ -119,19 +119,20 @@
       "location": "Provigo",
       "scheduledTime": "4:00 PM",
       "clueRiddle": "Aisles and carts and a list in your hand.\nTonight's dinner is hiding — go find it fast!",
-      "clueReveal": "Go to the Provigo near the Bell Centre. Your parent will name four dinner items. Find them all, plus one French-only package.",
+      "clueReveal": "Go to the Provigo near the Bell Centre. Find six dinner ingredients on your list.",
       "challenges": [
         {
           "id": "l2-provigo-sweep",
           "type": "scavenger",
           "title": "Supermarket Sweep",
-          "instructions": "Ask your parent for the four dinner items. Find each one and put it in the cart. Then find a package with only French on it.",
+          "instructions": "Find each grocery item on the list. Put it in the cart. Tap to check it off.",
           "checklist": [
-            "Dinner item 1",
-            "Dinner item 2",
-            "Dinner item 3",
-            "Dinner item 4",
-            "One package with French only"
+            "Pasta",
+            "Sausage",
+            "Pasta sauce",
+            "Cheese",
+            "Cereal",
+            "Milk"
           ],
           "points": 15
         }

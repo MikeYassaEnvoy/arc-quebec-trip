@@ -74,6 +74,7 @@
                 "I got at least one right",
                 "I rated my favourite"
               ],
+              "photoPrompt": "Snap a picture of you eating it!",
               "points": 20
             }
           ]
@@ -146,13 +147,8 @@
           "id": "l4-poutine-judge",
           "type": "taste",
           "title": "Judge's Table: Poutine",
-          "instructions": "Try a big forkful of poutine. Check off the three real ingredients. Then give your maple leaf rating.",
-          "checklist": [
-            "Fries (frites)",
-            "Cheese curds that squeak",
-            "Hot gravy",
-            "A napkin — you will need it!"
-          ],
+          "instructions": "Try a big forkful of poutine. Think about the flavour. Give it your maple leaf rating.",
+          "photoPrompt": "Snap a picture of you eating it!",
           "points": 10
         }
       ],
@@ -164,18 +160,22 @@
       "location": "Montréal Insectarium",
       "scheduledTime": "2:00 PM",
       "clueRiddle": "Six legs, two antennae and wings so thin.\nA garden of butterflies waits within.",
-      "clueReveal": "Walk fifteen minutes north to 4581 Rue Sherbrooke Est. Go through the butterfly garden slowly. Find four bugs on your card.",
+      "clueReveal": "Walk fifteen minutes north to 4581 Rue Sherbrooke Est. Go through the butterfly garden slowly. Find eight bugs on your card.",
       "challenges": [
         {
           "id": "l4-insectarium-bingo",
           "type": "scavenger",
-          "title": "Bug Bingo",
+          "title": "Bug Safari",
           "instructions": "Move slowly so the bugs stay calm. Find each thing on the list. Never touch — just look closely.",
           "checklist": [
             "A butterfly landing on something",
             "Something with more than six legs",
             "An insect shaped like a leaf",
-            "The biggest beetle you can find"
+            "The biggest beetle you can find",
+            "Something that glows",
+            "A chrysalis",
+            "An ant at work",
+            "Something with wings but not flying"
           ],
           "points": 15
         }
@@ -188,15 +188,8 @@
       "location": "Place des Festivals",
       "scheduledTime": "7:30 PM",
       "clueRiddle": "Lights in the ground and water that leaps.\nDrums and teepees — this square never sleeps.",
-      "clueReveal": "Take the green line to Place-des-Arts station. Play in the light-and-water fountains. Then join one First Peoples' Festival activity.",
+      "clueReveal": "Take the green line to Place-des-Arts station. Join one First Peoples' Festival activity.",
       "challenges": [
-        {
-          "id": "l4-festivals-fountain",
-          "type": "physical",
-          "title": "Light Fountain Dare",
-          "instructions": "Wait for the water jets to drop. Dash across the lit fountains. Try not to get too soaked.",
-          "points": 5
-        },
         {
           "id": "l4-festivals-firstpeoples",
           "type": "scavenger",

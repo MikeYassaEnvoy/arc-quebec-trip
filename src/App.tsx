@@ -16,33 +16,6 @@ import { ParentMenu } from './engine/screens/ParentMenu';
 import { ErrorBoundary, RotateScreen } from './engine/screens/SystemScreens';
 import './engine/styles.css';
 
-/**
- * French Speaker badge (§6): the FrenchPhraseGame stores "I said it to a real
- * person!" toggles in localStorage under arc:french:spoken (keyed packId::fr).
- * Award the badge once 5 distinct phrases have been spoken. Checked on every
- * route change and on window focus, so it lands right after the game.
- */
-function useFrenchSpeakerBadge(routeName: string) {
-  const awardBadge = useRaceStore((s) => s.awardBadge);
-  const hasBadge = useRaceStore((s) => s.badges.includes('french-speaker'));
-  useEffect(() => {
-    if (hasBadge) return;
-    const check = () => {
-      try {
-        const raw = localStorage.getItem('arc:french:spoken');
-        if (!raw) return;
-        const spoken = JSON.parse(raw) as Record<string, unknown>;
-        if (Object.keys(spoken).length >= 5) awardBadge('french-speaker');
-      } catch {
-        /* malformed storage — ignore */
-      }
-    };
-    check();
-    window.addEventListener('focus', check);
-    return () => window.removeEventListener('focus', check);
-  }, [routeName, hasBadge, awardBadge]);
-}
-
 function usePortraitWarning() {
   const [portrait, setPortrait] = useState(
     () => typeof window !== 'undefined' && window.innerHeight > window.innerWidth,
@@ -68,7 +41,6 @@ export default function App() {
   const onboarded = useRaceStore((s) => s.onboarded);
   const route = useRouter((s) => s.route);
   const resetRoute = useRouter((s) => s.reset);
-  useFrenchSpeakerBadge(route.name);
 
   // Onboarding is a gate, not a route: entering it always resets navigation.
   useEffect(() => {

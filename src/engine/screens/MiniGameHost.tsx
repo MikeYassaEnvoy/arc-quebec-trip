@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import { findChallenge, resolveMinigameConfig } from '../content';
 import { useRouter } from '../router';
 import { useRaceStore } from '../store';
@@ -24,15 +24,24 @@ export function MiniGameHost({
 }) {
   const { leg, loading } = useLeg(legId);
   const back = useRouter((s) => s.back);
+  const replace = useRouter((s) => s.replace);
   const recordMinigameSession = useRaceStore((s) => s.recordMinigameSession);
   const completeChallenge = useRaceStore((s) => s.completeChallenge);
   const [result, setResult] = useState<{ score: number; max: number; awarded: number } | null>(null);
+  // Guards against a double-tapped Finish button in a mini-game firing onComplete
+  // twice — without this, the score/bonus would bank (and the session count) twice.
+  const bankedRef = useRef(false);
 
   if (loading || !leg) return <Loading what="the game" />;
 
   const challenge = findChallenge(leg, challengeId);
   const config = resolveMinigameConfig(minigameId, challenge);
   const { Component, isStub } = resolveMiniGame(minigameId);
+
+  // After a score banks, land back on the STEP screen — never back on the "PLAY …"
+  // launch prompt. We know legId/stepId directly, so replace the route rather than
+  // relying on how many entries deep the launch prompt happened to push.
+  const backToStep = () => replace({ name: 'step', legId, stepId });
 
   if (result) {
     return (
@@ -43,7 +52,7 @@ export function MiniGameHost({
           <p className="celebrate__points">
             {result.score} / {result.max} · +{result.awarded + (challenge?.points ?? 0)} points
           </p>
-          <button className="btn btn--yellow btn--mega" onClick={back}>
+          <button className="btn btn--yellow btn--mega" onClick={backToStep}>
             BACK TO THE RACE →
           </button>
         </div>
@@ -57,6 +66,8 @@ export function MiniGameHost({
       <Component
         config={config}
         onComplete={(score, maxScore) => {
+          if (bankedRef.current) return;
+          bankedRef.current = true;
           const awarded = recordMinigameSession(legId, minigameId, score, maxScore);
           if (challenge) completeChallenge(legId, challenge, { bonusPoints: awarded });
           setResult({ score, max: maxScore, awarded });

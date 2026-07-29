@@ -16,6 +16,7 @@ export const MINIGAME_MAX_POINTS = 10;
 export interface ChallengeProgress {
   checked?: boolean[];
   count?: number;
+  count2?: number; // second counter for countStyle: 'duel'
   rating?: number;
   said?: boolean;
   triviaCorrect?: number;
@@ -60,7 +61,7 @@ export interface RaceActions {
 
   completeChallenge: (
     legId: number,
-    challenge: Pick<Challenge, 'id' | 'points'>,
+    challenge: Pick<Challenge, 'id' | 'points' | 'type'>,
     opts?: { photoKey?: string; bonusPoints?: number },
   ) => void;
   uncompleteChallenge: (challengeId: string) => void;
@@ -140,9 +141,18 @@ export const useRaceStore = create<RaceState & RaceActions>()(
             points: challenge.points + (opts?.bonusPoints ?? 0),
             photoKey: opts?.photoKey ?? prev?.photoKey,
           };
+          // FIXES-ROUND2 item 11: award the French Speaker badge on the FIRST completed
+          // challenge of type speak-french, read straight from this store's completed
+          // map (no localStorage dependency). awardBadge is idempotent, so re-completing
+          // a speak-french challenge later is a harmless no-op.
+          const badges =
+            challenge.type === 'speak-french' && !s.badges.includes('french-speaker')
+              ? [...s.badges, 'french-speaker']
+              : s.badges;
           return {
             completed: { ...s.completed, [challenge.id]: entry },
             challengeLeg: { ...s.challengeLeg, [challenge.id]: legId },
+            badges,
           };
         }),
 

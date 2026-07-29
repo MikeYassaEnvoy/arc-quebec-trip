@@ -80,6 +80,16 @@ function shuffled<T>(list: T[]): T[] {
   return out;
 }
 
+/** Fisher–Yates over the indices 0..n-1 — used to shuffle answer order without touching the source array. */
+function shuffledIndices(n: number): number[] {
+  const order = Array.from({ length: n }, (_, i) => i);
+  for (let i = order.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [order[i], order[j]] = [order[j], order[i]];
+  }
+  return order;
+}
+
 const CHEERS = ['Nice!', 'Yes!', 'Bang on!', 'You got it!', 'Champion!'];
 const OOPS = ['So close!', 'Not quite!', 'Next one!', 'Good guess!'];
 
@@ -133,11 +143,24 @@ export default function TriviaRunner({ config, onComplete, onExit }: MiniGamePro
   const total = questions.length;
   const isLast = index >= total - 1;
 
+  /* Shuffle the on-screen answer order each time a (new) question is presented.
+     `choiceOrder[displayIndex]` is the original choice index; never mutate
+     `question.choices` itself — only derived display arrays are reordered. */
+  const choiceOrder = useMemo(
+    () => (question ? shuffledIndices(question.choices.length) : []),
+    [question],
+  );
+  const displayChoices = useMemo(
+    () => (question ? choiceOrder.map((i) => question.choices[i]) : []),
+    [question, choiceOrder],
+  );
+  const displayAnswerIndex = question ? choiceOrder.indexOf(question.answerIndex) : -1;
+
   const pick = useCallback(
     (choice: number) => {
       if (picked !== null || !question) return;
       setPicked(choice);
-      const right = choice === question.answerIndex;
+      const right = choice === displayAnswerIndex;
       if (right) {
         setCorrectCount((c) => c + 1);
         setStreak((s) => {
@@ -149,7 +172,7 @@ export default function TriviaRunner({ config, onComplete, onExit }: MiniGamePro
         setStreak(0);
       }
     },
-    [picked, question],
+    [picked, question, displayAnswerIndex],
   );
 
   const next = useCallback(() => {
@@ -249,7 +272,7 @@ export default function TriviaRunner({ config, onComplete, onExit }: MiniGamePro
   if (!question) return null;
 
   const answered = picked !== null;
-  const gotIt = answered && picked === question.answerIndex;
+  const gotIt = answered && picked === displayAnswerIndex;
 
   return (
     <div className="trv-root">
@@ -276,10 +299,10 @@ export default function TriviaRunner({ config, onComplete, onExit }: MiniGamePro
       <h2 className="trv-question">{question.q}</h2>
 
       <div className="trv-grid">
-        {question.choices.map((choice, i) => {
+        {displayChoices.map((choice, i) => {
           let cls = 'trv-card';
           if (answered) {
-            if (i === question.answerIndex) cls += ' right';
+            if (i === displayAnswerIndex) cls += ' right';
             else if (i === picked) cls += ' wrong';
             else cls += ' dim';
           }
@@ -293,8 +316,8 @@ export default function TriviaRunner({ config, onComplete, onExit }: MiniGamePro
             >
               <span className="trv-card-letter">{'ABCD'[i] ?? '?'}</span>
               <span className="trv-card-text">{choice}</span>
-              {answered && i === question.answerIndex && <span className="trv-tick">✓</span>}
-              {answered && i === picked && i !== question.answerIndex && (
+              {answered && i === displayAnswerIndex && <span className="trv-tick">✓</span>}
+              {answered && i === picked && i !== displayAnswerIndex && (
                 <span className="trv-cross">✕</span>
               )}
             </button>
@@ -305,7 +328,7 @@ export default function TriviaRunner({ config, onComplete, onExit }: MiniGamePro
       {answered && (
         <div className={gotIt ? 'trv-feedback good' : 'trv-feedback bad'}>
           <p className="trv-verdict">
-            {gotIt ? `${cheer} 🎉` : `${oops} The answer is ${question.choices[question.answerIndex]}.`}
+            {gotIt ? `${cheer} 🎉` : `${oops} The answer is ${displayChoices[displayAnswerIndex]}.`}
           </p>
           {question.funFact && (
             <p className="trv-funfact">

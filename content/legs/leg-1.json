@@ -45,16 +45,20 @@
         {
           "id": "l1-bakery-taste",
           "type": "taste",
-          "title": "Mystery Pastry",
-          "instructions": "Pick one pastry and take a big bite. Rate it on the maple leaf scale. Check every ingredient you can taste.",
+          "title": "Pastry Detective",
+          "instructions": "Pick a pastry and take a big bite. What do you think is inside? Rate it, then check every ingredient you guess.",
+          "checklistStyle": "guess",
           "checklist": [
             "Butter",
             "Sugar",
-            "Cinnamon",
             "Chocolate",
+            "Cinnamon",
             "Apple",
-            "Almonds"
+            "Almond",
+            "Vanilla",
+            "A pinch of salt"
           ],
+          "photoPrompt": "Snap a picture of you eating it!",
           "points": 10
         }
       ],
@@ -120,7 +124,7 @@
       "location": "Novel Idea Bookshop",
       "scheduledTime": "3:15 PM",
       "clueRiddle": "Thousands of stories stand side by side.\nOn Princess Street they wait inside.",
-      "clueReveal": "Walk to Novel Idea at 156 Princess Street. Hunt for four special books. Ask a bookseller if you need help.",
+      "clueReveal": "Walk to Novel Idea at 156 Princess Street. Hunt for six special books.",
       "challenges": [
         {
           "id": "l1-bookshop-scavenger",
@@ -131,7 +135,9 @@
             "A book with a boat on the cover",
             "A book about Canada",
             "A book with your first initial in the title",
-            "The kids' section"
+            "The kids' section",
+            "A book with an animal on the cover",
+            "A book bigger than your own hand"
           ],
           "points": 15
         }
@@ -144,14 +150,14 @@
       "location": "Lake Ontario Park",
       "scheduledTime": "4:15 PM",
       "clueRiddle": "Water sprays and swings fly high\nright where the lake meets the sky.",
-      "clueReveal": "Drive to Lake Ontario Park on King Street West. Do the whole playground circuit. Beat four minutes on the stopwatch.",
+      "clueReveal": "Drive to Lake Ontario Park on King Street West. Do the whole playground circuit. Keep playing for 5 minutes.",
       "challenges": [
         {
           "id": "l1-park-circuit",
           "type": "physical",
           "title": "Playground Circuit",
-          "instructions": "Go down the slide once. Then swing ten big swings. Finish with a dash through the splash pad.",
-          "timerSeconds": 240,
+          "instructions": "Go down the slide once. Then swing ten big swings. Finish with 5 minutes of playing.",
+          "timerSeconds": 300,
           "points": 10
         }
       ],

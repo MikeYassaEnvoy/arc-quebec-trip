@@ -27,10 +27,18 @@ export interface Challenge {
   title: string;              // 'Stars of Notre-Dame'
   instructions: string;       // ≤3 short sentences, age 7–9
   checklist?: string[];       // scavenger/photo lists
+  // FIXES-ROUND2 §"New shared content contracts": 'guess' renders a "Your guesses"
+  // header with no "Found X of Y" counter. Default 'find' keeps prior behavior.
+  checklistStyle?: 'find' | 'guess';
   trivia?: TriviaQuestion[];
   frenchPhrase?: { fr: string; phonetic: string; en: string };
-  timerSeconds?: number;      // physical challenges with a countdown/stopwatch
+  timerSeconds?: number;      // physical challenges with a stopwatch target
   minigameId?: string;        // when type === 'minigame'
+  // FIXES-ROUND2: overrides the mini-game launch line (e.g. "A game for the Métro ride!").
+  launchText?: string;
+  // FIXES-ROUND2: 'duel' renders two labeled counters via config.duelLabels: [string, string]
+  // and announces the lower-score winner on completion (mini-golf rules).
+  countStyle?: 'single' | 'duel';
   points: number;             // see §6 point economy
   photoPrompt?: string;       // enables optional photo button, e.g. 'Snap the cannon!'
 }

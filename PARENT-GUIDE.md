@@ -55,14 +55,14 @@ and the year over the gate — the trivia uses them.
 ## Leg 2 — Mon Aug 3 · The Long Road to Montréal (via Cornwall)
 
 At a glance: big drive block (Montréal trivia, St. Lawrence bingo, **First
-French Words** — the French game feeds the French Speaker badge) → **DETOUR at
-Lamoureux Park, Cornwall**: *Splash* (splash pad — pack a towel and spare
-shirt!) or *Search* (riverfront scavenger) → Mount Royal lookout hunt →
-**Provigo Supermarket Sweep** → say *bonjour* at the hotel desk → pit stop.
+French Words** practice game) → **DETOUR at Lamoureux Park, Cornwall**:
+*Count* (riverfront count: boats, gulls, flags) or *Search* (riverfront
+scavenger) → Mount Royal lookout hunt → **Provigo Supermarket Sweep** → say
+*bonjour* at the hotel desk (his first real French — earns the French Speaker
+badge) → pit stop.
 
-Prep: **pick the 4 dinner ingredients for the Provigo list before you go in**
-(the app asks him to find "the four things on the parent's list" plus one
-French-only package). Decide detour A/B based on weather — Splash means wet.
+Prep: the Provigo list is fixed in the app now: pasta, sausage, pasta sauce,
+cheese, cereal, milk — that's dinner and breakfast sorted.
 
 ## Leg 3 — Tue Aug 4 · Secrets of Old Montréal
 
@@ -80,9 +80,9 @@ matches the game.
 At a glance: **DETOUR at St-Viateur Bagel**: *Watch* (learn the wood-fire /
 honey-water secret) or *Taste* (blind-taste sesame vs plain — buy one of
 each) → Biodôme roadblock (find the penguin, the sloth — they hide! — plus
-animal trivia) → poutine judging at Poutine Centrale → Insectarium Bug Bingo →
-Place des Festivals evening (light fountains + First Peoples' Festival) →
-pit stop. **He wins this leg — first win of the season.**
+animal trivia) → poutine judging at Poutine Centrale (rate it + eating photo)
+→ Insectarium **Bug Safari** → Place des Festivals evening (First Peoples'
+Festival activity) → pit stop. **He wins this leg — first win of the season.**
 
 Prep: Biodôme/Insectarium tickets. For detour *Taste*, buy one sesame and one
 plain bagel and have him close his eyes.
@@ -105,7 +105,8 @@ parent menu.
 At a glance: Citadelle roadblock — gather intel on the tour for the trivia
 (Batisse the goat, the year, the **noon cannon**) → Battlefield Sprint on the
 Plains of Abraham → Musée de la civilisation hands-on hunt → Morrin Centre
-"Prison Break" → tourtière + maple judging at La Buche → pit stop.
+"Prison Break" → two Judge's Table ratings at La Buche (main dish, then maple
+dessert — each with an eating photo) → pit stop.
 **He wins again — Team Maple is eliminated tonight. Big ceremony.**
 
 Prep: Citadelle tour tickets. **Warn him the noon cannon is genuinely loud** —
@@ -129,10 +130,12 @@ scavenger is in the app either way). At Ribfest, wet wipes for the judging;
 
 At a glance: final breakfast rating at Richard's Coffeehouse → Aquatarium
 roadblock (**touch-tank dare** — award the Fearless badge from the parent menu
-if he touches!) → championship drive games (Bagel Catch + the all-trip Recap
-Round trivia) → **The Big Apple**: mini-golf head-to-head vs. parent + apple
-pie verdict → HOME = the finish line: photo-finish animation, trophy, confetti
-and the full season recap (badges, photo reel, standings).
+if he touches!) → championship drive game (Bagel Catch) → **The Big Apple**:
+mini-golf head-to-head — you each enter your score in the app, lower wins —
+plus the apple pie verdict → **The Final Puzzle**: the Photo Finish game —
+he matches the week's photos to their stops and puts them in order → HOME =
+the finish line: photo-finish animation, trophy, confetti and the full season
+recap (badges, photo reel, standings).
 
 Prep: **The Big Apple mini-golf needs a check-in at the counter** — do that
 while he reads the clue. At home, let him run to an actual mat/towel on the

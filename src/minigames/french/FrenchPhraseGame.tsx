@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import type { MiniGameProps } from '../../types';
 import './FrenchPhraseGame.css';
 
@@ -7,8 +7,8 @@ import './FrenchPhraseGame.css';
  *
  * config: { pack: string }  -> pack id inside `<base>content/french/phrases.json`
  *
- * score    = quiz answers correct + "I said it to a real person!" bonuses
- * maxScore = phrases * 2  (one quiz point + one real-world point per phrase)
+ * score    = quiz answers correct
+ * maxScore = phrases.length  (one point per phrase, quiz alone defines it)
  */
 
 export interface Phrase {
@@ -32,8 +32,6 @@ function contentUrl(path: string): string {
   const base = BASE.endsWith('/') ? BASE : `${BASE}/`;
   return `${base}${path.replace(/^\//, '')}`;
 }
-
-const SPOKEN_KEY = 'arc:french:spoken';
 
 /** Accepts a config object, or the raw content id ('french:starter-pack'). */
 function pickVariant(config: unknown, keys: string[], fallback: string): string {
@@ -132,23 +130,6 @@ function shuffled<T>(list: T[]): T[] {
   return arr;
 }
 
-function loadSpoken(): Record<string, true> {
-  try {
-    const raw = window.localStorage.getItem(SPOKEN_KEY);
-    return raw ? (JSON.parse(raw) as Record<string, true>) : {};
-  } catch {
-    return {};
-  }
-}
-
-function saveSpoken(map: Record<string, true>) {
-  try {
-    window.localStorage.setItem(SPOKEN_KEY, JSON.stringify(map));
-  } catch {
-    /* private mode — ignore */
-  }
-}
-
 interface QuizItem {
   phrase: Phrase;
   options: string[];
@@ -176,7 +157,6 @@ export default function FrenchPhraseGame({ config, onComplete, onExit }: MiniGam
   const [pack, setPack] = useState<Pack | null>(null);
   const [cardIndex, setCardIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
-  const [spoken, setSpoken] = useState<Record<string, true>>(() => loadSpoken());
   const [quiz, setQuiz] = useState<QuizItem[]>([]);
   const [quizIndex, setQuizIndex] = useState(0);
   const [picked, setPicked] = useState<number | null>(null);
@@ -218,24 +198,6 @@ export default function FrenchPhraseGame({ config, onComplete, onExit }: MiniGam
   }, [packId, reload]);
 
   const phrases = pack?.phrases ?? [];
-  const spokenCount = useMemo(
-    () => phrases.filter((p) => spoken[`${pack?.id ?? ''}::${p.fr}`]).length,
-    [phrases, spoken, pack],
-  );
-
-  const toggleSpoken = useCallback(
-    (phrase: Phrase) => {
-      const key = `${pack?.id ?? ''}::${phrase.fr}`;
-      setSpoken((prev) => {
-        const next = { ...prev };
-        if (next[key]) delete next[key];
-        else next[key] = true;
-        saveSpoken(next);
-        return next;
-      });
-    },
-    [pack],
-  );
 
   const startQuiz = useCallback(() => {
     setQuiz(buildQuiz(phrases));
@@ -262,8 +224,8 @@ export default function FrenchPhraseGame({ config, onComplete, onExit }: MiniGam
     }
   }, [quizIndex, quiz.length]);
 
-  const maxScore = Math.max(1, phrases.length * 2);
-  const score = quizCorrect + spokenCount;
+  const maxScore = Math.max(1, phrases.length);
+  const score = quizCorrect;
 
   const collect = useCallback(() => {
     if (collected.current) return;
@@ -307,8 +269,6 @@ export default function FrenchPhraseGame({ config, onComplete, onExit }: MiniGam
   /* ---------------- LEARN ---------------- */
   if (phase === 'learn') {
     const phrase = phrases[cardIndex];
-    const key = `${pack.id}::${phrase.fr}`;
-    const saidIt = !!spoken[key];
     return (
       <div className="fr-root">
         <header className="fr-bar">
@@ -344,14 +304,6 @@ export default function FrenchPhraseGame({ config, onComplete, onExit }: MiniGam
               <span className="fr-hint">tap to flip back</span>
             </span>
           </span>
-        </button>
-
-        <button
-          type="button"
-          className={saidIt ? 'fr-said on' : 'fr-said'}
-          onClick={() => toggleSpoken(phrase)}
-        >
-          {saidIt ? '⭐ You said it out loud! (+1)' : '🗣️ I said it to a real person!'}
         </button>
 
         <div className="fr-row fr-nav">
@@ -464,27 +416,6 @@ export default function FrenchPhraseGame({ config, onComplete, onExit }: MiniGam
       <h2 className="fr-title">
         {quizCorrect} / {quiz.length} right!
       </h2>
-      <p className="fr-big-text">
-        Real-person bonus: <strong>{spokenCount}</strong>{' '}
-        {spokenCount === 1 ? 'phrase' : 'phrases'} spoken out loud ⭐
-      </p>
-
-      <div className="fr-bonus-list">
-        {phrases.map((p) => {
-          const key = `${pack.id}::${p.fr}`;
-          return (
-            <button
-              key={key}
-              type="button"
-              className={spoken[key] ? 'fr-bonus on' : 'fr-bonus'}
-              onClick={() => toggleSpoken(p)}
-            >
-              <span className="fr-bonus-fr">{p.fr}</span>
-              <span className="fr-bonus-tag">{spoken[key] ? '⭐ said it!' : '🗣️ tap if you said it'}</span>
-            </button>
-          );
-        })}
-      </div>
 
       <div className="fr-row">
         <button type="button" className="fr-btn fr-ghost" onClick={() => setReload((r) => r + 1)}>

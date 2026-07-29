@@ -4,6 +4,7 @@ import type { Ceremonies } from './ceremonyTypes';
 import StubMiniGame from './stubs/StubMiniGame';
 import { coreGames, coreGameAliases } from '../minigames/registry.core';
 import { arcadeGames } from '../minigames/registry.arcade';
+import { photoFinishGames } from '../minigames/registry.photofinish';
 import { ceremonyAdapters } from '../ghosts/engineAdapter';
 
 /**
@@ -34,6 +35,7 @@ export const minigameRegistry: MiniGameRegistry = {
   ...coreGames,
   ...coreGameAliases,
   ...arcadeGames,
+  ...photoFinishGames,
 };
 
 export const ceremonies: Ceremonies = ceremonyAdapters;

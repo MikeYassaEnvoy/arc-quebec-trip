@@ -173,6 +173,9 @@ export default function PitStopCeremony({
               challenges
             </span>
           </div>
+          <p className="arc-legstats-note">
+            Points build your season score. Placement is about time on the course.
+          </p>
           <HostDialogue
             lines={matLines}
             hostName={hostName}

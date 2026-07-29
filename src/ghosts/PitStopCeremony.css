@@ -120,6 +120,14 @@
   color: #fff;
 }
 
+.arc-legstats-note {
+  margin: 0;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  color: #adb5bd;
+}
+
 /* ---------------- elimination ---------------- */
 
 .arc-elim-team {
@@ -204,4 +212,5 @@
   .arc-mat-surface { width: 260px; height: 150px; }
   .arc-mat-placenum { font-size: 104px; }
   .arc-tease-text { font-size: 32px; }
+  .arc-legstats-note { font-size: 15px; }
 }
