@@ -60,12 +60,19 @@ export function StepView({ legId, stepId }: { legId: number; stepId: string }) {
               <p className="lead funfactscreen__funfact">{step.funFact}</p>
             </>
           )}
-          {nextStep && (
-            <p className="funfactscreen__teaser">Up next: {nextStep.location}</p>
+          {nextStep ? (
+            <button
+              className="btn btn--yellow btn--mega funfactscreen__next"
+              onClick={() => replace({ name: 'clue', legId, stepId: nextStep.id })}
+            >
+              <span className="funfactscreen__next-kicker">Next clue</span>
+              <span className="funfactscreen__next-dest">{nextStep.location} →</span>
+            </button>
+          ) : (
+            <button className="btn btn--yellow btn--mega" onClick={() => replace({ name: 'leg', legId })}>
+              BACK TO THE LEG →
+            </button>
           )}
-          <button className="btn btn--yellow btn--mega" onClick={() => replace({ name: 'leg', legId })}>
-            NEXT CLUE →
-          </button>
         </div>
       </div>
     );

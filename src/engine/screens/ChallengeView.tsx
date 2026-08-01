@@ -72,6 +72,13 @@ export function ChallengeView({
         <div className="celebrate__inner">
           <p className="celebrate__big">CHALLENGE COMPLETE!</p>
           <p className="celebrate__points">+{challenge.points} points</p>
+          <PhotoButton
+            legId={legId}
+            stepId={stepId}
+            challengeId={challengeId}
+            prompt={challenge.photoPrompt ?? 'Snap a picture!'}
+            onSaved={(p) => completeChallenge(legId, challenge, { photoKey: p.key })}
+          />
           <button className="btn btn--yellow btn--mega" onClick={back}>
             NEXT →
           </button>
@@ -118,14 +125,6 @@ export function ChallengeView({
           }
         />
 
-        {/* Round 2 item 9: every challenge gets an optional photo button, kept visually
-            secondary to the CHALLENGE COMPLETE button below. */}
-        <PhotoButton
-          legId={legId}
-          stepId={stepId}
-          challengeId={challengeId}
-          prompt={challenge.photoPrompt ?? 'Snap a picture!'}
-        />
       </main>
 
       {/* Trivia banks itself when the last question is answered — no manual button. */}

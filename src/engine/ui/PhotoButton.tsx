@@ -86,7 +86,6 @@ export function PhotoButton({
           <PhotoThumb key={p.key} photoKey={p.key} alt={p.prompt} />
         ))}
       </div>
-      {!hasPhoto && <span className="muted">Photos are always optional.</span>}
       {error && <span className="bad">{error}</span>}
     </div>
   );

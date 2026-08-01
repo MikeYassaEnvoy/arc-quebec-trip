@@ -57,6 +57,11 @@ export function ParentMenu() {
     clearContentCache();
     useRaceStore.getState().resetAll();
     localStorage.removeItem('arc-yassa-race-state-v1');
+    // Mini-games keep their own side state under 'arc:' keys (e.g. road-bingo
+    // card stamps in arc:bingo:<cardId>) — a full wipe must clear those too.
+    for (const key of Object.keys(localStorage)) {
+      if (key.startsWith('arc:')) localStorage.removeItem(key);
+    }
     reset({ name: 'onboarding' });
   };
 
