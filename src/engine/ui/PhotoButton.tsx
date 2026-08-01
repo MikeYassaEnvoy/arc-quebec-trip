@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import type { PhotoRecord } from '../../types';
-import { getPhotoUrl, makePhotoKey, resizeImageFile, savePhotoBlob } from '../photos';
+import { deletePhoto, getPhotoUrl, makePhotoKey, resizeImageFile, savePhotoBlob } from '../photos';
 import { useRaceStore } from '../store';
 
 /**
@@ -24,10 +24,12 @@ export function PhotoButton({
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const addPhoto = useRaceStore((s) => s.addPhoto);
+  const removePhoto = useRaceStore((s) => s.removePhoto);
   // NOTE: select the raw array then filter — a selector returning a fresh array each call
   // trips useSyncExternalStore's snapshot check and re-renders forever.
   const allPhotos = useRaceStore((s) => s.photos);
   const photos = allPhotos.filter((p) => p.challengeId === challengeId);
+  const hasPhoto = photos.length > 0;
 
   const handle = async (file?: File | null) => {
     if (!file) return;
@@ -47,7 +49,16 @@ export function PhotoButton({
         width,
         height,
       };
+      // Retake semantics: a new shot replaces this challenge's previous photo(s),
+      // in the store and in IndexedDB. Save-then-delete so a failed save keeps the old one.
+      const stale = photos.map((p) => p.key);
       addPhoto(record);
+      for (const staleKey of stale) {
+        removePhoto(staleKey);
+        void deletePhoto(staleKey).catch(() => {
+          /* orphaned blob — harmless, cleared on full reset */
+        });
+      }
       onSaved?.(record);
     } catch (e) {
       setError((e as Error).message || 'That photo did not save.');
@@ -67,16 +78,16 @@ export function PhotoButton({
         capture="environment"
         onChange={(e) => void handle(e.target.files?.[0])}
       />
-      <button className="btn btn--photo btn--huge" disabled={busy} onClick={() => inputRef.current?.click()}>
-        📸 {busy ? 'Saving…' : prompt}
-      </button>
-      <span className="muted">Photos are always optional.</span>
-      {error && <span className="bad">{error}</span>}
-      <div className="photobtn__strip">
+      <div className="photobtn__row">
+        <button className="btn btn--photo btn--huge" disabled={busy} onClick={() => inputRef.current?.click()}>
+          📸 {busy ? 'Saving…' : hasPhoto ? 'Retake picture' : prompt}
+        </button>
         {photos.map((p) => (
           <PhotoThumb key={p.key} photoKey={p.key} alt={p.prompt} />
         ))}
       </div>
+      {!hasPhoto && <span className="muted">Photos are always optional.</span>}
+      {error && <span className="bad">{error}</span>}
     </div>
   );
 }

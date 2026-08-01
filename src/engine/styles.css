@@ -1117,10 +1117,17 @@ body {
   gap: 8px;
   align-items: flex-start;
 }
-.photobtn__strip {
+/* Button + thumbnail share one line; the thumb sits right beside the retake button. */
+.photobtn__row {
   display: flex;
-  gap: 10px;
+  align-items: center;
+  gap: 14px;
   flex-wrap: wrap;
+}
+.photobtn__row .thumb {
+  width: 96px;
+  height: 72px;
+  object-fit: cover;
 }
 .thumb {
   width: 120px;
