@@ -16,11 +16,14 @@ import './PhotoFinish.css';
  */
 
 const MAX_SCORE = 25;
-const SIMPLE_MODE_MAX_LEGS = 3; // fewer than this many legs-with-photos -> order-only mode
+const SIMPLE_MODE_MAX_LEGS = 3; // fewer than this many photos -> order-only mode
+const DENSE_MODE_MIN = 13; // this many photos or more -> compact tile sizing
 
 interface PoolItem {
   photoId: string; // PhotoRecord.key
   legId: number;
+  /** Position of the photo's step within its leg — trip order ground truth. */
+  orderKey: number;
   url: string; // object URL, or '' if the blob could not be loaded
   stopName: string;
 }
@@ -54,7 +57,8 @@ export default function PhotoFinish({ onComplete, onExit }: MiniGameProps) {
   const [pool, setPool] = useState<PoolItem[]>([]);
   const objectUrls = useRef<string[]>([]);
 
-  // Build the pool: one photo per leg (earliest taken), sorted chronologically by leg.
+  // Build the pool: every challenge photo (one per challenge — retake replaces),
+  // sorted by real trip order: leg, then the step's position within its leg.
   useEffect(() => {
     let cancelled = false;
 
@@ -63,25 +67,40 @@ export default function PhotoFinish({ onComplete, onExit }: MiniGameProps) {
         setPhase('empty');
         return;
       }
-      const earliestByLeg = new Map<number, (typeof rawPhotos)[number]>();
+      // Legacy saves may hold several records per challenge; keep the earliest.
+      const byChallenge = new Map<string, (typeof rawPhotos)[number]>();
       for (const p of rawPhotos) {
-        const existing = earliestByLeg.get(p.legId);
+        const existing = byChallenge.get(p.challengeId);
         if (!existing || new Date(p.at).getTime() < new Date(existing.at).getTime()) {
-          earliestByLeg.set(p.legId, p);
+          byChallenge.set(p.challengeId, p);
         }
       }
-      const chosen = Array.from(earliestByLeg.values()).sort((a, b) => a.legId - b.legId);
+      const chosen = Array.from(byChallenge.values());
 
+      const legCache = new Map<number, Awaited<ReturnType<typeof loadLeg>>['leg']>();
       const items: PoolItem[] = [];
       for (const rec of chosen) {
-        const [{ leg }, url] = await Promise.all([loadLeg(rec.legId), getPhotoUrl(rec.key)]);
+        let leg = legCache.get(rec.legId);
+        if (!leg) {
+          leg = (await loadLeg(rec.legId)).leg;
+          legCache.set(rec.legId, leg);
+        }
+        const url = await getPhotoUrl(rec.key);
         if (cancelled) return;
+        const stepIndex = leg.steps.findIndex((s) => s.id === rec.stepId);
         const step = findStep(leg, rec.stepId);
         const stopName = step?.location ?? leg.title;
         if (url) objectUrls.current.push(url);
-        items.push({ photoId: rec.key, legId: rec.legId, url: url ?? '', stopName });
+        items.push({
+          photoId: rec.key,
+          legId: rec.legId,
+          orderKey: rec.legId * 100 + (stepIndex === -1 ? 99 : stepIndex),
+          url: url ?? '',
+          stopName,
+        });
       }
       if (cancelled) return;
+      items.sort((a, b) => a.orderKey - b.orderKey);
       setPool(items);
       setPhase(items.length < SIMPLE_MODE_MAX_LEGS ? 'simple' : 'full');
     }
@@ -251,8 +270,11 @@ export default function PhotoFinish({ onComplete, onExit }: MiniGameProps) {
         continue;
       }
       const tile = tiles[tileId];
-      const photoOk = tile?.photoId === pool[i].photoId;
-      const chipOk = tile?.chipId ? tile.chipId === chipIdFor(tile.photoId) : true;
+      const placed = tile ? photoById.get(tile.photoId) : undefined;
+      // Two photos from the same stop are interchangeable in the order, and any
+      // chip bearing the right stop name counts — kids can't tell twins apart.
+      const photoOk = placed?.orderKey === pool[i].orderKey;
+      const chipOk = tile?.chipId ? chipLabel.get(tile.chipId) === placed?.stopName : true;
       if (!photoOk || !chipOk) wrong += 1;
     }
     if (wrong === 0) {
@@ -312,7 +334,7 @@ export default function PhotoFinish({ onComplete, onExit }: MiniGameProps) {
   const simple = phase === 'simple';
 
   return (
-    <div className="pf-root">
+    <div className={`pf-root${pool.length >= DENSE_MODE_MIN ? ' pf-dense' : ''}`}>
       <header className="pf-bar">
         <button type="button" className="pf-exit" onClick={onExit} aria-label="Leave Photo Finish">
           ✕

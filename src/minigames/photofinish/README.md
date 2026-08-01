@@ -52,16 +52,19 @@ on a win, so the bonus is automatically maxed on the very first successful play.
 Pure function of the race store's `photos: PhotoRecord[]` (`src/engine/store.ts`) and the
 photo blob store (`src/engine/photos.ts`). No content-pack `config` is required or read.
 
-1. Group all `PhotoRecord`s by `legId`.
-2. Within each leg, keep only the **earliest-taken** photo (`at` timestamp).
-3. Sort the resulting one-per-leg list **ascending by `legId`** (0 → 8) — this is the
-   chronological "correct order" used for scoring; `legId` is monotonic with the trip
-   timeline, so no separate date-sort is needed across legs.
-4. For each chosen photo, resolve its **stop name**: `loadLeg(legId)` (read-only import
-   from `src/engine/content.ts`) then `findStep(leg, photo.stepId)?.location`, falling back
-   to `leg.title` if the step can't be found (e.g. stale `stepId` from an older content
-   edit). The photo's pixel data comes from `getPhotoUrl(photo.key)` (object URL, revoked
-   on unmount).
+1. Take **every challenge photo**: dedupe `PhotoRecord`s by `challengeId` (retake-in-place
+   already keeps one per challenge; legacy duplicates keep the earliest `at`).
+2. Sort by trip order: `orderKey = legId * 100 + stepIndex` (the step's position within
+   its leg's `steps` array) — the ground truth for scoring. Missing steps sort last in
+   their leg (index 99).
+3. For each photo, resolve its **stop name**: `loadLeg(legId)` (read-only import from
+   `src/engine/content.ts`, cached per leg) then `findStep(leg, photo.stepId)?.location`,
+   falling back to `leg.title`. Pixel data via `getPhotoUrl(photo.key)` (object URL,
+   revoked on unmount).
+4. Scoring equivalence: photos sharing an `orderKey` (same stop) are interchangeable in
+   the order, and a pairing is correct if the chip's **label** matches the photo's stop
+   name — duplicate chips from same-stop photos all count.
+5. 13+ photos adds the `pf-dense` class: smaller tiles/chips/slots, wrapping slot rows.
 
 ## Gameplay (tap-tap, no drag)
 

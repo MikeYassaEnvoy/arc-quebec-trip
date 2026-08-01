@@ -524,3 +524,40 @@
     padding: 0 22px;
   }
 }
+
+/* Dense mode: the pool now holds a photo per CHALLENGE (13+ tiles), so shrink
+   everything one notch to keep the whole board workable on the iPad. Touch
+   targets stay >=56px. */
+.pf-dense .pf-photo-card {
+  width: 58px;
+  height: 58px;
+  border-width: 3px;
+}
+.pf-dense .pf-chip {
+  min-height: 52px;
+  padding: 0 12px;
+  font-size: 0.82em;
+  border-width: 3px;
+}
+.pf-dense .pf-tray-tile {
+  gap: 2px;
+}
+.pf-dense .pf-tray-img {
+  width: 52px;
+  height: 52px;
+}
+.pf-dense .pf-tray-chip {
+  font-size: 0.7em;
+}
+.pf-dense .pf-slot {
+  width: 60px;
+  height: 60px;
+}
+.pf-dense .pf-photo-grid,
+.pf-dense .pf-slots {
+  gap: 6px;
+}
+.pf-dense .pf-slots {
+  flex-wrap: wrap;
+  overflow-x: visible;
+}
