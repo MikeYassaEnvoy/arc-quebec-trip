@@ -54,10 +54,8 @@ export function ClueEnvelope({ legId, stepId }: { legId: number; stepId: string 
         </button>
       ) : (
         <div className="cluecard">
-          <p className="kicker">
-            {step.location}
-            {step.scheduledTime ? ` · ${step.scheduledTime}` : ''}
-          </p>
+          {step.scheduledTime && <p className="kicker">{step.scheduledTime}</p>}
+          <h1 className="cluecard__title">{step.location}</h1>
           <p className="riddle">{step.clueRiddle}</p>
 
           {phase === 'riddle' ? (
