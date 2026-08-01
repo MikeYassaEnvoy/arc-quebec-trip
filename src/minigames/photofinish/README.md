@@ -53,7 +53,8 @@ Pure function of the race store's `photos: PhotoRecord[]` (`src/engine/store.ts`
 photo blob store (`src/engine/photos.ts`). No content-pack `config` is required or read.
 
 1. Take **every challenge photo**: dedupe `PhotoRecord`s by `challengeId` (retake-in-place
-   already keeps one per challenge; legacy duplicates keep the earliest `at`).
+   already keeps one per challenge; legacy duplicates keep the earliest `at`), then cap at
+   **3 per leg**, chosen randomly at mount (a fresh launch may pick a different trio).
 2. Sort by trip order: `orderKey = legId * 100 + stepIndex` (the step's position within
    its leg's `steps` array) — the ground truth for scoring. Missing steps sort last in
    their leg (index 99).

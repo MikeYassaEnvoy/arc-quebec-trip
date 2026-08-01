@@ -75,7 +75,17 @@ export default function PhotoFinish({ onComplete, onExit }: MiniGameProps) {
           byChallenge.set(p.challengeId, p);
         }
       }
-      const chosen = Array.from(byChallenge.values());
+      // Cap at 3 photos per leg, picked at random, so a photo-heavy week
+      // doesn't turn the finale into a 30-tile monster.
+      const byLeg = new Map<number, (typeof rawPhotos)[number][]>();
+      for (const p of byChallenge.values()) {
+        const list = byLeg.get(p.legId) ?? [];
+        list.push(p);
+        byLeg.set(p.legId, list);
+      }
+      const chosen = Array.from(byLeg.values()).flatMap((list) =>
+        list.length <= 3 ? list : shuffled(list).slice(0, 3),
+      );
 
       const legCache = new Map<number, Awaited<ReturnType<typeof loadLeg>>['leg']>();
       const items: PoolItem[] = [];
