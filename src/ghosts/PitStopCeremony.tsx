@@ -66,7 +66,7 @@ export default function PitStopCeremony({
   reactions,
   avatarResolver,
   playerAvatarId = 'team-player',
-  hostName = 'The Host',
+  hostName = 'Jon',
   pitStopName,
   badgeLabel,
   matArtUrl,

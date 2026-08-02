@@ -113,7 +113,7 @@ export function useTimedStep(key: unknown, ms: number, cb: () => void): void {
 export function HostDialogue({
   lines,
   onDone,
-  hostName = 'The Host',
+  hostName = 'Jon',
   avatarResolver,
   charMs = 26,
   children,

@@ -147,7 +147,7 @@ for iPad landscape; drop them in as the whole route/screen. Every tap target is
   onDone: () => void;
   avatarResolver?: AvatarResolver;   // optional
   playerAvatarId?: string;           // default 'team-player'
-  hostName?: string;                 // default 'The Host'
+  hostName?: string;                 // default 'Jon'
 }
 ```
 Host welcome → one card per rival (avatar, members, tagline, personality + a

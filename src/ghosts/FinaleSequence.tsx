@@ -60,7 +60,7 @@ export default function FinaleSequence({
   onDone,
   avatarResolver,
   playerAvatarId = 'team-player',
-  hostName = 'The Host',
+  hostName = 'Jon',
   badgeLabels = {},
   mapReplay,
 }: FinaleSequenceProps) {

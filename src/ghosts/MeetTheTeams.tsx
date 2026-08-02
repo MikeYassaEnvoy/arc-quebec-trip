@@ -42,7 +42,7 @@ export default function MeetTheTeams({
   onDone,
   avatarResolver,
   playerAvatarId = 'team-player',
-  hostName = 'The Host',
+  hostName = 'Jon',
 }: MeetTheTeamsProps) {
   const entry = entryForLeg(script, 0);
   const [phase, setPhase] = useState<Phase>('welcome');
