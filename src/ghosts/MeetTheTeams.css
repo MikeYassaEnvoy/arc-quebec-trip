@@ -163,3 +163,43 @@
   .arc-meet-teamname { font-size: 38px; }
   .arc-meet-gotitle { font-size: 62px; }
 }
+
+/* Landscape (the app's only real orientation): the featured card and Jon's
+   dialogue share one row, so the host is ALWAYS on screen — previously the
+   stacked layout pushed the dialogue below the fold on short viewports. */
+@media (min-aspect-ratio: 5/4) {
+  .arc-meet-stage {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+  }
+  .arc-meet-stage > * {
+    min-width: 0;
+  }
+  .arc-meet-stage .arc-dialogue {
+    flex: 1 1 55%;
+    max-width: 620px;
+  }
+  .arc-meet-player,
+  .arc-meet-card {
+    flex: 0 0 auto;
+  }
+  .arc-meet-lineup {
+    flex: 0 1 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 18px;
+  }
+}
+@media (min-aspect-ratio: 5/4) and (max-height: 760px) {
+  .arc-meet-player .arc-avatar,
+  .arc-meet-player img,
+  .arc-meet-player svg {
+    width: 120px;
+    height: 120px;
+  }
+  .arc-meet-playername {
+    font-size: 28px;
+  }
+}
