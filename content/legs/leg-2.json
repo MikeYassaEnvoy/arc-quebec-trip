@@ -19,7 +19,7 @@
           "title": "Animal Trivia Deck",
           "instructions": "Answer questions about amazing animals. One big question at a time. Some of them are waiting for you today!",
           "minigameId": "trivia",
-          "config": { "deck": "leg-4" },
+          "config": { "deck": "biodome", "count": 10 },
           "points": 10
         },
         {
