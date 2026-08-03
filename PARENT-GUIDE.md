@@ -54,15 +54,20 @@ and the year over the gate — the trivia uses them.
 
 ## Leg 2 — Mon Aug 3 · The Long Road to Montréal (via Cornwall)
 
-At a glance: big drive block (Montréal trivia, St. Lawrence bingo, **First
-French Words** practice game) → **DETOUR at Lamoureux Park, Cornwall**:
-*Count* (riverfront count: boats, gulls, flags) or *Search* (riverfront
-scavenger) → Mount Royal lookout hunt → **Provigo Supermarket Sweep** → say
-*bonjour* at the hotel desk (his first real French — earns the French Speaker
-badge) → pit stop.
+*(Rain-day plan, revised Aug 2.)* At a glance: big drive block (animal trivia
+— it preps this afternoon! — St. Lawrence bingo, **First French Words**) →
+**DETOUR at Tilly's Eatery, Cornwall** (indoor): *Count* (boats, bridges and
+trucks from the car) or *Search* (café scavenger inside Tilly's) → **Biodôme
+roadblock** (drive straight there, ~2:15–5:30; penguins, the hiding sloth,
+animal trivia) → **Provigo Supermarket Sweep** on the drive back (~5:45) →
+say *bonjour* at the hotel desk (his first real French — earns the French
+Speaker badge) → check-in + pit stop.
 
-Prep: the Provigo list is fixed in the app now: pasta, sausage, pasta sauce,
-cheese, cereal, milk — that's dinner and breakfast sorted.
+Prep: **reserve a Biodôme time slot online and activate the Museums Pass
+there** — the Mon–Wed window covers Biodôme, Science Centre and Insectarium.
+Park at Olympic Park (luggage stays in the trunk). The Provigo list is fixed
+in the app: pasta, sausage, pasta sauce, cheese, cereal, milk. If the rain
+pauses in Cornwall, a quick riverfront leg stretch never hurts.
 
 ## Leg 3 — Tue Aug 4 · Secrets of Old Montréal
 
@@ -73,19 +78,27 @@ exhibits + science trivia) → evening cannoli + "Un cannoli, s'il vous plaît"
 at Café Olimpico → pit stop.
 
 Prep: metro tickets. Let him "navigate" from the app map — the real route
-matches the game.
+matches the game. Note the Science Centre's posted hours are now **9–4**, so
+land there by noon to keep the full roadblock window.
 
 ## Leg 4 — Wed Aug 5 · Bagels, Beasts & Bugs (Mile End + Olympic Park)
 
-At a glance: **DETOUR at St-Viateur Bagel**: *Watch* (learn the wood-fire /
-honey-water secret) or *Taste* (blind-taste sesame vs plain — buy one of
-each) → Biodôme roadblock (find the penguin, the sloth — they hide! — plus
-animal trivia) → poutine judging at Poutine Centrale (rate it + eating photo)
-→ Insectarium **Bug Safari** → Place des Festivals evening (First Peoples'
-Festival activity) → pit stop. **He wins this leg — first win of the season.**
+*(Reshaped Aug 2: Biodôme moved to Monday; the mountain lands here.)* A car
+day with an evening metro hop. At a glance: **DETOUR at St-Viateur Bagel**
+(~8:30): *Watch* (the wood-fire / honey-water secret) or *Taste* (blind-taste
+sesame vs plain — buy one of each) → **Insectarium Bug Safari** (~10:30, pass
+day 3) → poutine judging at Poutine Centrale (~12:45, a 15-min walk south;
+rate it + eating photo) → **Mount Royal, weather permitting** (~2:30): park at
+Beaver Lake, flat path to the Kondiaronk Belvedere for the "Spot from the
+Top" hunt and team photo → evening metro to Place des Festivals (First
+Peoples' Festival activity) → pit stop. **He wins this leg — first win of the
+season.**
 
-Prep: Biodôme/Insectarium tickets. For detour *Taste*, buy one sesame and one
-plain bagel and have him close his eyes.
+Prep: Insectarium tickets ride the pass. For detour *Taste*, buy one sesame
+and one plain bagel and have him close his eyes. If the mountain is rained or
+fogged out, the Planetarium (next to the Insectarium, pass-covered) is the
+swap — skip the lookout challenge via the step's skip and nothing else
+breaks.
 
 ## Leg 5 — Thu Aug 6 · Race to the Walled City (Montréal → Québec City)
 

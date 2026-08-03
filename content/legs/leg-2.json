@@ -11,15 +11,15 @@
       "location": "Highway 401 to Autoroute 20",
       "scheduledTime": "9:15 AM",
       "clueRiddle": "Three hours east with a big river beside us.\nGames, bingo and French words will guide us.",
-      "clueReveal": "We drive from Kingston to Montréal today. Play all three car games on the way. Learn your first French words before we arrive.",
+      "clueReveal": "We drive from Kingston to Montréal today. Play all three car games on the way. The animal quiz will help you this afternoon!",
       "challenges": [
         {
           "id": "l2-drive-trivia",
           "type": "minigame",
-          "title": "Montréal Trivia Deck",
-          "instructions": "Answer questions about the city ahead. One big question at a time. Every answer comes with a fun fact.",
+          "title": "Animal Trivia Deck",
+          "instructions": "Answer questions about amazing animals. One big question at a time. Some of them are waiting for you today!",
           "minigameId": "trivia",
-          "config": { "deck": "leg-2" },
+          "config": { "deck": "leg-4" },
           "points": 10
         },
         {
@@ -46,39 +46,39 @@
     {
       "id": "l2-s2",
       "kind": "detour",
-      "location": "Lamoureux Park, Cornwall",
+      "location": "Tilly's Eatery, Cornwall",
       "scheduledTime": "11:15 AM",
-      "clueRiddle": "A riverside park sits halfway there.\nCount what floats by, or go searching — choose with care!",
-      "clueReveal": "Stop at Lamoureux Park on Water Street East. This is a Detour: pick Count or Search. You only have to do one.",
+      "clueRiddle": "Halfway there, a warm café by the river.\nCount from the car, or search inside — you pick!",
+      "clueReveal": "Stop at Tilly's Eatery on Pitt Street. This is a Detour: pick Count or Search. Both work fine in the rain.",
       "detour": {
         "a": {
           "label": "Count",
-          "blurb": "Stand still by the river and count. Calm, quiet and easy.",
+          "blurb": "Count from your seat in the car. Cozy, dry and sharp-eyed.",
           "challenges": [
             {
               "id": "l2-detour-count",
               "type": "count",
-              "title": "Riverfront Count",
-              "instructions": "Count every boat on the St. Lawrence. Then count the gulls and the flags. Add up your grand total.",
+              "title": "River Road Count",
+              "instructions": "Count boats, bridges and transport trucks. Watch the river side of the road. Add up your grand total.",
               "points": 20
             }
           ]
         },
         "b": {
           "label": "Search",
-          "blurb": "Hunt along the riverfront path. Dry shoes, sharp eyes.",
+          "blurb": "Hunt inside the warm café. Hot chocolate optional.",
           "challenges": [
             {
               "id": "l2-detour-search",
               "type": "scavenger",
-              "title": "Riverfront Search",
-              "instructions": "Walk the path beside the river. Find all five things on the list. Tap each one to check it off.",
+              "title": "Café Search",
+              "instructions": "Look around inside Tilly's. Find all five things on the list. Tap each one to check it off.",
               "checklist": [
-                "A ship or a boat",
-                "A flag",
-                "A bench",
-                "A bird",
-                "Something red"
+                "The coffee machine",
+                "A French word on a sign",
+                "A mug",
+                "Something sweet in a display",
+                "Someone smiling"
               ],
               "points": 20
             }
@@ -89,37 +89,64 @@
     },
     {
       "id": "l2-s3",
-      "kind": "route-marker",
-      "location": "Kondiaronk Belvedere, Mount Royal",
-      "scheduledTime": "2:00 PM",
-      "clueRiddle": "Climb the little mountain that named the city.\nFrom up top, the whole view is pretty.",
-      "clueReveal": "Park at Beaver Lake and walk to the Kondiaronk Belvedere. It is a flat fifteen-minute path. Look out over the city and find five things.",
+      "kind": "roadblock",
+      "location": "Montréal Biodôme",
+      "scheduledTime": "2:15 PM",
+      "clueRiddle": "Five whole worlds are hiding under one roof.\nPenguins waddle here — go find the proof.",
+      "clueReveal": "Who's the animal expert? Drive straight to the Biodôme at Olympic Park. Hunt for five animals inside.",
       "challenges": [
         {
-          "id": "l2-belvedere-scavenger",
+          "id": "l2-biodome-hunt",
           "type": "scavenger",
-          "title": "Spot from the Top",
-          "instructions": "Stand at the railing and look far out. Find all five things in the view. Point at each one before you tap.",
+          "title": "Ecosystem Hunt",
+          "instructions": "Walk through all five ecosystems. Find each animal on the list. The sloth is the hardest — he hides!",
           "checklist": [
-            "A skyscraper",
-            "The river",
-            "A church roof",
-            "Something green",
-            "A bridge"
+            "A penguin",
+            "The sloth (hard mode!)",
+            "A fish bigger than your head",
+            "A bird with a long beak",
+            "The lynx"
           ],
-          "photoPrompt": "Team photo at the lookout!",
-          "points": 20
+          "photoPrompt": "Penguin pose!",
+          "points": 15
+        },
+        {
+          "id": "l2-biodome-trivia",
+          "type": "trivia",
+          "title": "Animal Expert Test",
+          "instructions": "Three questions about the animals here. Read the signs if you need help. Then tap your answer.",
+          "trivia": [
+            {
+              "q": "How many ecosystems does the Biodôme have?",
+              "choices": ["Three", "Five", "Ten", "Twenty"],
+              "answerIndex": 1,
+              "funFact": "Each ecosystem has its own temperature, plants and animals."
+            },
+            {
+              "q": "Why is a sloth so hard to spot?",
+              "choices": ["It moves very slowly and hides high up", "It is invisible", "It only comes out in winter", "It lives underground"],
+              "answerIndex": 0,
+              "funFact": "Sloths move so slowly that green algae can grow on their fur."
+            },
+            {
+              "q": "Where do penguins live in the wild?",
+              "choices": ["The far south, not the Arctic", "The North Pole", "The desert", "The rainforest"],
+              "answerIndex": 0,
+              "funFact": "Penguins and polar bears never meet — they live at opposite ends."
+            }
+          ],
+          "points": 15
         }
       ],
-      "funFact": "Montréal is named after Mount Royal, the small mountain right in the middle."
+      "funFact": "The Biodôme building was the cycling track for the 1976 Montréal Olympics."
     },
     {
       "id": "l2-s4",
       "kind": "route-marker",
       "location": "Provigo",
-      "scheduledTime": "4:00 PM",
+      "scheduledTime": "5:45 PM",
       "clueRiddle": "Aisles and carts and a list in your hand.\nTonight's dinner is hiding — go find it fast!",
-      "clueReveal": "Go to the Provigo near the Bell Centre. Find six dinner ingredients on your list.",
+      "clueReveal": "On the drive back, stop at the Provigo near the Bell Centre. Find six dinner ingredients on your list.",
       "challenges": [
         {
           "id": "l2-provigo-sweep",
@@ -143,7 +170,7 @@
       "id": "l2-s5",
       "kind": "speed-bump",
       "location": "Hôtel Monroe front desk",
-      "scheduledTime": "4:45 PM",
+      "scheduledTime": "6:30 PM",
       "clueRiddle": "One little word opens every door in Québec.\nSay it out loud to the person at the desk.",
       "clueReveal": "Walk up to the hotel front desk. Say bonjour to the person working there. Smile — that is the whole challenge.",
       "challenges": [
@@ -166,7 +193,7 @@
       "id": "l2-s6",
       "kind": "pit-stop",
       "location": "Hôtel Monroe – Downtown Montreal",
-      "scheduledTime": "5:00 PM",
+      "scheduledTime": "6:45 PM",
       "clueRiddle": "Mackay Street is tonight's finish line.\nRoll your bag to the mat — leg two is done.",
       "clueReveal": "Check in at Hôtel Monroe on Rue Mackay. Find your suite and drop your bags. Then step onto the pit stop mat.",
       "funFact": "Your suite has a kitchen, so tonight the team cooks dinner together."

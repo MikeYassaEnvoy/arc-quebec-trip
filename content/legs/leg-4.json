@@ -1,8 +1,8 @@
 {
   "id": 4,
-  "title": "Bagels, Beasts & Bugs",
+  "title": "Bagels, Bugs & the Mountain",
   "date": "2026-08-05",
-  "routeText": "Mile End → Olympic Park → Quartier des Spectacles",
+  "routeText": "Mile End → Olympic Park → Mount Royal → Quartier des Spectacles",
   "pitStop": { "hotelName": "Hôtel Monroe – Downtown Montreal", "city": "Montréal, Québec" },
   "steps": [
     {
@@ -11,7 +11,7 @@
       "location": "St-Viateur Bagel",
       "scheduledTime": "8:30 AM",
       "clueRiddle": "Round bread with a hole, baked over real fire.\nWatch it or taste it — racer, you choose.",
-      "clueReveal": "Take the metro to Laurier and walk to 263 Rue Saint-Viateur Ouest. This is a Detour: pick Watch or Taste. You only have to do one.",
+      "clueReveal": "Drive to 263 Rue Saint-Viateur Ouest in Mile End. This is a Detour: pick Watch or Taste. You only have to do one.",
       "detour": {
         "a": {
           "label": "Watch",
@@ -83,84 +83,12 @@
       "funFact": "St-Viateur Bagel has been baking day and night since 1957."
     },
     {
-      "id": "l4-s2",
-      "kind": "roadblock",
-      "location": "Montréal Biodôme",
-      "scheduledTime": "10:15 AM",
-      "clueRiddle": "Five whole worlds are hiding under one roof.\nPenguins waddle here — go find the proof.",
-      "clueReveal": "Who's the animal expert? Ride the green line to Viau station. The Biodôme is right there — hunt for five animals.",
-      "challenges": [
-        {
-          "id": "l4-biodome-hunt",
-          "type": "scavenger",
-          "title": "Ecosystem Hunt",
-          "instructions": "Walk through all five ecosystems. Find each animal on the list. The sloth is the hardest — he hides!",
-          "checklist": [
-            "A penguin",
-            "The sloth (hard mode!)",
-            "A fish bigger than your head",
-            "A bird with a long beak",
-            "The lynx"
-          ],
-          "photoPrompt": "Penguin pose!",
-          "points": 15
-        },
-        {
-          "id": "l4-biodome-trivia",
-          "type": "trivia",
-          "title": "Animal Expert Test",
-          "instructions": "Three questions about the animals here. Read the signs if you need help. Then tap your answer.",
-          "trivia": [
-            {
-              "q": "How many ecosystems does the Biodôme have?",
-              "choices": ["Three", "Five", "Ten", "Twenty"],
-              "answerIndex": 1,
-              "funFact": "Each ecosystem has its own temperature, plants and animals."
-            },
-            {
-              "q": "Why is a sloth so hard to spot?",
-              "choices": ["It moves very slowly and hides high up", "It is invisible", "It only comes out in winter", "It lives underground"],
-              "answerIndex": 0,
-              "funFact": "Sloths move so slowly that green algae can grow on their fur."
-            },
-            {
-              "q": "Where do penguins live in the wild?",
-              "choices": ["The far south, not the Arctic", "The North Pole", "The desert", "The rainforest"],
-              "answerIndex": 0,
-              "funFact": "Penguins and polar bears never meet — they live at opposite ends."
-            }
-          ],
-          "points": 15
-        }
-      ],
-      "funFact": "The Biodôme building was the cycling track for the 1976 Montréal Olympics."
-    },
-    {
-      "id": "l4-s3",
-      "kind": "route-marker",
-      "location": "Poutine Centrale",
-      "scheduledTime": "12:30 PM",
-      "clueRiddle": "Fries, squeaky cheese and hot gravy on top.\nJudge Québec's messiest lunch stop.",
-      "clueReveal": "Walk twelve minutes south to 3971 Rue Hochelaga. Order a classic poutine. Taste it, name the parts, and rate it.",
-      "challenges": [
-        {
-          "id": "l4-poutine-judge",
-          "type": "taste",
-          "title": "Judge's Table: Poutine",
-          "instructions": "Try a big forkful of poutine. Think about the flavour. Give it your maple leaf rating.",
-          "photoPrompt": "Snap a picture of you eating it!",
-          "points": 10
-        }
-      ],
-      "funFact": "Fresh cheese curds squeak on your teeth — that is how you know they are fresh."
-    },
-    {
       "id": "l4-s4",
       "kind": "route-marker",
       "location": "Montréal Insectarium",
-      "scheduledTime": "2:00 PM",
+      "scheduledTime": "10:30 AM",
       "clueRiddle": "Six legs, two antennae and wings so thin.\nA garden of butterflies waits within.",
-      "clueReveal": "Walk fifteen minutes north to 4581 Rue Sherbrooke Est. Go through the butterfly garden slowly. Find eight bugs on your card.",
+      "clueReveal": "Drive to 4581 Rue Sherbrooke Est at Olympic Park. Go through the butterfly garden slowly. Find eight bugs on your card.",
       "challenges": [
         {
           "id": "l4-insectarium-bingo",
@@ -181,6 +109,51 @@
         }
       ],
       "funFact": "All insects have exactly six legs, so a spider is not an insect."
+    },
+    {
+      "id": "l4-s3",
+      "kind": "route-marker",
+      "location": "Poutine Centrale",
+      "scheduledTime": "12:45 PM",
+      "clueRiddle": "Fries, squeaky cheese and hot gravy on top.\nJudge Québec's messiest lunch stop.",
+      "clueReveal": "Walk fifteen minutes south to 3971 Rue Hochelaga. Order a classic poutine. Taste it, rate it, then walk back to the car.",
+      "challenges": [
+        {
+          "id": "l4-poutine-judge",
+          "type": "taste",
+          "title": "Judge's Table: Poutine",
+          "instructions": "Try a big forkful of poutine. Think about the flavour. Give it your maple leaf rating.",
+          "photoPrompt": "Snap a picture of you eating it!",
+          "points": 10
+        }
+      ],
+      "funFact": "Fresh cheese curds squeak on your teeth — that is how you know they are fresh."
+    },
+    {
+      "id": "l4-s2",
+      "kind": "route-marker",
+      "location": "Kondiaronk Belvedere, Mount Royal",
+      "scheduledTime": "2:30 PM",
+      "clueRiddle": "Climb the little mountain that named the city.\nFrom up top, the whole view is pretty.",
+      "clueReveal": "Drive up and park at Beaver Lake. Walk the flat fifteen-minute path to the Kondiaronk Belvedere. Look out over the city and find five things.",
+      "challenges": [
+        {
+          "id": "l4-belvedere-scavenger",
+          "type": "scavenger",
+          "title": "Spot from the Top",
+          "instructions": "Stand at the railing and look far out. Find all five things in the view. Point at each one before you tap.",
+          "checklist": [
+            "A skyscraper",
+            "The river",
+            "A church roof",
+            "Something green",
+            "A bridge"
+          ],
+          "photoPrompt": "Team photo at the lookout!",
+          "points": 20
+        }
+      ],
+      "funFact": "Montréal is named after Mount Royal, the small mountain right in the middle."
     },
     {
       "id": "l4-s5",
@@ -211,7 +184,7 @@
       "kind": "pit-stop",
       "location": "Hôtel Monroe – Downtown Montreal",
       "scheduledTime": "9:15 PM",
-      "clueRiddle": "Bagels, beasts and bugs are behind you now.\nRun to the mat — this could be your day.",
+      "clueRiddle": "Bagels, bugs and the mountain are behind you now.\nRun to the mat — this could be your day.",
       "clueReveal": "Ride the metro back to Guy-Concordia. Walk to Hôtel Monroe on Rue Mackay. Step onto the pit stop mat.",
       "funFact": "Tonight is your last night in Montréal — tomorrow the road goes east."
     }
