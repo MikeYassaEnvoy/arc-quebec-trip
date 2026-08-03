@@ -8,8 +8,10 @@ export const APP_VERSION = '0.1.0';
 
 /** Leg 0 is the practice leg — its points never count toward the season total (§4). */
 export const PRACTICE_LEG_ID = 0;
-/** §6 anti-farming: only the first 3 mini-game sessions per leg award points. */
-export const SCORING_MINIGAME_SESSIONS_PER_LEG = 3;
+/** §6 anti-farming: only the first 6 mini-game sessions per leg award points
+ * (raised from 3 once legs gained two drive blocks — leg 2's rain pivot and
+ * leg 7 both carry more than three distinct games). */
+export const SCORING_MINIGAME_SESSIONS_PER_LEG = 6;
 export const MINIGAME_MAX_POINTS = 10;
 
 /** Scratch state for a challenge in progress (checkboxes, counter, rating…). */

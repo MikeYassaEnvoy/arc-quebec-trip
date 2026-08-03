@@ -1,0 +1,22 @@
+{
+  "id": "rainy-road",
+  "title": "Rainy Road Bingo",
+  "cells": [
+    { "label": "A truck making a big splash", "emoji": "💦" },
+    { "label": "Someone with an umbrella", "emoji": "☂️" },
+    { "label": "Headlights on in the daytime", "emoji": "💡" },
+    { "label": "A bridge", "emoji": "🌉" },
+    { "label": "A Québec licence plate", "emoji": "⚜️" },
+    { "label": "A Sortie (exit) sign", "emoji": "🛣️" },
+    { "label": "Cows out in the rain", "emoji": "🐄" },
+    { "label": "A church steeple", "emoji": "⛪" },
+    { "label": "A bus", "emoji": "🚌" },
+    { "label": "The St. Lawrence River", "emoji": "🌊" },
+    { "label": "Orange construction cones", "emoji": "🚧" },
+    { "label": "A rainbow (lucky!)", "emoji": "🌈" },
+    { "label": "A tractor or farm machine", "emoji": "🚜" },
+    { "label": "A giant puddle", "emoji": "💧" },
+    { "label": "A Canadian flag", "emoji": "🇨🇦" },
+    { "label": "The Montréal skyline!", "emoji": "🏙️" }
+  ]
+}

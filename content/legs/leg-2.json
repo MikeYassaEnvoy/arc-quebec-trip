@@ -122,6 +122,44 @@
       "funFact": "The St. Lawrence River carries ships all the way from the ocean to Lake Superior."
     },
     {
+      "id": "l2-s2b",
+      "kind": "drive",
+      "location": "Autoroute 20 — Cornwall to Montréal",
+      "scheduledTime": "12:30 PM",
+      "clueRiddle": "One last rainy hour before the big city.\nNew games on your lap — keep watch for the skyline!",
+      "clueReveal": "Back on the road for about ninety minutes. Play the city quiz and Rainy Road Bingo. Then practice your French one more time.",
+      "challenges": [
+        {
+          "id": "l2-drive2-trivia",
+          "type": "minigame",
+          "title": "Montréal City Quiz",
+          "instructions": "Questions about the city we are about to enter. One big question at a time. Every answer comes with a fun fact.",
+          "minigameId": "trivia",
+          "config": { "deck": "leg-2", "count": 10 },
+          "points": 10
+        },
+        {
+          "id": "l2-drive2-bingo",
+          "type": "minigame",
+          "title": "Rainy Road Bingo",
+          "instructions": "A brand-new card made for rainy highways. Tap a square when you spot it. First to see the skyline wins bragging rights.",
+          "minigameId": "road-bingo",
+          "config": { "card": "rainy-road" },
+          "points": 10
+        },
+        {
+          "id": "l2-drive2-french",
+          "type": "minigame",
+          "title": "French: Round Two",
+          "instructions": "One more practice round before the hotel. Say each word louder this time. Your bonjour moment is coming soon!",
+          "minigameId": "french-phrases",
+          "config": { "pack": "starter-pack" },
+          "points": 10
+        }
+      ],
+      "funFact": "Montréal's skyline hides behind Mount Royal until you are almost across the bridge."
+    },
+    {
       "id": "l2-s3",
       "kind": "roadblock",
       "location": "Montréal Biodôme",
