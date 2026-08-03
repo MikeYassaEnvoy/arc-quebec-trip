@@ -133,16 +133,23 @@
           "id": "l2-biodome-hunt",
           "type": "scavenger",
           "title": "Ecosystem Hunt",
-          "instructions": "Walk through all five ecosystems. Find each animal on the list. The sloth is the hardest — he hides!",
+          "instructions": "Twelve creatures hide across five worlds. Find as many as you can. The sloth hides — look high in the trees!",
           "checklist": [
             "A penguin",
             "The sloth (hard mode!)",
+            "A capybara — the world's biggest rodent",
+            "A tiny golden monkey",
+            "The lynx",
+            "An otter",
+            "A beaver lodge made of sticks",
             "A fish bigger than your head",
-            "A bird with a long beak",
-            "The lynx"
+            "A starfish",
+            "A seabird in a black-and-white tuxedo",
+            "The loudest bird you can hear",
+            "Something with no legs at all"
           ],
           "photoPrompt": "Penguin pose!",
-          "points": 15
+          "points": 25
         },
         {
           "id": "l2-biodome-trivia",
