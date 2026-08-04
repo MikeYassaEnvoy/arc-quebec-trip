@@ -115,8 +115,8 @@
       "kind": "route-marker",
       "location": "Poutine Centrale",
       "scheduledTime": "12:45 PM",
-      "clueRiddle": "Fries, squeaky cheese and hot gravy on top.\nJudge Québec's messiest lunch stop.",
-      "clueReveal": "Walk fifteen minutes south to 3971 Rue Hochelaga. Order a classic poutine. Taste it, rate it, then back to the metro.",
+      "clueRiddle": "Fries, squeaky cheese and famous smoked meat.\nJudge Québec's messiest double lunch feat.",
+      "clueReveal": "Walk fifteen minutes south to 3971 Rue Hochelaga. Order a classic poutine AND Montréal smoked meat. Judge both like a pro.",
       "challenges": [
         {
           "id": "l4-poutine-judge",
@@ -125,9 +125,17 @@
           "instructions": "Try a big forkful of poutine. Think about the flavour. Give it your maple leaf rating.",
           "photoPrompt": "Snap a picture of you eating it!",
           "points": 10
+        },
+        {
+          "id": "l4-smokedmeat-judge",
+          "type": "taste",
+          "title": "Judge's Table: Smoked Meat",
+          "instructions": "Remember the menu at Tilly's? THIS is that famous Montréal smoked meat. Taste it and give your rating.",
+          "photoPrompt": "Big smoked meat bite — snap it!",
+          "points": 10
         }
       ],
-      "funFact": "Fresh cheese curds squeak on your teeth — that is how you know they are fresh."
+      "funFact": "Montréal smoked meat is cured with spices for days before smoking."
     },
     {
       "id": "l4-s2",

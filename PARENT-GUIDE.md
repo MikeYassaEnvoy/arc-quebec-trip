@@ -231,9 +231,11 @@ everywhere; nothing ever requires a photo or a parent password.
   - List: A butterfly landing on something · Something with more than six legs · An insect shaped like a leaf · The biggest beetle you can find · Something that glows · A chrysalis · An ant at work · Something with wings but not flying
 
 **12:45 PM — 📍 Route Marker: Poutine Centrale**
-- Clue says: "Walk fifteen minutes south to 3971 Rue Hochelaga. Order a classic poutine. Taste it, rate it, then back to the metro."
+- Clue says: "Walk fifteen minutes south to 3971 Rue Hochelaga. Order a classic poutine AND Montréal smoked meat. Judge both like a pro."
 - **Judge's Table: Poutine** (taste · 10 pts) — Try a big forkful of poutine. Think about the flavour. Give it your maple leaf rating.
   - 📸 Snap a picture of you eating it!
+- **Judge's Table: Smoked Meat** (taste · 10 pts) — Remember the menu at Tilly's? THIS is that famous Montréal smoked meat. Taste it and give your rating.
+  - 📸 Big smoked meat bite — snap it!
 
 **2:30 PM — 📍 Route Marker: La Fontaine Park**
 - Clue says: "Ride the metro to Sherbrooke station. Walk into La Fontaine Park. Time to play hard!"
@@ -249,7 +251,7 @@ everywhere; nothing ever requires a photo or a parent password.
 **9:15 PM — 🏁 Pit Stop: Hôtel Monroe – Downtown Montreal**
 - **Mat: 1st — FIRST WIN**, confetti; **The Tide Riders eliminated**. Badges: 🥯 Bagel Boss + ⭐ First Win.
 
-**Prep:** Insectarium and all transit ride the pass. For detour *Taste*, buy one sesame and one plain bagel and have him close his eyes. If it rains on the park, the Planetarium (next to the Insectarium, pass-covered) is the swap — skip the park step in-app and nothing else breaks.
+**Prep:** Insectarium and all transit ride the pass. At Poutine Centrale, order the smoked meat alongside the poutine — Monday's menu quiz foreshadowed it (smoked-meat poutine counts too). For detour *Taste*, buy one sesame and one plain bagel and have him close his eyes. If it rains on the park, the Planetarium (next to the Insectarium, pass-covered) is the swap — skip the park step in-app and nothing else breaks.
 
 ## Leg 5 — Thu Aug 6 · Race to the Walled City (Montréal → Québec City)
 
