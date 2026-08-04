@@ -2,13 +2,39 @@
   "id": 5,
   "title": "Race to the Walled City",
   "date": "2026-08-06",
-  "routeText": "Montréal → Québec City",
+  "routeText": "Mount Royal → Trois-Rivières → Québec City",
   "steps": [
+    {
+      "id": "l5-s0",
+      "kind": "route-marker",
+      "location": "Kondiaronk Belvedere, Mount Royal",
+      "scheduledTime": "10:15 AM",
+      "clueRiddle": "Climb the little mountain that named the city.\nOne last look before we race east.",
+      "clueReveal": "Check out by ten and grab the car. Drive up and park at Beaver Lake. Walk the flat path to the big lookout.",
+      "challenges": [
+        {
+          "id": "l5-belvedere-scavenger",
+          "type": "scavenger",
+          "title": "Spot from the Top",
+          "instructions": "Stand at the railing and look far out. Find all five things in the view. Point at each one before you tap.",
+          "checklist": [
+            "A skyscraper",
+            "The river",
+            "A church roof",
+            "Something green",
+            "A bridge"
+          ],
+          "photoPrompt": "Team photo at the lookout!",
+          "points": 20
+        }
+      ],
+      "funFact": "Montréal is named after Mount Royal, the small mountain right in the middle."
+    },
     {
       "id": "l5-s1",
       "kind": "drive",
       "location": "Autoroute 20 — Montréal to Québec City",
-      "scheduledTime": "9:30 AM",
+      "scheduledTime": "11:30 AM",
       "clueRiddle": "Point the car east and follow the big river.\nA city with a wall around it is waiting.",
       "clueReveal": "Drive from Montréal to Québec City. Play the car games on the way.",
       "challenges": [
@@ -46,7 +72,7 @@
       "id": "l5-s2",
       "kind": "route-marker",
       "location": "Trois-Rivières Riverfront",
-      "scheduledTime": "11:00 AM",
+      "scheduledTime": "1:00 PM",
       "clueRiddle": "Halfway there, three rivers meet one giant one.\nShake out your legs before you sit again.",
       "clueReveal": "Stop at the riverfront in Trois-Rivières. Run around before lunch.",
       "challenges": [
@@ -64,7 +90,7 @@
       "id": "l5-s3",
       "kind": "route-marker",
       "location": "Funiculaire du Vieux-Québec",
-      "scheduledTime": "1:30 PM",
+      "scheduledTime": "3:45 PM",
       "clueRiddle": "A little box climbs the cliff on a cable.\nAt the top, a castle wears a green roof.",
       "clueReveal": "Ride the funicular up to Dufferin Terrace. Photograph the Château Frontenac.",
       "challenges": [
@@ -90,7 +116,7 @@
       "id": "l5-s4",
       "kind": "roadblock",
       "location": "Fêtes de la Nouvelle-France — City Hall Gardens",
-      "scheduledTime": "2:15 PM",
+      "scheduledTime": "4:30 PM",
       "clueRiddle": "Walk through the gate and lose three hundred years.\nEverybody here forgot to change their clothes.",
       "clueReveal": "Who can travel back in time? Walk to the City Hall gardens. Meet the costumed performers.",
       "challenges": [
@@ -127,7 +153,7 @@
       "id": "l5-s5",
       "kind": "route-marker",
       "location": "Metro Plus Ferland Du Marais",
-      "scheduledTime": "5:00 PM",
+      "scheduledTime": "5:45 PM",
       "clueRiddle": "Tonight's dinner is hiding on shelves down our own street.\nGrab it fast — the clock is running.",
       "clueReveal": "Go to Metro Plus on Rue du Marais. Find everything in fifteen minutes.",
       "challenges": [
@@ -154,7 +180,7 @@
       "id": "l5-s6",
       "kind": "pit-stop",
       "location": "Hôtel & Suites Le Dauphin Québec",
-      "scheduledTime": "5:45 PM",
+      "scheduledTime": "6:30 PM",
       "clueRiddle": "The mat is waiting at the end of Rue du Marais.\nRun — every second still counts.",
       "clueReveal": "Check in at Hôtel Le Dauphin. Step onto the pit stop mat.",
       "funFact": "The mall next door hides a huge indoor amusement park."

@@ -83,35 +83,39 @@ land there by noon to keep the full roadblock window.
 
 ## Leg 4 — Wed Aug 5 · Bagels, Beasts & Bugs (Mile End + Olympic Park)
 
-*(Reshaped Aug 2: Biodôme moved to Monday; the mountain lands here.)* A car
-day with an evening metro hop. At a glance: **DETOUR at St-Viateur Bagel**
-(~8:30): *Watch* (the wood-fire / honey-water secret) or *Taste* (blind-taste
-sesame vs plain — buy one of each) → **Insectarium Bug Safari** (~10:30, pass
-day 3) → poutine judging at Poutine Centrale (~12:45, a 15-min walk south;
-rate it + eating photo) → **Mount Royal, weather permitting** (~2:30): park at
-Beaver Lake, flat path to the Kondiaronk Belvedere for the "Spot from the
-Top" hunt and team photo → evening metro to Place des Festivals (First
-Peoples' Festival activity) → pit stop. **He wins this leg — first win of the
-season.**
+*(Revised Aug 4: car stays in the lot — all-metro day; the mountain moves to
+Thursday morning.)* At a glance: metro to Laurier for the **DETOUR at
+St-Viateur Bagel** (~8:30): *Watch* (the wood-fire / honey-water secret) or
+*Taste* (blind-taste sesame vs plain — buy one of each) → green line to
+Pie-IX for the **Insectarium Bug Safari** (~10:30, pass day 3) → poutine
+judging at Poutine Centrale (~12:45, a 15-min walk; rate it + eating photo) →
+metro to Sherbrooke for **La Fontaine Park** (~2:30): the Playground Grand
+Prix — five stopwatch minutes of slides, swings and duck-spotting, pure
+run-around after two museum days → home to rest → evening metro to Place des
+Festivals (First Peoples' Festival activity) → pit stop. **He wins this leg —
+first win of the season.**
 
-Prep: Insectarium tickets ride the pass. For detour *Taste*, buy one sesame
-and one plain bagel and have him close his eyes. If the mountain is rained or
-fogged out, the Planetarium (next to the Insectarium, pass-covered) is the
-swap — skip the lookout challenge via the step's skip and nothing else
-breaks.
+Prep: Insectarium rides the pass; all transit is covered too. For detour
+*Taste*, buy one sesame and one plain bagel and have him close his eyes. If
+it rains on the park, the Planetarium (next to the Insectarium, pass-covered)
+is the swap — skip the park step in-app and nothing else breaks.
 
 ## Leg 5 — Thu Aug 6 · Race to the Walled City (Montréal → Québec City)
 
-At a glance: drive block (New France trivia, Autoroute 20 bingo, French
-pack 2) → run-around stop at Trois-Rivières → Funiculaire + count the Château
-Frontenac towers + castle photo → Fêtes de la Nouvelle-France roadblock
-(costume scavenger + greet a performer with "Bonjour!") → **Metro Plus
-Supermarket Dash** (his list, 15-minute stopwatch) → pit stop.
+*(Revised Aug 4: 10 AM checkout; the mountain opens the day.)* At a glance:
+check out by 10, grab the car from the lot → **Kondiaronk Belvedere**
+(~10:15): park at Beaver Lake, flat 15-min path, the "Spot from the Top" hunt
++ team photo → on the highway by ~11:30 (drive block: New France trivia,
+Autoroute 20 bingo, French pack 2) → **Trois-Rivières lunch + run-around**
+(~1:00) → Funiculaire + Château count/photo (~3:45) → Fêtes de la
+Nouvelle-France roadblock (~4:30; costume scavenger + greet a performer with
+"Bonjour!") → **Metro Plus Supermarket Dash** (~5:45; his list, 15-minute
+stopwatch) → pit stop (~6:30).
 
 Prep: **pick the grocery items for the Metro Plus dash** before entering. If
-the Nouvelle-France festival isn't running where expected, the scavenger works
-anywhere in the old town (soldiers, fancy hats, barrels…) — or skip via the
-parent menu.
+the morning is fogged or wet, skip the lookout step in-app and leave straight
+away — everything after it just happens earlier. If the Nouvelle-France
+festival isn't where expected, the scavenger works anywhere in the old town.
 
 ## Leg 6 — Fri Aug 7 · The Citadelle Showdown (Québec City)
 

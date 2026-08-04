@@ -1,8 +1,8 @@
 {
   "id": 4,
-  "title": "Bagels, Bugs & the Mountain",
+  "title": "Bagels, Bugs & the Park",
   "date": "2026-08-05",
-  "routeText": "Mile End → Olympic Park → Mount Royal → Quartier des Spectacles",
+  "routeText": "Mile End → Olympic Park → La Fontaine Park → Quartier des Spectacles",
   "pitStop": { "hotelName": "Hôtel Monroe – Downtown Montreal", "city": "Montréal, Québec" },
   "steps": [
     {
@@ -11,7 +11,7 @@
       "location": "St-Viateur Bagel",
       "scheduledTime": "8:30 AM",
       "clueRiddle": "Round bread with a hole, baked over real fire.\nWatch it or taste it — racer, you choose.",
-      "clueReveal": "Drive to 263 Rue Saint-Viateur Ouest in Mile End. This is a Detour: pick Watch or Taste. You only have to do one.",
+      "clueReveal": "Ride the metro to Laurier, then walk to 263 Rue Saint-Viateur Ouest. This is a Detour: pick Watch or Taste. You only have to do one.",
       "detour": {
         "a": {
           "label": "Watch",
@@ -88,7 +88,7 @@
       "location": "Montréal Insectarium",
       "scheduledTime": "10:30 AM",
       "clueRiddle": "Six legs, two antennae and wings so thin.\nA garden of butterflies waits within.",
-      "clueReveal": "Drive to 4581 Rue Sherbrooke Est at Olympic Park. Go through the butterfly garden slowly. Find eight bugs on your card.",
+      "clueReveal": "Ride the green line to Pie-IX station. Walk through the butterfly garden slowly. Find eight bugs on your card.",
       "challenges": [
         {
           "id": "l4-insectarium-bingo",
@@ -116,7 +116,7 @@
       "location": "Poutine Centrale",
       "scheduledTime": "12:45 PM",
       "clueRiddle": "Fries, squeaky cheese and hot gravy on top.\nJudge Québec's messiest lunch stop.",
-      "clueReveal": "Walk fifteen minutes south to 3971 Rue Hochelaga. Order a classic poutine. Taste it, rate it, then walk back to the car.",
+      "clueReveal": "Walk fifteen minutes south to 3971 Rue Hochelaga. Order a classic poutine. Taste it, rate it, then back to the metro.",
       "challenges": [
         {
           "id": "l4-poutine-judge",
@@ -132,28 +132,28 @@
     {
       "id": "l4-s2",
       "kind": "route-marker",
-      "location": "Kondiaronk Belvedere, Mount Royal",
+      "location": "La Fontaine Park",
       "scheduledTime": "2:30 PM",
-      "clueRiddle": "Climb the little mountain that named the city.\nFrom up top, the whole view is pretty.",
-      "clueReveal": "Drive up and park at Beaver Lake. Walk the flat fifteen-minute path to the Kondiaronk Belvedere. Look out over the city and find five things.",
+      "clueRiddle": "Museums are done — the racers need to run!\nA big green park with a pond is waiting.",
+      "clueReveal": "Ride the metro to Sherbrooke station. Walk into La Fontaine Park. Time to play hard!",
       "challenges": [
         {
-          "id": "l4-belvedere-scavenger",
-          "type": "scavenger",
-          "title": "Spot from the Top",
-          "instructions": "Stand at the railing and look far out. Find all five things in the view. Point at each one before you tap.",
+          "id": "l4-lafontaine-grandprix",
+          "type": "physical",
+          "title": "Playground Grand Prix",
+          "instructions": "Start the stopwatch and play hard. Five whole minutes of playground racing. Check off each move you complete.",
           "checklist": [
-            "A skyscraper",
-            "The river",
-            "A church roof",
-            "Something green",
-            "A bridge"
+            "Go down a slide",
+            "Swing ten big swings",
+            "Climb something tall",
+            "Spot a duck by the pond"
           ],
-          "photoPrompt": "Team photo at the lookout!",
+          "timerSeconds": 300,
+          "photoPrompt": "Mid-air action shot!",
           "points": 20
         }
       ],
-      "funFact": "Montréal is named after Mount Royal, the small mountain right in the middle."
+      "funFact": "La Fontaine Park has two ponds joined by a little waterfall."
     },
     {
       "id": "l4-s5",
@@ -184,7 +184,7 @@
       "kind": "pit-stop",
       "location": "Hôtel Monroe – Downtown Montreal",
       "scheduledTime": "9:15 PM",
-      "clueRiddle": "Bagels, bugs and the mountain are behind you now.\nRun to the mat — this could be your day.",
+      "clueRiddle": "Bagels, bugs and the park are behind you now.\nRun to the mat — this could be your day.",
       "clueReveal": "Ride the metro back to Guy-Concordia. Walk to Hôtel Monroe on Rue Mackay. Step onto the pit stop mat.",
       "funFact": "Tonight is your last night in Montréal — tomorrow the road goes east."
     }
