@@ -113,29 +113,21 @@
     {
       "id": "l4-s3",
       "kind": "route-marker",
-      "location": "Poutine Centrale",
-      "scheduledTime": "12:45 PM",
-      "clueRiddle": "Fries, squeaky cheese and famous smoked meat.\nJudge Québec's messiest double lunch feat.",
-      "clueReveal": "Walk fifteen minutes south to 3971 Rue Hochelaga. Order a classic poutine AND Montréal smoked meat. Judge both like a pro.",
+      "location": "Schwartz's Deli",
+      "scheduledTime": "1:00 PM",
+      "clueRiddle": "Since 1928 the smoke has never stopped here.\nCanada's most famous sandwich is waiting.",
+      "clueReveal": "Ride the metro to Sherbrooke station. Walk to Schwartz's on Boulevard Saint-Laurent. Order the famous smoked meat — eat in or picnic!",
       "challenges": [
         {
-          "id": "l4-poutine-judge",
-          "type": "taste",
-          "title": "Judge's Table: Poutine",
-          "instructions": "Try a big forkful of poutine. Think about the flavour. Give it your maple leaf rating.",
-          "photoPrompt": "Snap a picture of you eating it!",
-          "points": 10
-        },
-        {
-          "id": "l4-smokedmeat-judge",
+          "id": "l4-schwartz-judge",
           "type": "taste",
           "title": "Judge's Table: Smoked Meat",
           "instructions": "Remember the menu at Tilly's? THIS is that famous Montréal smoked meat. Taste it and give your rating.",
           "photoPrompt": "Big smoked meat bite — snap it!",
-          "points": 10
+          "points": 15
         }
       ],
-      "funFact": "Montréal smoked meat is cured with spices for days before smoking."
+      "funFact": "Schwartz's has smoked its meat on this same street since 1928."
     },
     {
       "id": "l4-s2",

@@ -76,6 +76,25 @@
       "funFact": "A famous battle happened on this field in 1759. Now it's a park."
     },
     {
+      "id": "l6-s2b",
+      "kind": "route-marker",
+      "location": "Lunch on Grande Allée",
+      "scheduledTime": "12:45 PM",
+      "clueRiddle": "Fries, squeaky cheese and hot gravy on top.\nJudge Québec's messiest lunch stop.",
+      "clueReveal": "Find lunch along Grande Allée. Order a classic Québec poutine. Judge it like a pro.",
+      "challenges": [
+        {
+          "id": "l6-poutine-judge",
+          "type": "taste",
+          "title": "Judge's Table: Poutine",
+          "instructions": "Try a big forkful of poutine. Listen for the cheese squeak. Give it your maple leaf rating.",
+          "photoPrompt": "Snap a picture of you eating it!",
+          "points": 10
+        }
+      ],
+      "funFact": "Fresh cheese curds squeak on your teeth — that is how you know they are fresh."
+    },
+    {
       "id": "l6-s3",
       "kind": "route-marker",
       "location": "Musée de la civilisation",

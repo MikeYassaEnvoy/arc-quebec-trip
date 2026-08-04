@@ -230,11 +230,9 @@ everywhere; nothing ever requires a photo or a parent password.
 - **Bug Safari** (scavenger · 15 pts) — Move slowly so the bugs stay calm. Find each thing on the list. Never touch — just look closely.
   - List: A butterfly landing on something · Something with more than six legs · An insect shaped like a leaf · The biggest beetle you can find · Something that glows · A chrysalis · An ant at work · Something with wings but not flying
 
-**12:45 PM — 📍 Route Marker: Poutine Centrale**
-- Clue says: "Walk fifteen minutes south to 3971 Rue Hochelaga. Order a classic poutine AND Montréal smoked meat. Judge both like a pro."
-- **Judge's Table: Poutine** (taste · 10 pts) — Try a big forkful of poutine. Think about the flavour. Give it your maple leaf rating.
-  - 📸 Snap a picture of you eating it!
-- **Judge's Table: Smoked Meat** (taste · 10 pts) — Remember the menu at Tilly's? THIS is that famous Montréal smoked meat. Taste it and give your rating.
+**1:00 PM — 📍 Route Marker: Schwartz's Deli**
+- Clue says: "Ride the metro to Sherbrooke station. Walk to Schwartz's on Boulevard Saint-Laurent. Order the famous smoked meat — eat in or picnic!"
+- **Judge's Table: Smoked Meat** (taste · 15 pts) — Remember the menu at Tilly's? THIS is that famous Montréal smoked meat. Taste it and give your rating.
   - 📸 Big smoked meat bite — snap it!
 
 **2:30 PM — 📍 Route Marker: La Fontaine Park**
@@ -251,7 +249,7 @@ everywhere; nothing ever requires a photo or a parent password.
 **9:15 PM — 🏁 Pit Stop: Hôtel Monroe – Downtown Montreal**
 - **Mat: 1st — FIRST WIN**, confetti; **The Tide Riders eliminated**. Badges: 🥯 Bagel Boss + ⭐ First Win.
 
-**Prep:** Insectarium and all transit ride the pass. At Poutine Centrale, order the smoked meat alongside the poutine — Monday's menu quiz foreshadowed it (smoked-meat poutine counts too). For detour *Taste*, buy one sesame and one plain bagel and have him close his eyes. If it rains on the park, the Planetarium (next to the Insectarium, pass-covered) is the swap — skip the park step in-app and nothing else breaks.
+**Prep:** Insectarium and all transit ride the pass. **Schwartz's lunch**: the takeout counter beats the sit-down line — share one medium sandwich (peppery crust: let him try a corner bite before judging) and picnic at La Fontaine if the day is flowing. Flagging? Skip the step guilt-free. For detour *Taste*, buy one sesame and one plain bagel and have him close his eyes. Rain on the park: the Planetarium (pass-covered) is the swap.
 
 ## Leg 5 — Thu Aug 6 · Race to the Walled City (Montréal → Québec City)
 
@@ -315,6 +313,11 @@ everywhere; nothing ever requires a photo or a parent password.
 - Clue says: "Walk onto the Plains of Abraham. Sprint to a monument and back."
 - **Battlefield Sprint** (physical · 15 pts · stopwatch target 1:30) — Pick a monument you can see. Race there and run back. Beat ninety seconds!
 
+**12:45 PM — 📍 Route Marker: Lunch on Grande Allée**
+- Clue says: "Find lunch along Grande Allée. Order a classic Québec poutine. Judge it like a pro."
+- **Judge's Table: Poutine** (taste · 10 pts) — Try a big forkful of poutine. Listen for the cheese squeak. Give it your maple leaf rating.
+  - 📸 Snap a picture of you eating it!
+
 **2:00 PM — 📍 Route Marker: Musée de la civilisation**
 - Clue says: "Drive down to the Musée de la civilisation. Try the hands-on exhibits."
 - **Hands-On Hunt** (scavenger · 20 pts) — Explore the museum room by room. Tick off each mission you finish.
@@ -335,7 +338,7 @@ everywhere; nothing ever requires a photo or a parent password.
 **8:00 PM — 🏁 Pit Stop: Hôtel & Suites Le Dauphin Québec**
 - **Mat: 1st again** — **Team Maple eliminated** → the finale is vs. The Rock Hoppers. Badge: 🐐 Goat Whisperer.
 
-**Prep:** Citadelle tour tickets (booked). **Warn him the noon cannon is genuinely loud** — cover ears at 11:59. Check Morrin Centre hours. Rain plan: the 10 AM band show cancels in rain — arrive ~10:20 for the tour and stretch the Musée de la civilisation from noon instead.
+**Prep:** Citadelle tour tickets (booked). **Warn him the noon cannon is genuinely loud** — cover ears at 11:59. Check Morrin Centre hours. Rain plan: the 10 AM band show cancels in rain — arrive ~10:20 for the tour and stretch the Musée de la civilisation from noon instead. Poutine lunch: anywhere on Grande Allée works — Ashton is the classic Québec choice.
 
 ## Leg 7 — Sat Aug 8 · Mazes, Dinosaurs & Ribs (Québec City → Brockville)
 
