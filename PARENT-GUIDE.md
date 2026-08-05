@@ -207,14 +207,15 @@ everywhere; nothing ever requires a photo or a parent password.
 
 **Prep:** Metro all day (pass covers it). Let him "navigate" from the app map — the real route matches the game. Science Centre's posted hours are now **9–4**: be inside by noon.
 
-## Leg 4 — Wed Aug 5 · Bagels, Bugs & the Park (all-metro day)
+## Leg 4 — Wed Aug 5 · Maze, Bagels & the Park (all-metro day)
 
-*(Revised Aug 4: car stays in the lot; the mountain moved to Thursday morning; La Fontaine Park fills the afternoon.)*
+*(Revised Aug 5: SOS Labyrinthe replaces the Insectarium (his call!); all-metro day; the mountain runs Thursday morning.)*
 
-**9:30 AM — 📍 Route Marker: Montréal Insectarium**
-- Clue says: "Ride the green line from Guy-Concordia straight to Pie-IX. Walk through the butterfly garden slowly. Find eight bugs on your card."
-- **Bug Safari** (scavenger · 15 pts) — Move slowly so the bugs stay calm. Find each thing on the list. Never touch — just look closely.
-  - List: A butterfly landing on something · Something with more than six legs · An insect shaped like a leaf · The biggest beetle you can find · Something that glows · A chrysalis · An ant at work · Something with wings but not flying
+**10:00 AM — 🚧 Roadblock: SOS Labyrinthe — Old Port**
+- Clue says: "Who's ready to get lost? Ride the green line to Place-d'Armes. Find the maze hangar in the Old Port!"
+- **The Great Maze Escape** (physical · 25 pts · stopwatch target 30:00) — Stamp every checkpoint on your mission card. Then find the exit. Beat thirty minutes if you can!
+  - List: Checkpoint one stamped · Checkpoint two stamped · Checkpoint three stamped · Checkpoint four stamped · Found the exit!
+  - 📸 Lost-in-the-maze face!
 
 **11:30 AM — 🔀 DETOUR — choose ONE branch: St-Viateur Bagel**
 - Clue says: "Ride the metro to Laurier, then walk to 263 Rue Saint-Viateur Ouest. Warm bagel brunch! This is a Detour: pick Watch or Taste."
@@ -256,7 +257,7 @@ everywhere; nothing ever requires a photo or a parent password.
 **9:15 PM — 🏁 Pit Stop: Hôtel Monroe – Downtown Montreal**
 - **Mat: 1st — FIRST WIN**, confetti; **The Tide Riders eliminated**. Badges: 🥯 Bagel Boss + ⭐ First Win.
 
-**Prep:** Insectarium and all transit ride the pass. **Schwartz's lunch**: the takeout counter beats the sit-down line — share one medium sandwich (peppery crust: let him try a corner bite before judging) and picnic at La Fontaine if the day is flowing. Flagging? Skip the step guilt-free. For detour *Taste*, buy one sesame and one plain bagel and have him close his eyes. Rain on the park: the Planetarium (pass-covered) is the swap.
+**Prep:** SOS Labyrinthe: tickets at the door (~$20ish, not on the pass); grab the checkpoint mission card at the entrance. **Schwartz's lunch**: the takeout counter beats the sit-down line — share one medium sandwich (peppery crust: let him try a corner bite before judging) and picnic at La Fontaine if the day is flowing. Flagging? Skip the step guilt-free. For detour *Taste*, buy one sesame and one plain bagel and have him close his eyes. Rain on the park: the Planetarium (pass-covered) is the swap.
 
 ## Leg 5 — Thu Aug 6 · Race to the Walled City (Montréal → Québec City)
 
@@ -389,7 +390,7 @@ everywhere; nothing ever requires a photo or a parent password.
 - **Kids Zone Mission** (physical · 8 pts) — Pick one Kids Zone activity. Finish the whole thing.
 
 **7:30 PM — 🏁 Pit Stop: St. Lawrence College Residence & Conference Centre**
-- **Mat: 2nd of 2 — the heartbreaker**, loses "by two minutes." Comfort accordingly; the finale tease follows. Badge: 🌿 Maze Runner.
+- **Mat: 2nd of 2 — the heartbreaker**, loses "by two minutes." Comfort accordingly; the finale tease follows. Badge: 🌿 Maze Runner — and award the bonus 🦖 Dino Tamer from the parent menu after the dino census!
 
 **Prep:** **Check the Maizerets maze is open** before promising it (the in-app backup scavenger covers a closure). Ribfest: wet wipes for the judging; if fireworks happen at dusk, award a bonus badge from the parent menu.
 

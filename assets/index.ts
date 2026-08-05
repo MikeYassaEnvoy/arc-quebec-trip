@@ -56,6 +56,7 @@ export type HostPose = keyof typeof host;
 export const badges = {
   'bagel-boss': new URL('./badges/bagel-boss.svg', import.meta.url).href,
   'cannon-blaster': new URL('./badges/cannon-blaster.svg', import.meta.url).href,
+  'dino-tamer': new URL('./badges/dino-tamer.svg', import.meta.url).href,
   'fearless': new URL('./badges/fearless.svg', import.meta.url).href,
   'first-win': new URL('./badges/first-win.svg', import.meta.url).href,
   'french-speaker': new URL('./badges/french-speaker.svg', import.meta.url).href,

@@ -1,8 +1,8 @@
 {
   "id": 4,
-  "title": "Bagels, Bugs & the Park",
+  "title": "Maze, Bagels & the Park",
   "date": "2026-08-05",
-  "routeText": "Mile End → Olympic Park → La Fontaine Park → Quartier des Spectacles",
+  "routeText": "Old Port → Mile End → La Fontaine Park → Quartier des Spectacles",
   "pitStop": {
     "hotelName": "Hôtel Monroe – Downtown Montreal",
     "city": "Montréal, Québec"
@@ -10,31 +10,31 @@
   "steps": [
     {
       "id": "l4-s4",
-      "kind": "route-marker",
-      "location": "Montréal Insectarium",
-      "scheduledTime": "9:30 AM",
-      "clueRiddle": "Six legs, two antennae and wings so thin.\nA garden of butterflies waits within.",
-      "clueReveal": "Ride the green line from Guy-Concordia straight to Pie-IX. Walk through the butterfly garden slowly. Find eight bugs on your card.",
+      "kind": "roadblock",
+      "location": "SOS Labyrinthe — Old Port",
+      "scheduledTime": "10:00 AM",
+      "clueRiddle": "Two whole kilometres of twisting halls.\nCan you find your way out of the walls?",
+      "clueReveal": "Who's ready to get lost? Ride the green line to Place-d'Armes. Find the maze hangar in the Old Port!",
       "challenges": [
         {
-          "id": "l4-insectarium-bingo",
-          "type": "scavenger",
-          "title": "Bug Safari",
-          "instructions": "Move slowly so the bugs stay calm. Find each thing on the list. Never touch — just look closely.",
+          "id": "l4-sos-maze",
+          "type": "physical",
+          "title": "The Great Maze Escape",
+          "instructions": "Stamp every checkpoint on your mission card. Then find the exit. Beat thirty minutes if you can!",
           "checklist": [
-            "A butterfly landing on something",
-            "Something with more than six legs",
-            "An insect shaped like a leaf",
-            "The biggest beetle you can find",
-            "Something that glows",
-            "A chrysalis",
-            "An ant at work",
-            "Something with wings but not flying"
+            "Checkpoint one stamped",
+            "Checkpoint two stamped",
+            "Checkpoint three stamped",
+            "Checkpoint four stamped",
+            "Found the exit!"
           ],
-          "points": 15
+          "checklistLabel": "Maze mission",
+          "timerSeconds": 1800,
+          "photoPrompt": "Lost-in-the-maze face!",
+          "points": 25
         }
       ],
-      "funFact": "All insects have exactly six legs, so a spider is not an insect."
+      "funFact": "Two kilometres of corridors hide inside this old harbour hangar."
     },
     {
       "id": "l4-s1",
@@ -238,7 +238,7 @@
       "kind": "pit-stop",
       "location": "Hôtel Monroe – Downtown Montreal",
       "scheduledTime": "9:15 PM",
-      "clueRiddle": "Bagels, bugs and the park are behind you now.\nRun to the mat — this could be your day.",
+      "clueRiddle": "The maze, bagels and the park are behind you now.\nRun to the mat — this could be your day.",
       "clueReveal": "Ride the metro back to Guy-Concordia. Walk to Hôtel Monroe on Rue Mackay. Step onto the pit stop mat.",
       "funFact": "Tonight is your last night in Montréal — tomorrow the road goes east."
     }

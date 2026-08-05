@@ -138,6 +138,14 @@ ${seeds}
 <path d="M-32 6c8-6 14-6 22 0s14 6 22 0 12-5 16-2v26h-60z" fill="#4FA3D9" ${S(4)}/>
 <path d="M-24 14c6-4 12-4 18 0M2 20c6-4 12-4 18 0" fill="none" stroke="${WHITE}" stroke-width="3.5" stroke-linecap="round"/>
 <path d="${starPath(5, 9, 4)}" transform="translate(15,17)" fill="#F2921D" stroke="${OUT}" stroke-width="2.5"/>`,
+
+  'dino-tamer': () => `<g ${S(4)}>
+  <g transform="translate(-2,2)">
+    <path d="M-28 22c-2-16 4-34 20-38 14-4 30 2 34 14 1 4-2 6-6 6l-16 1 10 5c3 2 2 6-2 7l-12 2 7 5c3 2 1 6-3 6h-12c-11 0-19-1-20-8z" fill="#7BC96F"/>
+    <path d="M-28 22l-6 8M-18 26l-4 9M-8 27l-2 9" fill="none" stroke-width="4"/>
+    <circle cx="6" cy="-6" r="4.5" fill="#1A1A1A"/><circle cx="7.5" cy="-7.5" r="1.5" fill="#FFFFFF"/>
+    <path d="M14 8l4 5M4 12l4 6" fill="none" stroke="#FFFFFF" stroke-width="3.5"/>
+  </g></g>`,
 };
 
 /* ---------------------------- badge frame ---------------------------- */
@@ -152,6 +160,7 @@ const badges = [
   ['time-traveler', 'Time Traveler', '#E2CFA8'],
   ['goat-whisperer', 'Goat Whisperer', '#C9E9F7'],
   ['maze-runner', 'Maze Runner', '#DCF0C8'],
+  ['dino-tamer', 'Dino Tamer', '#C9EFC2'],
   ['race-champion', 'Race Champion', '#FFE0A0'],
   ['first-win', 'First Win', '#FFD0CB'],
   ['french-speaker', 'French Speaker', '#BFD4F5'],
