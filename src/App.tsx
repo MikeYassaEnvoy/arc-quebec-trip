@@ -14,6 +14,7 @@ import { Album } from './engine/screens/Album';
 import { Badges } from './engine/screens/Badges';
 import { ParentMenu } from './engine/screens/ParentMenu';
 import { ErrorBoundary, RotateScreen } from './engine/screens/SystemScreens';
+import { DEFAULT_LEG_BADGE } from './engine/badges';
 import './engine/styles.css';
 
 function usePortraitWarning() {
@@ -36,8 +37,21 @@ function usePortraitWarning() {
   return portrait;
 }
 
+/** Multi-badge update landed mid-race: completed legs may predate newly assigned
+ * badges (e.g. Penguin Pal for the Biodôme leg). Award any missing ones once at
+ * startup — awardBadge is idempotent, so this never duplicates. */
+function useBadgeBackfill() {
+  useEffect(() => {
+    const { legsCompleted, awardBadge } = useRaceStore.getState();
+    for (const legId of legsCompleted) {
+      for (const b of DEFAULT_LEG_BADGE[legId] ?? []) awardBadge(b);
+    }
+  }, []);
+}
+
 export default function App() {
   const portrait = usePortraitWarning();
+  useBadgeBackfill();
   const onboarded = useRaceStore((s) => s.onboarded);
   const route = useRouter((s) => s.route);
   const resetRoute = useRouter((s) => s.reset);

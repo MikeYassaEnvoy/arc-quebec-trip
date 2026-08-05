@@ -165,7 +165,7 @@ everywhere; nothing ever requires a photo or a parent password.
   - Phrase: *Bonjour!* ("bohn-ZHOOR") = Hello! (Good day!)
 
 **6:45 PM — 🏁 Pit Stop: Hôtel Monroe – Downtown Montreal**
-- **Mat: 4th of 5** — his roughest night; **Prairie Thunder eliminated**. Play the tension straight. Badge: 🛣️ Road Warrior.
+- **Mat: 4th of 5** — his roughest night; **Prairie Thunder eliminated**. Play the tension straight. Badges: 🛣️ Road Warrior + 🐧 Penguin Pal (Biodôme — backfills onto his wall automatically).
 
 **Prep:** Reserve a Biodôme time slot online and **activate the Museums Pass there** (Mon–Wed window covers Biodôme, Science Centre, Insectarium). Park at Olympic Park; luggage stays in the trunk. If the rain pauses in Cornwall, a riverfront leg stretch never hurts.
 
@@ -255,7 +255,7 @@ everywhere; nothing ever requires a photo or a parent password.
   - List: Listen to a drum group · Visit a teepee · Watch a dance · Visit an artisan kiosk
 
 **9:15 PM — 🏁 Pit Stop: Hôtel Monroe – Downtown Montreal**
-- **Mat: 1st — FIRST WIN**, confetti; **The Tide Riders eliminated**. Badges: 🥯 Bagel Boss + ⭐ First Win.
+- **Mat: 1st — FIRST WIN**, confetti; **The Tide Riders eliminated**. Badges: 🌀 Maze Runner + 🥯 Bagel Boss + ⭐ First Win — a three-badge night.
 
 **Prep:** SOS Labyrinthe: tickets at the door (~$20ish, not on the pass); grab the checkpoint mission card at the entrance. **Schwartz's lunch**: the takeout counter beats the sit-down line — share one medium sandwich (peppery crust: let him try a corner bite before judging) and picnic at La Fontaine if the day is flowing. Flagging? Skip the step guilt-free. For detour *Taste*, buy one sesame and one plain bagel and have him close his eyes. Rain on the park: the Planetarium (pass-covered) is the swap.
 
@@ -390,7 +390,7 @@ everywhere; nothing ever requires a photo or a parent password.
 - **Kids Zone Mission** (physical · 8 pts) — Pick one Kids Zone activity. Finish the whole thing.
 
 **7:30 PM — 🏁 Pit Stop: St. Lawrence College Residence & Conference Centre**
-- **Mat: 2nd of 2 — the heartbreaker**, loses "by two minutes." Comfort accordingly; the finale tease follows. Badge: 🌿 Maze Runner — and award the bonus 🦖 Dino Tamer from the parent menu after the dino census!
+- **Mat: 2nd of 2 — the heartbreaker**, loses "by two minutes." Comfort accordingly; the finale tease follows. Badges: 🦖 Dino Tamer (+ Maze Runner if the SOS maze got skipped).
 
 **Prep:** **Check the Maizerets maze is open** before promising it (the in-app backup scavenger covers a closure). Ribfest: wet wipes for the judging; if fireworks happen at dusk, award a bonus badge from the parent menu.
 

@@ -214,3 +214,12 @@
   .arc-tease-text { font-size: 32px; }
   .arc-legstats-note { font-size: 15px; }
 }
+
+/* Multi-badge legs: chips sit side by side under the confetti. */
+.arc-award-row {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}

@@ -31,15 +31,16 @@ export const BADGES: BadgeDef[] = [
 export const badgeById = (id: string): BadgeDef =>
   BADGES.find((b) => b.id === id) ?? { id, name: id, emoji: '🏅', how: '' };
 
-/** Default leg badge awarded by the engine if the ceremony does not award its own. */
-export const DEFAULT_LEG_BADGE: Record<number, string> = {
-  0: 'race-rookie',
-  1: 'cannon-blaster',
-  2: 'road-warrior',
-  3: 'metro-master',
-  4: 'bagel-boss',
-  5: 'time-traveler',
-  6: 'goat-whisperer',
-  7: 'maze-runner',
-  8: 'race-champion',
+/** Leg badges awarded by the engine if the ceremony does not award its own.
+ * A leg may earn several (e.g. leg 4: the SOS maze AND the bagel detour). */
+export const DEFAULT_LEG_BADGE: Record<number, string[]> = {
+  0: ['race-rookie'],
+  1: ['cannon-blaster'],
+  2: ['road-warrior', 'penguin-pal'],
+  3: ['metro-master'],
+  4: ['maze-runner', 'bagel-boss'],
+  5: ['time-traveler'],
+  6: ['goat-whisperer'],
+  7: ['dino-tamer', 'maze-runner'],
+  8: ['race-champion'],
 };

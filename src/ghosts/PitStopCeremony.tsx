@@ -31,6 +31,8 @@ export interface PitStopCeremonyProps {
   legStats: LegStats;
   /** Badge awarded for finishing this leg (e.g. 'cannon-blaster'). */
   badgeId?: string;
+  /** Multi-badge legs: shown as a row; takes precedence over badgeId. */
+  badgeIds?: string[];
   /** Called when the ceremony is over. */
   onDone: () => void;
 
@@ -60,6 +62,7 @@ export default function PitStopCeremony({
   teamName,
   legStats,
   badgeId,
+  badgeIds,
   onDone,
   history = [],
   script,
@@ -125,7 +128,8 @@ export default function PitStopCeremony({
     return survivor ? fillTokens(reactionMap[survivor.id].onOtherElimination, teamName) : '';
   }, [cutTeam, teams, history, reactionMap, teamName]);
 
-  const afterStandings = () => setPhase(cutTeam ? 'elimination' : badgeId ? 'badge' : 'tease');
+  const awardIds = badgeIds && badgeIds.length > 0 ? badgeIds : badgeId ? [badgeId] : [];
+  const afterStandings = () => setPhase(cutTeam ? 'elimination' : awardIds.length ? 'badge' : 'tease');
 
   return (
     <div className="arc-scene arc-pitstop">
@@ -234,7 +238,7 @@ export default function PitStopCeremony({
               <p className="arc-elim-quote">{farewell}</p>
               {survivorLine && <p className="arc-elim-quote arc-elim-quote-sub">{survivorLine}</p>}
               <div className="arc-footer">
-                <BigButton onClick={() => setPhase(badgeId ? 'badge' : 'tease')}>
+                <BigButton onClick={() => setPhase(awardIds.length ? 'badge' : 'tease')}>
                   Say goodbye 👋
                 </BigButton>
               </div>
@@ -244,16 +248,21 @@ export default function PitStopCeremony({
       )}
 
       {/* ---------------- badge ---------------- */}
-      {phase === 'badge' && badgeId && (
+      {phase === 'badge' && awardIds.length > 0 && (
         <div className="arc-pitstop-stage arc-award">
           <ConfettiStorm count={50} />
-          <h2 className="arc-award-title">Badge unlocked!</h2>
-          <BadgeChip
-            badgeId={badgeId}
-            label={badgeLabel}
-            size={180}
-            resolver={avatarResolver}
-          />
+          <h2 className="arc-award-title">{awardIds.length > 1 ? 'Badges unlocked!' : 'Badge unlocked!'}</h2>
+          <div className="arc-award-row">
+            {awardIds.map((id) => (
+              <BadgeChip
+                key={id}
+                badgeId={id}
+                label={awardIds.length === 1 ? badgeLabel : undefined}
+                size={awardIds.length > 1 ? 140 : 180}
+                resolver={avatarResolver}
+              />
+            ))}
+          </div>
           <p className="arc-award-sub">Added to your badge wall.</p>
           <div className="arc-footer">
             <BigButton onClick={() => setPhase('tease')}>Nice! →</BigButton>

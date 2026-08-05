@@ -70,16 +70,16 @@ export function setPhotoUrlResolver(fn: ((key: string) => string | undefined) | 
 }
 
 /** Leg → badge id. Override at integration if Workstream E names them differently. */
-export const DEFAULT_LEG_BADGES: Record<number, string> = {
-  0: 'race-rookie',
-  1: 'cannon-blaster',
-  2: 'road-warrior',
-  3: 'metro-master',
-  4: 'bagel-boss',
-  5: 'time-traveler',
-  6: 'goat-whisperer',
-  7: 'maze-runner',
-  8: 'race-champion',
+export const DEFAULT_LEG_BADGES: Record<number, string[]> = {
+  0: ['race-rookie'],
+  1: ['cannon-blaster'],
+  2: ['road-warrior', 'penguin-pal'],
+  3: ['metro-master'],
+  4: ['maze-runner', 'bagel-boss'],
+  5: ['time-traveler'],
+  6: ['goat-whisperer'],
+  7: ['dino-tamer', 'maze-runner'],
+  8: ['race-champion'],
 };
 
 /* ---------------- shared plumbing ---------------- */
@@ -138,7 +138,7 @@ export function MeetTheTeamsAdapter(props: EngineContext & EngineCallbacks) {
       playerAvatarId={props.avatarId ?? 'team-player'}
       avatarResolver={artResolver}
       onDone={() => {
-        props.onAwardBadge(DEFAULT_LEG_BADGES[0]);
+        for (const b of DEFAULT_LEG_BADGES[0] ?? []) props.onAwardBadge(b);
         props.onFinish();
       }}
     />
@@ -149,14 +149,14 @@ export function PitStopCeremonyAdapter(props: EngineContext & EngineCallbacks) {
   const script = useScript();
   const entry = resolveEntry(script, props);
   if (!script || !entry) return null;
-  const badgeId = DEFAULT_LEG_BADGES[props.legId];
+  const badgeIds = DEFAULT_LEG_BADGES[props.legId] ?? [];
   return (
     <PitStopCeremonyView
       entry={entry}
       teams={rosterOf(script, props)}
       teamName={props.teamName}
       legStats={statsOf(props)}
-      badgeId={badgeId}
+      badgeIds={badgeIds}
       history={props.standingsHistory}
       script={script}
       pitStopName={props.pitStop?.hotelName}
@@ -164,7 +164,7 @@ export function PitStopCeremonyAdapter(props: EngineContext & EngineCallbacks) {
       avatarResolver={artResolver}
       matArtUrl={uiArt.mat}
       onDone={() => {
-        if (badgeId) props.onAwardBadge(badgeId);
+        for (const b of badgeIds) props.onAwardBadge(b);
         props.onFinish();
       }}
     />
@@ -176,7 +176,7 @@ export function FinaleSequenceAdapter(
 ) {
   const script = useScript();
   if (!script) return null;
-  const badgeId = DEFAULT_LEG_BADGES[8];
+  const finaleBadgeIds = DEFAULT_LEG_BADGES[8] ?? [];
   return (
     <FinaleSequenceView
       teams={rosterOf(script, props)}
@@ -198,7 +198,7 @@ export function FinaleSequenceAdapter(
       playerAvatarId={props.avatarId ?? 'team-player'}
       avatarResolver={artResolver}
       onDone={() => {
-        if (badgeId) props.onAwardBadge(badgeId);
+        for (const b of finaleBadgeIds) props.onAwardBadge(b);
         props.onFinish();
       }}
     />

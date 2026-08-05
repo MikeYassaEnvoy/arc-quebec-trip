@@ -114,8 +114,7 @@ export function PitStopScreen({ legId, stepId }: { legId: number; stepId: string
     // enters the standings history.
     if (legId !== PRACTICE_LEG_ID) recordLegResult(result);
     if (result.yassaPlacement === 1 && legId !== PRACTICE_LEG_ID) awardBadge('first-win');
-    const defaultBadge = DEFAULT_LEG_BADGE[legId];
-    if (defaultBadge) awardBadge(defaultBadge);
+    for (const b of DEFAULT_LEG_BADGE[legId] ?? []) awardBadge(b);
     if (state.photos.length >= 10) awardBadge('photographer');
     completeStep(step.id);
     completeLeg(legId);
