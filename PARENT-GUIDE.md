@@ -257,7 +257,7 @@ everywhere; nothing ever requires a photo or a parent password.
 **9:15 PM — 🏁 Pit Stop: Hôtel Monroe – Downtown Montreal**
 - **Mat: 1st — FIRST WIN**, confetti; **The Tide Riders eliminated**. Badges: 🌀 Maze Runner + 🥯 Bagel Boss + ⭐ First Win — a three-badge night.
 
-**Prep:** SOS Labyrinthe: tickets at the door (~$20ish, not on the pass); grab the checkpoint mission card at the entrance. **Schwartz's lunch**: the takeout counter beats the sit-down line — share one medium sandwich (peppery crust: let him try a corner bite before judging) and picnic at La Fontaine if the day is flowing. Flagging? Skip the step guilt-free. For detour *Taste*, buy one sesame and one plain bagel and have him close his eyes. Rain on the park: the Planetarium (pass-covered) is the swap.
+**Prep:** SOS Labyrinthe is INCLUDED in your Passeport MTL — show the QR code at the door; grab the checkpoint mission card at the entrance. **Schwartz's lunch**: the takeout counter beats the sit-down line — share one medium sandwich (peppery crust: let him try a corner bite before judging) and picnic at La Fontaine if the day is flowing. Flagging? Skip the step guilt-free. For detour *Taste*, buy one sesame and one plain bagel and have him close his eyes. Rain on the park: the Planetarium (pass-covered) is the swap.
 
 ## Leg 5 — Thu Aug 6 · Race to the Walled City (Montréal → Québec City)
 
