@@ -9,12 +9,40 @@
   },
   "steps": [
     {
+      "id": "l4-s4",
+      "kind": "route-marker",
+      "location": "Montréal Insectarium",
+      "scheduledTime": "9:30 AM",
+      "clueRiddle": "Six legs, two antennae and wings so thin.\nA garden of butterflies waits within.",
+      "clueReveal": "Ride the green line from Guy-Concordia straight to Pie-IX. Walk through the butterfly garden slowly. Find eight bugs on your card.",
+      "challenges": [
+        {
+          "id": "l4-insectarium-bingo",
+          "type": "scavenger",
+          "title": "Bug Safari",
+          "instructions": "Move slowly so the bugs stay calm. Find each thing on the list. Never touch — just look closely.",
+          "checklist": [
+            "A butterfly landing on something",
+            "Something with more than six legs",
+            "An insect shaped like a leaf",
+            "The biggest beetle you can find",
+            "Something that glows",
+            "A chrysalis",
+            "An ant at work",
+            "Something with wings but not flying"
+          ],
+          "points": 15
+        }
+      ],
+      "funFact": "All insects have exactly six legs, so a spider is not an insect."
+    },
+    {
       "id": "l4-s1",
       "kind": "detour",
       "location": "St-Viateur Bagel",
-      "scheduledTime": "9:30 AM",
+      "scheduledTime": "11:30 AM",
       "clueRiddle": "Round bread with a hole, baked over real fire.\nWatch it or taste it — racer, you choose.",
-      "clueReveal": "Ride the metro to Laurier, then walk to 263 Rue Saint-Viateur Ouest. This is a Detour: pick Watch or Taste. You only have to do one.",
+      "clueReveal": "Ride the metro to Laurier, then walk to 263 Rue Saint-Viateur Ouest. Warm bagel brunch! This is a Detour: pick Watch or Taste.",
       "detour": {
         "a": {
           "label": "Watch",
@@ -102,40 +130,12 @@
       "funFact": "St-Viateur Bagel has been baking day and night since 1957."
     },
     {
-      "id": "l4-s4",
-      "kind": "route-marker",
-      "location": "Montréal Insectarium",
-      "scheduledTime": "11:00 AM",
-      "clueRiddle": "Six legs, two antennae and wings so thin.\nA garden of butterflies waits within.",
-      "clueReveal": "Ride the green line to Pie-IX station. Walk through the butterfly garden slowly. Find eight bugs on your card.",
-      "challenges": [
-        {
-          "id": "l4-insectarium-bingo",
-          "type": "scavenger",
-          "title": "Bug Safari",
-          "instructions": "Move slowly so the bugs stay calm. Find each thing on the list. Never touch — just look closely.",
-          "checklist": [
-            "A butterfly landing on something",
-            "Something with more than six legs",
-            "An insect shaped like a leaf",
-            "The biggest beetle you can find",
-            "Something that glows",
-            "A chrysalis",
-            "An ant at work",
-            "Something with wings but not flying"
-          ],
-          "points": 15
-        }
-      ],
-      "funFact": "All insects have exactly six legs, so a spider is not an insect."
-    },
-    {
       "id": "l4-s3",
       "kind": "route-marker",
       "location": "Schwartz's Deli",
-      "scheduledTime": "1:15 PM",
+      "scheduledTime": "1:45 PM",
       "clueRiddle": "Since 1928 the smoke has never stopped here.\nCanada's most famous sandwich is waiting.",
-      "clueReveal": "Ride the metro to Sherbrooke station. Walk to Schwartz's on Boulevard Saint-Laurent. Order the famous smoked meat — eat in or picnic!",
+      "clueReveal": "Stroll or ride bus 55 down Boulevard Saint-Laurent to Schwartz's. Order the famous smoked meat — eat in or picnic!",
       "challenges": [
         {
           "id": "l4-schwartz-judge",
@@ -154,7 +154,7 @@
       "location": "La Fontaine Park",
       "scheduledTime": "3:00 PM",
       "clueRiddle": "Museums are done — the racers need to run!\nA big green park with a pond is waiting.",
-      "clueReveal": "Ride the metro to Sherbrooke station. Walk into La Fontaine Park. Time to play hard!",
+      "clueReveal": "Walk fifteen minutes over to La Fontaine Park. Time to play hard!",
       "challenges": [
         {
           "id": "l4-lafontaine-grandprix",
@@ -174,6 +174,40 @@
         }
       ],
       "funFact": "La Fontaine Park has two ponds joined by a little waterfall."
+    },
+    {
+      "id": "l4-s2b",
+      "kind": "route-marker",
+      "location": "Avenue du Mont-Royal",
+      "scheduledTime": "4:15 PM",
+      "clueRiddle": "The racing is done — now stroll like a local.\nThe Plateau hides treasures on every block.",
+      "clueReveal": "Wander up to Avenue du Mont-Royal. Spot the Plateau's secrets as you go. Ice cream is highly encouraged.",
+      "challenges": [
+        {
+          "id": "l4-plateau-safari",
+          "type": "scavenger",
+          "title": "Plateau Safari",
+          "instructions": "No rush — just keep your eyes open. Spot each Plateau classic as you stroll.",
+          "checklist": [
+            "A twisty outdoor spiral staircase",
+            "A wall mural",
+            "A brightly painted front door",
+            "A cat watching from a window",
+            "Someone walking a dog"
+          ],
+          "checklistLabel": "Spotted on the stroll",
+          "points": 8
+        },
+        {
+          "id": "l4-cremerie-cooldown",
+          "type": "taste",
+          "title": "Crémerie Cool-Down",
+          "instructions": "Find an ice cream shop on the avenue. Pick any flavour you like. Give it your maple leaf rating.",
+          "photoPrompt": "Ice cream grin — snap it!",
+          "points": 5
+        }
+      ],
+      "funFact": "The Plateau's outdoor spiral staircases were built to save space inside."
     },
     {
       "id": "l4-s5",

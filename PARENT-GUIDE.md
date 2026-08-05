@@ -211,8 +211,13 @@ everywhere; nothing ever requires a photo or a parent password.
 
 *(Revised Aug 4: car stays in the lot; the mountain moved to Thursday morning; La Fontaine Park fills the afternoon.)*
 
-**9:30 AM — 🔀 DETOUR — choose ONE branch: St-Viateur Bagel**
-- Clue says: "Ride the metro to Laurier, then walk to 263 Rue Saint-Viateur Ouest. This is a Detour: pick Watch or Taste. You only have to do one."
+**9:30 AM — 📍 Route Marker: Montréal Insectarium**
+- Clue says: "Ride the green line from Guy-Concordia straight to Pie-IX. Walk through the butterfly garden slowly. Find eight bugs on your card."
+- **Bug Safari** (scavenger · 15 pts) — Move slowly so the bugs stay calm. Find each thing on the list. Never touch — just look closely.
+  - List: A butterfly landing on something · Something with more than six legs · An insect shaped like a leaf · The biggest beetle you can find · Something that glows · A chrysalis · An ant at work · Something with wings but not flying
+
+**11:30 AM — 🔀 DETOUR — choose ONE branch: St-Viateur Bagel**
+- Clue says: "Ride the metro to Laurier, then walk to 263 Rue Saint-Viateur Ouest. Warm bagel brunch! This is a Detour: pick Watch or Taste."
 - **Branch A — "Watch":** Study the bakers at work. Learn the bagel secret, then prove it.
   - **Baker Watch** (scavenger · 8 pts) — Stand where you can see the bakery. Watch the bakers for a few minutes. Check off each thing you see.
     - List: A baker rolling dough by hand · Bagels boiling in a pot · The long wooden paddle · Real flames in the oven
@@ -225,21 +230,23 @@ everywhere; nothing ever requires a photo or a parent password.
     - List: Bite one — make your guess · Bite two — make your guess · At least one guess was right! · Crowned my favourite bagel
     - 📸 Snap a picture of you eating it!
 
-**11:00 AM — 📍 Route Marker: Montréal Insectarium**
-- Clue says: "Ride the green line to Pie-IX station. Walk through the butterfly garden slowly. Find eight bugs on your card."
-- **Bug Safari** (scavenger · 15 pts) — Move slowly so the bugs stay calm. Find each thing on the list. Never touch — just look closely.
-  - List: A butterfly landing on something · Something with more than six legs · An insect shaped like a leaf · The biggest beetle you can find · Something that glows · A chrysalis · An ant at work · Something with wings but not flying
-
-**1:15 PM — 📍 Route Marker: Schwartz's Deli**
-- Clue says: "Ride the metro to Sherbrooke station. Walk to Schwartz's on Boulevard Saint-Laurent. Order the famous smoked meat — eat in or picnic!"
+**1:45 PM — 📍 Route Marker: Schwartz's Deli**
+- Clue says: "Stroll or ride bus 55 down Boulevard Saint-Laurent to Schwartz's. Order the famous smoked meat — eat in or picnic!"
 - **Judge's Table: Smoked Meat** (taste · 15 pts) — Remember the menu at Tilly's? THIS is that famous Montréal smoked meat. Taste it and give your rating.
   - 📸 Big smoked meat bite — snap it!
 
 **3:00 PM — 📍 Route Marker: La Fontaine Park**
-- Clue says: "Ride the metro to Sherbrooke station. Walk into La Fontaine Park. Time to play hard!"
+- Clue says: "Walk fifteen minutes over to La Fontaine Park. Time to play hard!"
 - **Playground Grand Prix** (physical · 20 pts · stopwatch target 5:00) — Start the stopwatch and play hard. Five whole minutes of playground racing. Check off each move you complete.
   - List: Go down a slide · Swing ten big swings · Climb something tall · Spot a duck by the pond
   - 📸 Mid-air action shot!
+
+**4:15 PM — 📍 Route Marker: Avenue du Mont-Royal**
+- Clue says: "Wander up to Avenue du Mont-Royal. Spot the Plateau's secrets as you go. Ice cream is highly encouraged."
+- **Plateau Safari** (scavenger · 8 pts) — No rush — just keep your eyes open. Spot each Plateau classic as you stroll.
+  - List: A twisty outdoor spiral staircase · A wall mural · A brightly painted front door · A cat watching from a window · Someone walking a dog
+- **Crémerie Cool-Down** (taste · 5 pts) — Find an ice cream shop on the avenue. Pick any flavour you like. Give it your maple leaf rating.
+  - 📸 Ice cream grin — snap it!
 
 **7:30 PM — 📍 Route Marker: Place des Festivals**
 - Clue says: "Take the green line to Place-des-Arts station. Join one First Peoples' Festival activity."
