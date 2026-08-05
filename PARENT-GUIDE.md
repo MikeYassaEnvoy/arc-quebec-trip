@@ -222,7 +222,7 @@ everywhere; nothing ever requires a photo or a parent password.
     - Q: What tool does the baker use to reach into the oven? → **A long wooden paddle**
 - **Branch B — "Taste":** Close your eyes and taste two bagels. Can you tell them apart?
   - **Blind Bagel Test** (taste · 20 pts) — Close your eyes while a parent hands you a bite. Guess sesame or plain each time. Then rate your favourite bagel.
-    - List: Bite one: I guessed · Bite two: I guessed · I got at least one right · I rated my favourite
+    - List: Bite one — make your guess · Bite two — make your guess · At least one guess was right! · Crowned my favourite bagel
     - 📸 Snap a picture of you eating it!
 
 **10:30 AM — 📍 Route Marker: Montréal Insectarium**

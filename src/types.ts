@@ -30,6 +30,8 @@ export interface Challenge {
   // FIXES-ROUND2 §"New shared content contracts": 'guess' renders a "Your guesses"
   // header with no "Found X of Y" counter. Default 'find' keeps prior behavior.
   checklistStyle?: 'find' | 'guess';
+  /** Overrides the checklist header (e.g. "Taste-test missions"). */
+  checklistLabel?: string;
   trivia?: TriviaQuestion[];
   frenchPhrase?: { fr: string; phonetic: string; en: string };
   timerSeconds?: number;      // physical challenges with a stopwatch target

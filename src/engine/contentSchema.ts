@@ -43,6 +43,7 @@ export const challengeSchema = z.object({
   instructions: z.string().min(1),
   checklist: z.array(z.string().min(1)).optional(),
   checklistStyle: z.enum(['find', 'guess']).optional(),
+  checklistLabel: z.string().optional(),
   trivia: z.array(triviaQuestionSchema).optional(),
   frenchPhrase: z
     .object({ fr: z.string().min(1), phonetic: z.string().min(1), en: z.string().min(1) })

@@ -170,6 +170,7 @@ function ChallengeBody({
           progress={progress}
           onToggle={toggleCheck}
           style={challenge.checklistStyle}
+              label={challenge.checklistLabel}
         />
       );
 
@@ -199,6 +200,7 @@ function ChallengeBody({
               progress={progress}
               onToggle={toggleCheck}
               style={challenge.checklistStyle}
+              label={challenge.checklistLabel}
             />
           )}
         </>
@@ -217,6 +219,7 @@ function ChallengeBody({
               progress={progress}
               onToggle={toggleCheck}
               style={challenge.checklistStyle}
+              label={challenge.checklistLabel}
             />
           )}
         </>
@@ -255,6 +258,7 @@ function ChallengeBody({
               progress={progress}
               onToggle={toggleCheck}
               style={challenge.checklistStyle}
+              label={challenge.checklistLabel}
             />
           )}
         </>
@@ -298,11 +302,13 @@ function Checklist({
   progress,
   onToggle,
   style = 'find',
+  label,
 }: {
   items: string[];
   progress: { checked?: boolean[] };
   onToggle: (index: number, total: number) => void;
   style?: 'find' | 'guess';
+  label?: string;
 }) {
   const checked = items.map((_, i) => progress.checked?.[i] ?? false);
   const toggle = (i: number) => onToggle(i, items.length);
@@ -312,7 +318,11 @@ function Checklist({
   return (
     <div className="checklist">
       <p className="checklist__count">
-        {style === 'guess' ? 'Your guesses' : `Found ${found} of ${items.length}`}
+        {label
+          ? `${label} · ${found}/${items.length}`
+          : style === 'guess'
+            ? 'Your guesses'
+            : `Found ${found} of ${items.length}`}
       </p>
       <ul style={{ gridTemplateColumns: `repeat(${cols}, 1fr)` }}>
         {items.map((item, i) => (

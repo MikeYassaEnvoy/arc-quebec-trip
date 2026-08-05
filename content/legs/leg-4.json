@@ -3,7 +3,10 @@
   "title": "Bagels, Bugs & the Park",
   "date": "2026-08-05",
   "routeText": "Mile End → Olympic Park → La Fontaine Park → Quartier des Spectacles",
-  "pitStop": { "hotelName": "Hôtel Monroe – Downtown Montreal", "city": "Montréal, Québec" },
+  "pitStop": {
+    "hotelName": "Hôtel Monroe – Downtown Montreal",
+    "city": "Montréal, Québec"
+  },
   "steps": [
     {
       "id": "l4-s1",
@@ -38,19 +41,34 @@
               "trivia": [
                 {
                   "q": "What is added to the water Montréal bagels are boiled in?",
-                  "choices": ["Honey", "Salt", "Milk", "Butter"],
+                  "choices": [
+                    "Honey",
+                    "Salt",
+                    "Milk",
+                    "Butter"
+                  ],
                   "answerIndex": 0,
                   "funFact": "The honey water is why Montréal bagels taste a little sweet."
                 },
                 {
                   "q": "What kind of oven bakes these bagels?",
-                  "choices": ["A wood-fired oven", "A microwave", "A toaster", "An electric oven"],
+                  "choices": [
+                    "A wood-fired oven",
+                    "A microwave",
+                    "A toaster",
+                    "An electric oven"
+                  ],
                   "answerIndex": 0,
                   "funFact": "The wood fire here burns all day and all night."
                 },
                 {
                   "q": "What tool does the baker use to reach into the oven?",
-                  "choices": ["A long wooden paddle", "A fishing rod", "A broom", "A spoon"],
+                  "choices": [
+                    "A long wooden paddle",
+                    "A fishing rod",
+                    "A broom",
+                    "A spoon"
+                  ],
                   "answerIndex": 0,
                   "funFact": "That paddle is called a peel, and it can hold many bagels."
                 }
@@ -69,13 +87,14 @@
               "title": "Blind Bagel Test",
               "instructions": "Close your eyes while a parent hands you a bite. Guess sesame or plain each time. Then rate your favourite bagel.",
               "checklist": [
-                "Bite one: I guessed",
-                "Bite two: I guessed",
-                "I got at least one right",
-                "I rated my favourite"
+                "Bite one — make your guess",
+                "Bite two — make your guess",
+                "At least one guess was right!",
+                "Crowned my favourite bagel"
               ],
               "photoPrompt": "Snap a picture of you eating it!",
-              "points": 20
+              "points": 20,
+              "checklistLabel": "Taste-test missions"
             }
           ]
         }
@@ -150,7 +169,8 @@
           ],
           "timerSeconds": 300,
           "photoPrompt": "Mid-air action shot!",
-          "points": 20
+          "points": 20,
+          "checklistLabel": "Grand Prix moves"
         }
       ],
       "funFact": "La Fontaine Park has two ponds joined by a little waterfall."

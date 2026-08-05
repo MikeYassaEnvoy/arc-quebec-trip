@@ -78,7 +78,9 @@
           "title": "Hedge-Maze Training",
           "instructions": "Practice for the big maze. Drag your racer to the red exit gate. No cutting through hedges!",
           "minigameId": "maze-escape",
-          "config": { "level": 2 },
+          "config": {
+            "level": 2
+          },
           "points": 10
         },
         {
@@ -87,7 +89,9 @@
           "title": "Dinosaur Road Trivia",
           "instructions": "Answer questions about dinosaurs and the road home. Guess before you tap.",
           "minigameId": "trivia",
-          "config": { "deck": "leg-7" },
+          "config": {
+            "deck": "leg-7"
+          },
           "points": 10
         },
         {
@@ -96,7 +100,9 @@
           "title": "Homeward Bingo",
           "instructions": "Look out the window the whole drive. Stamp what you spot. Get four in a row.",
           "minigameId": "road-bingo",
-          "config": { "card": "homeward" },
+          "config": {
+            "card": "homeward"
+          },
           "points": 10
         }
       ],
@@ -133,19 +139,34 @@
           "trivia": [
             {
               "q": "Which dinosaur had a long neck for reaching treetops?",
-              "choices": ["Brachiosaurus", "Tyrannosaurus rex", "Triceratops", "Stegosaurus"],
+              "choices": [
+                "Brachiosaurus",
+                "Tyrannosaurus rex",
+                "Triceratops",
+                "Stegosaurus"
+              ],
               "answerIndex": 0,
               "funFact": "Brachiosaurus grabbed high leaves like a giant, scaly giraffe."
             },
             {
               "q": "How many horns did a Triceratops have?",
-              "choices": ["One", "Two", "Three", "Five"],
+              "choices": [
+                "One",
+                "Two",
+                "Three",
+                "Five"
+              ],
               "answerIndex": 2,
               "funFact": "Triceratops means \"three-horned face\" in ancient Greek."
             },
             {
               "q": "What do we call a scientist who digs up dinosaur bones?",
-              "choices": ["A paleontologist", "A dentist", "A pilot", "A chef"],
+              "choices": [
+                "A paleontologist",
+                "A dentist",
+                "A pilot",
+                "A chef"
+              ],
               "answerIndex": 0,
               "funFact": "Paleontologists brush rock off bones very, very slowly."
             }
@@ -175,7 +196,8 @@
             "Lick your fingers clean"
           ],
           "photoPrompt": "Snap a picture of you eating it!",
-          "points": 12
+          "points": 12,
+          "checklistLabel": "Judge's scorecard"
         },
         {
           "id": "l7-ribfest-kidszone",
