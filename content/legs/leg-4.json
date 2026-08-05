@@ -12,7 +12,7 @@
       "id": "l4-s1",
       "kind": "detour",
       "location": "St-Viateur Bagel",
-      "scheduledTime": "8:30 AM",
+      "scheduledTime": "9:30 AM",
       "clueRiddle": "Round bread with a hole, baked over real fire.\nWatch it or taste it — racer, you choose.",
       "clueReveal": "Ride the metro to Laurier, then walk to 263 Rue Saint-Viateur Ouest. This is a Detour: pick Watch or Taste. You only have to do one.",
       "detour": {
@@ -105,7 +105,7 @@
       "id": "l4-s4",
       "kind": "route-marker",
       "location": "Montréal Insectarium",
-      "scheduledTime": "10:30 AM",
+      "scheduledTime": "11:00 AM",
       "clueRiddle": "Six legs, two antennae and wings so thin.\nA garden of butterflies waits within.",
       "clueReveal": "Ride the green line to Pie-IX station. Walk through the butterfly garden slowly. Find eight bugs on your card.",
       "challenges": [
@@ -133,7 +133,7 @@
       "id": "l4-s3",
       "kind": "route-marker",
       "location": "Schwartz's Deli",
-      "scheduledTime": "1:00 PM",
+      "scheduledTime": "1:15 PM",
       "clueRiddle": "Since 1928 the smoke has never stopped here.\nCanada's most famous sandwich is waiting.",
       "clueReveal": "Ride the metro to Sherbrooke station. Walk to Schwartz's on Boulevard Saint-Laurent. Order the famous smoked meat — eat in or picnic!",
       "challenges": [
@@ -152,7 +152,7 @@
       "id": "l4-s2",
       "kind": "route-marker",
       "location": "La Fontaine Park",
-      "scheduledTime": "2:30 PM",
+      "scheduledTime": "3:00 PM",
       "clueRiddle": "Museums are done — the racers need to run!\nA big green park with a pond is waiting.",
       "clueReveal": "Ride the metro to Sherbrooke station. Walk into La Fontaine Park. Time to play hard!",
       "challenges": [

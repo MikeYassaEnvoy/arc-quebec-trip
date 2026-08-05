@@ -211,7 +211,7 @@ everywhere; nothing ever requires a photo or a parent password.
 
 *(Revised Aug 4: car stays in the lot; the mountain moved to Thursday morning; La Fontaine Park fills the afternoon.)*
 
-**8:30 AM — 🔀 DETOUR — choose ONE branch: St-Viateur Bagel**
+**9:30 AM — 🔀 DETOUR — choose ONE branch: St-Viateur Bagel**
 - Clue says: "Ride the metro to Laurier, then walk to 263 Rue Saint-Viateur Ouest. This is a Detour: pick Watch or Taste. You only have to do one."
 - **Branch A — "Watch":** Study the bakers at work. Learn the bagel secret, then prove it.
   - **Baker Watch** (scavenger · 8 pts) — Stand where you can see the bakery. Watch the bakers for a few minutes. Check off each thing you see.
@@ -225,17 +225,17 @@ everywhere; nothing ever requires a photo or a parent password.
     - List: Bite one — make your guess · Bite two — make your guess · At least one guess was right! · Crowned my favourite bagel
     - 📸 Snap a picture of you eating it!
 
-**10:30 AM — 📍 Route Marker: Montréal Insectarium**
+**11:00 AM — 📍 Route Marker: Montréal Insectarium**
 - Clue says: "Ride the green line to Pie-IX station. Walk through the butterfly garden slowly. Find eight bugs on your card."
 - **Bug Safari** (scavenger · 15 pts) — Move slowly so the bugs stay calm. Find each thing on the list. Never touch — just look closely.
   - List: A butterfly landing on something · Something with more than six legs · An insect shaped like a leaf · The biggest beetle you can find · Something that glows · A chrysalis · An ant at work · Something with wings but not flying
 
-**1:00 PM — 📍 Route Marker: Schwartz's Deli**
+**1:15 PM — 📍 Route Marker: Schwartz's Deli**
 - Clue says: "Ride the metro to Sherbrooke station. Walk to Schwartz's on Boulevard Saint-Laurent. Order the famous smoked meat — eat in or picnic!"
 - **Judge's Table: Smoked Meat** (taste · 15 pts) — Remember the menu at Tilly's? THIS is that famous Montréal smoked meat. Taste it and give your rating.
   - 📸 Big smoked meat bite — snap it!
 
-**2:30 PM — 📍 Route Marker: La Fontaine Park**
+**3:00 PM — 📍 Route Marker: La Fontaine Park**
 - Clue says: "Ride the metro to Sherbrooke station. Walk into La Fontaine Park. Time to play hard!"
 - **Playground Grand Prix** (physical · 20 pts · stopwatch target 5:00) — Start the stopwatch and play hard. Five whole minutes of playground racing. Check off each move you complete.
   - List: Go down a slide · Swing ten big swings · Climb something tall · Spot a duck by the pond
