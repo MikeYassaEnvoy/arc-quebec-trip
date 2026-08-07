@@ -8,10 +8,18 @@
       "id": "l6-s1",
       "kind": "roadblock",
       "location": "La Citadelle de Québec",
-      "scheduledTime": "10:20 AM",
+      "scheduledTime": "9:50 AM",
       "clueRiddle": "A star-shaped fort guards the top of the cliff.\nAt noon it makes the loudest bang in town.",
-      "clueReveal": "Who's brave enough for the cannon? Tour the star fort and gather intel. Cover your ears at noon!",
+      "clueReveal": "Who's brave enough for the cannon? Watch the band play at ten. Tour the fort at ten-forty — ears covered at noon!",
       "challenges": [
+        {
+          "id": "l6-citadelle-parade",
+          "type": "physical",
+          "title": "Stand Like a Soldier",
+          "instructions": "Watch the Royal 22e Régiment band play. Stand up straight like a guard. No smiling!",
+          "photoPrompt": "Guard face — no smiling!",
+          "points": 10
+        },
         {
           "id": "l6-citadelle-quiz",
           "type": "trivia",
@@ -63,8 +71,7 @@
               "funFact": "Workers built it slowly, from 1820 all the way to 1850."
             }
           ],
-          "points": 20,
-          "photoPrompt": "Guard face — no smiling!"
+          "points": 20
         }
       ],
       "funFact": "The Citadelle is still a real army home for the Royal 22e Régiment."

@@ -109,11 +109,10 @@ LEGS = {
     ),
     6: dict(
         h="Leg 6 — Fri Aug 7 · The Citadelle Showdown (Québec City)",
-        note="Slimmed Aug 5: band show, Battlefield Sprint and Morrin Centre "
-             "cut — three anchors, real rest, gas in the tank for the big "
-             "Saturday.",
-        prep="Citadelle tour tickets (booked); arrive ~10:20 for the 10:45 "
-             "English tour. **Warn him the noon cannon is genuinely loud** — "
+        note="Slimmed Aug 5; band show restored Aug 6 (tickets in hand, no "
+             "rain). Battlefield Sprint and Morrin Centre stay cut.",
+        prep="Arrive ~9:45 — band performance at 10:00 (tickets in hand), "
+             "guided tour at 10:40. **Warn him the noon cannon is genuinely loud** — "
              "cover ears at 11:59. Poutine lunch: anywhere on Grande Allée — "
              "Ashton is the classic. The 3:30–5:30 gap is real rest (Méga "
              "Parc next door to the hotel if he needs a burn-off). If sun "

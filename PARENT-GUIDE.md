@@ -308,16 +308,17 @@ everywhere; nothing ever requires a photo or a parent password.
 
 ## Leg 6 — Fri Aug 7 · The Citadelle Showdown (Québec City)
 
-*(Slimmed Aug 5: band show, Battlefield Sprint and Morrin Centre cut — three anchors, real rest, gas in the tank for the big Saturday.)*
+*(Slimmed Aug 5; band show restored Aug 6 (tickets in hand, no rain). Battlefield Sprint and Morrin Centre stay cut.)*
 
-**10:20 AM — 🚧 Roadblock: La Citadelle de Québec**
-- Clue says: "Who's brave enough for the cannon? Tour the star fort and gather intel. Cover your ears at noon!"
+**9:50 AM — 🚧 Roadblock: La Citadelle de Québec**
+- Clue says: "Who's brave enough for the cannon? Watch the band play at ten. Tour the fort at ten-forty — ears covered at noon!"
+- **Stand Like a Soldier** (physical · 10 pts) — Watch the Royal 22e Régiment band play. Stand up straight like a guard. No smiling!
+  - 📸 Guard face — no smiling!
 - **Gather the Fort Intel** (trivia · 20 pts) — Listen closely on the tour. The guide says every answer. Then take the quiz.
   - Q: What animal is the regiment's mascot? → **A goat**
   - Q: What shape is the Citadelle built in? → **A star**
   - Q: What happens at the Citadelle every day at noon? → **A cannon fires**
   - Q: When was the Citadelle finished? → **1850**
-  - 📸 Guard face — no smiling!
 
 **12:15 PM — 📍 Route Marker: Lunch on Grande Allée**
 - Clue says: "Find lunch along Grande Allée. Order a classic Québec poutine. Judge it like a pro."
@@ -339,7 +340,7 @@ everywhere; nothing ever requires a photo or a parent password.
 **7:45 PM — 🏁 Pit Stop: Hôtel & Suites Le Dauphin Québec**
 - **Mat: 1st again** — **Team Maple eliminated** → the finale is vs. The Rock Hoppers. Badge: 🐐 Goat Whisperer.
 
-**Prep:** Citadelle tour tickets (booked); arrive ~10:20 for the 10:45 English tour. **Warn him the noon cannon is genuinely loud** — cover ears at 11:59. Poutine lunch: anywhere on Grande Allée — Ashton is the classic. The 3:30–5:30 gap is real rest (Méga Parc next door to the hotel if he needs a burn-off). If sun appears, the Plains are the fort's front lawn — run free, no app needed.
+**Prep:** Arrive ~9:45 — band performance at 10:00 (tickets in hand), guided tour at 10:40. **Warn him the noon cannon is genuinely loud** — cover ears at 11:59. Poutine lunch: anywhere on Grande Allée — Ashton is the classic. The 3:30–5:30 gap is real rest (Méga Parc next door to the hotel if he needs a burn-off). If sun appears, the Plains are the fort's front lawn — run free, no app needed.
 
 ## Leg 7 — Sat Aug 8 · Mazes, Dinosaurs & Ribs (Québec City → Brockville)
 
