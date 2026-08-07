@@ -340,7 +340,7 @@ everywhere; nothing ever requires a photo or a parent password.
 **7:45 PM — 🏁 Pit Stop: Hôtel & Suites Le Dauphin Québec**
 - **Mat: 1st again** — **Team Maple eliminated** → the finale is vs. The Rock Hoppers. Badge: 🐐 Goat Whisperer.
 
-**Prep:** Arrive ~9:45 — band performance at 10:00 (tickets in hand), guided tour at 10:40. **Warn him the noon cannon is genuinely loud** — cover ears at 11:59. Poutine lunch: anywhere on Grande Allée — Ashton is the classic. The 3:30–5:30 gap is real rest (Méga Parc next door to the hotel if he needs a burn-off). If sun appears, the Plains are the fort's front lawn — run free, no app needed.
+**Prep:** **Parking: the Citadelle lot is 2-hour max — don't use it.** Reserve a Grande Allée spot on clicknpark for ~9:30–1:30 (or an Indigo/Parc-Auto garage by Parliament) — 8–10 min walk to the fort, and the car sits beside your lunch terrace. After lunch, drive to the Musée and use the Dalhousie full-day lots. Arrive ~9:45 — band performance at 10:00 (tickets in hand), guided tour at 10:40. **Warn him the noon cannon is genuinely loud** — cover ears at 11:59. Poutine lunch: anywhere on Grande Allée — Ashton is the classic. The 3:30–5:30 gap is real rest (Méga Parc next door to the hotel if he needs a burn-off). If sun appears, the Plains are the fort's front lawn — run free, no app needed.
 
 ## Leg 7 — Sat Aug 8 · Mazes, Dinosaurs & Ribs (Québec City → Brockville)
 
