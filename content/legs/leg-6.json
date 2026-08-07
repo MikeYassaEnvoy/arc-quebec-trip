@@ -8,18 +8,10 @@
       "id": "l6-s1",
       "kind": "roadblock",
       "location": "La Citadelle de Québec",
-      "scheduledTime": "10:00 AM",
+      "scheduledTime": "10:20 AM",
       "clueRiddle": "A star-shaped fort guards the top of the cliff.\nAt noon it makes the loudest bang in town.",
-      "clueReveal": "Who's brave enough for the cannon? Watch the band, then tour the Citadelle. Cover your ears at noon!",
+      "clueReveal": "Who's brave enough for the cannon? Tour the star fort and gather intel. Cover your ears at noon!",
       "challenges": [
-        {
-          "id": "l6-citadelle-parade",
-          "type": "physical",
-          "title": "Stand Like a Soldier",
-          "instructions": "Watch the Royal 22e Régiment band play. Stand up straight like a guard. No smiling!",
-          "photoPrompt": "Guard face — no smiling!",
-          "points": 10
-        },
         {
           "id": "l6-citadelle-quiz",
           "type": "trivia",
@@ -28,58 +20,60 @@
           "trivia": [
             {
               "q": "What animal is the regiment's mascot?",
-              "choices": ["A goat", "A moose", "A beaver", "A husky"],
+              "choices": [
+                "A goat",
+                "A moose",
+                "A beaver",
+                "A husky"
+              ],
               "answerIndex": 0,
               "funFact": "The mascot goat is always named Batisse. He marches with the soldiers."
             },
             {
               "q": "What shape is the Citadelle built in?",
-              "choices": ["A star", "A circle", "A square", "A triangle"],
+              "choices": [
+                "A star",
+                "A circle",
+                "A square",
+                "A triangle"
+              ],
               "answerIndex": 0,
               "funFact": "Star-shaped forts let soldiers watch every side at once."
             },
             {
               "q": "What happens at the Citadelle every day at noon?",
-              "choices": ["A cannon fires", "A bell rings", "The gates lock", "A parade starts"],
+              "choices": [
+                "A cannon fires",
+                "A bell rings",
+                "The gates lock",
+                "A parade starts"
+              ],
               "answerIndex": 0,
               "funFact": "The noon cannon is very loud. Ears covered!"
             },
             {
               "q": "When was the Citadelle finished?",
-              "choices": ["1650", "1750", "1850", "1950"],
+              "choices": [
+                "1650",
+                "1750",
+                "1850",
+                "1950"
+              ],
               "answerIndex": 2,
               "funFact": "Workers built it slowly, from 1820 all the way to 1850."
             }
           ],
-          "points": 20
+          "points": 20,
+          "photoPrompt": "Guard face — no smiling!"
         }
       ],
       "funFact": "The Citadelle is still a real army home for the Royal 22e Régiment."
     },
     {
-      "id": "l6-s2",
-      "kind": "route-marker",
-      "location": "Plains of Abraham / Battlefields Park",
-      "scheduledTime": "12:00 PM",
-      "clueRiddle": "A huge grassy field where two armies once met.\nToday the only battle is you versus the clock.",
-      "clueReveal": "Walk onto the Plains of Abraham. Sprint to a monument and back.",
-      "challenges": [
-        {
-          "id": "l6-plains-sprint",
-          "type": "physical",
-          "title": "Battlefield Sprint",
-          "instructions": "Pick a monument you can see. Race there and run back. Beat ninety seconds!",
-          "timerSeconds": 90,
-          "points": 15
-        }
-      ],
-      "funFact": "A famous battle happened on this field in 1759. Now it's a park."
-    },
-    {
       "id": "l6-s2b",
       "kind": "route-marker",
       "location": "Lunch on Grande Allée",
-      "scheduledTime": "12:45 PM",
+      "scheduledTime": "12:15 PM",
       "clueRiddle": "Fries, squeaky cheese and hot gravy on top.\nJudge Québec's messiest lunch stop.",
       "clueReveal": "Find lunch along Grande Allée. Order a classic Québec poutine. Judge it like a pro.",
       "challenges": [
@@ -98,7 +92,7 @@
       "id": "l6-s3",
       "kind": "route-marker",
       "location": "Musée de la civilisation",
-      "scheduledTime": "2:00 PM",
+      "scheduledTime": "1:30 PM",
       "clueRiddle": "A museum that says yes, please touch.\nInside are things older than your great-grandparents.",
       "clueReveal": "Drive down to the Musée de la civilisation. Try the hands-on exhibits.",
       "challenges": [
@@ -118,30 +112,6 @@
         }
       ],
       "funFact": "A stone house from 1752 is built right into this museum."
-    },
-    {
-      "id": "l6-s4",
-      "kind": "route-marker",
-      "location": "Morrin Centre",
-      "scheduledTime": "4:15 PM",
-      "clueRiddle": "Books now sleep where prisoners once did.\nFind four clues to unlock your escape.",
-      "clueReveal": "Walk up to the Morrin Centre. It is a library inside an old prison.",
-      "challenges": [
-        {
-          "id": "l6-morrin-escape",
-          "type": "scavenger",
-          "title": "Prison Break",
-          "instructions": "Find all four clues inside the old jail. The last tick unlocks your escape.",
-          "checklist": [
-            "A prison cell",
-            "The oldest-looking book",
-            "A spiral staircase",
-            "Something written in English"
-          ],
-          "points": 15
-        }
-      ],
-      "funFact": "This building was a prison, then a college, and now a library."
     },
     {
       "id": "l6-s5",
@@ -174,7 +144,7 @@
       "id": "l6-s6",
       "kind": "pit-stop",
       "location": "Hôtel & Suites Le Dauphin Québec",
-      "scheduledTime": "8:00 PM",
+      "scheduledTime": "7:45 PM",
       "clueRiddle": "One last drive north to the mat tonight.\nSomeone's race ends here — hurry.",
       "clueReveal": "Drive back to Hôtel Le Dauphin. Step onto the pit stop mat.",
       "funFact": "Tomorrow is the longest drive of the whole race."

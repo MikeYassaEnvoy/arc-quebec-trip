@@ -27,8 +27,9 @@ everywhere; nothing ever requires a photo or a parent password.
 - Placements are **scripted** — challenge scores never change them. The
   ceremonies explain placements as "time on the course"; points are his
   season score.
-- Badges: one per leg + specials (First Win, French Speaker for real spoken
-  French, Photographer after 10 photos, Fearless for the touch tank).
+- Badges: legs may award several (see each mat line) + specials (First Win,
+  French Speaker for real spoken French, Photographer after 10 photos,
+  Fearless for the touch tank — that one's manual, from the parent menu).
 
 ---
 
@@ -307,34 +308,26 @@ everywhere; nothing ever requires a photo or a parent password.
 
 ## Leg 6 — Fri Aug 7 · The Citadelle Showdown (Québec City)
 
-**10:00 AM — 🚧 Roadblock: La Citadelle de Québec**
-- Clue says: "Who's brave enough for the cannon? Watch the band, then tour the Citadelle. Cover your ears at noon!"
-- **Stand Like a Soldier** (physical · 10 pts) — Watch the Royal 22e Régiment band play. Stand up straight like a guard. No smiling!
-  - 📸 Guard face — no smiling!
+*(Slimmed Aug 5: band show, Battlefield Sprint and Morrin Centre cut — three anchors, real rest, gas in the tank for the big Saturday.)*
+
+**10:20 AM — 🚧 Roadblock: La Citadelle de Québec**
+- Clue says: "Who's brave enough for the cannon? Tour the star fort and gather intel. Cover your ears at noon!"
 - **Gather the Fort Intel** (trivia · 20 pts) — Listen closely on the tour. The guide says every answer. Then take the quiz.
   - Q: What animal is the regiment's mascot? → **A goat**
   - Q: What shape is the Citadelle built in? → **A star**
   - Q: What happens at the Citadelle every day at noon? → **A cannon fires**
   - Q: When was the Citadelle finished? → **1850**
+  - 📸 Guard face — no smiling!
 
-**12:00 PM — 📍 Route Marker: Plains of Abraham / Battlefields Park**
-- Clue says: "Walk onto the Plains of Abraham. Sprint to a monument and back."
-- **Battlefield Sprint** (physical · 15 pts · stopwatch target 1:30) — Pick a monument you can see. Race there and run back. Beat ninety seconds!
-
-**12:45 PM — 📍 Route Marker: Lunch on Grande Allée**
+**12:15 PM — 📍 Route Marker: Lunch on Grande Allée**
 - Clue says: "Find lunch along Grande Allée. Order a classic Québec poutine. Judge it like a pro."
 - **Judge's Table: Poutine** (taste · 10 pts) — Try a big forkful of poutine. Listen for the cheese squeak. Give it your maple leaf rating.
   - 📸 Snap a picture of you eating it!
 
-**2:00 PM — 📍 Route Marker: Musée de la civilisation**
+**1:30 PM — 📍 Route Marker: Musée de la civilisation**
 - Clue says: "Drive down to the Musée de la civilisation. Try the hands-on exhibits."
 - **Hands-On Hunt** (scavenger · 20 pts) — Explore the museum room by room. Tick off each mission you finish.
   - List: Try one hands-on exhibit · Try a second hands-on exhibit · Try a third hands-on exhibit · Find something older than 100 years · Find something that came off a boat
-
-**4:15 PM — 📍 Route Marker: Morrin Centre**
-- Clue says: "Walk up to the Morrin Centre. It is a library inside an old prison."
-- **Prison Break** (scavenger · 15 pts) — Find all four clues inside the old jail. The last tick unlocks your escape.
-  - List: A prison cell · The oldest-looking book · A spiral staircase · Something written in English
 
 **6:00 PM — 📍 Route Marker: Restaurant La Buche**
 - Clue says: "Have dinner at Restaurant La Buche. Taste two things and rate them."
@@ -343,10 +336,10 @@ everywhere; nothing ever requires a photo or a parent password.
 - **Judge's Table: Maple Dessert** (taste · 5 pts) — Order something sweet and maple. Taste it slowly. Give it your maple leaf rating.
   - 📸 Snap a picture of you eating it!
 
-**8:00 PM — 🏁 Pit Stop: Hôtel & Suites Le Dauphin Québec**
+**7:45 PM — 🏁 Pit Stop: Hôtel & Suites Le Dauphin Québec**
 - **Mat: 1st again** — **Team Maple eliminated** → the finale is vs. The Rock Hoppers. Badge: 🐐 Goat Whisperer.
 
-**Prep:** Citadelle tour tickets (booked). **Warn him the noon cannon is genuinely loud** — cover ears at 11:59. Check Morrin Centre hours. Rain plan: the 10 AM band show cancels in rain — arrive ~10:20 for the tour and stretch the Musée de la civilisation from noon instead. Poutine lunch: anywhere on Grande Allée works — Ashton is the classic Québec choice.
+**Prep:** Citadelle tour tickets (booked); arrive ~10:20 for the 10:45 English tour. **Warn him the noon cannon is genuinely loud** — cover ears at 11:59. Poutine lunch: anywhere on Grande Allée — Ashton is the classic. The 3:30–5:30 gap is real rest (Méga Parc next door to the hotel if he needs a burn-off). If sun appears, the Plains are the fort's front lawn — run free, no app needed.
 
 ## Leg 7 — Sat Aug 8 · Mazes, Dinosaurs & Ribs (Québec City → Brockville)
 
