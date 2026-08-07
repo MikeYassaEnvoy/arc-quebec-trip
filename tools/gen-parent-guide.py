@@ -111,11 +111,13 @@ LEGS = {
         h="Leg 6 — Fri Aug 7 · The Citadelle Showdown (Québec City)",
         note="Slimmed Aug 5; band show restored Aug 6 (tickets in hand, no "
              "rain). Battlefield Sprint and Morrin Centre stay cut.",
-        prep="**Parking: the Citadelle lot is 2-hour max — don't use it.** "
-             "Reserve a Grande Allée spot on clicknpark for ~9:30–1:30 (or an "
-             "Indigo/Parc-Auto garage by Parliament) — 8–10 min walk to the "
-             "fort, and the car sits beside your lunch terrace. After lunch, "
-             "drive to the Musée and use the Dalhousie full-day lots. Arrive "
+        prep="**Parking: Citadelle free lot (2-hour max), parked ~9:45.** The "
+             "clock runs out at 11:45, so at tour's end (11:40) either one "
+             "parent moves the car to a Grande Allée meter while he watches "
+             "the noon cannon inside, or everyone rolls out at 11:45 and "
+             "hears the cannon from the car — it's citywide-loud. Drive to "
+             "the terraces (5 min through Porte Saint-Louis) for the poutine "
+             "lunch; then the Dalhousie full-day lots for the Musée. Arrive "
              "~9:45 — band performance at 10:00 (tickets in hand), guided "
              "tour at 10:40. **Warn him the noon cannon is genuinely loud** — "
              "cover ears at 11:59. Poutine lunch: anywhere on Grande Allée — "
