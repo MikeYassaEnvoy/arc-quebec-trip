@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168 168" width="168" height="168" role="img" aria-label="Kid racer 2 — braids and beads">
+<title>Kid racer 2 — braids and beads</title>
+<defs><clipPath id="k2c"><circle cx="84" cy="84" r="77"/></clipPath></defs>
+<circle cx="84" cy="84" r="77" fill="#FFE9A8"/>
+<g clip-path="url(#k2c)">
+  <circle cx="84" cy="70" r="60" fill="#FFFFFF" opacity="0.3"/>
+  <g transform="translate(8,-10) scale(0.95)"><g stroke-linejoin="round">
+  <!-- backpack peeking over the shoulders -->
+  <g fill="#FFC20E" stroke="#1A1A1A" stroke-width="5">
+    <rect x="14" y="142" width="27" height="40" rx="12"/><rect x="119" y="142" width="27" height="40" rx="12"/>
+  </g>
+  <g fill="#2B1B12" stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round">
+  <path d="M44 74c-10 6-14 22-12 38 2 14 8 22 16 22s12-8 10-20c-2-14-4-26-2-36z"/>
+  <path d="M116 74c10 6 14 22 12 38-2 14-8 22-16 22s-12-8-10-20c2-14 4-26 2-36z"/></g>
+  <g fill="#FFC20E" stroke="#1A1A1A" stroke-width="4"><circle cx="48" cy="136" r="8"/><circle cx="112" cy="136" r="8"/></g>
+  <path d="M68 108h24v28H68z" fill="#D9A066" stroke="#1A1A1A" stroke-width="5"/>
+  <!-- shirt -->
+  <path d="M26 182c0-30 22-48 54-48s54 18 54 48z" fill="#2E86C1" stroke="#1A1A1A" stroke-width="5"/>
+  <path d="M62 136c4 10 10 16 18 16s14-6 18-16" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="5"/>
+  <!-- backpack straps -->
+  <g fill="#DA291C" stroke="#1A1A1A" stroke-width="4.5">
+    <path d="M52 139c-6 13-8 27-8 43h11c0-17 3-29 8-39z"/>
+    <path d="M108 139c6 13 8 27 8 43h-11c0-17-3-29-8-39z"/>
+  </g>
+  <!-- head -->
+  <ellipse cx="44" cy="86" rx="8" ry="10" fill="#D9A066" stroke="#1A1A1A" stroke-width="5"/>
+  <ellipse cx="116" cy="86" rx="8" ry="10" fill="#D9A066" stroke="#1A1A1A" stroke-width="5"/>
+  <ellipse cx="80" cy="82" rx="37" ry="39" fill="#D9A066" stroke="#1A1A1A" stroke-width="5"/>
+  <path d="M42 86C42 48 58 34 80 34s38 14 38 52c-4-18-16-26-38-26s-34 8-38 26z" fill="#2B1B12" stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round"/>
+  <g fill="#2B1B12" stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round"><path d="M47 64c-7 9-9 20-6 32 9-5 13-16 13-28z"/><path d="M113 64c7 9 9 20 6 32-9-5-13-16-13-28z"/></g>
+  <path d="M42 66c10-8 24-12 38-12s28 4 38 12c-2 8-4 12-6 14-12-8-20-10-32-10s-20 2-32 10c-2-2-4-6-6-14z" fill="#DA291C" stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round"/>
+  <g>
+  <ellipse cx="66" cy="80" rx="5.5" ry="6.5" fill="#1A1A1A"/><ellipse cx="94" cy="80" rx="5.5" ry="6.5" fill="#1A1A1A"/>
+  <circle cx="64" cy="77.5" r="2" fill="#FFFFFF"/><circle cx="92" cy="77.5" r="2" fill="#FFFFFF"/>
+  </g>
+<g fill="#DA291C" opacity="0.25"><ellipse cx="53" cy="94" rx="9" ry="6"/><ellipse cx="107" cy="94" rx="9" ry="6"/></g>
+<path d="M66 96c6 10 22 10 28 0" fill="none" stroke="#1A1A1A" stroke-width="5" stroke-linecap="round"/>
+</g></g>
+</g>
+<circle cx="84" cy="84" r="77" fill="none" stroke="#1A1A1A" stroke-width="6"/>
+</svg>

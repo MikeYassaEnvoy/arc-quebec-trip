@@ -1,0 +1,62 @@
+[
+  {
+    "q": "Which city was the very first capital of Canada?",
+    "choices": ["Kingston", "Toronto", "Ottawa", "Halifax"],
+    "answerIndex": 0,
+    "funFact": "Kingston was the capital for three years, starting in 1841."
+  },
+  {
+    "q": "Kingston's nickname comes from its grey stone buildings. What is it?",
+    "choices": ["The Limestone City", "The Steel City", "The Sugar City", "The Iron City"],
+    "answerIndex": 0,
+    "funFact": "Workers dug the pale limestone right out of the ground nearby."
+  },
+  {
+    "q": "Fort Henry was built to guard which famous canal?",
+    "choices": ["The Rideau Canal", "The Panama Canal", "The Erie Canal", "The Suez Canal"],
+    "answerIndex": 0,
+    "funFact": "The Rideau Canal is now a UNESCO World Heritage Site."
+  },
+  {
+    "q": "The Rideau Canal connects Kingston to which city?",
+    "choices": ["Ottawa", "Montréal", "Toronto", "Windsor"],
+    "answerIndex": 0,
+    "funFact": "In winter part of that canal in Ottawa becomes a skating rink."
+  },
+  {
+    "q": "What is the name of the Fort Henry Guard's goat mascot?",
+    "choices": ["David", "Gerald", "Rocky", "Buddy"],
+    "answerIndex": 0,
+    "funFact": "Every mascot goat gets the same name: David."
+  },
+  {
+    "q": "Kingston sits where Lake Ontario pours into which river?",
+    "choices": ["The St. Lawrence", "The Ottawa", "The Yukon", "The Red"],
+    "answerIndex": 0,
+    "funFact": "From here the water flows all the way to the Atlantic Ocean."
+  },
+  {
+    "q": "Which Great Lake is Kingston built beside?",
+    "choices": ["Lake Ontario", "Lake Superior", "Lake Huron", "Lake Erie"],
+    "answerIndex": 0,
+    "funFact": "Lake Ontario is the smallest Great Lake, but very deep."
+  },
+  {
+    "q": "What is the group of islands just east of Kingston called?",
+    "choices": ["The Thousand Islands", "The Hundred Isles", "The Great Rocks", "The Long Keys"],
+    "answerIndex": 0,
+    "funFact": "There are actually more than 1,800 islands in that stretch."
+  },
+  {
+    "q": "What very loud thing do soldiers fire at Fort Henry?",
+    "choices": ["A cannon", "A trumpet", "A firework", "A whistle"],
+    "answerIndex": 0,
+    "funFact": "Cover your ears — you feel a cannon in your chest."
+  },
+  {
+    "q": "Canada's first prime minister grew up in Kingston. Who was he?",
+    "choices": ["Sir John A. Macdonald", "Jacques Cartier", "Terry Fox", "Louis Riel"],
+    "answerIndex": 0,
+    "funFact": "His old Kingston house is still standing today."
+  }
+]

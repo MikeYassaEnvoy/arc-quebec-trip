@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 170" width="130" height="170" role="img" aria-label="Route marker flag">
+<title>Route marker flag</title>
+<ellipse cx="40" cy="158" rx="30" ry="8" fill="#1A1A1A" opacity="0.18"/>
+<path d="M34 156V16" stroke="#1A1A1A" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M40 14h74c-8 14-8 26 0 40H40Z" fill="#FFC20E" stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M40 54h74c-8 14-8 26 0 40H40Z" fill="#DA291C" stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="34" cy="12" r="9" fill="#1A1A1A"/>
+<path d="M20 156h28" stroke="#1A1A1A" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

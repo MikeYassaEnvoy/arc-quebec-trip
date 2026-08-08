@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="The Amazing Race Canada — Yassa Edition app icon">
+<title>The Amazing Race Canada — Yassa Edition app icon</title>
+<rect width="512" height="512" fill="#FFC20E"/>
+<path d="M0 512 512 172v340z" fill="#F0A800" opacity="0.55"/>
+<g transform="translate(256 214) scale(1.66)"><path d="M0-100 11-64 33-68 26-44 56-52 49-32 89-8 78 2 84 18 46 10 50 24 20 52 28 60 8 64 8 100-8 100-8 64-28 60-20 52-50 24-46 10-84 18-78 2-89-8-49-32-56-52-26-44-33-68-11-64Z" fill="#DA291C" stroke="#1A1A1A" stroke-width="12" stroke-linejoin="round"/></g>
+<g><rect x="0" y="400" width="64" height="56" fill="#1A1A1A"/><rect x="0" y="456" width="64" height="56" fill="#FFFFFF"/><rect x="64" y="400" width="64" height="56" fill="#FFFFFF"/><rect x="64" y="456" width="64" height="56" fill="#1A1A1A"/><rect x="128" y="400" width="64" height="56" fill="#1A1A1A"/><rect x="128" y="456" width="64" height="56" fill="#FFFFFF"/><rect x="192" y="400" width="64" height="56" fill="#FFFFFF"/><rect x="192" y="456" width="64" height="56" fill="#1A1A1A"/><rect x="256" y="400" width="64" height="56" fill="#1A1A1A"/><rect x="256" y="456" width="64" height="56" fill="#FFFFFF"/><rect x="320" y="400" width="64" height="56" fill="#FFFFFF"/><rect x="320" y="456" width="64" height="56" fill="#1A1A1A"/><rect x="384" y="400" width="64" height="56" fill="#1A1A1A"/><rect x="384" y="456" width="64" height="56" fill="#FFFFFF"/><rect x="448" y="400" width="64" height="56" fill="#FFFFFF"/><rect x="448" y="456" width="64" height="56" fill="#1A1A1A"/></g>
+<rect x="0" y="396" width="512" height="8" fill="#1A1A1A"/>
+</svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 176" width="280" height="176" role="img" aria-label="The Rock Hoppers — Finn and Rose, Newfoundland">
+<title>The Rock Hoppers — Finn and Rose, Newfoundland</title>
+<defs><clipPath id="cc"><rect x="5" y="5" width="270" height="166" rx="26"/></clipPath></defs>
+<rect x="5" y="5" width="270" height="166" rx="26" fill="#BFEAFB"/>
+<g clip-path="url(#cc)">
+  <path d="M0 118h280v60H0z" fill="#7FD4F5"/>
+  <g opacity="0.45" fill="#FFFFFF"><circle cx="46" cy="44" r="20"/><circle cx="72" cy="38" r="14"/><circle cx="236" cy="52" r="18"/><circle cx="212" cy="44" r="12"/></g>
+  <g stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round" fill="#9AA6AE">
+    <path d="M-6 176 34 108l26 42 18-26 34 52z"/><path d="M196 176l38-64 24 40 22-22v46z"/></g>
+  <g transform="translate(143.6,26) scale(0.78)"><g stroke-linejoin="round">
+  <!-- backpack peeking over the shoulders -->
+  <g fill="#FF7A18" stroke="#1A1A1A" stroke-width="5">
+    <rect x="14" y="142" width="27" height="40" rx="12"/><rect x="119" y="142" width="27" height="40" rx="12"/>
+  </g>
+  <g fill="#2B1B12" stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round">
+  <path d="M108 44c20-8 40 4 42 26 2 21-8 37-22 43-9 4-17-3-12-12 9-16 10-30 1-42-4-6-7-11-9-15z"/></g>
+  <path d="M68 108h24v28H68z" fill="#D9A066" stroke="#1A1A1A" stroke-width="5"/>
+  <!-- shirt -->
+  <path d="M26 182c0-30 22-48 54-48s54 18 54 48z" fill="#2FB57C" stroke="#1A1A1A" stroke-width="5"/>
+  <path d="M62 136c4 10 10 16 18 16s14-6 18-16" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="5"/>
+  <!-- backpack straps -->
+  <g fill="#1A1A1A" stroke="#1A1A1A" stroke-width="4.5">
+    <path d="M52 139c-6 13-8 27-8 43h11c0-17 3-29 8-39z"/>
+    <path d="M108 139c6 13 8 27 8 43h-11c0-17-3-29-8-39z"/>
+  </g>
+  <!-- head -->
+  <ellipse cx="44" cy="86" rx="8" ry="10" fill="#D9A066" stroke="#1A1A1A" stroke-width="5"/>
+  <ellipse cx="116" cy="86" rx="8" ry="10" fill="#D9A066" stroke="#1A1A1A" stroke-width="5"/>
+  <ellipse cx="80" cy="82" rx="37" ry="39" fill="#D9A066" stroke="#1A1A1A" stroke-width="5"/>
+  <path d="M42 84C42 46 58 32 80 32c24 0 36 16 36 54-2-16-10-24-22-26-12-2-26 6-36 14-6 4-12 6-16 10z" fill="#2B1B12" stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round"/>
+  <g fill="#2B1B12" stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round"><path d="M47 64c-7 9-9 20-6 32 9-5 13-16 13-28z"/><path d="M113 64c7 9 9 20 6 32-9-5-13-16-13-28z"/></g>
+  <g stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round">
+  <path d="M40 70c0-26 18-44 40-44s40 18 40 44z" fill="#FFC20E"/>
+  <path d="M34 66h92c4 0 6 4 6 8s-2 8-6 8H34c-4 0-6-4-6-8s2-8 6-8z" fill="#FFFFFF"/>
+  <path d="M58 44h10M78 38h6M96 44h10" stroke="#1A1A1A" stroke-width="6" stroke-linecap="round"/>
+  <path d="M44 84c-2 14 4 26 14 32M116 84c2 14-4 26-14 32" fill="none" stroke="#1A1A1A" stroke-width="4"/></g>
+  <g>
+  <ellipse cx="66" cy="80" rx="5.5" ry="6.5" fill="#1A1A1A"/><ellipse cx="94" cy="80" rx="5.5" ry="6.5" fill="#1A1A1A"/>
+  <circle cx="64" cy="77.5" r="2" fill="#FFFFFF"/><circle cx="92" cy="77.5" r="2" fill="#FFFFFF"/>
+  </g>
+<g fill="#DA291C" opacity="0.25"><ellipse cx="53" cy="94" rx="9" ry="6"/><ellipse cx="107" cy="94" rx="9" ry="6"/></g>
+<path d="M66 96c8 0 20 0 28 0 0 10-6 16-14 16s-14-6-14-16z" fill="#1A1A1A"/><path d="M72 108c4-4 12-4 16 0" fill="#E8607A" stroke="none"/>
+</g></g>
+  <g transform="translate(11.6,30) scale(0.78)"><g stroke-linejoin="round">
+  <!-- backpack peeking over the shoulders -->
+  <g fill="#FFC20E" stroke="#1A1A1A" stroke-width="5">
+    <rect x="14" y="142" width="27" height="40" rx="12"/><rect x="119" y="142" width="27" height="40" rx="12"/>
+  </g>
+  <path d="M68 108h24v28H68z" fill="#F7D7B8" stroke="#1A1A1A" stroke-width="5"/>
+  <!-- shirt -->
+  <path d="M26 182c0-30 22-48 54-48s54 18 54 48z" fill="#1F6FB2" stroke="#1A1A1A" stroke-width="5"/>
+  <path d="M62 136c4 10 10 16 18 16s14-6 18-16" fill="#FFC20E" stroke="#1A1A1A" stroke-width="5"/>
+  <!-- backpack straps -->
+  <g fill="#1A1A1A" stroke="#1A1A1A" stroke-width="4.5">
+    <path d="M52 139c-6 13-8 27-8 43h11c0-17 3-29 8-39z"/>
+    <path d="M108 139c6 13 8 27 8 43h-11c0-17-3-29-8-39z"/>
+  </g>
+  <!-- head -->
+  <ellipse cx="44" cy="86" rx="8" ry="10" fill="#F7D7B8" stroke="#1A1A1A" stroke-width="5"/>
+  <ellipse cx="116" cy="86" rx="8" ry="10" fill="#F7D7B8" stroke="#1A1A1A" stroke-width="5"/>
+  <ellipse cx="80" cy="82" rx="37" ry="39" fill="#F7D7B8" stroke="#1A1A1A" stroke-width="5"/>
+  <path d="M42 84C42 46 58 32 80 32c24 0 36 16 36 54-2-16-10-24-22-26-12-2-26 6-36 14-6 4-12 6-16 10z" fill="#C0782E" stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round"/>
+  <g fill="#C0782E" stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round"><path d="M47 64c-7 9-9 20-6 32 9-5 13-16 13-28z"/><path d="M113 64c7 9 9 20 6 32-9-5-13-16-13-28z"/></g>
+  <g stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round">
+  <path d="M40 70c0-26 18-44 40-44s40 18 40 44z" fill="#FF7A18"/>
+  <path d="M34 66h92c4 0 6 4 6 8s-2 8-6 8H34c-4 0-6-4-6-8s2-8 6-8z" fill="#FFFFFF"/>
+  <path d="M58 44h10M78 38h6M96 44h10" stroke="#1A1A1A" stroke-width="6" stroke-linecap="round"/>
+  <path d="M44 84c-2 14 4 26 14 32M116 84c2 14-4 26-14 32" fill="none" stroke="#1A1A1A" stroke-width="4"/></g>
+  <g>
+  <ellipse cx="66" cy="80" rx="5.5" ry="6.5" fill="#1A1A1A"/><ellipse cx="94" cy="80" rx="5.5" ry="6.5" fill="#1A1A1A"/>
+  <circle cx="64" cy="77.5" r="2" fill="#FFFFFF"/><circle cx="92" cy="77.5" r="2" fill="#FFFFFF"/>
+  </g>
+<g fill="#DA291C" opacity="0.25"><ellipse cx="53" cy="94" rx="9" ry="6"/><ellipse cx="107" cy="94" rx="9" ry="6"/></g>
+<path d="M66 96c8 0 20 0 28 0 0 10-6 16-14 16s-14-6-14-16z" fill="#1A1A1A"/><path d="M72 108c4-4 12-4 16 0" fill="#E8607A" stroke="none"/>
+</g></g>
+</g>
+<rect x="5" y="5" width="270" height="166" rx="26" fill="none" stroke="#1A1A1A" stroke-width="6"/>
+<rect x="14" y="14" width="252" height="148" rx="19" fill="none" stroke="#1F6FB2" stroke-width="4" opacity="0.75"/>
+</svg>

@@ -1,0 +1,22 @@
+{
+  "id": "st-lawrence",
+  "title": "St. Lawrence Bingo",
+  "cells": [
+    { "label": "A Québec flag", "emoji": "⚜️" },
+    { "label": "An ARRÊT stop sign", "emoji": "🛑" },
+    { "label": "A SORTIE exit sign", "emoji": "➡️" },
+    { "label": "A big ship on the river", "emoji": "🚢" },
+    { "label": "A church steeple", "emoji": "⛪" },
+    { "label": "A bridge over the river", "emoji": "🌉" },
+    { "label": "A grain silo", "emoji": "🏭" },
+    { "label": "A canoe or kayak", "emoji": "🛶" },
+    { "label": "A seagull", "emoji": "🕊️" },
+    { "label": "A camper van", "emoji": "🚐" },
+    { "label": "A hydro tower", "emoji": "⚡" },
+    { "label": "A sailboat", "emoji": "⛵" },
+    { "label": "A horse", "emoji": "🐎" },
+    { "label": "A field of corn", "emoji": "🌽" },
+    { "label": "A sign you cannot read", "emoji": "🔤" },
+    { "label": "A rest stop picnic table", "emoji": "🧺" }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "id": 4,
+  "title": "Maze, Bagels & the Park",
+  "date": "2026-08-05",
+  "routeText": "Old Port → Mile End → La Fontaine Park → Quartier des Spectacles",
+  "pitStop": {
+    "hotelName": "Hôtel Monroe – Downtown Montreal",
+    "city": "Montréal, Québec"
+  },
+  "steps": [
+    {
+      "id": "l4-s4",
+      "kind": "roadblock",
+      "location": "SOS Labyrinthe — Old Port",
+      "scheduledTime": "10:00 AM",
+      "clueRiddle": "Two whole kilometres of twisting halls.\nCan you find your way out of the walls?",
+      "clueReveal": "Who's ready to get lost? Ride the green line to Place-d'Armes. Find the maze hangar in the Old Port!",
+      "challenges": [
+        {
+          "id": "l4-sos-maze",
+          "type": "physical",
+          "title": "The Great Maze Escape",
+          "instructions": "Stamp every checkpoint on your mission card. Then find the exit. Beat thirty minutes if you can!",
+          "checklist": [
+            "Checkpoint one stamped",
+            "Checkpoint two stamped",
+            "Checkpoint three stamped",
+            "Checkpoint four stamped",
+            "Found the exit!"
+          ],
+          "checklistLabel": "Maze mission",
+          "timerSeconds": 1800,
+          "photoPrompt": "Lost-in-the-maze face!",
+          "points": 25
+        }
+      ],
+      "funFact": "Two kilometres of corridors hide inside this old harbour hangar."
+    },
+    {
+      "id": "l4-s1",
+      "kind": "detour",
+      "location": "St-Viateur Bagel",
+      "scheduledTime": "11:30 AM",
+      "clueRiddle": "Round bread with a hole, baked over real fire.\nWatch it or taste it — racer, you choose.",
+      "clueReveal": "Ride the metro to Laurier, then walk to 263 Rue Saint-Viateur Ouest. Warm bagel brunch! This is a Detour: pick Watch or Taste.",
+      "detour": {
+        "a": {
+          "label": "Watch",
+          "blurb": "Study the bakers at work. Learn the bagel secret, then prove it.",
+          "challenges": [
+            {
+              "id": "l4-detour-watch-look",
+              "type": "scavenger",
+              "title": "Baker Watch",
+              "instructions": "Stand where you can see the bakery. Watch the bakers for a few minutes. Check off each thing you see.",
+              "checklist": [
+                "A baker rolling dough by hand",
+                "Bagels boiling in a pot",
+                "The long wooden paddle",
+                "Real flames in the oven"
+              ],
+              "points": 8
+            },
+            {
+              "id": "l4-detour-watch-trivia",
+              "type": "trivia",
+              "title": "The Bagel Secret",
+              "instructions": "You just watched the bakers work. Now answer three questions. The answers are all things you saw.",
+              "trivia": [
+                {
+                  "q": "What is added to the water Montréal bagels are boiled in?",
+                  "choices": [
+                    "Honey",
+                    "Salt",
+                    "Milk",
+                    "Butter"
+                  ],
+                  "answerIndex": 0,
+                  "funFact": "The honey water is why Montréal bagels taste a little sweet."
+                },
+                {
+                  "q": "What kind of oven bakes these bagels?",
+                  "choices": [
+                    "A wood-fired oven",
+                    "A microwave",
+                    "A toaster",
+                    "An electric oven"
+                  ],
+                  "answerIndex": 0,
+                  "funFact": "The wood fire here burns all day and all night."
+                },
+                {
+                  "q": "What tool does the baker use to reach into the oven?",
+                  "choices": [
+                    "A long wooden paddle",
+                    "A fishing rod",
+                    "A broom",
+                    "A spoon"
+                  ],
+                  "answerIndex": 0,
+                  "funFact": "That paddle is called a peel, and it can hold many bagels."
+                }
+              ],
+              "points": 12
+            }
+          ]
+        },
+        "b": {
+          "label": "Taste",
+          "blurb": "Close your eyes and taste two bagels. Can you tell them apart?",
+          "challenges": [
+            {
+              "id": "l4-detour-taste",
+              "type": "taste",
+              "title": "Blind Bagel Test",
+              "instructions": "Close your eyes while a parent hands you a bite. Guess sesame or plain each time. Then rate your favourite bagel.",
+              "checklist": [
+                "Bite one — make your guess",
+                "Bite two — make your guess",
+                "At least one guess was right!",
+                "Crowned my favourite bagel"
+              ],
+              "photoPrompt": "Snap a picture of you eating it!",
+              "points": 20,
+              "checklistLabel": "Taste-test missions"
+            }
+          ]
+        }
+      },
+      "funFact": "St-Viateur Bagel has been baking day and night since 1957."
+    },
+    {
+      "id": "l4-s3",
+      "kind": "route-marker",
+      "location": "Schwartz's Deli",
+      "scheduledTime": "1:45 PM",
+      "clueRiddle": "Since 1928 the smoke has never stopped here.\nCanada's most famous sandwich is waiting.",
+      "clueReveal": "Stroll or ride bus 55 down Boulevard Saint-Laurent to Schwartz's. Order the famous smoked meat — eat in or picnic!",
+      "challenges": [
+        {
+          "id": "l4-schwartz-judge",
+          "type": "taste",
+          "title": "Judge's Table: Smoked Meat",
+          "instructions": "Remember the menu at Tilly's? THIS is that famous Montréal smoked meat. Taste it and give your rating.",
+          "photoPrompt": "Big smoked meat bite — snap it!",
+          "points": 15
+        }
+      ],
+      "funFact": "Schwartz's has smoked its meat on this same street since 1928."
+    },
+    {
+      "id": "l4-s2",
+      "kind": "route-marker",
+      "location": "La Fontaine Park",
+      "scheduledTime": "3:00 PM",
+      "clueRiddle": "Museums are done — the racers need to run!\nA big green park with a pond is waiting.",
+      "clueReveal": "Walk fifteen minutes over to La Fontaine Park. Time to play hard!",
+      "challenges": [
+        {
+          "id": "l4-lafontaine-grandprix",
+          "type": "physical",
+          "title": "Playground Grand Prix",
+          "instructions": "Start the stopwatch and play hard. Five whole minutes of playground racing. Check off each move you complete.",
+          "checklist": [
+            "Go down a slide",
+            "Swing ten big swings",
+            "Climb something tall",
+            "Spot a duck by the pond"
+          ],
+          "timerSeconds": 300,
+          "photoPrompt": "Mid-air action shot!",
+          "points": 20,
+          "checklistLabel": "Grand Prix moves"
+        }
+      ],
+      "funFact": "La Fontaine Park has two ponds joined by a little waterfall."
+    },
+    {
+      "id": "l4-s2b",
+      "kind": "route-marker",
+      "location": "Avenue du Mont-Royal",
+      "scheduledTime": "4:15 PM",
+      "clueRiddle": "The racing is done — now stroll like a local.\nThe Plateau hides treasures on every block.",
+      "clueReveal": "Wander up to Avenue du Mont-Royal. Spot the Plateau's secrets as you go. Ice cream is highly encouraged.",
+      "challenges": [
+        {
+          "id": "l4-plateau-safari",
+          "type": "scavenger",
+          "title": "Plateau Safari",
+          "instructions": "No rush — just keep your eyes open. Spot each Plateau classic as you stroll.",
+          "checklist": [
+            "A twisty outdoor spiral staircase",
+            "A wall mural",
+            "A brightly painted front door",
+            "A cat watching from a window",
+            "Someone walking a dog"
+          ],
+          "checklistLabel": "Spotted on the stroll",
+          "points": 8
+        },
+        {
+          "id": "l4-cremerie-cooldown",
+          "type": "taste",
+          "title": "Crémerie Cool-Down",
+          "instructions": "Find an ice cream shop on the avenue. Pick any flavour you like. Give it your maple leaf rating.",
+          "photoPrompt": "Ice cream grin — snap it!",
+          "points": 5
+        }
+      ],
+      "funFact": "The Plateau's outdoor spiral staircases were built to save space inside."
+    },
+    {
+      "id": "l4-s5",
+      "kind": "route-marker",
+      "location": "Place des Festivals",
+      "scheduledTime": "7:30 PM",
+      "clueRiddle": "Lights in the ground and water that leaps.\nDrums and teepees — this square never sleeps.",
+      "clueReveal": "Take the green line to Place-des-Arts station. Join one First Peoples' Festival activity.",
+      "challenges": [
+        {
+          "id": "l4-festivals-firstpeoples",
+          "type": "scavenger",
+          "title": "First Peoples' Festival",
+          "instructions": "Explore the festival with your team. Do at least two things from this list. Listen carefully to the drumming.",
+          "checklist": [
+            "Listen to a drum group",
+            "Visit a teepee",
+            "Watch a dance",
+            "Visit an artisan kiosk"
+          ],
+          "points": 5
+        }
+      ],
+      "funFact": "The First Peoples' Festival celebrates Indigenous music, dance and film every August."
+    },
+    {
+      "id": "l4-s6",
+      "kind": "pit-stop",
+      "location": "Hôtel Monroe – Downtown Montreal",
+      "scheduledTime": "9:15 PM",
+      "clueRiddle": "The maze, bagels and the park are behind you now.\nRun to the mat — this could be your day.",
+      "clueReveal": "Ride the metro back to Guy-Concordia. Walk to Hôtel Monroe on Rue Mackay. Step onto the pit stop mat.",
+      "funFact": "Tonight is your last night in Montréal — tomorrow the road goes east."
+    }
+  ]
+}

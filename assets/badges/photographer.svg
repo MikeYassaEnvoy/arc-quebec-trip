@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 132" width="120" height="132" role="img" aria-label="Photographer badge">
+<title>Photographer badge</title>
+<g id="ribbon" fill="#DA291C" stroke="#1A1A1A" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M34 62h27l-5 62-16-12-13 12z" transform="rotate(-13 47 70)"/>
+  <g transform="translate(120,0) scale(-1,1)"><path d="M34 62h27l-5 62-16-12-13 12z" transform="rotate(-13 47 70)"/></g>
+</g>
+<rect x="44" y="80" width="32" height="15" rx="6" fill="#FFC20E" stroke="#1A1A1A" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round"/>
+<g id="medal">
+  <circle cx="60" cy="50" r="43" fill="#FFC20E" stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="60" cy="50" r="43" fill="none" stroke="#E0A400" stroke-width="2"/>
+  <circle cx="60" cy="50" r="34" fill="#E4D6F5" stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <g id="icon" transform="translate(60,50)"><g stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M-11-19l4-8h14l4 8z" fill="#3A4250"/>
+  <rect x="-28" y="-19" width="56" height="40" rx="8" fill="#3A4250"/>
+  <circle cx="0" cy="2" r="15" fill="#CDEBFA"/>
+  <circle cx="0" cy="2" r="8" fill="#2E86C1"/>
+  <circle cx="19" cy="-11" r="3.5" fill="#DA291C"/></g>
+<path d="M-24-24l3 7 7 3-7 3-3 7-3-7-7-3 7-3z" fill="#FFC20E" stroke="#1A1A1A" stroke-width="2.5" stroke-linejoin="round"/></g>
+</g>
+</svg>

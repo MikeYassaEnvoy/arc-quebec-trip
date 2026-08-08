@@ -1,0 +1,22 @@
+{
+  "id": "backyard",
+  "title": "Backyard Bingo",
+  "cells": [
+    { "label": "Something green", "emoji": "🌿" },
+    { "label": "A bird", "emoji": "🐦" },
+    { "label": "A bug", "emoji": "🐛" },
+    { "label": "A rock", "emoji": "🪨" },
+    { "label": "A flower", "emoji": "🌸" },
+    { "label": "A garden hose", "emoji": "🚿" },
+    { "label": "A mailbox", "emoji": "📫" },
+    { "label": "A fence", "emoji": "🚧" },
+    { "label": "A cloud", "emoji": "☁️" },
+    { "label": "A stick", "emoji": "🪵" },
+    { "label": "A car in a driveway", "emoji": "🚗" },
+    { "label": "A squirrel", "emoji": "🐿️" },
+    { "label": "A window", "emoji": "🪟" },
+    { "label": "Your own shadow", "emoji": "🌞" },
+    { "label": "A leaf bigger than your hand", "emoji": "🍃" },
+    { "label": "Something you can throw", "emoji": "⚾" }
+  ]
+}

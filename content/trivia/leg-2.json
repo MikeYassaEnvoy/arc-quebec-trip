@@ -1,0 +1,62 @@
+[
+  {
+    "q": "Montréal is built on what kind of land?",
+    "choices": ["An island", "A desert", "A mountain top", "A swamp"],
+    "answerIndex": 0,
+    "funFact": "The whole city sits on an island in the St. Lawrence River."
+  },
+  {
+    "q": "The city of Montréal is named after which hill?",
+    "choices": ["Mount Royal", "Mount Logan", "Blue Mountain", "Mount Everest"],
+    "answerIndex": 0,
+    "funFact": "Mont Royal means \"royal mountain\" in French."
+  },
+  {
+    "q": "Which language do most people speak in Montréal?",
+    "choices": ["French", "Spanish", "German", "Italian"],
+    "answerIndex": 0,
+    "funFact": "Most people in Montréal speak English too, so say bonjour first."
+  },
+  {
+    "q": "What is Montréal's underground train system called?",
+    "choices": ["The Metro", "The Tube", "The Subway", "The Skytrain"],
+    "answerIndex": 0,
+    "funFact": "The Montréal Metro opened in 1966 and has four coloured lines."
+  },
+  {
+    "q": "How many white flowers are on the Québec flag?",
+    "choices": ["Four", "One", "Two", "Ten"],
+    "answerIndex": 0,
+    "funFact": "Those flowers are called fleurs-de-lis, and they sit on blue."
+  },
+  {
+    "q": "What is the little lake on top of Mount Royal called?",
+    "choices": ["Beaver Lake", "Duck Lake", "Silver Lake", "Moose Lake"],
+    "answerIndex": 0,
+    "funFact": "In French it is Lac aux Castors — the same thing."
+  },
+  {
+    "q": "Montréal is the biggest city in which province?",
+    "choices": ["Québec", "Ontario", "Alberta", "Manitoba"],
+    "answerIndex": 0,
+    "funFact": "Québec City is the capital, but Montréal has more people."
+  },
+  {
+    "q": "Québec stop signs say ARRÊT. What does that mean?",
+    "choices": ["Stop", "Go", "Slow", "Turn"],
+    "answerIndex": 0,
+    "funFact": "Watch for it — you will see arrêt signs all week."
+  },
+  {
+    "q": "Mount Royal Park was designed by the same person as New York's Central Park. Who?",
+    "choices": ["Frederick Law Olmsted", "Jacques Cartier", "Samuel de Champlain", "John A. Macdonald"],
+    "answerIndex": 0,
+    "funFact": "He liked winding paths so the walk feels gentle uphill."
+  },
+  {
+    "q": "How do you say \"thank you\" in French?",
+    "choices": ["Merci", "Bonjour", "Oui", "Salut"],
+    "answerIndex": 0,
+    "funFact": "Say merci beaucoup when you mean thank you very much."
+  }
+]

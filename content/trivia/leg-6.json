@@ -1,0 +1,62 @@
+[
+  {
+    "q": "What is a citadel?",
+    "choices": ["A strong fort that guards a city", "A tall lighthouse", "A train station", "A kind of bridge"],
+    "answerIndex": 0,
+    "funFact": "Québec's Citadelle sits on Cap Diamant, high above the river."
+  },
+  {
+    "q": "What animal is the mascot of the Royal 22e Régiment?",
+    "choices": ["A goat", "A polar bear", "A wolf", "A rooster"],
+    "answerIndex": 0,
+    "funFact": "Every mascot goat gets the same name: Batisse."
+  },
+  {
+    "q": "Why did old cities fire a cannon at noon?",
+    "choices": ["To tell everybody the time", "To scare seagulls", "To start a race", "To cook lunch"],
+    "answerIndex": 0,
+    "funFact": "Long ago, few people owned watches. The bang was the clock."
+  },
+  {
+    "q": "What are the tall furry hats of ceremonial guards called?",
+    "choices": ["Bearskins", "Toques", "Helmets", "Top hats"],
+    "answerIndex": 0,
+    "funFact": "Bearskin hats make a guard look much taller than they are."
+  },
+  {
+    "q": "What is the Plains of Abraham today?",
+    "choices": ["A giant city park", "An airport", "A shopping mall", "A lake"],
+    "answerIndex": 0,
+    "funFact": "A famous battle was fought here in 1759."
+  },
+  {
+    "q": "The Morrin Centre in Québec City used to be what?",
+    "choices": ["A prison", "A bakery", "A hockey rink", "A hospital"],
+    "answerIndex": 0,
+    "funFact": "It is a library now, but the old cells are still there."
+  },
+  {
+    "q": "What is maple syrup made from?",
+    "choices": ["Sap from maple trees", "Melted candy", "Apple juice", "Honey and milk"],
+    "answerIndex": 0,
+    "funFact": "It takes about 40 litres of sap to make one litre of syrup."
+  },
+  {
+    "q": "Tourtière is what kind of food?",
+    "choices": ["A meat pie", "A soup", "A cookie", "A cheese"],
+    "answerIndex": 0,
+    "funFact": "Québec families often share tourtière at winter holidays."
+  },
+  {
+    "q": "What language does the Royal 22e Régiment give orders in?",
+    "choices": ["French", "English", "Latin", "Spanish"],
+    "answerIndex": 0,
+    "funFact": "It is Canada's famous French-speaking army regiment."
+  },
+  {
+    "q": "Why were forts built on top of tall hills and cliffs?",
+    "choices": ["To see enemies coming from far away", "To be closer to clouds", "To catch fish", "To grow corn"],
+    "answerIndex": 0,
+    "funFact": "From the Citadelle you can see far down the St. Lawrence."
+  }
+]
