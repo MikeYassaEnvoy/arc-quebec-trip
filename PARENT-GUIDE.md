@@ -23,7 +23,7 @@ everywhere; nothing ever requires a photo or a parent password.
 ## Scoring, badges, rivals (so you can play along)
 
 - Every challenge lists its points; mini-games add up to 10 bonus points per
-  session (only the first 6 sessions per leg count, so replaying is harmless).
+  session (only the first 8 sessions per leg count, so replaying is harmless).
 - Placements are **scripted** — challenge scores never change them. The
   ceremonies explain placements as "time on the course"; points are his
   season score.
@@ -344,7 +344,7 @@ everywhere; nothing ever requires a photo or a parent password.
 
 ## Leg 7 — Sat Aug 8 · Mazes, Dinosaurs & Ribs (Québec City → Brockville)
 
-*(Slimmed Aug 7: Ribfest cut — maze, car games, dinosaurs, then straight to the mat and an easy Brockville evening.)*
+*(Slimmed Aug 7: Ribfest cut. Two full game blocks bracket the Madrid dinosaurs — fresh afternoon lineup for the border run.)*
 
 **9:30 AM — 🚧 Roadblock: Domaine de Maizerets**
 - Clue says: "Who can escape the maze? Run the hedge maze at Domaine de Maizerets. Then run it again."
@@ -372,6 +372,17 @@ everywhere; nothing ever requires a photo or a parent password.
   - Q: Which dinosaur had a long neck for reaching treetops? → **Brachiosaurus**
   - Q: How many horns did a Triceratops have? → **Three**
   - Q: What do we call a scientist who digs up dinosaur bones? → **A paleontologist**
+
+**2:15 PM — 🚗 Drive: Highway 401 — the border run**
+- Clue says: "Last long stretch before Brockville. Play the afternoon lineup. Watch for the Ontario sign!"
+- **Expert Maze** (minigame · 10 pts) — The biggest maze the game can build. Drag your racer to the exit. Champions do not give up.
+  - Mini-game: `maze-escape` (level: 3)
+- **Rapids Marathon** (minigame · 10 pts) — Ninety whole seconds of rapids. Collect every maple leaf you can. Steady hands win.
+  - Mini-game: `canoe-rapids` (durationSeconds: 90, targetScore: 35)
+- **Memory Lane Quiz** (minigame · 10 pts) — Questions about YOUR trip. You lived every answer. Prove you remember it all!
+  - Mini-game: `trivia` (deck: leg-8, count: 10)
+- **Border-Run Bingo** (minigame · 10 pts) — A brand-new card for the border run. Stamp what you spot. Four in a row wins.
+  - Mini-game: `road-bingo` (card: border-run)
 
 **5:30 PM — 🏁 Pit Stop: St. Lawrence College Residence & Conference Centre**
 - **Mat: 2nd of 2 — the heartbreaker**, loses "by two minutes." Comfort accordingly; the finale tease follows. Badges: 🦖 Dino Tamer (+ Maze Runner if the SOS maze got skipped).

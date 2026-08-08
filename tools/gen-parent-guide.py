@@ -30,7 +30,7 @@ everywhere; nothing ever requires a photo or a parent password.
 ## Scoring, badges, rivals (so you can play along)
 
 - Every challenge lists its points; mini-games add up to 10 bonus points per
-  session (only the first 6 sessions per leg count, so replaying is harmless).
+  session (only the first 8 sessions per leg count, so replaying is harmless).
 - Placements are **scripted** — challenge scores never change them. The
   ceremonies explain placements as "time on the course"; points are his
   season score.
@@ -130,8 +130,8 @@ LEGS = {
     ),
     7: dict(
         h="Leg 7 — Sat Aug 8 · Mazes, Dinosaurs & Ribs (Québec City → Brockville)",
-        note="Slimmed Aug 7: Ribfest cut — maze, car games, dinosaurs, then "
-             "straight to the mat and an easy Brockville evening.",
+        note="Slimmed Aug 7: Ribfest cut. Two full game blocks bracket the "
+             "Madrid dinosaurs — fresh afternoon lineup for the border run.",
         prep="**Check the Maizerets maze is open** before promising it (the "
              "in-app backup scavenger covers a closure). Dinner in Brockville "
              "is unscripted — if you wander into Ribfest anyway, award a "

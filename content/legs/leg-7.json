@@ -158,6 +158,63 @@
       "funFact": "The old Madrid rest stop was a Québec road-trip legend for decades."
     },
     {
+      "id": "l7-s4b",
+      "kind": "drive",
+      "location": "Highway 401 — the border run",
+      "scheduledTime": "2:15 PM",
+      "clueRiddle": "Québec fades behind us, Ontario ahead.\nChampions keep training right to the end.",
+      "clueReveal": "Last long stretch before Brockville. Play the afternoon lineup. Watch for the Ontario sign!",
+      "challenges": [
+        {
+          "id": "l7-drive2-maze",
+          "type": "minigame",
+          "title": "Expert Maze",
+          "instructions": "The biggest maze the game can build. Drag your racer to the exit. Champions do not give up.",
+          "minigameId": "maze-escape",
+          "config": {
+            "level": 3
+          },
+          "points": 10
+        },
+        {
+          "id": "l7-drive2-canoe",
+          "type": "minigame",
+          "title": "Rapids Marathon",
+          "instructions": "Ninety whole seconds of rapids. Collect every maple leaf you can. Steady hands win.",
+          "minigameId": "canoe-rapids",
+          "config": {
+            "durationSeconds": 90,
+            "targetScore": 35
+          },
+          "points": 10
+        },
+        {
+          "id": "l7-drive2-recap",
+          "type": "minigame",
+          "title": "Memory Lane Quiz",
+          "instructions": "Questions about YOUR trip. You lived every answer. Prove you remember it all!",
+          "minigameId": "trivia",
+          "config": {
+            "deck": "leg-8",
+            "count": 10
+          },
+          "points": 10
+        },
+        {
+          "id": "l7-drive2-bingo",
+          "type": "minigame",
+          "title": "Border-Run Bingo",
+          "instructions": "A brand-new card for the border run. Stamp what you spot. Four in a row wins.",
+          "minigameId": "road-bingo",
+          "config": {
+            "card": "border-run"
+          },
+          "points": 10
+        }
+      ],
+      "funFact": "When Autoroute 20 crosses into Ontario, it becomes Highway 401."
+    },
+    {
       "id": "l7-s6",
       "kind": "pit-stop",
       "location": "St. Lawrence College Residence & Conference Centre",
