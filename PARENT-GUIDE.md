@@ -344,6 +344,8 @@ everywhere; nothing ever requires a photo or a parent password.
 
 ## Leg 7 — Sat Aug 8 · Mazes, Dinosaurs & Ribs (Québec City → Brockville)
 
+*(Slimmed Aug 7: Ribfest cut — maze, car games, dinosaurs, then straight to the mat and an easy Brockville evening.)*
+
 **9:30 AM — 🚧 Roadblock: Domaine de Maizerets**
 - Clue says: "Who can escape the maze? Run the hedge maze at Domaine de Maizerets. Then run it again."
 - **Maze Escape: Two Runs** (physical · 30 pts · stopwatch target 5:00) — Start the stopwatch and run the hedge maze. Write down your time. Run it again and go faster.
@@ -371,17 +373,10 @@ everywhere; nothing ever requires a photo or a parent password.
   - Q: How many horns did a Triceratops have? → **Three**
   - Q: What do we call a scientist who digs up dinosaur bones? → **A paleontologist**
 
-**5:15 PM — 📍 Route Marker: Brockville Ribfest, Hardy Park**
-- Clue says: "Go to Ribfest at Hardy Park. Judge the ribs, then hit the Kids Zone."
-- **Judge's Table: Ribs** (taste · 12 pts) — Try the ribs and fill in the scorecard. Score each part out of five. Be honest!
-  - List: Score the messiness · Score the smokiness · Score the yum factor · Lick your fingers clean
-  - 📸 Snap a picture of you eating it!
-- **Kids Zone Mission** (physical · 8 pts) — Pick one Kids Zone activity. Finish the whole thing.
-
-**7:30 PM — 🏁 Pit Stop: St. Lawrence College Residence & Conference Centre**
+**5:30 PM — 🏁 Pit Stop: St. Lawrence College Residence & Conference Centre**
 - **Mat: 2nd of 2 — the heartbreaker**, loses "by two minutes." Comfort accordingly; the finale tease follows. Badges: 🦖 Dino Tamer (+ Maze Runner if the SOS maze got skipped).
 
-**Prep:** **Check the Maizerets maze is open** before promising it (the in-app backup scavenger covers a closure). Ribfest: wet wipes for the judging; if fireworks happen at dusk, award a bonus badge from the parent menu.
+**Prep:** **Check the Maizerets maze is open** before promising it (the in-app backup scavenger covers a closure). Dinner in Brockville is unscripted — if you wander into Ribfest anyway, award a bonus badge from the parent menu and call it a bonus round.
 
 ## Leg 8 — Sun Aug 9 · THE FINALE (Brockville → Ajax)
 

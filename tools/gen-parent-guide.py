@@ -130,11 +130,12 @@ LEGS = {
     ),
     7: dict(
         h="Leg 7 — Sat Aug 8 · Mazes, Dinosaurs & Ribs (Québec City → Brockville)",
-        note=None,
+        note="Slimmed Aug 7: Ribfest cut — maze, car games, dinosaurs, then "
+             "straight to the mat and an easy Brockville evening.",
         prep="**Check the Maizerets maze is open** before promising it (the "
-             "in-app backup scavenger covers a closure). Ribfest: wet wipes "
-             "for the judging; if fireworks happen at dusk, award a bonus "
-             "badge from the parent menu.",
+             "in-app backup scavenger covers a closure). Dinner in Brockville "
+             "is unscripted — if you wander into Ribfest anyway, award a "
+             "bonus badge from the parent menu and call it a bonus round.",
         mat="**Mat: 2nd of 2 — the heartbreaker**, loses \"by two minutes.\" "
             "Comfort accordingly; the finale tease follows. "
             "Badges: 🦖 Dino Tamer (+ Maze Runner if the SOS maze got skipped).",

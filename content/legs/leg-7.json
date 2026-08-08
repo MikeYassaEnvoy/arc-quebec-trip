@@ -158,43 +158,10 @@
       "funFact": "The old Madrid rest stop was a Québec road-trip legend for decades."
     },
     {
-      "id": "l7-s5",
-      "kind": "route-marker",
-      "location": "Brockville Ribfest, Hardy Park",
-      "scheduledTime": "5:15 PM",
-      "clueRiddle": "Smoke drifts over a park beside the river.\nBring a napkin. Bring ten napkins.",
-      "clueReveal": "Go to Ribfest at Hardy Park. Judge the ribs, then hit the Kids Zone.",
-      "challenges": [
-        {
-          "id": "l7-ribfest-judge",
-          "type": "taste",
-          "title": "Judge's Table: Ribs",
-          "instructions": "Try the ribs and fill in the scorecard. Score each part out of five. Be honest!",
-          "checklist": [
-            "Score the messiness",
-            "Score the smokiness",
-            "Score the yum factor",
-            "Lick your fingers clean"
-          ],
-          "photoPrompt": "Snap a picture of you eating it!",
-          "points": 12,
-          "checklistLabel": "Judge's scorecard"
-        },
-        {
-          "id": "l7-ribfest-kidszone",
-          "type": "physical",
-          "title": "Kids Zone Mission",
-          "instructions": "Pick one Kids Zone activity. Finish the whole thing.",
-          "points": 8
-        }
-      ],
-      "funFact": "If you stay past dark, fireworks may light up the river."
-    },
-    {
       "id": "l7-s6",
       "kind": "pit-stop",
       "location": "St. Lawrence College Residence & Conference Centre",
-      "scheduledTime": "7:30 PM",
+      "scheduledTime": "5:30 PM",
       "clueRiddle": "One more mat before the finish line.\nSleep fast — tomorrow you race home.",
       "clueReveal": "Check in at the St. Lawrence College Residence. Step onto the pit stop mat.",
       "funFact": "Tomorrow is the final leg. First place is still possible."
