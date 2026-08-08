@@ -5,25 +5,6 @@
   "routeText": "Québec City → Brockville",
   "steps": [
     {
-      "id": "l7-s1",
-      "kind": "route-marker",
-      "location": "deTerroir café",
-      "scheduledTime": "8:30 AM",
-      "clueRiddle": "Before the longest drive, fuel up on Rue Saint-Jean.\nSomething warm, something sweet.",
-      "clueReveal": "Have breakfast at deTerroir café. Rate your treat.",
-      "challenges": [
-        {
-          "id": "l7-deterroir-taste",
-          "type": "taste",
-          "title": "Breakfast Judge",
-          "instructions": "Pick one breakfast treat. Eat it slowly. Give it a maple-leaf rating.",
-          "photoPrompt": "Snap a picture of you eating it!",
-          "points": 5
-        }
-      ],
-      "funFact": "Rue Saint-Jean has been a busy Québec City street for centuries."
-    },
-    {
       "id": "l7-s2",
       "kind": "roadblock",
       "location": "Domaine de Maizerets",

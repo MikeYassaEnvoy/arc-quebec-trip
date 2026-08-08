@@ -5,62 +5,10 @@
   "routeText": "Brockville → Ajax (HOME)",
   "steps": [
     {
-      "id": "l8-s1",
-      "kind": "route-marker",
-      "location": "Richard's Coffeehouse",
-      "scheduledTime": "8:30 AM",
-      "clueRiddle": "The last breakfast of the race is downtown.\nFuel up, finalist.",
-      "clueReveal": "Eat breakfast at Richard's Coffeehouse in Brockville. Rate it.",
-      "challenges": [
-        {
-          "id": "l8-richards-taste",
-          "type": "taste",
-          "title": "Final Breakfast Judge",
-          "instructions": "Order your breakfast. Eat every bite. Give it a maple-leaf rating.",
-          "photoPrompt": "Snap a picture of you eating it!",
-          "points": 5
-        }
-      ],
-      "funFact": "Brockville is nicknamed the City of the 1000 Islands."
-    },
-    {
-      "id": "l8-s2",
-      "kind": "roadblock",
-      "location": "The Aquatarium",
-      "scheduledTime": "10:00 AM",
-      "clueRiddle": "Otters, fish, and a ship you can climb.\nAre your hands brave enough to get wet?",
-      "clueReveal": "Who's brave enough for the touch tank? Explore the Aquatarium on the waterfront. Then climb the ship.",
-      "challenges": [
-        {
-          "id": "l8-aquatarium-touch",
-          "type": "physical",
-          "title": "Touch Tank Dare",
-          "instructions": "Roll up your sleeves. Touch something in the touch tank. Hold on for three seconds.",
-          "points": 12
-        },
-        {
-          "id": "l8-aquatarium-hunt",
-          "type": "scavenger",
-          "title": "River Life Hunt",
-          "instructions": "Search every floor of the Aquatarium. Tick off all five. Save the ship for last.",
-          "checklist": [
-            "An otter",
-            "Something with claws",
-            "The biggest fish you can find",
-            "The ship's wheel",
-            "Climb the ship structure"
-          ],
-          "photoPrompt": "Captain of the ship!",
-          "points": 18
-        }
-      ],
-      "funFact": "River otters can hold their breath underwater for minutes at a time."
-    },
-    {
       "id": "l8-s3",
       "kind": "drive",
       "location": "Highway 401 — westbound to Ajax",
-      "scheduledTime": "11:45 AM",
+      "scheduledTime": "10:00 AM",
       "clueRiddle": "The finish line sits three hours west.\nOne championship game stands in your way.",
       "clueReveal": "Drive west on Highway 401 toward home. Play the championship round.",
       "challenges": [
@@ -79,7 +27,7 @@
       "id": "l8-s4",
       "kind": "route-marker",
       "location": "The Big Apple, Colborne",
-      "scheduledTime": "1:45 PM",
+      "scheduledTime": "12:45 PM",
       "clueRiddle": "A giant apple watches the highway go by.\nInside there is pie. Outside there is a putter.",
       "clueReveal": "Stop at The Big Apple. Play mini-golf, then taste the famous apple pie.",
       "challenges": [
@@ -89,7 +37,12 @@
           "title": "The Final Challenge",
           "instructions": "Play mini-golf head-to-head against a parent. Enter both final scores below. Lowest score wins!",
           "countStyle": "duel",
-          "config": { "duelLabels": ["Team Yassa", "The Grown-Ups"] },
+          "config": {
+            "duelLabels": [
+              "Team Yassa",
+              "The Grown-Ups"
+            ]
+          },
           "points": 15
         },
         {
@@ -107,7 +60,7 @@
       "id": "l8-s5",
       "kind": "route-marker",
       "location": "The Final Puzzle",
-      "scheduledTime": "3:15 PM",
+      "scheduledTime": "2:15 PM",
       "clueRiddle": "One puzzle left before you see home.\nRemember every stop — piece the whole trip together.",
       "clueReveal": "Almost there! Play one last game about your whole journey. Match every photo to its stop, in order.",
       "challenges": [
@@ -126,7 +79,7 @@
       "id": "l8-s6",
       "kind": "pit-stop",
       "location": "HOME — Ajax, Ontario · THE FINISH LINE",
-      "scheduledTime": "4:30 PM",
+      "scheduledTime": "3:45 PM",
       "clueRiddle": "The very last clue is the easiest one.\nYour own front door is the finish line.",
       "clueReveal": "Drive home to Ajax. Run to the mat on your own driveway. This is the finish line!",
       "funFact": "Eight legs, two provinces, one champion. Welcome home."

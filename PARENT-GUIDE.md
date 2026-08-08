@@ -29,7 +29,7 @@ everywhere; nothing ever requires a photo or a parent password.
   season score.
 - Badges: legs may award several (see each mat line) + specials (First Win,
   French Speaker for real spoken French, Photographer after 10 photos,
-  Fearless for the touch tank — that one's manual, from the parent menu).
+  Fearless (manual, from the parent menu, for any brave moment).
 
 ---
 
@@ -344,11 +344,6 @@ everywhere; nothing ever requires a photo or a parent password.
 
 ## Leg 7 — Sat Aug 8 · Mazes, Dinosaurs & Ribs (Québec City → Brockville)
 
-**8:30 AM — 📍 Route Marker: deTerroir café**
-- Clue says: "Have breakfast at deTerroir café. Rate your treat."
-- **Breakfast Judge** (taste · 5 pts) — Pick one breakfast treat. Eat it slowly. Give it a maple-leaf rating.
-  - 📸 Snap a picture of you eating it!
-
 **9:30 AM — 🚧 Roadblock: Domaine de Maizerets**
 - Clue says: "Who can escape the maze? Run the hedge maze at Domaine de Maizerets. Then run it again."
 - **Maze Escape: Two Runs** (physical · 30 pts · stopwatch target 5:00) — Start the stopwatch and run the hedge maze. Write down your time. Run it again and go faster.
@@ -390,35 +385,25 @@ everywhere; nothing ever requires a photo or a parent password.
 
 ## Leg 8 — Sun Aug 9 · THE FINALE (Brockville → Ajax)
 
-**8:30 AM — 📍 Route Marker: Richard's Coffeehouse**
-- Clue says: "Eat breakfast at Richard's Coffeehouse in Brockville. Rate it."
-- **Final Breakfast Judge** (taste · 5 pts) — Order your breakfast. Eat every bite. Give it a maple-leaf rating.
-  - 📸 Snap a picture of you eating it!
+*(Slimmed Aug 7: both breakfast judges and the Aquatarium cut — a lazy morning, then three stops between you and the trophy.)*
 
-**10:00 AM — 🚧 Roadblock: The Aquatarium**
-- Clue says: "Who's brave enough for the touch tank? Explore the Aquatarium on the waterfront. Then climb the ship."
-- **Touch Tank Dare** (physical · 12 pts) — Roll up your sleeves. Touch something in the touch tank. Hold on for three seconds.
-- **River Life Hunt** (scavenger · 18 pts) — Search every floor of the Aquatarium. Tick off all five. Save the ship for last.
-  - List: An otter · Something with claws · The biggest fish you can find · The ship's wheel · Climb the ship structure
-  - 📸 Captain of the ship!
-
-**11:45 AM — 🚗 Drive: Highway 401 — westbound to Ajax**
+**10:00 AM — 🚗 Drive: Highway 401 — westbound to Ajax**
 - Clue says: "Drive west on Highway 401 toward home. Play the championship round."
 - **Bagel Catch Championship** (minigame · 10 pts) — Slide the basket to catch falling bagels. Dodge the pigeons. Beat your best score.
   - Mini-game: `bagel-catch`
 
-**1:45 PM — 📍 Route Marker: The Big Apple, Colborne**
+**12:45 PM — 📍 Route Marker: The Big Apple, Colborne**
 - Clue says: "Stop at The Big Apple. Play mini-golf, then taste the famous apple pie."
 - **The Final Challenge** (count · 15 pts) — Play mini-golf head-to-head against a parent. Enter both final scores below. Lowest score wins!
 - **Apple Pie Verdict** (taste · 10 pts) — Try the famous apple pie. Chew slowly and think. Give your final rating.
   - 📸 Snap a picture of you eating it!
 
-**3:15 PM — 📍 Route Marker: The Final Puzzle**
+**2:15 PM — 📍 Route Marker: The Final Puzzle**
 - Clue says: "Almost there! Play one last game about your whole journey. Match every photo to its stop, in order."
 - **Photo Finish** (minigame · 25 pts) — Look at photos from your whole trip. Match each one to its stop. Put them in the right order.
   - Mini-game: `photo-finish`
 
-**4:30 PM — 🏁 Pit Stop: HOME — Ajax, Ontario · THE FINISH LINE**
+**3:45 PM — 🏁 Pit Stop: HOME — Ajax, Ontario · THE FINISH LINE**
 - **FINISH LINE: photo-finish WIN — CHAMPIONS!** Trophy, confetti storm, full season recap. Badge: 🏆 Race Champion.
 
 **Prep:** **Big Apple mini-golf needs a counter check-in** — do it while he reads the clue. At home, let him run to a real mat/towel on the driveway before opening the final pit stop, then hand over the iPad — the finale is ~2 minutes of pure payoff. Don't skip the recap screen; every photo from the week is in it.
