@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react';
-import { LEG_IDS, getLoadProblems, clearContentCache } from '../content';
+import { LEG_IDS, FINAL_LEG_ID, getLoadProblems, clearContentCache } from '../content';
 import { useRouter } from '../router';
 import { APP_VERSION, useRaceStore } from '../store';
 import { useAllLegs, useLeg } from '../useContent';
@@ -40,6 +40,13 @@ export function ParentMenu() {
   const reset = useRouter((s) => s.reset);
   const state = useRaceStore();
   const { legs } = useAllLegs();
+  const finalLeg = legs?.find((l) => l.leg.id === FINAL_LEG_ID)?.leg;
+  const finalePitStopId = finalLeg?.steps.find((st) => st.kind === 'pit-stop')?.id;
+  const replayFinale = () => {
+    if (!finalePitStopId) return;
+    useRaceStore.getState().setFinaleArmed(true);
+    reset({ name: 'pitstop', legId: FINAL_LEG_ID, stepId: finalePitStopId });
+  };
   const [targetLeg, setTargetLeg] = useState(state.currentLegId);
   const { leg } = useLeg(targetLeg);
   const problems = getLoadProblems();
@@ -114,6 +121,9 @@ export function ParentMenu() {
               onClick={() => useRaceStore.setState({ onboarded: false })}
             >
               Redo onboarding
+            </button>
+            <button className="btn btn--ghost" disabled={!finalePitStopId} onClick={replayFinale}>
+              🏆 Replay the finale
             </button>
             {state.finaleArmed ? (
               <button

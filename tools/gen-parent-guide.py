@@ -24,6 +24,9 @@ Tap the little **version number ("v0.1.0")** in the corner of Race HQ
 - **Content check** — confirms all the day's content loaded correctly.
 - **🏁 Arm the finish line** (long-press) — the Leg 8 mat is LOCKED until
   you flip this. Do it in the driveway; there's a re-lock button too.
+- **🏆 Replay the finale** — re-runs the whole finish sequence (photo-finish,
+  trophy, recap, photo reel) any time. Replay-safe: no duplicate history or
+  points. Perfect for grandparents.
 - **Full reset** (long-press) — wipes everything. Don't do this mid-trip.
 
 Kids can also long-press "Skip this stop" on any step — it's honor-system
