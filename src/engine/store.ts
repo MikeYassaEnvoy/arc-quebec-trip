@@ -50,6 +50,8 @@ export interface RaceState {
   standingsHistory: LegResult[];
   badges: string[];
   photos: PhotoRecord[];
+  /** Parent switch: the Leg 8 finish-line ceremony stays locked until armed. */
+  finaleArmed: boolean;
 }
 
 export interface RaceActions {
@@ -79,6 +81,7 @@ export interface RaceActions {
   unlockThrough: (legId: number) => void;
 
   awardBadge: (badgeId: string) => void;
+  setFinaleArmed: (armed: boolean) => void;
   addPhoto: (photo: PhotoRecord) => void;
   removePhoto: (key: string) => void;
 
@@ -103,6 +106,7 @@ const initialState: RaceState = {
   standingsHistory: [],
   badges: [],
   photos: [],
+  finaleArmed: false,
 };
 
 export const useRaceStore = create<RaceState & RaceActions>()(
@@ -218,6 +222,7 @@ export const useRaceStore = create<RaceState & RaceActions>()(
 
       unlockThrough: (legId) => set((s) => ({ unlockedLegId: Math.max(s.unlockedLegId, legId) })),
 
+      setFinaleArmed: (armed) => set({ finaleArmed: armed }),
       awardBadge: (badgeId) =>
         set((s) => (s.badges.includes(badgeId) ? s : { badges: [...s.badges, badgeId] })),
 

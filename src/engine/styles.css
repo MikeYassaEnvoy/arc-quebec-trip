@@ -1783,3 +1783,20 @@ body {
 .screen.challenge .challenge__foot {
   flex-shrink: 0;
 }
+
+/* Final-mat lock: friendly, unmissable, and clearly not an error. */
+.finale-lock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+.finale-lock__msg {
+  margin: 0;
+  font-weight: 800;
+  font-size: 1.1em;
+  background: var(--paper-2);
+  border: 3px dashed var(--ink);
+  border-radius: 14px;
+  padding: 12px 18px;
+}

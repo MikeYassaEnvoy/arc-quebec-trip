@@ -115,6 +115,22 @@ export function ParentMenu() {
             >
               Redo onboarding
             </button>
+            {state.finaleArmed ? (
+              <button
+                className="btn btn--ghost"
+                onClick={() => useRaceStore.getState().setFinaleArmed(false)}
+              >
+                🔒 Lock the finish line again
+              </button>
+            ) : (
+              <LongPressButton
+                className="btn btn--red btn--huge"
+                hint="Hold to arm — do this in the driveway"
+                onConfirm={() => useRaceStore.getState().setFinaleArmed(true)}
+              >
+                🏁 ARM THE FINISH LINE
+              </LongPressButton>
+            )}
           </div>
         </section>
 

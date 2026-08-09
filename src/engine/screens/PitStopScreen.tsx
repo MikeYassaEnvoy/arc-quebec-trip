@@ -98,6 +98,22 @@ export function PitStopScreen({ legId, stepId }: { legId: number; stepId: string
   }, [leg, script, scriptEntry, state, legId]);
 
   if (loading || !leg || !context || !photosReady) return <Loading what="the pit stop" />;
+
+  // Parent switch: the finale ceremony stays locked until armed in the parent menu,
+  // so an eager back-seat racer can't start the finish line early.
+  if (isFinale && !state.finaleArmed) {
+    return (
+      <div className="screen celebrate">
+        <div className="celebrate__inner">
+          <p className="celebrate__big">🔒 NOT YET!</p>
+          <p className="lead">The finish line only unlocks at your real front door.</p>
+          <button className="btn btn--yellow btn--mega" onClick={back}>
+            ← Back to the race
+          </button>
+        </div>
+      </div>
+    );
+  }
   const step = findStep(leg, stepId);
   if (!step) return <Loading what="the pit stop" />;
 

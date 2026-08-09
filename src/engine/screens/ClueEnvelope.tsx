@@ -3,6 +3,7 @@ import { findStep } from '../content';
 import { useRouter } from '../router';
 import { useRaceStore } from '../store';
 import { useLeg } from '../useContent';
+import { FINAL_LEG_ID } from '../content';
 import { Loading } from './Loading';
 import { ui } from '../../../assets';
 
@@ -17,6 +18,7 @@ export function ClueEnvelope({ legId, stepId }: { legId: number; stepId: string 
   const back = useRouter((s) => s.back);
   const openClue = useRaceStore((s) => s.openClue);
   const detourChoices = useRaceStore((s) => s.detourChoices);
+  const finaleArmed = useRaceStore((s) => s.finaleArmed);
   const [phase, setPhase] = useState<Phase>('sealed');
 
   if (loading || !leg) return <Loading what="your clue" />;
@@ -67,9 +69,20 @@ export function ClueEnvelope({ legId, stepId }: { legId: number; stepId: string 
               <div className="reveal">
                 <p className="reveal__text">{step.clueReveal}</p>
               </div>
-              <button className="btn btn--red btn--mega" onClick={proceed}>
-                {step.kind === 'pit-stop' ? 'RUN TO THE MAT →' : "LET'S GO →"}
-              </button>
+              {step.kind === 'pit-stop' && legId === FINAL_LEG_ID && !finaleArmed ? (
+                <div className="finale-lock">
+                  <p className="finale-lock__msg">
+                    🔒 The finish line only unlocks at your real front door. Almost there, champion!
+                  </p>
+                  <button className="btn btn--yellow btn--huge" onClick={back}>
+                    ← Back to the race
+                  </button>
+                </div>
+              ) : (
+                <button className="btn btn--red btn--mega" onClick={proceed}>
+                  {step.kind === 'pit-stop' ? 'RUN TO THE MAT →' : "LET'S GO →"}
+                </button>
+              )}
             </>
           )}
         </div>

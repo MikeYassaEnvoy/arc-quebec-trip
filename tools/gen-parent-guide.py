@@ -22,6 +22,8 @@ Tap the little **version number ("v0.1.0")** in the corner of Race HQ
 - **Mark steps complete** — skip any stop that's closed / rained out.
 - **Award a badge** manually (e.g. Fearless if the touch tank happens).
 - **Content check** — confirms all the day's content loaded correctly.
+- **🏁 Arm the finish line** (long-press) — the Leg 8 mat is LOCKED until
+  you flip this. Do it in the driveway; there's a re-lock button too.
 - **Full reset** (long-press) — wipes everything. Don't do this mid-trip.
 
 Kids can also long-press "Skip this stop" on any step — it's honor-system
@@ -145,7 +147,9 @@ LEGS = {
         note="Slimmed Aug 7: both breakfast judges and the Aquatarium cut — a "
              "lazy morning, then three stops between you and the trophy.",
         prep="**Big Apple mini-golf needs a counter check-in** — do it while "
-             "he reads the clue. The apple-climb lookout and the animals are "
+             "he reads the clue. **The finish line is LOCKED** until you arm it "
+             "in the parent menu — do the long-press quietly in the driveway "
+             "before handing him the iPad. The apple-climb lookout and the animals are "
              "both on site — petting an animal auto-awards 🐑 Fearless. At "
              "home, let him run to a real mat/towel on "
              "the driveway before opening the final pit stop, then hand over "
