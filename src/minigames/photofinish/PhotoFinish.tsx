@@ -75,10 +75,29 @@ export default function PhotoFinish({ onComplete, onExit }: MiniGameProps) {
           byChallenge.set(p.challengeId, p);
         }
       }
+      // Load each involved leg once — needed both for the drive-step filter
+      // below and for stop names / trip order later.
+      const legCache = new Map<number, Awaited<ReturnType<typeof loadLeg>>['leg']>();
+      for (const p of byChallenge.values()) {
+        if (!legCache.has(p.legId)) {
+          legCache.set(p.legId, (await loadLeg(p.legId)).leg);
+          if (cancelled) return;
+        }
+      }
+
+      // Drive-step photos (mini-game screens, in-car shots) make ambiguous
+      // puzzle cards and their "stop" is a highway — exclude them BEFORE the
+      // per-leg draw so they never displace real stops.
+      const stopPhotos = Array.from(byChallenge.values()).filter((p) => {
+        const leg = legCache.get(p.legId);
+        const step = leg ? findStep(leg, p.stepId) : undefined;
+        return step?.kind !== 'drive';
+      });
+
       // Cap at 3 photos per leg, picked at random, so a photo-heavy week
       // doesn't turn the finale into a 30-tile monster.
       const byLeg = new Map<number, (typeof rawPhotos)[number][]>();
-      for (const p of byChallenge.values()) {
+      for (const p of stopPhotos) {
         const list = byLeg.get(p.legId) ?? [];
         list.push(p);
         byLeg.set(p.legId, list);
@@ -86,15 +105,14 @@ export default function PhotoFinish({ onComplete, onExit }: MiniGameProps) {
       const chosen = Array.from(byLeg.values()).flatMap((list) =>
         list.length <= 3 ? list : shuffled(list).slice(0, 3),
       );
+      if (chosen.length === 0) {
+        setPhase('empty');
+        return;
+      }
 
-      const legCache = new Map<number, Awaited<ReturnType<typeof loadLeg>>['leg']>();
       const items: PoolItem[] = [];
       for (const rec of chosen) {
-        let leg = legCache.get(rec.legId);
-        if (!leg) {
-          leg = (await loadLeg(rec.legId)).leg;
-          legCache.set(rec.legId, leg);
-        }
+        const leg = legCache.get(rec.legId)!;
         const url = await getPhotoUrl(rec.key);
         if (cancelled) return;
         const stepIndex = leg.steps.findIndex((s) => s.id === rec.stepId);

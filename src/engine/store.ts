@@ -63,7 +63,7 @@ export interface RaceActions {
 
   completeChallenge: (
     legId: number,
-    challenge: Pick<Challenge, 'id' | 'points' | 'type'>,
+    challenge: Pick<Challenge, 'id' | 'points' | 'type' | 'awardBadge'>,
     opts?: { photoKey?: string; bonusPoints?: number },
   ) => void;
   uncompleteChallenge: (challengeId: string) => void;
@@ -147,10 +147,12 @@ export const useRaceStore = create<RaceState & RaceActions>()(
           // challenge of type speak-french, read straight from this store's completed
           // map (no localStorage dependency). awardBadge is idempotent, so re-completing
           // a speak-french challenge later is a harmless no-op.
-          const badges =
-            challenge.type === 'speak-french' && !s.badges.includes('french-speaker')
-              ? [...s.badges, 'french-speaker']
-              : s.badges;
+          let badges = s.badges;
+          const grant = (id?: string) => {
+            if (id && !badges.includes(id)) badges = [...badges, id];
+          };
+          if (challenge.type === 'speak-french') grant('french-speaker');
+          grant(challenge.awardBadge);
           return {
             completed: { ...s.completed, [challenge.id]: entry },
             challengeLeg: { ...s.challengeLeg, [challenge.id]: legId },

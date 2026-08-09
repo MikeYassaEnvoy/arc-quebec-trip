@@ -32,6 +32,8 @@ export interface Challenge {
   checklistStyle?: 'find' | 'guess';
   /** Overrides the checklist header (e.g. "Taste-test missions"). */
   checklistLabel?: string;
+  /** Badge id granted automatically when this challenge completes. */
+  awardBadge?: string;
   trivia?: TriviaQuestion[];
   frenchPhrase?: { fr: string; phonetic: string; en: string };
   timerSeconds?: number;      // physical challenges with a stopwatch target

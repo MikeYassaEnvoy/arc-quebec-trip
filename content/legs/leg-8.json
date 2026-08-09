@@ -29,7 +29,7 @@
       "location": "The Big Apple, Colborne",
       "scheduledTime": "12:45 PM",
       "clueRiddle": "A giant apple watches the highway go by.\nInside there is pie. Outside there is a putter.",
-      "clueReveal": "Stop at The Big Apple. Play mini-golf, then taste the famous apple pie.",
+      "clueReveal": "Stop at The Big Apple. Climb the apple, play mini-golf, meet the animals, taste the pie.",
       "challenges": [
         {
           "id": "l8-bigapple-golf",
@@ -51,6 +51,23 @@
           "title": "Apple Pie Verdict",
           "instructions": "Try the famous apple pie. Chew slowly and think. Give your final rating.",
           "photoPrompt": "Snap a picture of you eating it!",
+          "points": 10
+        },
+        {
+          "id": "l8-bigapple-climb",
+          "type": "physical",
+          "title": "Top of the Apple",
+          "instructions": "Climb the stairs inside the giant apple. Reach the lookout at the top. Wave at the highway!",
+          "photoPrompt": "King of the Apple!",
+          "points": 10
+        },
+        {
+          "id": "l8-bigapple-pet",
+          "type": "physical",
+          "title": "Petting Zoo Bravery",
+          "instructions": "Visit the animals out back. Pick one and pet it gently. Slow hand, calm voice.",
+          "photoPrompt": "You and your new friend!",
+          "awardBadge": "fearless",
           "points": 10
         }
       ],

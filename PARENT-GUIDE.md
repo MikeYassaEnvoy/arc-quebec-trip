@@ -29,7 +29,7 @@ everywhere; nothing ever requires a photo or a parent password.
   season score.
 - Badges: legs may award several (see each mat line) + specials (First Win,
   French Speaker for real spoken French, Photographer after 10 photos,
-  Fearless (manual, from the parent menu, for any brave moment).
+  Fearless — now petting-zoo themed, auto-awarded at the Big Apple).
 
 ---
 
@@ -399,10 +399,14 @@ everywhere; nothing ever requires a photo or a parent password.
   - Mini-game: `bagel-catch`
 
 **12:45 PM — 📍 Route Marker: The Big Apple, Colborne**
-- Clue says: "Stop at The Big Apple. Play mini-golf, then taste the famous apple pie."
+- Clue says: "Stop at The Big Apple. Climb the apple, play mini-golf, meet the animals, taste the pie."
 - **The Final Challenge** (count · 15 pts) — Play mini-golf head-to-head against a parent. Enter both final scores below. Lowest score wins!
 - **Apple Pie Verdict** (taste · 10 pts) — Try the famous apple pie. Chew slowly and think. Give your final rating.
   - 📸 Snap a picture of you eating it!
+- **Top of the Apple** (physical · 10 pts) — Climb the stairs inside the giant apple. Reach the lookout at the top. Wave at the highway!
+  - 📸 King of the Apple!
+- **Petting Zoo Bravery** (physical · 10 pts) — Visit the animals out back. Pick one and pet it gently. Slow hand, calm voice.
+  - 📸 You and your new friend!
 
 **2:15 PM — 📍 Route Marker: The Final Puzzle**
 - Clue says: "Almost there! Play one last game about your whole journey. Match every photo to its stop, in order."
@@ -412,4 +416,4 @@ everywhere; nothing ever requires a photo or a parent password.
 **3:45 PM — 🏁 Pit Stop: HOME — Ajax, Ontario · THE FINISH LINE**
 - **FINISH LINE: photo-finish WIN — CHAMPIONS!** Trophy, confetti storm, full season recap. Badge: 🏆 Race Champion.
 
-**Prep:** **Big Apple mini-golf needs a counter check-in** — do it while he reads the clue. At home, let him run to a real mat/towel on the driveway before opening the final pit stop, then hand over the iPad — the finale is ~2 minutes of pure payoff. Don't skip the recap screen; every photo from the week is in it.
+**Prep:** **Big Apple mini-golf needs a counter check-in** — do it while he reads the clue. The apple-climb lookout and the animals are both on site — petting an animal auto-awards 🐑 Fearless. At home, let him run to a real mat/towel on the driveway before opening the final pit stop, then hand over the iPad — the finale is ~2 minutes of pure payoff. Don't skip the recap screen; every photo from the week is in it.

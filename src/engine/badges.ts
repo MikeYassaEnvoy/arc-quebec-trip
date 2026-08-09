@@ -25,7 +25,7 @@ export const BADGES: BadgeDef[] = [
   { id: 'first-win', name: 'First Win', emoji: '🥇', how: 'Finish a leg in first place' },
   { id: 'french-speaker', name: 'French Speaker', emoji: '🇫🇷', how: 'Complete a French phrase challenge' },
   { id: 'photographer', name: 'Photographer', emoji: '📸', how: 'Take 10 race photos' },
-  { id: 'fearless', name: 'Fearless', emoji: '🐙', how: 'Touch the touch tank' },
+  { id: 'fearless', name: 'Fearless', emoji: '🐑', how: 'Pet an animal at the petting zoo' },
 ];
 
 export const badgeById = (id: string): BadgeDef =>

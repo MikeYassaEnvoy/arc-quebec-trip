@@ -36,7 +36,7 @@ everywhere; nothing ever requires a photo or a parent password.
   season score.
 - Badges: legs may award several (see each mat line) + specials (First Win,
   French Speaker for real spoken French, Photographer after 10 photos,
-  Fearless (manual, from the parent menu, for any brave moment).
+  Fearless — now petting-zoo themed, auto-awarded at the Big Apple).
 
 ---
 """
@@ -145,7 +145,9 @@ LEGS = {
         note="Slimmed Aug 7: both breakfast judges and the Aquatarium cut — a "
              "lazy morning, then three stops between you and the trophy.",
         prep="**Big Apple mini-golf needs a counter check-in** — do it while "
-             "he reads the clue. At home, let him run to a real mat/towel on "
+             "he reads the clue. The apple-climb lookout and the animals are "
+             "both on site — petting an animal auto-awards 🐑 Fearless. At "
+             "home, let him run to a real mat/towel on "
              "the driveway before opening the final pit stop, then hand over "
              "the iPad — the finale is ~2 minutes of pure payoff. Don't skip "
              "the recap screen; every photo from the week is in it.",

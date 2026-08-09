@@ -129,15 +129,21 @@ ${seeds}
 <path d="M-24-24l3 7 7 3-7 3-3 7-3-7-7-3 7-3z" fill="${YELLOW}" stroke="${OUT}" stroke-width="2.5" stroke-linejoin="round"/>`,
 
   'fearless': () => `<g ${S(4)}>
-  <rect x="-14" y="-42" width="28" height="14" rx="5" fill="${RED}"/>
-  <rect x="-17" y="-16" width="7" height="24" rx="3.5" fill="#EFC49A"/>
-  <rect x="-8" y="-20" width="7" height="28" rx="3.5" fill="#EFC49A"/>
-  <rect x="1" y="-19" width="7" height="27" rx="3.5" fill="#EFC49A"/>
-  <rect x="10" y="-14" width="7" height="22" rx="3.5" fill="#EFC49A"/>
-  <rect x="-19" y="-34" width="38" height="24" rx="9" fill="#EFC49A"/></g>
-<path d="M-32 6c8-6 14-6 22 0s14 6 22 0 12-5 16-2v26h-60z" fill="#4FA3D9" ${S(4)}/>
-<path d="M-24 14c6-4 12-4 18 0M2 20c6-4 12-4 18 0" fill="none" stroke="${WHITE}" stroke-width="3.5" stroke-linecap="round"/>
-<path d="${starPath(5, 9, 4)}" transform="translate(15,17)" fill="#F2921D" stroke="${OUT}" stroke-width="2.5"/>`,
+  <ellipse cx="4" cy="10" rx="26" ry="18" fill="#F4F1E8"/>
+  <circle cx="-7" cy="6" r="4.5" fill="#F4F1E8"/><circle cx="6" cy="-1" r="5" fill="#F4F1E8"/>
+  <circle cx="18" cy="4" r="4.5" fill="#F4F1E8"/><circle cx="-2" cy="17" r="4" fill="#F4F1E8"/>
+  <g>
+    <ellipse cx="-18" cy="8" rx="9" ry="11" fill="#8A7566"/>
+    <ellipse cx="-26" cy="0" rx="3" ry="5.5" fill="#8A7566"/>
+    <ellipse cx="-10" cy="0" rx="3" ry="5.5" fill="#8A7566"/>
+    <circle cx="-21" cy="6" r="1.8" fill="${OUT}"/><circle cx="-15" cy="6" r="1.8" fill="${OUT}"/>
+    <path d="M-21 13c2 2 4 2 6 0" fill="none" stroke-width="2.5"/>
+  </g>
+  <g transform="rotate(14 14 -30)">
+    <rect x="10" y="-40" width="8" height="16" rx="4" fill="#EFC49A"/>
+    <rect x="2" y="-30" width="26" height="13" rx="6.5" fill="#EFC49A"/>
+  </g>
+  <path d="M-8 30h22M-1 30v5M9 30v5" stroke-width="3.5"/></g>`,
 
   'dino-tamer': () => `<g ${S(4)}>
   <g transform="translate(-2,2)">
