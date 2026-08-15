@@ -1,0 +1,193 @@
+{
+  "id": 5,
+  "title": "Race to the Walled City",
+  "date": "2026-08-06",
+  "routeText": "Mount Royal → Trois-Rivières → Québec City",
+  "steps": [
+    {
+      "id": "l5-s0",
+      "kind": "route-marker",
+      "location": "Kondiaronk Belvedere, Mount Royal",
+      "scheduledTime": "10:15 AM",
+      "clueRiddle": "Climb the little mountain that named the city.\nOne last look before we race east.",
+      "clueReveal": "Check out by ten and grab the car. Drive up and park at Beaver Lake. Walk the flat path to the big lookout.",
+      "challenges": [
+        {
+          "id": "l5-belvedere-scavenger",
+          "type": "scavenger",
+          "title": "Spot from the Top",
+          "instructions": "Stand at the railing and look far out. Find all five things in the view. Point at each one before you tap.",
+          "checklist": [
+            "A skyscraper",
+            "The river",
+            "A church roof",
+            "Something green",
+            "A bridge"
+          ],
+          "photoPrompt": "Team photo at the lookout!",
+          "points": 20
+        }
+      ],
+      "funFact": "Montréal is named after Mount Royal, the small mountain right in the middle."
+    },
+    {
+      "id": "l5-s1",
+      "kind": "drive",
+      "location": "Autoroute 20 — Montréal to Québec City",
+      "scheduledTime": "11:30 AM",
+      "clueRiddle": "Point the car east and follow the big river.\nA city with a wall around it is waiting.",
+      "clueReveal": "Drive from Montréal to Québec City. Play the car games on the way.",
+      "challenges": [
+        {
+          "id": "l5-drive-trivia",
+          "type": "minigame",
+          "title": "New France Trivia",
+          "instructions": "Answer questions about Québec City. Guess before you tap. Streaks earn more points.",
+          "minigameId": "trivia",
+          "config": { "deck": "leg-5" },
+          "points": 10
+        },
+        {
+          "id": "l5-drive-bingo",
+          "type": "minigame",
+          "title": "Autoroute 20 Bingo",
+          "instructions": "Watch out the window. Stamp each thing you spot. Four in a row wins.",
+          "minigameId": "road-bingo",
+          "config": { "card": "autoroute-20" },
+          "points": 10
+        },
+        {
+          "id": "l5-drive-french",
+          "type": "minigame",
+          "title": "French Pack 2",
+          "instructions": "Learn three new French phrases. Say each one out loud. Then take the quiz.",
+          "minigameId": "french-phrases",
+          "config": { "pack": "pack-2" },
+          "points": 10
+        }
+      ],
+      "funFact": "Autoroute 20 follows the St. Lawrence River all the way east."
+    },
+    {
+      "id": "l5-s2",
+      "kind": "route-marker",
+      "location": "Trois-Rivières Riverfront",
+      "scheduledTime": "1:00 PM",
+      "clueRiddle": "Halfway there, three rivers meet one giant one.\nShake out your legs before you sit again.",
+      "clueReveal": "Stop at the riverfront in Trois-Rivières. Run around before lunch.",
+      "challenges": [
+        {
+          "id": "l5-trois-rivieres-run",
+          "type": "physical",
+          "title": "Riverside Wake-Up",
+          "instructions": "Touch three different benches. Find the river and wave. Do twenty jumping jacks.",
+          "points": 10
+        }
+      ],
+      "funFact": "Trois-Rivières means \"three rivers.\" The city was founded in 1634."
+    },
+    {
+      "id": "l5-s3",
+      "kind": "route-marker",
+      "location": "Funiculaire du Vieux-Québec",
+      "scheduledTime": "3:45 PM",
+      "clueRiddle": "A little box climbs the cliff on a cable.\nAt the top, a castle wears a green roof.",
+      "clueReveal": "Ride the funicular up to Dufferin Terrace. Photograph the Château Frontenac.",
+      "challenges": [
+        {
+          "id": "l5-funiculaire-photo",
+          "type": "photo",
+          "title": "Castle Shot",
+          "instructions": "Ride the cliff railway to the top. Find the giant castle hotel. Take your best photo.",
+          "photoPrompt": "Snap the Château Frontenac!",
+          "points": 8
+        },
+        {
+          "id": "l5-chateau-count",
+          "type": "count",
+          "title": "Tower Count",
+          "instructions": "Look along the castle roof. Count every tower and pointy turret.",
+          "points": 7
+        }
+      ],
+      "funFact": "This cliff railway has carried people up and down since 1879."
+    },
+    {
+      "id": "l5-s4",
+      "kind": "roadblock",
+      "location": "Fêtes de la Nouvelle-France — City Hall Gardens",
+      "scheduledTime": "4:30 PM",
+      "clueRiddle": "Walk through the gate and lose three hundred years.\nEverybody here forgot to change their clothes.",
+      "clueReveal": "Who can travel back in time? Walk to the City Hall gardens. Meet the costumed performers.",
+      "challenges": [
+        {
+          "id": "l5-nouvelle-france-hunt",
+          "type": "scavenger",
+          "title": "Time Traveler Hunt",
+          "instructions": "The festival is full of people from long ago. Find all five. Tap each one you spot.",
+          "checklist": [
+            "A soldier",
+            "A very fancy hat",
+            "A drum",
+            "Someone in a long dress",
+            "A wooden barrel"
+          ],
+          "points": 15
+        },
+        {
+          "id": "l5-nouvelle-france-bonjour",
+          "type": "speak-french",
+          "title": "Greet a Time Traveler",
+          "instructions": "Pick a costumed performer. Stand tall and smile. Say the phrase out loud.",
+          "frenchPhrase": {
+            "fr": "Bonjour! Je m'appelle…",
+            "phonetic": "bon-ZHOOR! zhuh ma-PELL…",
+            "en": "Hello! My name is…"
+          },
+          "points": 10
+        }
+      ],
+      "funFact": "New France was the French colony here more than 400 years ago."
+    },
+    {
+      "id": "l5-s5",
+      "kind": "route-marker",
+      "location": "Metro Plus Ferland Du Marais",
+      "scheduledTime": "5:45 PM",
+      "clueRiddle": "Tonight's dinner is hiding on shelves down our own street.\nGrab it fast — the clock is running.",
+      "clueReveal": "Go to Metro Plus on Rue du Marais. Find everything in fifteen minutes.",
+      "challenges": [
+        {
+          "id": "l5-metro-plus-dash",
+          "type": "scavenger",
+          "title": "Supermarket Dash",
+          "instructions": "Start the stopwatch at the door. Find every item on the list. Beat fifteen minutes!",
+          "checklist": [
+            "Something for dinner tonight",
+            "A fruit you have never tried",
+            "A snack with a French-only label",
+            "Something cold from the dairy aisle",
+            "Bread or buns for tomorrow",
+            "A treat for the whole team"
+          ],
+          "timerSeconds": 900,
+          "points": 15
+        }
+      ],
+      "funFact": "This supermarket is on the same street as tonight's hotel."
+    },
+    {
+      "id": "l5-s6",
+      "kind": "pit-stop",
+      "location": "Hôtel & Suites Le Dauphin Québec",
+      "scheduledTime": "6:30 PM",
+      "clueRiddle": "The mat is waiting at the end of Rue du Marais.\nRun — every second still counts.",
+      "clueReveal": "Check in at Hôtel Le Dauphin. Step onto the pit stop mat.",
+      "funFact": "The mall next door hides a huge indoor amusement park."
+    }
+  ],
+  "pitStop": {
+    "hotelName": "Hôtel & Suites Le Dauphin Québec",
+    "city": "Québec City, QC"
+  }
+}

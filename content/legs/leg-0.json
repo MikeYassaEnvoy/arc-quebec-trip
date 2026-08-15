@@ -1,0 +1,130 @@
+{
+  "id": 0,
+  "title": "Backyard Trial Run",
+  "date": "2026-08-01",
+  "routeText": "Living Room → Backyard → Home Mat",
+  "pitStop": { "hotelName": "Home Starting Line", "city": "Ajax, Ontario" },
+  "steps": [
+    {
+      "id": "l0-s1",
+      "kind": "route-marker",
+      "location": "Living Room Starting Line",
+      "scheduledTime": "Anytime before Aug 2",
+      "clueRiddle": "Your race begins on the softest seat in the house.\nRip this envelope open — that is how clues work!",
+      "clueReveal": "Sit in the living room with your team. Every clue works just like this one. Answer three warm-up questions about the trip.",
+      "challenges": [
+        {
+          "id": "l0-livingroom-trivia",
+          "type": "trivia",
+          "title": "Warm-Up Round",
+          "instructions": "Tap the answer you think is right. Three questions only. Guessing is allowed — this one is practice.",
+          "trivia": [
+            {
+              "q": "Which city on our trip has a hotel that looks like a castle?",
+              "choices": ["Kingston", "Québec City", "Brockville", "Cornwall"],
+              "answerIndex": 1,
+              "funFact": "The Château Frontenac sits high on a cliff above the river."
+            },
+            {
+              "q": "Which animal will we see at the Montréal Biodôme?",
+              "choices": ["Penguins", "Camels", "Kangaroos", "Tigers"],
+              "answerIndex": 0,
+              "funFact": "The Biodôme keeps five whole ecosystems inside one building."
+            },
+            {
+              "q": "How do you say \"hello\" in French?",
+              "choices": ["Merci", "Bonjour", "Au revoir", "Poutine"],
+              "answerIndex": 1,
+              "funFact": "Bonjour really means \"good day\" — say it to everyone."
+            }
+          ],
+          "points": 5
+        }
+      ],
+      "funFact": "Real Amazing Race clues come in yellow-and-red envelopes, just like yours."
+    },
+    {
+      "id": "l0-s2",
+      "kind": "route-marker",
+      "location": "The Backyard",
+      "scheduledTime": "Anytime before Aug 2",
+      "clueRiddle": "Head out the back door to your training ground.\nSmall things and green things are waiting to be found.",
+      "clueReveal": "Go outside to the backyard. Find all five things on the list. Tap each one to check it off.",
+      "challenges": [
+        {
+          "id": "l0-backyard-scavenger",
+          "type": "scavenger",
+          "title": "Explorer Training",
+          "instructions": "Find each thing on the list. Tap it to check it off. Take your time and look low.",
+          "checklist": [
+            "Something green",
+            "A bug",
+            "A rock smaller than your thumb",
+            "Something that can fly",
+            "Something older than you"
+          ],
+          "points": 10
+        }
+      ],
+      "funFact": "Racers call this a scavenger hunt — you will do lots of these."
+    },
+    {
+      "id": "l0-s3",
+      "kind": "speed-bump",
+      "location": "Around the House",
+      "scheduledTime": "Anytime before Aug 2",
+      "clueRiddle": "Two fast laps and one ticking clock.\nCan you beat sixty seconds without a stop?",
+      "clueReveal": "Run twice around the house or the yard. Start the stopwatch first. Try to finish under 60 seconds.",
+      "challenges": [
+        {
+          "id": "l0-house-dash",
+          "type": "physical",
+          "title": "Double Lap Dash",
+          "instructions": "Tap start, then run two full laps. Stop the clock when you finish. Beat 60 seconds to win it.",
+          "timerSeconds": 60,
+          "photoPrompt": "Victory pose!",
+          "points": 5
+        }
+      ],
+      "funFact": "The little camera button is always optional — photos are just for fun."
+    },
+    {
+      "id": "l0-s4",
+      "kind": "drive",
+      "location": "Couch Test Drive",
+      "scheduledTime": "Anytime before Aug 2",
+      "clueRiddle": "Pretend the couch is the back seat of the car.\nRoad games make the long drives fly far.",
+      "clueReveal": "Sit on the couch like it is the car. Play the practice bingo card. Then try a quick trivia round.",
+      "challenges": [
+        {
+          "id": "l0-drive-bingo",
+          "type": "minigame",
+          "title": "Backyard Road Bingo",
+          "instructions": "Tap a square when you spot that thing. Four in a row is a bingo. This card works inside the house.",
+          "minigameId": "road-bingo",
+          "config": { "card": "backyard" },
+          "points": 3
+        },
+        {
+          "id": "l0-drive-trivia",
+          "type": "minigame",
+          "title": "Trivia Test Drive",
+          "instructions": "Five easy questions about our trip. Tap the answer card you like. Learn a fun fact after each one.",
+          "minigameId": "trivia",
+          "config": { "deck": "leg-0" },
+          "points": 2
+        }
+      ],
+      "funFact": "On real driving days you will unlock a new bingo card each leg."
+    },
+    {
+      "id": "l0-s5",
+      "kind": "pit-stop",
+      "location": "Home Starting Line",
+      "scheduledTime": "Anytime before Aug 2",
+      "clueRiddle": "Your very first mat is right here at home.\nMeet your rivals — then the real race begins.",
+      "clueReveal": "Step onto the mat at home. The host will welcome your team. Then meet the four teams racing against you.",
+      "funFact": "Practice points do not count — the real season starts on August 2."
+    }
+  ]
+}

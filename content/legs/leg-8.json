@@ -1,0 +1,109 @@
+{
+  "id": 8,
+  "title": "THE FINALE: Race to the Finish",
+  "date": "2026-08-09",
+  "routeText": "Brockville → Ajax (HOME)",
+  "steps": [
+    {
+      "id": "l8-s3",
+      "kind": "drive",
+      "location": "Highway 401 — westbound to Ajax",
+      "scheduledTime": "10:00 AM",
+      "clueRiddle": "The finish line sits three hours west.\nOne championship game stands in your way.",
+      "clueReveal": "Drive west on Highway 401 toward home. Play the championship round.",
+      "challenges": [
+        {
+          "id": "l8-drive-bagel",
+          "type": "minigame",
+          "title": "Bagel Catch Championship",
+          "instructions": "Slide the basket to catch falling bagels. Dodge the pigeons. Beat your best score.",
+          "minigameId": "bagel-catch",
+          "points": 10
+        }
+      ],
+      "funFact": "Your race has covered about 1,500 kilometres in eight days."
+    },
+    {
+      "id": "l8-s4",
+      "kind": "route-marker",
+      "location": "The Big Apple, Colborne",
+      "scheduledTime": "12:45 PM",
+      "clueRiddle": "A giant apple watches the highway go by.\nInside there is pie. Outside there is a putter.",
+      "clueReveal": "Stop at The Big Apple. Climb the apple, play mini-golf, meet the animals, taste the pie.",
+      "challenges": [
+        {
+          "id": "l8-bigapple-golf",
+          "type": "count",
+          "title": "The Final Challenge",
+          "instructions": "Play mini-golf head-to-head against a parent. Enter both final scores below. Lowest score wins!",
+          "countStyle": "duel",
+          "config": {
+            "duelLabels": [
+              "Team Yassa",
+              "The Grown-Ups"
+            ]
+          },
+          "points": 15
+        },
+        {
+          "id": "l8-bigapple-pie",
+          "type": "taste",
+          "title": "Apple Pie Verdict",
+          "instructions": "Try the famous apple pie. Chew slowly and think. Give your final rating.",
+          "photoPrompt": "Snap a picture of you eating it!",
+          "points": 10
+        },
+        {
+          "id": "l8-bigapple-climb",
+          "type": "physical",
+          "title": "Top of the Apple",
+          "instructions": "Climb the stairs inside the giant apple. Reach the lookout at the top. Wave at the highway!",
+          "photoPrompt": "King of the Apple!",
+          "points": 10
+        },
+        {
+          "id": "l8-bigapple-pet",
+          "type": "physical",
+          "title": "Petting Zoo Bravery",
+          "instructions": "Visit the animals out back. Pick one and pet it gently. Slow hand, calm voice.",
+          "photoPrompt": "You and your new friend!",
+          "awardBadge": "fearless",
+          "points": 10
+        }
+      ],
+      "funFact": "The Big Apple is so big that you can walk around inside it."
+    },
+    {
+      "id": "l8-s5",
+      "kind": "route-marker",
+      "location": "The Final Puzzle",
+      "scheduledTime": "2:15 PM",
+      "clueRiddle": "One puzzle left before you see home.\nRemember every stop — piece the whole trip together.",
+      "clueReveal": "Almost there! Play one last game about your whole journey. Match every photo to its stop, in order.",
+      "challenges": [
+        {
+          "id": "l8-finalpuzzle-photofinish",
+          "type": "minigame",
+          "title": "Photo Finish",
+          "instructions": "Look at photos from your whole trip. Match each one to its stop. Put them in the right order.",
+          "minigameId": "photo-finish",
+          "points": 25
+        }
+      ],
+      "funFact": "You visited eight cities and took hundreds of photos this week."
+    },
+    {
+      "id": "l8-s6",
+      "kind": "pit-stop",
+      "location": "HOME — Ajax, Ontario · THE FINISH LINE",
+      "scheduledTime": "3:45 PM",
+      "clueRiddle": "The very last clue is the easiest one.\nYour own front door is the finish line.",
+      "clueReveal": "Drive home to Ajax. Run to the mat on your own driveway. This is the finish line!",
+      "funFact": "Eight legs, two provinces, one champion. Welcome home."
+    }
+  ],
+  "pitStop": {
+    "hotelName": "HOME — the Finish Line",
+    "city": "Ajax, ON"
+  }
+}

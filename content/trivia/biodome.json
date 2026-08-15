@@ -1,0 +1,146 @@
+[
+  {
+    "q": "How many ecosystems live inside the Montréal Biodôme?",
+    "choices": ["Three", "Five", "Ten", "Twenty"],
+    "answerIndex": 1,
+    "funFact": "Each ecosystem has its own temperature, plants and animals."
+  },
+  {
+    "q": "The Biodôme building was built for the 1976 Olympics. For which sport?",
+    "choices": ["Swimming", "Gymnastics", "Bicycle racing", "Hockey"],
+    "answerIndex": 2,
+    "funFact": "It was the velodrome — a giant indoor track for racing bikes."
+  },
+  {
+    "q": "Which Biodôme animal is famous for moving very slowly?",
+    "choices": ["The lynx", "The penguin", "The sloth", "The beaver"],
+    "answerIndex": 2,
+    "funFact": "A sloth can take a whole minute to move a few steps."
+  },
+  {
+    "q": "How many legs does every insect have?",
+    "choices": ["Four", "Six", "Eight", "Ten"],
+    "answerIndex": 1,
+    "funFact": "Six legs, always — that is the insect rule."
+  },
+  {
+    "q": "How many legs does a spider have?",
+    "choices": ["Six", "Eight", "Ten", "Twelve"],
+    "answerIndex": 1,
+    "funFact": "Eight legs means a spider is not an insect at all."
+  },
+  {
+    "q": "Butterflies can taste with which body part?",
+    "choices": ["Their wings", "Their feet", "Their eyes", "Their antennae"],
+    "answerIndex": 1,
+    "funFact": "A butterfly lands on a flower and tastes it by standing on it."
+  },
+  {
+    "q": "Can penguins fly?",
+    "choices": ["Yes, very high", "Only at night", "No — but they fly underwater", "Only baby penguins"],
+    "answerIndex": 2,
+    "funFact": "Penguins flap their wings to zoom through water like torpedoes."
+  },
+  {
+    "q": "Where do penguins live in the wild?",
+    "choices": ["The far south, not the Arctic", "The North Pole", "The desert", "The rainforest"],
+    "answerIndex": 0,
+    "funFact": "Penguins and polar bears never meet — they live at opposite ends."
+  },
+  {
+    "q": "Why can a sloth's fur look green?",
+    "choices": ["It paints itself", "Tiny green algae grow on it", "It eats too much lettuce", "It is jealous"],
+    "answerIndex": 1,
+    "funFact": "The green helps the sloth hide in the trees."
+  },
+  {
+    "q": "What is the biggest rodent in the whole world?",
+    "choices": ["A mouse", "A squirrel", "A beaver", "A capybara"],
+    "answerIndex": 3,
+    "funFact": "Capybaras live in the Biodôme's rainforest and love to swim."
+  },
+  {
+    "q": "Why does a lynx have such big fluffy paws?",
+    "choices": ["To walk on snow like snowshoes", "For high-fives", "To play drums", "To dig for gold"],
+    "answerIndex": 0,
+    "funFact": "Wide paws stop the lynx from sinking into deep snow."
+  },
+  {
+    "q": "The lynx belongs to which animal family?",
+    "choices": ["Dogs", "Cats", "Bears", "Rabbits"],
+    "answerIndex": 1,
+    "funFact": "The lynx is a wild cousin of pet cats — with pointy ear tufts."
+  },
+  {
+    "q": "What do beavers build across streams?",
+    "choices": ["Bridges", "Dams", "Castles", "Slides"],
+    "answerIndex": 1,
+    "funFact": "Beaver dams make ponds where their families stay safe."
+  },
+  {
+    "q": "What colour are a beaver's front teeth?",
+    "choices": ["White", "Blue", "Orange", "Green"],
+    "answerIndex": 2,
+    "funFact": "Iron in the teeth makes them orange — and extra strong."
+  },
+  {
+    "q": "What is a butterfly before it grows wings?",
+    "choices": ["A caterpillar", "A worm", "A tadpole", "A tiny bird"],
+    "answerIndex": 0,
+    "funFact": "The caterpillar's whole body rebuilds itself inside the chrysalis."
+  },
+  {
+    "q": "What is the hard little case where a caterpillar transforms?",
+    "choices": ["A nest", "A chrysalis", "A shell", "A backpack"],
+    "answerIndex": 1,
+    "funFact": "Look for chrysalises hanging like tiny lanterns at the Insectarium."
+  },
+  {
+    "q": "How do fireflies talk to each other?",
+    "choices": ["By singing", "By flashing their lights", "By stomping", "By whistling"],
+    "answerIndex": 1,
+    "funFact": "Each kind of firefly has its own flashing pattern, like a secret code."
+  },
+  {
+    "q": "For its size, which animal is one of the strongest lifters?",
+    "choices": ["The ant", "The elephant", "The horse", "The gorilla"],
+    "answerIndex": 0,
+    "funFact": "An ant can carry many times its own body weight."
+  },
+  {
+    "q": "A puffin is a seabird that can hold what in its beak?",
+    "choices": ["Lots of little fish at once", "Pencils", "One giant fish", "Seaweed only"],
+    "answerIndex": 0,
+    "funFact": "A puffin can line up a whole row of fish in one beakful."
+  },
+  {
+    "q": "How do king penguins keep their egg warm?",
+    "choices": ["On top of their feet", "In a nest of sticks", "Under the sand", "They take turns sitting in the water"],
+    "answerIndex": 0,
+    "funFact": "The egg rests on the feet under a cozy flap of belly skin."
+  },
+  {
+    "q": "What do river otters love to do down muddy banks?",
+    "choices": ["Slide", "March", "Tiptoe", "Cartwheel"],
+    "answerIndex": 0,
+    "funFact": "Otters slide over and over — scientists think it is just for fun."
+  },
+  {
+    "q": "What covers a porcupine's back?",
+    "choices": ["Soft wool", "Sharp quills", "Feathers", "Scales"],
+    "answerIndex": 1,
+    "funFact": "A porcupine can have around 30,000 quills."
+  },
+  {
+    "q": "The golden lion tamarin is a tiny golden what?",
+    "choices": ["Lion", "Monkey", "Squirrel", "Bird"],
+    "answerIndex": 1,
+    "funFact": "Its fluffy golden mane is how it got the lion name."
+  },
+  {
+    "q": "What do macaws crack open with their big strong beaks?",
+    "choices": ["Nuts and seeds", "Rocks", "Coconuts only", "Doors"],
+    "answerIndex": 0,
+    "funFact": "A macaw's beak works like a nutcracker built right in."
+  }
+]

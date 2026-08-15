@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="App icon (maskable, safe-zone padded)">
+<title>App icon (maskable, safe-zone padded)</title>
+<rect width="512" height="512" fill="#FFC20E"/>
+<circle cx="256" cy="256" r="196" fill="#FFD24A"/>
+<circle cx="256" cy="256" r="196" fill="none" stroke="#1A1A1A" stroke-width="10" opacity="0.25"/>
+<g transform="translate(256 252) scale(1.42)"><path d="M0-100 11-64 33-68 26-44 56-52 49-32 89-8 78 2 84 18 46 10 50 24 20 52 28 60 8 64 8 100-8 100-8 64-28 60-20 52-50 24-46 10-84 18-78 2-89-8-49-32-56-52-26-44-33-68-11-64Z" fill="#DA291C" stroke="#1A1A1A" stroke-width="12" stroke-linejoin="round"/></g>
+</svg>

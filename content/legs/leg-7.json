@@ -1,0 +1,231 @@
+{
+  "id": 7,
+  "title": "Mazes, Dinosaurs & Ribs",
+  "date": "2026-08-08",
+  "routeText": "Québec City → Brockville",
+  "steps": [
+    {
+      "id": "l7-s2",
+      "kind": "roadblock",
+      "location": "Domaine de Maizerets",
+      "scheduledTime": "9:30 AM",
+      "clueRiddle": "Green walls, wrong turns, and one way out.\nTwo runs — your only rival is you.",
+      "clueReveal": "Who can escape the maze? Run the hedge maze at Domaine de Maizerets. Then run it again.",
+      "challenges": [
+        {
+          "id": "l7-maizerets-maze",
+          "type": "physical",
+          "title": "Maze Escape: Two Runs",
+          "instructions": "Start the stopwatch and run the hedge maze. Write down your time. Run it again and go faster.",
+          "timerSeconds": 300,
+          "points": 30
+        },
+        {
+          "id": "l7-maizerets-backup",
+          "type": "scavenger",
+          "title": "Backup Mission: Garden Hunt",
+          "instructions": "Do this only if the maze is closed today. Explore the gardens and playground. Find all five.",
+          "checklist": [
+            "A bridge or a boardwalk",
+            "A duck or another water bird",
+            "A flower you really like",
+            "The playground — go down the slide",
+            "A tree wider than you"
+          ],
+          "points": 30
+        }
+      ],
+      "funFact": "This park's old estate goes all the way back to the early 1700s."
+    },
+    {
+      "id": "l7-s3",
+      "kind": "drive",
+      "location": "Autoroute 20 — the long road west",
+      "scheduledTime": "11:30 AM",
+      "clueRiddle": "The longest road of the race starts now.\nGames in the car will make it shrink.",
+      "clueReveal": "Drive west on Autoroute 20 toward Ontario. Play the full game lineup.",
+      "challenges": [
+        {
+          "id": "l7-drive-canoe",
+          "type": "minigame",
+          "title": "Canoe the Rapids",
+          "instructions": "Drag your finger to steer the canoe. Dodge every rock. Survive sixty seconds.",
+          "minigameId": "canoe-rapids",
+          "points": 10
+        },
+        {
+          "id": "l7-drive-maze",
+          "type": "minigame",
+          "title": "Hedge-Maze Training",
+          "instructions": "Practice for the big maze. Drag your racer to the red exit gate. No cutting through hedges!",
+          "minigameId": "maze-escape",
+          "config": {
+            "level": 2
+          },
+          "points": 10
+        },
+        {
+          "id": "l7-drive-trivia",
+          "type": "minigame",
+          "title": "Dinosaur Road Trivia",
+          "instructions": "Answer questions about dinosaurs and the road home. Guess before you tap.",
+          "minigameId": "trivia",
+          "config": {
+            "deck": "leg-7"
+          },
+          "points": 10
+        },
+        {
+          "id": "l7-drive-bingo",
+          "type": "minigame",
+          "title": "Homeward Bingo",
+          "instructions": "Look out the window the whole drive. Stamp what you spot. Get four in a row.",
+          "minigameId": "road-bingo",
+          "config": {
+            "card": "homeward"
+          },
+          "points": 10
+        }
+      ],
+      "funFact": "Autoroute 20 turns into Highway 401 when you reach Ontario."
+    },
+    {
+      "id": "l7-s4",
+      "kind": "route-marker",
+      "location": "Madrid 2.0, Saint-Léonard-d'Aston",
+      "scheduledTime": "1:00 PM",
+      "clueRiddle": "A highway stop guarded by giant lizards.\nThey are huge, they are old, they don't bite.",
+      "clueReveal": "Stop for lunch at Madrid 2.0. Count the dinosaurs and pose with one.",
+      "challenges": [
+        {
+          "id": "l7-madrid-count",
+          "type": "count",
+          "title": "Dino Census",
+          "instructions": "Walk all the way around the stop. Count every dinosaur statue you find.",
+          "points": 6
+        },
+        {
+          "id": "l7-madrid-photo",
+          "type": "photo",
+          "title": "The Scariest One",
+          "instructions": "Choose the scariest dinosaur there. Stand right beside it. Make your bravest face.",
+          "photoPrompt": "Pose with the scariest dinosaur!",
+          "points": 5
+        },
+        {
+          "id": "l7-madrid-dino-quiz",
+          "type": "trivia",
+          "title": "Dino Brain Test",
+          "instructions": "Three quick dinosaur questions. Take your best guess. No looking it up!",
+          "trivia": [
+            {
+              "q": "Which dinosaur had a long neck for reaching treetops?",
+              "choices": [
+                "Brachiosaurus",
+                "Tyrannosaurus rex",
+                "Triceratops",
+                "Stegosaurus"
+              ],
+              "answerIndex": 0,
+              "funFact": "Brachiosaurus grabbed high leaves like a giant, scaly giraffe."
+            },
+            {
+              "q": "How many horns did a Triceratops have?",
+              "choices": [
+                "One",
+                "Two",
+                "Three",
+                "Five"
+              ],
+              "answerIndex": 2,
+              "funFact": "Triceratops means \"three-horned face\" in ancient Greek."
+            },
+            {
+              "q": "What do we call a scientist who digs up dinosaur bones?",
+              "choices": [
+                "A paleontologist",
+                "A dentist",
+                "A pilot",
+                "A chef"
+              ],
+              "answerIndex": 0,
+              "funFact": "Paleontologists brush rock off bones very, very slowly."
+            }
+          ],
+          "points": 4
+        }
+      ],
+      "funFact": "The old Madrid rest stop was a Québec road-trip legend for decades."
+    },
+    {
+      "id": "l7-s4b",
+      "kind": "drive",
+      "location": "Highway 401 — the border run",
+      "scheduledTime": "2:15 PM",
+      "clueRiddle": "Québec fades behind us, Ontario ahead.\nChampions keep training right to the end.",
+      "clueReveal": "Last long stretch before Brockville. Play the afternoon lineup. Watch for the Ontario sign!",
+      "challenges": [
+        {
+          "id": "l7-drive2-maze",
+          "type": "minigame",
+          "title": "Expert Maze",
+          "instructions": "The biggest maze the game can build. Drag your racer to the exit. Champions do not give up.",
+          "minigameId": "maze-escape",
+          "config": {
+            "level": 3
+          },
+          "points": 10
+        },
+        {
+          "id": "l7-drive2-canoe",
+          "type": "minigame",
+          "title": "Rapids Marathon",
+          "instructions": "Ninety whole seconds of rapids. Collect every maple leaf you can. Steady hands win.",
+          "minigameId": "canoe-rapids",
+          "config": {
+            "durationSeconds": 90,
+            "targetScore": 35
+          },
+          "points": 10
+        },
+        {
+          "id": "l7-drive2-recap",
+          "type": "minigame",
+          "title": "Memory Lane Quiz",
+          "instructions": "Questions about YOUR trip. You lived every answer. Prove you remember it all!",
+          "minigameId": "trivia",
+          "config": {
+            "deck": "leg-8",
+            "count": 10
+          },
+          "points": 10
+        },
+        {
+          "id": "l7-drive2-bingo",
+          "type": "minigame",
+          "title": "Border-Run Bingo",
+          "instructions": "A brand-new card for the border run. Stamp what you spot. Four in a row wins.",
+          "minigameId": "road-bingo",
+          "config": {
+            "card": "border-run"
+          },
+          "points": 10
+        }
+      ],
+      "funFact": "When Autoroute 20 crosses into Ontario, it becomes Highway 401."
+    },
+    {
+      "id": "l7-s6",
+      "kind": "pit-stop",
+      "location": "St. Lawrence College Residence & Conference Centre",
+      "scheduledTime": "5:30 PM",
+      "clueRiddle": "One more mat before the finish line.\nSleep fast — tomorrow you race home.",
+      "clueReveal": "Check in at the St. Lawrence College Residence. Step onto the pit stop mat.",
+      "funFact": "Tomorrow is the final leg. First place is still possible."
+    }
+  ],
+  "pitStop": {
+    "hotelName": "St. Lawrence College Residence & Conference Centre",
+    "city": "Brockville, ON"
+  }
+}

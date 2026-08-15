@@ -1,0 +1,70 @@
+{
+  "id": "border-run",
+  "title": "Border-Run Bingo",
+  "cells": [
+    {
+      "label": "Welcome to Ontario sign",
+      "emoji": "🛂"
+    },
+    {
+      "label": "A wind turbine",
+      "emoji": "🌬️"
+    },
+    {
+      "label": "A transport truck with a face or mascot",
+      "emoji": "🚛"
+    },
+    {
+      "label": "Cows in a field",
+      "emoji": "🐄"
+    },
+    {
+      "label": "A glimpse of the St. Lawrence",
+      "emoji": "🌊"
+    },
+    {
+      "label": "A bridge over the highway",
+      "emoji": "🌉"
+    },
+    {
+      "label": "A car from the USA",
+      "emoji": "🇺🇸"
+    },
+    {
+      "label": "A camper or RV",
+      "emoji": "🚐"
+    },
+    {
+      "label": "A water tower",
+      "emoji": "🗼"
+    },
+    {
+      "label": "A hawk or big bird hunting",
+      "emoji": "🦅"
+    },
+    {
+      "label": "An exit sign for Kingston",
+      "emoji": "🪧"
+    },
+    {
+      "label": "A motorcycle",
+      "emoji": "🏍️"
+    },
+    {
+      "label": "A red barn",
+      "emoji": "🏚️"
+    },
+    {
+      "label": "Somebody's boat on a trailer",
+      "emoji": "🚤"
+    },
+    {
+      "label": "A French sign, then an English one",
+      "emoji": "🔤"
+    },
+    {
+      "label": "A licence plate from far away",
+      "emoji": "🔢"
+    }
+  ]
+}

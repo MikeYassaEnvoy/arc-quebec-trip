@@ -1,0 +1,164 @@
+{
+  "id": 6,
+  "title": "The Citadelle Showdown",
+  "date": "2026-08-07",
+  "routeText": "Québec City",
+  "steps": [
+    {
+      "id": "l6-s1",
+      "kind": "roadblock",
+      "location": "La Citadelle de Québec",
+      "scheduledTime": "9:50 AM",
+      "clueRiddle": "A star-shaped fort guards the top of the cliff.\nAt noon it makes the loudest bang in town.",
+      "clueReveal": "Who's brave enough for the cannon? Watch the band play at ten. Tour the fort at ten-forty — ears covered at noon!",
+      "challenges": [
+        {
+          "id": "l6-citadelle-parade",
+          "type": "physical",
+          "title": "Stand Like a Soldier",
+          "instructions": "Watch the Royal 22e Régiment band play. Stand up straight like a guard. No smiling!",
+          "photoPrompt": "Guard face — no smiling!",
+          "points": 10
+        },
+        {
+          "id": "l6-citadelle-quiz",
+          "type": "trivia",
+          "title": "Gather the Fort Intel",
+          "instructions": "Listen closely on the tour. The guide says every answer. Then take the quiz.",
+          "trivia": [
+            {
+              "q": "What animal is the regiment's mascot?",
+              "choices": [
+                "A goat",
+                "A moose",
+                "A beaver",
+                "A husky"
+              ],
+              "answerIndex": 0,
+              "funFact": "The mascot goat is always named Batisse. He marches with the soldiers."
+            },
+            {
+              "q": "What shape is the Citadelle built in?",
+              "choices": [
+                "A star",
+                "A circle",
+                "A square",
+                "A triangle"
+              ],
+              "answerIndex": 0,
+              "funFact": "Star-shaped forts let soldiers watch every side at once."
+            },
+            {
+              "q": "What happens at the Citadelle every day at noon?",
+              "choices": [
+                "A cannon fires",
+                "A bell rings",
+                "The gates lock",
+                "A parade starts"
+              ],
+              "answerIndex": 0,
+              "funFact": "The noon cannon is very loud. Ears covered!"
+            },
+            {
+              "q": "When was the Citadelle finished?",
+              "choices": [
+                "1650",
+                "1750",
+                "1850",
+                "1950"
+              ],
+              "answerIndex": 2,
+              "funFact": "Workers built it slowly, from 1820 all the way to 1850."
+            }
+          ],
+          "points": 20
+        }
+      ],
+      "funFact": "The Citadelle is still a real army home for the Royal 22e Régiment."
+    },
+    {
+      "id": "l6-s2b",
+      "kind": "route-marker",
+      "location": "Lunch on Grande Allée",
+      "scheduledTime": "12:15 PM",
+      "clueRiddle": "Fries, squeaky cheese and hot gravy on top.\nJudge Québec's messiest lunch stop.",
+      "clueReveal": "Find lunch along Grande Allée. Order a classic Québec poutine. Judge it like a pro.",
+      "challenges": [
+        {
+          "id": "l6-poutine-judge",
+          "type": "taste",
+          "title": "Judge's Table: Poutine",
+          "instructions": "Try a big forkful of poutine. Listen for the cheese squeak. Give it your maple leaf rating.",
+          "photoPrompt": "Snap a picture of you eating it!",
+          "points": 10
+        }
+      ],
+      "funFact": "Fresh cheese curds squeak on your teeth — that is how you know they are fresh."
+    },
+    {
+      "id": "l6-s3",
+      "kind": "route-marker",
+      "location": "Musée de la civilisation",
+      "scheduledTime": "1:30 PM",
+      "clueRiddle": "A museum that says yes, please touch.\nInside are things older than your great-grandparents.",
+      "clueReveal": "Drive down to the Musée de la civilisation. Try the hands-on exhibits.",
+      "challenges": [
+        {
+          "id": "l6-musee-hands-on",
+          "type": "scavenger",
+          "title": "Hands-On Hunt",
+          "instructions": "Explore the museum room by room. Tick off each mission you finish.",
+          "checklist": [
+            "Try one hands-on exhibit",
+            "Try a second hands-on exhibit",
+            "Try a third hands-on exhibit",
+            "Find something older than 100 years",
+            "Find something that came off a boat"
+          ],
+          "points": 20
+        }
+      ],
+      "funFact": "A stone house from 1752 is built right into this museum."
+    },
+    {
+      "id": "l6-s5",
+      "kind": "route-marker",
+      "location": "Restaurant La Buche",
+      "scheduledTime": "6:00 PM",
+      "clueRiddle": "A cabin in the city where maple runs like rain.\nBring your appetite and your judging face.",
+      "clueReveal": "Have dinner at Restaurant La Buche. Taste two things and rate them.",
+      "challenges": [
+        {
+          "id": "l6-labuche-main",
+          "type": "taste",
+          "title": "Judge's Table: Main Dish",
+          "instructions": "Order tourtière or shepherd's pie. Taste it slowly. Give it your maple leaf rating.",
+          "photoPrompt": "Snap a picture of you eating it!",
+          "points": 5
+        },
+        {
+          "id": "l6-labuche-dessert",
+          "type": "taste",
+          "title": "Judge's Table: Maple Dessert",
+          "instructions": "Order something sweet and maple. Taste it slowly. Give it your maple leaf rating.",
+          "photoPrompt": "Snap a picture of you eating it!",
+          "points": 5
+        }
+      ],
+      "funFact": "Tourtière is a meat pie that Québec families love in winter."
+    },
+    {
+      "id": "l6-s6",
+      "kind": "pit-stop",
+      "location": "Hôtel & Suites Le Dauphin Québec",
+      "scheduledTime": "7:45 PM",
+      "clueRiddle": "One last drive north to the mat tonight.\nSomeone's race ends here — hurry.",
+      "clueReveal": "Drive back to Hôtel Le Dauphin. Step onto the pit stop mat.",
+      "funFact": "Tomorrow is the longest drive of the whole race."
+    }
+  ],
+  "pitStop": {
+    "hotelName": "Hôtel & Suites Le Dauphin Québec",
+    "city": "Québec City, QC"
+  }
+}

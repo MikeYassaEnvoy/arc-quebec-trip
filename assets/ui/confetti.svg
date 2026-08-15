@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 44" width="320" height="44" role="img" aria-label="Confetti pieces sprite">
+<title>Confetti pieces sprite</title>
+<g id="confetti-1" transform="translate(20 22)" stroke="#1A1A1A" stroke-width="2.5" stroke-linejoin="round"><rect x="-11" y="-8" width="22" height="16" rx="3" fill="#FFC20E"/></g>
+<g id="confetti-2" transform="translate(60 22)" stroke="#1A1A1A" stroke-width="2.5" stroke-linejoin="round"><rect x="-9" y="-7" width="18" height="14" rx="3" fill="#DA291C"/></g>
+<g id="confetti-3" transform="translate(100 22)" stroke="#1A1A1A" stroke-width="2.5" stroke-linejoin="round"><circle r="9" fill="#FFFFFF"/></g>
+<g id="confetti-4" transform="translate(140 22)" stroke="#1A1A1A" stroke-width="2.5" stroke-linejoin="round"><path d="M0.0 -12.0 L2.9 -4.0 L11.4 -3.7 L4.8 1.5 L7.1 9.7 L0.0 5.0 L-7.1 9.7 L-4.8 1.5 L-11.4 -3.7 L-2.9 -4.0 Z" fill="#FFC20E"/></g>
+<g id="confetti-5" transform="translate(180 22)" stroke="#1A1A1A" stroke-width="2.5" stroke-linejoin="round"><path d="M-12 8c6-16 18-16 24 0-6-8-18-8-24 0z" fill="#2E86C1"/></g>
+<g id="confetti-6" transform="translate(220 22)" stroke="#1A1A1A" stroke-width="2.5" stroke-linejoin="round"><path d="M-11-9 11-9 0 10Z" fill="#2FB57C"/></g>
+<g id="confetti-7" transform="translate(260 22)" stroke="#1A1A1A" stroke-width="2.5" stroke-linejoin="round"><path d="M-14 0c4-10 10-10 14 0s10 10 14 0" fill="none" stroke="#DA291C" stroke-width="5" stroke-linecap="round"/></g>
+<g id="confetti-8" transform="translate(300 22)" stroke="#1A1A1A" stroke-width="2.5" stroke-linejoin="round"><g transform="scale(0.13)"><path d="M0-100 11-64 33-68 26-44 56-52 49-32 89-8 78 2 84 18 46 10 50 24 20 52 28 60 8 64 8 100-8 100-8 64-28 60-20 52-50 24-46 10-84 18-78 2-89-8-49-32-56-52-26-44-33-68-11-64Z" fill="#DA291C"/></g></g>
+</svg>

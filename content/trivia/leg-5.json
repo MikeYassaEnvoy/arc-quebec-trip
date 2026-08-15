@@ -1,0 +1,62 @@
+[
+  {
+    "q": "Which language do most people speak in Québec City?",
+    "choices": ["French", "Spanish", "Italian", "German"],
+    "answerIndex": 0,
+    "funFact": "In Québec City, \"hello\" is \"bonjour\" and \"thanks\" is \"merci\"."
+  },
+  {
+    "q": "What does Québec City have that no other city in Canada has?",
+    "choices": ["A stone wall around its old town", "A volcano", "A pyramid", "A desert"],
+    "answerIndex": 0,
+    "funFact": "It is the only walled city left north of Mexico."
+  },
+  {
+    "q": "What is the huge castle-shaped hotel in Québec City called?",
+    "choices": ["Château Frontenac", "Casa Loma", "Buckingham Palace", "Hôtel Maple"],
+    "answerIndex": 0,
+    "funFact": "It opened in 1893 and looks just like a fairy-tale castle."
+  },
+  {
+    "q": "Who started Québec City way back in 1608?",
+    "choices": ["Samuel de Champlain", "Jacques Cartier", "Marco Polo", "John A. Macdonald"],
+    "answerIndex": 0,
+    "funFact": "Champlain called his very first building the Habitation."
+  },
+  {
+    "q": "What was this part of Canada called long ago?",
+    "choices": ["New France", "New Spain", "Old England", "North Island"],
+    "answerIndex": 0,
+    "funFact": "New France once stretched south all the way to Louisiana."
+  },
+  {
+    "q": "Which river does Québec City sit beside?",
+    "choices": ["The St. Lawrence", "The Nile", "The Amazon", "The Ottawa"],
+    "answerIndex": 0,
+    "funFact": "Ocean ships can sail up the St. Lawrence to Québec City."
+  },
+  {
+    "q": "What is a funicular?",
+    "choices": ["A little railway that climbs a cliff", "A kind of soup", "A brass horn", "A sailboat"],
+    "answerIndex": 0,
+    "funFact": "Québec's funicular has climbed the cliff since 1879."
+  },
+  {
+    "q": "Which Québec food is made of fries, cheese curds and gravy?",
+    "choices": ["Poutine", "Pizza", "Pancakes", "Porridge"],
+    "answerIndex": 0,
+    "funFact": "Fresh cheese curds should squeak when you bite them."
+  },
+  {
+    "q": "What do people call the old walled part of the city?",
+    "choices": ["Old Québec", "New Town", "Downtown Toronto", "The Suburbs"],
+    "answerIndex": 0,
+    "funFact": "UNESCO calls Old Québec a treasure for the whole world."
+  },
+  {
+    "q": "How do you say \"thank you very much\" in French?",
+    "choices": ["Merci beaucoup", "Bonjour madame", "S'il vous plaît", "Au revoir"],
+    "answerIndex": 0,
+    "funFact": "It sounds like mair-SEE bo-KOO."
+  }
+]

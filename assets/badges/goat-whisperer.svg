@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 132" width="120" height="132" role="img" aria-label="Goat Whisperer badge">
+<title>Goat Whisperer badge</title>
+<g id="ribbon" fill="#DA291C" stroke="#1A1A1A" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M34 62h27l-5 62-16-12-13 12z" transform="rotate(-13 47 70)"/>
+  <g transform="translate(120,0) scale(-1,1)"><path d="M34 62h27l-5 62-16-12-13 12z" transform="rotate(-13 47 70)"/></g>
+</g>
+<rect x="44" y="80" width="32" height="15" rx="6" fill="#FFC20E" stroke="#1A1A1A" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round"/>
+<g id="medal">
+  <circle cx="60" cy="50" r="43" fill="#FFC20E" stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="60" cy="50" r="43" fill="none" stroke="#E0A400" stroke-width="2"/>
+  <circle cx="60" cy="50" r="34" fill="#C9E9F7" stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <g id="icon" transform="translate(60,50)"><g stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M-10-14c-6-12-14-18-22-16 2 8 8 14 14 20zM10-14c6-12 14-18 22-16-2 8-8 14-14 20z" fill="#C9A227"/>
+  <ellipse cx="-19" cy="0" rx="10" ry="6" transform="rotate(-20 -19 0)" fill="#EDE6D8"/>
+  <ellipse cx="19" cy="0" rx="10" ry="6" transform="rotate(20 19 0)" fill="#EDE6D8"/>
+  <path d="M0-16c11 0 16 8 16 18 0 12-6 20-16 20s-16-8-16-20c0-10 5-18 16-18z" fill="#F7F3EA"/>
+  <path d="M-7 20h14c0 10-3 14-7 14s-7-4-7-14z" fill="#F7F3EA"/>
+  <ellipse cx="0" cy="14" rx="8" ry="6" fill="#E7B7B7"/></g>
+<circle cx="-7" cy="-2" r="3.2" fill="#1A1A1A"/><circle cx="7" cy="-2" r="3.2" fill="#1A1A1A"/>
+<circle cx="-3" cy="13" r="1.8" fill="#1A1A1A"/><circle cx="3" cy="13" r="1.8" fill="#1A1A1A"/></g>
+</g>
+</svg>

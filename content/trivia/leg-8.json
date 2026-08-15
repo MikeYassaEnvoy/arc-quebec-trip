@@ -1,0 +1,62 @@
+[
+  {
+    "q": "What animal is the mascot at Fort Henry in Kingston?",
+    "choices": ["A goat named David", "A horse named Henry", "A dog named Fort", "A cat named Sarge"],
+    "answerIndex": 0,
+    "funFact": "Fort Henry's mascot goat is always called David."
+  },
+  {
+    "q": "Which Montréal place has penguins, a sloth and a rainforest?",
+    "choices": ["The Biodôme", "The Insectarium", "Notre-Dame Basilica", "The Science Centre"],
+    "answerIndex": 0,
+    "funFact": "The Biodôme keeps five living ecosystems under one roof."
+  },
+  {
+    "q": "What is the name of the Citadelle's goat mascot?",
+    "choices": ["Batisse", "David", "Maple", "Pierre"],
+    "answerIndex": 0,
+    "funFact": "Batisse marches with the Royal 22e Régiment in Québec City."
+  },
+  {
+    "q": "What makes Montréal bagels different from other bagels?",
+    "choices": ["Boiled in honey water, baked in a wood fire", "Made of rice", "Baked in a microwave", "Frozen for a week"],
+    "answerIndex": 0,
+    "funFact": "St-Viateur Bagel has been baking them since 1957."
+  },
+  {
+    "q": "What covers the ceiling inside Notre-Dame Basilica?",
+    "choices": ["Gold stars on deep blue", "Green stripes", "Mirrors", "Nothing at all"],
+    "answerIndex": 0,
+    "funFact": "Thousands of golden stars shine on that blue ceiling."
+  },
+  {
+    "q": "What did we ride up the cliff in Québec City?",
+    "choices": ["A funicular", "A ski lift", "A hot air balloon", "An escalator"],
+    "answerIndex": 0,
+    "funFact": "It climbs from Petit-Champlain up to Dufferin Terrace."
+  },
+  {
+    "q": "Which Brockville place has river otters and a touch tank?",
+    "choices": ["The Aquatarium", "Hardy Park", "Fort Henry", "The Big Apple"],
+    "answerIndex": 0,
+    "funFact": "The Aquatarium sits right on the St. Lawrence waterfront."
+  },
+  {
+    "q": "The Big Apple in Ontario is famous for which dessert?",
+    "choices": ["Apple pie", "Cheesecake", "Poutine", "Ice cream cake"],
+    "answerIndex": 0,
+    "funFact": "You can walk right inside the giant apple building."
+  },
+  {
+    "q": "Which insects fly free around you at the Montréal Insectarium?",
+    "choices": ["Butterflies", "Bees", "Mosquitoes", "Grasshoppers"],
+    "answerIndex": 0,
+    "funFact": "You walk right through their big butterfly garden."
+  },
+  {
+    "q": "What are the three parts of a classic poutine?",
+    "choices": ["Fries, cheese curds, gravy", "Rice, beans, salsa", "Bread, ham, mustard", "Pasta, cheese, tomato"],
+    "answerIndex": 0,
+    "funFact": "Poutine was invented in rural Québec in the 1950s."
+  }
+]

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 132" width="120" height="132" role="img" aria-label="Dino Tamer badge">
+<title>Dino Tamer badge</title>
+<g id="ribbon" fill="#DA291C" stroke="#1A1A1A" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M34 62h27l-5 62-16-12-13 12z" transform="rotate(-13 47 70)"/>
+  <g transform="translate(120,0) scale(-1,1)"><path d="M34 62h27l-5 62-16-12-13 12z" transform="rotate(-13 47 70)"/></g>
+</g>
+<rect x="44" y="80" width="32" height="15" rx="6" fill="#FFC20E" stroke="#1A1A1A" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round"/>
+<g id="medal">
+  <circle cx="60" cy="50" r="43" fill="#FFC20E" stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="60" cy="50" r="43" fill="none" stroke="#E0A400" stroke-width="2"/>
+  <circle cx="60" cy="50" r="34" fill="#C9EFC2" stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <g id="icon" transform="translate(60,50)"><g stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+  <g transform="translate(-2,2)">
+    <path d="M-28 22c-2-16 4-34 20-38 14-4 30 2 34 14 1 4-2 6-6 6l-16 1 10 5c3 2 2 6-2 7l-12 2 7 5c3 2 1 6-3 6h-12c-11 0-19-1-20-8z" fill="#7BC96F"/>
+    <path d="M-28 22l-6 8M-18 26l-4 9M-8 27l-2 9" fill="none" stroke-width="4"/>
+    <circle cx="6" cy="-6" r="4.5" fill="#1A1A1A"/><circle cx="7.5" cy="-7.5" r="1.5" fill="#FFFFFF"/>
+    <path d="M14 8l4 5M4 12l4 6" fill="none" stroke="#FFFFFF" stroke-width="3.5"/>
+  </g></g></g>
+</g>
+</svg>

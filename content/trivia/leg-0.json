@@ -1,0 +1,32 @@
+[
+  {
+    "q": "Which province are we visiting after Ontario?",
+    "choices": ["Québec", "Alberta", "Manitoba", "Nova Scotia"],
+    "answerIndex": 0,
+    "funFact": "Québec is the biggest province in Canada by land size."
+  },
+  {
+    "q": "Which city do we visit on the very first day?",
+    "choices": ["Kingston", "Montréal", "Québec City", "Brockville"],
+    "answerIndex": 0,
+    "funFact": "Kingston is about two hours east of home."
+  },
+  {
+    "q": "Which big river will we follow almost the whole trip?",
+    "choices": ["The St. Lawrence", "The Amazon", "The Nile", "The Fraser"],
+    "answerIndex": 0,
+    "funFact": "The St. Lawrence carries ocean ships all the way inland."
+  },
+  {
+    "q": "Which food is the city of Montréal most famous for?",
+    "choices": ["Bagels", "Tacos", "Sushi", "Pancakes"],
+    "answerIndex": 0,
+    "funFact": "Montréal bagels are boiled in honey water before baking."
+  },
+  {
+    "q": "How many days will our road trip last?",
+    "choices": ["Three", "Eight", "Fifteen", "Thirty"],
+    "answerIndex": 1,
+    "funFact": "Eight days means eight legs of the race, one each day."
+  }
+]

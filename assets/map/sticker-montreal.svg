@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112 112" width="112" height="112" role="img" aria-label="Montréal · bagel sticker">
+<title>Montréal · bagel sticker</title>
+<circle cx="56" cy="56" r="52" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="4"/>
+<circle cx="56" cy="56" r="44" fill="#FFC8C2" stroke="#1A1A1A" stroke-width="4"/>
+<path d="M0.0 -44.0 L9.8 -36.7 L22.0 -38.1 L26.9 -26.9 L38.1 -22.0 L36.7 -9.8 L44.0 0.0 L36.7 9.8 L38.1 22.0 L26.9 26.9 L22.0 38.1 L9.8 36.7 L0.0 44.0 L-9.8 36.7 L-22.0 38.1 L-26.9 26.9 L-38.1 22.0 L-36.7 9.8 L-44.0 0.0 L-36.7 -9.8 L-38.1 -22.0 L-26.9 -26.9 L-22.0 -38.1 L-9.8 -36.7 Z" transform="translate(56,56)" fill="#FFFFFF" opacity="0.35"/>
+<g transform="translate(56,56) scale(1.12)"><circle cx="0" cy="0" r="27" fill="#D79A4E" stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="0" cy="0" r="24" fill="#E9B76A" stroke="#B87F35" stroke-width="2"/>
+<ellipse cx="-14" cy="-14" rx="3.4" ry="2.2" transform="rotate(0 -14 -14)" fill="#FFF3D0" stroke="#1A1A1A" stroke-width="1.8"/><ellipse cx="4" cy="-18" rx="3.4" ry="2.2" transform="rotate(37 4 -18)" fill="#FFF3D0" stroke="#1A1A1A" stroke-width="1.8"/><ellipse cx="16" cy="-6" rx="3.4" ry="2.2" transform="rotate(74 16 -6)" fill="#FFF3D0" stroke="#1A1A1A" stroke-width="1.8"/><ellipse cx="12" cy="12" rx="3.4" ry="2.2" transform="rotate(111 12 12)" fill="#FFF3D0" stroke="#1A1A1A" stroke-width="1.8"/><ellipse cx="-6" cy="17" rx="3.4" ry="2.2" transform="rotate(148 -6 17)" fill="#FFF3D0" stroke="#1A1A1A" stroke-width="1.8"/><ellipse cx="-18" cy="4" rx="3.4" ry="2.2" transform="rotate(185 -18 4)" fill="#FFF3D0" stroke="#1A1A1A" stroke-width="1.8"/><ellipse cx="-2" cy="-20" rx="3.4" ry="2.2" transform="rotate(222 -2 -20)" fill="#FFF3D0" stroke="#1A1A1A" stroke-width="1.8"/><ellipse cx="20" cy="3" rx="3.4" ry="2.2" transform="rotate(259 20 3)" fill="#FFF3D0" stroke="#1A1A1A" stroke-width="1.8"/>
+<circle cx="0" cy="0" r="9" fill="#8A5A1E" stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/></g>
+</svg>

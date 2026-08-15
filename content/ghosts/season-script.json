@@ -1,0 +1,286 @@
+{
+  "$comment": "Ghost teams + scripted season arc for The Amazing Race Canada: Yassa Edition. Placements are SCRIPTED and never computed. Tokens usable in any line: {team} = player's team name, {points} = points earned this leg, {done} = challenges completed, {total} = challenges available.",
+  "version": 1,
+  "playerTeamId": "yassa",
+  "teams": [
+    {
+      "id": "maple",
+      "name": "Team Maple",
+      "members": ["Ava", "Liam"],
+      "avatarId": "ghost-maple",
+      "tagline": "Always one step ahead.",
+      "personality": "The strong rivals. Friendly, fast, and never far in front. They high-five you at every mat."
+    },
+    {
+      "id": "rockhoppers",
+      "name": "The Rock Hoppers",
+      "members": ["Finn", "Rose"],
+      "avatarId": "ghost-rockhoppers",
+      "tagline": "If we can climb it, we can win it.",
+      "personality": "Cheerful daredevils from Newfoundland. They laugh their way up anything and never, ever quit."
+    },
+    {
+      "id": "prairie",
+      "name": "Prairie Thunder",
+      "members": ["Wyatt", "June"],
+      "avatarId": "ghost-prairie",
+      "tagline": "Fast out of the gate!",
+      "personality": "Ranch kids who run first and read the map later. Lightning quick, hopelessly lost."
+    },
+    {
+      "id": "tide",
+      "name": "The Tide Riders",
+      "members": ["Coco", "Marlow"],
+      "avatarId": "ghost-tide",
+      "tagline": "No rush. We float.",
+      "personality": "Laid-back surfers from Nova Scotia. Always almost late, always smiling anyway."
+    }
+  ],
+  "reactions": {
+    "maple": {
+      "farewell": "Ava: \"We had so much fun. Go win it, {team}!\"",
+      "onOtherElimination": "Liam: \"Safe travels, friends. That was a great race.\"",
+      "finale": "Ava: \"We always knew {team} was the team to beat.\""
+    },
+    "rockhoppers": {
+      "farewell": "Finn: \"We climbed every rock we could find. Worth it!\"",
+      "onOtherElimination": "Rose: \"Big hugs. You made us race harder.\"",
+      "finale": "Finn: \"You got us at the line, {team}. What a finish!\""
+    },
+    "prairie": {
+      "farewell": "Wyatt: \"We were fast. We were just fast the wrong way!\"",
+      "onOtherElimination": "June: \"Aw, no. Ride safe, you two.\"",
+      "finale": "June: \"We were cheering for {team} the whole way home.\""
+    },
+    "tide": {
+      "farewell": "Coco: \"Late again. But what a ride, eh?\"",
+      "onOtherElimination": "Marlow: \"That is rough. Catch you back home.\"",
+      "finale": "Marlow: \"Told you. {team} had the good vibes.\""
+    }
+  },
+  "hostName": "Jon",
+  "legs": [
+    {
+      "legId": 0,
+      "isIntro": true,
+      "yassaPlacement": 1,
+      "teamsRemaining": 5,
+      "order": [],
+      "title": "Meet the Teams",
+      "ceremonyLines": [
+        "Welcome to The Amazing Race Canada, {team}!",
+        "Four teams are here to race you across Ontario and Québec.",
+        "Say hello. Tomorrow, none of them will slow down for you."
+      ],
+      "intros": [
+        {
+          "teamId": "maple",
+          "tease": "Keep your eye on Team Maple. They are quick, and they are polite about it."
+        },
+        {
+          "teamId": "rockhoppers",
+          "tease": "The Rock Hoppers are not scared of anything. Anything at all."
+        },
+        {
+          "teamId": "prairie",
+          "tease": "Prairie Thunder start fast. Can they find the finish line?"
+        },
+        {
+          "teamId": "tide",
+          "tease": "The Tide Riders are never in a hurry. That could cost them."
+        }
+      ],
+      "outroLines": [
+        "That is your competition, {team}.",
+        "Eight legs. One trophy.",
+        "The race... starts... NOW!"
+      ],
+      "nextLegTease": "Leg 1: cannons, forts and a very famous goat in Kingston."
+    },
+    {
+      "legId": 1,
+      "yassaPlacement": 2,
+      "teamsRemaining": 5,
+      "order": ["maple", "yassa", "prairie", "rockhoppers", "tide"],
+      "title": "Kingston: Forts & Cannons",
+      "ceremonyLines": [
+        "{team}, you are team number TWO!",
+        "First day of the race and you are already near the front.",
+        "This is a non-elimination leg — everyone races on!",
+        "Rest up. Tomorrow is the longest road of the week."
+      ],
+      "closeCall": "Team Maple beat you to the mat by six minutes. Six!",
+      "statsLines": {
+        "heavy": "You banked {points} points and finished every challenge at the fort — great for your season score! But Team Maple still ran the course six minutes faster.",
+        "mid": "{done} of {total} challenges done and {points} points banked for your season score. Team Maple just ran the course six minutes faster today.",
+        "light": "You banked {points} points for your season score. Team Maple ran the course six minutes faster — they were quick today!"
+      },
+      "nextLegTease": "Tomorrow: the long road to Montréal. Learn a French word tonight."
+    },
+    {
+      "legId": 2,
+      "yassaPlacement": 4,
+      "teamsRemaining": 5,
+      "eliminatedTeamId": "prairie",
+      "order": ["maple", "rockhoppers", "tide", "yassa", "prairie"],
+      "title": "The Long Road to Montréal",
+      "ceremonyLines": [
+        "{team}, you are team number four.",
+        "A tough day. But look around — you are still in this race.",
+        "One team may be eliminated tonight.",
+        "Heads up. Old Montréal has secrets for you tomorrow."
+      ],
+      "closeCall": "The Tide Riders slid onto the mat one minute ahead of you. One minute!",
+      "statsLines": {
+        "heavy": "You worked so hard out there — {done} challenges and {points} points, all going to your season score. But The Tide Riders reached the mat just one minute faster today.",
+        "mid": "{points} points banked for your season score today. The Tide Riders simply ran the course one minute faster.",
+        "light": "You banked {points} points for your season score. The road was long, and The Tide Riders found the faster time by just one minute."
+      },
+      "eliminationLines": [
+        "Prairie Thunder... you were the fastest team out of Cornwall.",
+        "You were also two hours in the wrong direction.",
+        "I'm sorry to tell you... you've been eliminated from the race."
+      ],
+      "nextLegTease": "Tomorrow: the metro, a gold-star ceiling, and a science centre."
+    },
+    {
+      "legId": 3,
+      "yassaPlacement": 3,
+      "teamsRemaining": 4,
+      "order": ["maple", "rockhoppers", "yassa", "tide"],
+      "title": "Secrets of Old Montréal",
+      "ceremonyLines": [
+        "{team}, you are team number three.",
+        "You rode the metro, found the stars, and did not get lost once.",
+        "This is a non-elimination leg — everyone races on!",
+        "You are climbing back. Keep going."
+      ],
+      "statsLines": {
+        "heavy": "{done} of {total} challenges and {points} points — all going to your season score. You're getting faster on the course every day.",
+        "mid": "{points} points banked for your season score today. Steady time on the course is what moves teams up the board.",
+        "light": "{points} points added to your season score. It was a short day, but your time on the course held your place."
+      },
+      "nextLegTease": "Tomorrow: bagels, beasts and bugs. Bring your appetite."
+    },
+    {
+      "legId": 4,
+      "yassaPlacement": 1,
+      "teamsRemaining": 4,
+      "eliminatedTeamId": "tide",
+      "order": ["yassa", "maple", "rockhoppers", "tide"],
+      "title": "Bagels, Beasts & Bugs",
+      "ceremonyLines": [
+        "{team}... you are team number ONE!",
+        "Your first win of the race. Look at that mat — it is yours!",
+        "But one team may be eliminated tonight.",
+        "From fourth place to first in two days. Wow."
+      ],
+      "closeCall": "Team Maple hit the mat forty seconds behind you. Forty seconds!",
+      "statsLines": {
+        "heavy": "{points} points and {done} challenges — all going to your season score. And your time on the course today? Fastest of everyone, by forty seconds!",
+        "mid": "{points} points banked for your season score, plus a first-place finish. Your time on the course beat Team Maple by forty seconds.",
+        "light": "{points} points added to your season score today. Your time on the course was still the best, by forty seconds."
+      },
+      "eliminationLines": [
+        "The Tide Riders... you found the bagels, the sloth and the fountains.",
+        "You just found them all a little too late.",
+        "I'm sorry to tell you... you've been eliminated from the race."
+      ],
+      "nextLegTease": "Tomorrow: a race down Autoroute 20 to the walled city of Québec."
+    },
+    {
+      "legId": 5,
+      "yassaPlacement": 2,
+      "teamsRemaining": 3,
+      "order": ["maple", "yassa", "rockhoppers"],
+      "title": "Race to the Walled City",
+      "ceremonyLines": [
+        "{team}, you are team number two.",
+        "So close! Team Maple caught the funicular right before you.",
+        "This is a non-elimination leg — everyone races on!",
+        "Sleep well — the Citadelle is waiting."
+      ],
+      "closeCall": "Team Maple reached the mat barely a minute ahead. You could see them from the hill!",
+      "statsLines": {
+        "heavy": "{done} challenges and {points} points — all banked for your season score. Team Maple's time on the course was just one minute faster today.",
+        "mid": "{points} points added to your season score on a long driving day. Team Maple's time on the course edged you out by a minute.",
+        "light": "{points} points banked for your season score. The drive ate the clock, and Team Maple's time on the course was one minute quicker."
+      },
+      "nextLegTease": "Tomorrow: the Citadelle, the noon cannon, and a goat named Batisse."
+    },
+    {
+      "legId": 6,
+      "yassaPlacement": 1,
+      "teamsRemaining": 3,
+      "eliminatedTeamId": "maple",
+      "order": ["yassa", "rockhoppers", "maple"],
+      "title": "The Citadelle Showdown",
+      "ceremonyLines": [
+        "{team}... you are team number ONE!",
+        "Two wins in three days. You are racing like champions now.",
+        "And that means one team may be eliminated tonight."
+      ],
+      "closeCall": "You beat The Rock Hoppers to the mat by eight minutes. Your best gap yet!",
+      "statsLines": {
+        "heavy": "{points} points and {done} challenges — straight into your season score. Your time on the course beat The Rock Hoppers by eight minutes!",
+        "mid": "{points} points banked for your season score, and first place too. Your time on the course was the best of the whole field.",
+        "light": "{points} points added to your season score. Your time on the course was enough — eight minutes ahead of The Rock Hoppers!"
+      },
+      "eliminationLines": [
+        "Team Maple... you led this race for five straight legs.",
+        "Today, {team} finally caught you.",
+        "I'm sorry to tell you... you've been eliminated from the race."
+      ],
+      "nextLegTease": "Two teams left. Tomorrow: a hedge maze, dinosaurs, and a very long drive."
+    },
+    {
+      "legId": 7,
+      "yassaPlacement": 2,
+      "teamsRemaining": 2,
+      "order": ["rockhoppers", "yassa"],
+      "title": "Mazes, Dinosaurs & Ribs",
+      "ceremonyLines": [
+        "{team}, you are team number two.",
+        "The Rock Hoppers got here by two minutes. Two minutes!",
+        "This is a non-elimination leg — everyone races on!",
+        "Tomorrow, one leg decides everything."
+      ],
+      "closeCall": "Two minutes. After eight hours of racing, that is all that separated you.",
+      "statsLines": {
+        "heavy": "{done} of {total} challenges and {points} points — all for your season score. Your time on the course was great, just two minutes behind The Rock Hoppers.",
+        "mid": "{points} points added to your season score on the longest day of the race. The Rock Hoppers' time on the course beat yours by two minutes at the maze.",
+        "light": "{points} points banked for your season score today. The Rock Hoppers found the faster time on the course at the maze and never looked back."
+      },
+      "nextLegTease": "Tomorrow is the finale. Whoever reaches home first wins the whole race."
+    },
+    {
+      "legId": 8,
+      "yassaPlacement": 1,
+      "teamsRemaining": 2,
+      "order": ["yassa", "rockhoppers"],
+      "title": "THE FINALE: Race to the Finish",
+      "photoFinishLines": [
+        "Two teams. One mat. Here they come!",
+        "The Rock Hoppers are right beside you...",
+        "{team} is pulling ahead... AHEAD... YES!"
+      ],
+      "ceremonyLines": [
+        "{team}... you are the WINNERS of The Amazing Race Canada: Yassa Edition!",
+        "Eight legs, two provinces, and one unbelievable comeback.",
+        "You started this race in fourth place. You are finishing it as champions."
+      ],
+      "closeCall": "A photo finish! You crossed the mat one step ahead of The Rock Hoppers.",
+      "statsLines": {
+        "heavy": "{points} points and {done} challenges on the final day — all in your season score. And your time on the course? Just barely the fastest — a photo finish!",
+        "mid": "{points} points banked for your season score on the last leg. Your time on the course was exactly enough to win the photo finish.",
+        "light": "{points} points added to your season score, one perfect finish. Champions do not need to be fancy — just the fastest time on the course."
+      },
+      "recapLines": [
+        "Let's look back at your whole race, {team}.",
+        "Every leg, every badge, every photo.",
+        "Champions of The Amazing Race Canada: Yassa Edition!"
+      ],
+      "nextLegTease": "You are home. Take the trophy — you earned every point of it."
+    }
+  ]
+}

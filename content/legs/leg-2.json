@@ -1,0 +1,281 @@
+{
+  "id": 2,
+  "title": "The Long Road to Montréal",
+  "date": "2026-08-03",
+  "routeText": "Kingston → Cornwall → Montréal",
+  "pitStop": { "hotelName": "Hôtel Monroe – Downtown Montreal", "city": "Montréal, Québec" },
+  "steps": [
+    {
+      "id": "l2-s1",
+      "kind": "drive",
+      "location": "Highway 401 to Autoroute 20",
+      "scheduledTime": "9:15 AM",
+      "clueRiddle": "Three hours east with a big river beside us.\nGames, bingo and French words will guide us.",
+      "clueReveal": "We drive from Kingston to Montréal today. Play all three car games on the way. The animal quiz will help you this afternoon!",
+      "challenges": [
+        {
+          "id": "l2-drive-trivia",
+          "type": "minigame",
+          "title": "Animal Trivia Deck",
+          "instructions": "Answer questions about amazing animals. One big question at a time. Some of them are waiting for you today!",
+          "minigameId": "trivia",
+          "config": { "deck": "biodome", "count": 24 },
+          "points": 10
+        },
+        {
+          "id": "l2-drive-bingo",
+          "type": "minigame",
+          "title": "St. Lawrence Bingo",
+          "instructions": "Watch for each thing out the window. Tap a square when you spot it. Four in a row is bingo.",
+          "minigameId": "road-bingo",
+          "config": { "card": "st-lawrence" },
+          "points": 10
+        },
+        {
+          "id": "l2-drive-french",
+          "type": "minigame",
+          "title": "First French Words",
+          "instructions": "Flip the cards and say each word out loud. Then match the French to the English. Three words will get you far today.",
+          "minigameId": "french-phrases",
+          "config": { "pack": "starter-pack" },
+          "points": 10
+        }
+      ],
+      "funFact": "The moment you cross into Québec, every road sign switches to French."
+    },
+    {
+      "id": "l2-s2",
+      "kind": "detour",
+      "location": "Tilly's Eatery, Cornwall",
+      "scheduledTime": "11:15 AM",
+      "clueRiddle": "Halfway there, a warm café by the river.\nCount from the car, or turn menu detective!",
+      "clueReveal": "Stop at Tilly's Eatery on Pitt Street. This is a Detour: pick Count or Detective. Both work fine in the rain.",
+      "detour": {
+        "a": {
+          "label": "Count",
+          "blurb": "Count from your seat in the car. Cozy, dry and sharp-eyed.",
+          "challenges": [
+            {
+              "id": "l2-detour-count",
+              "type": "count",
+              "title": "River Road Count",
+              "instructions": "Count boats, bridges and transport trucks. Watch the river side of the road. Add up your grand total.",
+              "points": 20
+            }
+          ]
+        },
+        "b": {
+          "label": "Detective",
+          "blurb": "Crack the menu's secrets without leaving your seat. Hot chocolate optional.",
+          "challenges": [
+            {
+              "id": "l2-detour-menu",
+              "type": "scavenger",
+              "title": "Menu Detective",
+              "instructions": "Hold the menu like a case file. Find every clue on the list. Point at each one before you tap.",
+              "checklist": [
+                "A sandwich named after a little bird",
+                "A sandwich with a fox in its name",
+                "Meat that comes from Montréal",
+                "Something that costs exactly $3.50",
+                "A sandwich dipped in egg and fried",
+                "The gourmet hot chocolate"
+              ],
+              "points": 10
+            },
+            {
+              "id": "l2-detour-menu-trivia",
+              "type": "trivia",
+              "title": "The Menu Files",
+              "instructions": "Detective, four final questions. Every answer hides on the menu. Search before you tap.",
+              "trivia": [
+                {
+                  "q": "Which breakfast sandwich is named after the café itself?",
+                  "choices": ["The Tilly", "The Reuben", "The Stella", "The Monte Cristo"],
+                  "answerIndex": 0,
+                  "funFact": "Two fried eggs, bacon and cheese — the house special."
+                },
+                {
+                  "q": "Which sandwich costs the most money?",
+                  "choices": ["Smoked Salmon", "Foxy Roxy", "Egg Salad Croissant", "Grilled Cheese with Bacon"],
+                  "answerIndex": 0,
+                  "funFact": "$11.99 — the capers and cream cheese make it fancy."
+                },
+                {
+                  "q": "The smoked meat here is famous from which city?",
+                  "choices": ["Montréal", "Toronto", "Paris", "Kingston"],
+                  "answerIndex": 0,
+                  "funFact": "That's exactly where this car is headed today!"
+                },
+                {
+                  "q": "The Monte Cristo is dipped in what before it is fried?",
+                  "choices": ["Egg batter", "Chocolate", "Maple syrup", "Gravy"],
+                  "answerIndex": 0,
+                  "funFact": "Dipped, fried and golden — like French toast with a job."
+                }
+              ],
+              "points": 10
+            }
+          ]
+        }
+      },
+      "funFact": "The St. Lawrence River carries ships all the way from the ocean to Lake Superior."
+    },
+    {
+      "id": "l2-s2b",
+      "kind": "drive",
+      "location": "Autoroute 20 — Cornwall to Montréal",
+      "scheduledTime": "12:30 PM",
+      "clueRiddle": "One last rainy hour before the big city.\nNew games on your lap — keep watch for the skyline!",
+      "clueReveal": "Back on the road for about ninety minutes. Play the city quiz and Rainy Road Bingo. Then practice your French one more time.",
+      "challenges": [
+        {
+          "id": "l2-drive2-trivia",
+          "type": "minigame",
+          "title": "Montréal City Quiz",
+          "instructions": "Questions about the city we are about to enter. One big question at a time. Every answer comes with a fun fact.",
+          "minigameId": "trivia",
+          "config": { "deck": "leg-2", "count": 10 },
+          "points": 10
+        },
+        {
+          "id": "l2-drive2-bingo",
+          "type": "minigame",
+          "title": "Rainy Road Bingo",
+          "instructions": "A brand-new card made for rainy highways. Tap a square when you spot it. First to see the skyline wins bragging rights.",
+          "minigameId": "road-bingo",
+          "config": { "card": "rainy-road" },
+          "points": 10
+        },
+        {
+          "id": "l2-drive2-french",
+          "type": "minigame",
+          "title": "French: Round Two",
+          "instructions": "One more practice round before the hotel. Say each word louder this time. Your bonjour moment is coming soon!",
+          "minigameId": "french-phrases",
+          "config": { "pack": "starter-pack" },
+          "points": 10
+        }
+      ],
+      "funFact": "Montréal's skyline hides behind Mount Royal until you are almost across the bridge."
+    },
+    {
+      "id": "l2-s3",
+      "kind": "roadblock",
+      "location": "Montréal Biodôme",
+      "scheduledTime": "2:15 PM",
+      "clueRiddle": "Five whole worlds are hiding under one roof.\nPenguins waddle here — go find the proof.",
+      "clueReveal": "Who's the animal expert? Drive straight to the Biodôme at Olympic Park. Hunt for five animals inside.",
+      "challenges": [
+        {
+          "id": "l2-biodome-hunt",
+          "type": "scavenger",
+          "title": "Ecosystem Hunt",
+          "instructions": "Twelve creatures hide across five worlds. Find as many as you can. The sloth hides — look high in the trees!",
+          "checklist": [
+            "A penguin",
+            "The sloth (hard mode!)",
+            "A capybara — the world's biggest rodent",
+            "A tiny golden monkey",
+            "The lynx",
+            "An otter",
+            "A beaver lodge made of sticks",
+            "A fish bigger than your head",
+            "A starfish",
+            "A seabird in a black-and-white tuxedo",
+            "The loudest bird you can hear",
+            "Something with no legs at all"
+          ],
+          "photoPrompt": "Penguin pose!",
+          "points": 25
+        },
+        {
+          "id": "l2-biodome-trivia",
+          "type": "trivia",
+          "title": "Animal Expert Test",
+          "instructions": "Three questions about the animals here. Read the signs if you need help. Then tap your answer.",
+          "trivia": [
+            {
+              "q": "How many ecosystems does the Biodôme have?",
+              "choices": ["Three", "Five", "Ten", "Twenty"],
+              "answerIndex": 1,
+              "funFact": "Each ecosystem has its own temperature, plants and animals."
+            },
+            {
+              "q": "Why is a sloth so hard to spot?",
+              "choices": ["It moves very slowly and hides high up", "It is invisible", "It only comes out in winter", "It lives underground"],
+              "answerIndex": 0,
+              "funFact": "Sloths move so slowly that green algae can grow on their fur."
+            },
+            {
+              "q": "Where do penguins live in the wild?",
+              "choices": ["The far south, not the Arctic", "The North Pole", "The desert", "The rainforest"],
+              "answerIndex": 0,
+              "funFact": "Penguins and polar bears never meet — they live at opposite ends."
+            }
+          ],
+          "points": 15
+        }
+      ],
+      "funFact": "The Biodôme building was the cycling track for the 1976 Montréal Olympics."
+    },
+    {
+      "id": "l2-s4",
+      "kind": "route-marker",
+      "location": "Provigo",
+      "scheduledTime": "5:45 PM",
+      "clueRiddle": "Aisles and carts and a list in your hand.\nTonight's dinner is hiding — go find it fast!",
+      "clueReveal": "On the drive back, stop at the Provigo near the Bell Centre. Find six dinner ingredients on your list.",
+      "challenges": [
+        {
+          "id": "l2-provigo-sweep",
+          "type": "scavenger",
+          "title": "Supermarket Sweep",
+          "instructions": "Find each grocery item on the list. Put it in the cart. Tap to check it off.",
+          "checklist": [
+            "Pasta",
+            "Sausage",
+            "Pasta sauce",
+            "Cheese",
+            "Cereal",
+            "Milk"
+          ],
+          "points": 15
+        }
+      ],
+      "funFact": "In Québec, food packages must always show French words first."
+    },
+    {
+      "id": "l2-s5",
+      "kind": "speed-bump",
+      "location": "Hôtel Monroe front desk",
+      "scheduledTime": "6:30 PM",
+      "clueRiddle": "One little word opens every door in Québec.\nSay it out loud to the person at the desk.",
+      "clueReveal": "Walk up to the hotel front desk. Say bonjour to the person working there. Smile — that is the whole challenge.",
+      "challenges": [
+        {
+          "id": "l2-frontdesk-bonjour",
+          "type": "speak-french",
+          "title": "Say Bonjour",
+          "instructions": "Read the phrase card out loud first. Then say it to the front desk person. Use a big, friendly voice.",
+          "frenchPhrase": {
+            "fr": "Bonjour!",
+            "phonetic": "bohn-ZHOOR",
+            "en": "Hello! (Good day!)"
+          },
+          "points": 5
+        }
+      ],
+      "funFact": "In Québec, people say bonjour when they arrive and bonsoir at night."
+    },
+    {
+      "id": "l2-s6",
+      "kind": "pit-stop",
+      "location": "Hôtel Monroe – Downtown Montreal",
+      "scheduledTime": "6:45 PM",
+      "clueRiddle": "Mackay Street is tonight's finish line.\nRoll your bag to the mat — leg two is done.",
+      "clueReveal": "Check in at Hôtel Monroe on Rue Mackay. Find your suite and drop your bags. Then step onto the pit stop mat.",
+      "funFact": "Your suite has a kitchen, so tonight the team cooks dinner together."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "starter-pack",
+    "title": "Starter Pack",
+    "phrases": [
+      { "fr": "Bonjour", "phonetic": "bohn-ZHOOR", "en": "Hello (good day)" },
+      { "fr": "Merci", "phonetic": "mair-SEE", "en": "Thank you" },
+      { "fr": "S'il vous plaît", "phonetic": "seel voo PLEH", "en": "Please" },
+      { "fr": "Oui", "phonetic": "WEE", "en": "Yes" },
+      { "fr": "Au revoir", "phonetic": "oh ruh-VWAR", "en": "Goodbye" }
+    ]
+  },
+  {
+    "id": "pack-2",
+    "title": "Pack 2",
+    "phrases": [
+      { "fr": "Je m'appelle…", "phonetic": "zhuh ma-PELL", "en": "My name is…" },
+      { "fr": "Où est…?", "phonetic": "oo EH", "en": "Where is…?" },
+      { "fr": "Merci beaucoup", "phonetic": "mair-SEE boh-KOO", "en": "Thank you very much" },
+      { "fr": "Comment ça va?", "phonetic": "koh-mahn sa VA", "en": "How are you?" },
+      { "fr": "Excusez-moi", "phonetic": "ex-koo-zay MWAH", "en": "Excuse me" }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "id": "autoroute-20",
+  "title": "Autoroute 20 Bingo",
+  "cells": [
+    { "label": "A church with a silvery steeple", "emoji": "⛪" },
+    { "label": "Cows in a field", "emoji": "🐄" },
+    { "label": "A tractor", "emoji": "🚜" },
+    { "label": "A big transport truck", "emoji": "🚛" },
+    { "label": "An orange construction cone", "emoji": "🚧" },
+    { "label": "A gas station sign", "emoji": "⛽" },
+    { "label": "A bridge over the highway", "emoji": "🌉" },
+    { "label": "A canoe or kayak on a car roof", "emoji": "🛶" },
+    { "label": "A camper or motorhome", "emoji": "🚐" },
+    { "label": "A motorcycle", "emoji": "🏍️" },
+    { "label": "A field of yellow flowers", "emoji": "🌻" },
+    { "label": "A tall water tower", "emoji": "🗼" },
+    { "label": "A green sign that says SORTIE", "emoji": "🚏" },
+    { "label": "A sign for Trois-Rivières", "emoji": "🛣️" },
+    { "label": "A police car", "emoji": "🚓" },
+    { "label": "A field of corn", "emoji": "🌽" }
+  ]
+}

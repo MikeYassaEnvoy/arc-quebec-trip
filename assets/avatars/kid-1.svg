@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168 168" width="168" height="168" role="img" aria-label="Kid racer 1 — red bandana">
+<title>Kid racer 1 — red bandana</title>
+<defs><clipPath id="k1c"><circle cx="84" cy="84" r="77"/></clipPath></defs>
+<circle cx="84" cy="84" r="77" fill="#BFEAFB"/>
+<g clip-path="url(#k1c)">
+  <circle cx="84" cy="70" r="60" fill="#FFFFFF" opacity="0.3"/>
+  <g transform="translate(8,-10) scale(0.95)"><g stroke-linejoin="round">
+  <!-- backpack peeking over the shoulders -->
+  <g fill="#DA291C" stroke="#1A1A1A" stroke-width="5">
+    <rect x="14" y="142" width="27" height="40" rx="12"/><rect x="119" y="142" width="27" height="40" rx="12"/>
+  </g>
+  <path d="M68 108h24v28H68z" fill="#F7D7B8" stroke="#1A1A1A" stroke-width="5"/>
+  <!-- shirt -->
+  <path d="M26 182c0-30 22-48 54-48s54 18 54 48z" fill="#FFC20E" stroke="#1A1A1A" stroke-width="5"/>
+  <path d="M62 136c4 10 10 16 18 16s14-6 18-16" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="5"/>
+  <!-- backpack straps -->
+  <g fill="#1F6FB2" stroke="#1A1A1A" stroke-width="4.5">
+    <path d="M52 139c-6 13-8 27-8 43h11c0-17 3-29 8-39z"/>
+    <path d="M108 139c6 13 8 27 8 43h-11c0-17-3-29-8-39z"/>
+  </g>
+  <!-- head -->
+  <ellipse cx="44" cy="86" rx="8" ry="10" fill="#F7D7B8" stroke="#1A1A1A" stroke-width="5"/>
+  <ellipse cx="116" cy="86" rx="8" ry="10" fill="#F7D7B8" stroke="#1A1A1A" stroke-width="5"/>
+  <ellipse cx="80" cy="82" rx="37" ry="39" fill="#F7D7B8" stroke="#1A1A1A" stroke-width="5"/>
+  <path d="M42 82 48 50l10 16 8-24 10 20 8-22 10 22 10-18 8 22 10-14 4 30c-8-16-22-24-42-24s-34 8-44 24z" fill="#C0782E" stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round"/>
+  <g fill="#C0782E" stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round"><path d="M47 64c-7 9-9 20-6 32 9-5 13-16 13-28z"/><path d="M113 64c7 9 9 20 6 32-9-5-13-16-13-28z"/></g>
+  <g stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round">
+  <path d="M44 74c2-24 16-38 36-38s34 14 36 38c-16-10-30-14-36-14s-20 4-36 14z" fill="#DA291C"/>
+  <path d="M116 62c10-2 18 2 24 10-8 2-12 6-14 12-6-8-10-16-10-22z" fill="#DA291C"/>
+  <path d="M50 56h60" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" fill="none"/></g>
+  <g>
+  <ellipse cx="66" cy="80" rx="5.5" ry="6.5" fill="#1A1A1A"/><ellipse cx="94" cy="80" rx="5.5" ry="6.5" fill="#1A1A1A"/>
+  <circle cx="64" cy="77.5" r="2" fill="#FFFFFF"/><circle cx="92" cy="77.5" r="2" fill="#FFFFFF"/>
+  </g>
+<g fill="#DA291C" opacity="0.25"><ellipse cx="53" cy="94" rx="9" ry="6"/><ellipse cx="107" cy="94" rx="9" ry="6"/></g>
+<path d="M66 96c8 0 20 0 28 0 0 10-6 16-14 16s-14-6-14-16z" fill="#1A1A1A"/><path d="M72 108c4-4 12-4 16 0" fill="#E8607A" stroke="none"/>
+</g></g>
+</g>
+<circle cx="84" cy="84" r="77" fill="none" stroke="#1A1A1A" stroke-width="6"/>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 176" width="280" height="176" role="img" aria-label="The Tide Riders — Coco and Marlow, Nova Scotia">
+<title>The Tide Riders — Coco and Marlow, Nova Scotia</title>
+<defs><clipPath id="cc"><rect x="5" y="5" width="270" height="166" rx="26"/></clipPath></defs>
+<rect x="5" y="5" width="270" height="166" rx="26" fill="#C6F2EC"/>
+<g clip-path="url(#cc)">
+  <path d="M0 118h280v60H0z" fill="#37B6C4"/>
+  <g opacity="0.45" fill="#FFFFFF"><circle cx="46" cy="44" r="20"/><circle cx="72" cy="38" r="14"/><circle cx="236" cy="52" r="18"/><circle cx="212" cy="44" r="12"/></g>
+  <g fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" opacity="0.85">
+    <path d="M6 150c14-12 26-12 40 0s26 12 40 0"/><path d="M186 158c14-12 26-12 40 0s26 12 40 0"/></g>
+  <g transform="translate(252 96) rotate(18)" stroke="#1A1A1A" stroke-width="5">
+    <path d="M0 0c14 16 14 56 0 74-14-18-14-58 0-74z" fill="#FFC20E"/><path d="M0 8v58" stroke="#DA291C" stroke-width="5"/></g>
+  <g transform="translate(143.6,26) scale(0.78)"><g stroke-linejoin="round">
+  <!-- backpack peeking over the shoulders -->
+  <g fill="#37B6C4" stroke="#1A1A1A" stroke-width="5">
+    <rect x="14" y="142" width="27" height="40" rx="12"/><rect x="119" y="142" width="27" height="40" rx="12"/>
+  </g>
+  <path d="M38 76c0-28 18-44 42-44s42 16 42 44v34c-6-4-10 6-16 2s-6-12-14-12-10 10-18 10-12-10-20-8-10 10-16 12z" fill="#E8C36B" stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M68 108h24v28H68z" fill="#B4713D" stroke="#1A1A1A" stroke-width="5"/>
+  <!-- shirt -->
+  <path d="M26 182c0-30 22-48 54-48s54 18 54 48z" fill="#FFC20E" stroke="#1A1A1A" stroke-width="5"/>
+  <path d="M62 136c4 10 10 16 18 16s14-6 18-16" fill="#0E7C86" stroke="#1A1A1A" stroke-width="5"/>
+  <!-- backpack straps -->
+  <g fill="#DA291C" stroke="#1A1A1A" stroke-width="4.5">
+    <path d="M52 139c-6 13-8 27-8 43h11c0-17 3-29 8-39z"/>
+    <path d="M108 139c6 13 8 27 8 43h-11c0-17-3-29-8-39z"/>
+  </g>
+  <!-- head -->
+  <ellipse cx="44" cy="86" rx="8" ry="10" fill="#B4713D" stroke="#1A1A1A" stroke-width="5"/>
+  <ellipse cx="116" cy="86" rx="8" ry="10" fill="#B4713D" stroke="#1A1A1A" stroke-width="5"/>
+  <ellipse cx="80" cy="82" rx="37" ry="39" fill="#B4713D" stroke="#1A1A1A" stroke-width="5"/>
+  <path d="M42 84C42 46 58 32 80 32c24 0 36 16 36 54-2-16-10-24-22-26-12-2-26 6-36 14-6 4-12 6-16 10z" fill="#E8C36B" stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round"/>
+  <g stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round">
+  <path d="M46 74h64v6c0 10-6 16-16 16s-14-6-16-12c-2 6-6 12-16 12s-16-6-16-16z" fill="#0E7C86"/>
+  <path d="M42 74h76" stroke-linecap="round"/></g>
+<g fill="#DA291C" opacity="0.25"><ellipse cx="53" cy="94" rx="9" ry="6"/><ellipse cx="107" cy="94" rx="9" ry="6"/></g>
+<path d="M66 96c8 0 20 0 28 0 0 10-6 16-14 16s-14-6-14-16z" fill="#1A1A1A"/><path d="M72 108c4-4 12-4 16 0" fill="#E8607A" stroke="none"/>
+</g></g>
+  <g transform="translate(11.6,30) scale(0.78)"><g stroke-linejoin="round">
+  <!-- backpack peeking over the shoulders -->
+  <g fill="#FFC20E" stroke="#1A1A1A" stroke-width="5">
+    <rect x="14" y="142" width="27" height="40" rx="12"/><rect x="119" y="142" width="27" height="40" rx="12"/>
+  </g>
+  <path d="M38 76c0-28 18-44 42-44s42 16 42 44v34c-6-4-10 6-16 2s-6-12-14-12-10 10-18 10-12-10-20-8-10 10-16 12z" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M68 108h24v28H68z" fill="#D9A066" stroke="#1A1A1A" stroke-width="5"/>
+  <!-- shirt -->
+  <path d="M26 182c0-30 22-48 54-48s54 18 54 48z" fill="#0E7C86" stroke="#1A1A1A" stroke-width="5"/>
+  <path d="M62 136c4 10 10 16 18 16s14-6 18-16" fill="#FFC20E" stroke="#1A1A1A" stroke-width="5"/>
+  <!-- backpack straps -->
+  <g fill="#FFFFFF" stroke="#1A1A1A" stroke-width="4.5">
+    <path d="M52 139c-6 13-8 27-8 43h11c0-17 3-29 8-39z"/>
+    <path d="M108 139c6 13 8 27 8 43h-11c0-17-3-29-8-39z"/>
+  </g>
+  <!-- head -->
+  <ellipse cx="44" cy="86" rx="8" ry="10" fill="#D9A066" stroke="#1A1A1A" stroke-width="5"/>
+  <ellipse cx="116" cy="86" rx="8" ry="10" fill="#D9A066" stroke="#1A1A1A" stroke-width="5"/>
+  <ellipse cx="80" cy="82" rx="37" ry="39" fill="#D9A066" stroke="#1A1A1A" stroke-width="5"/>
+  <path d="M42 84C42 46 58 32 80 32c24 0 36 16 36 54-2-16-10-24-22-26-12-2-26 6-36 14-6 4-12 6-16 10z" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round"/>
+  <g fill="#1A1A1A" stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round"><path d="M47 64c-7 9-9 20-6 32 9-5 13-16 13-28z"/><path d="M113 64c7 9 9 20 6 32-9-5-13-16-13-28z"/></g>
+  <g stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round">
+  <path d="M42 64c10-10 24-14 38-14s28 4 38 14c-4 6-6 8-8 10-10-8-18-10-30-10s-20 2-30 10z" fill="#FF7A18"/>
+  <path d="M116 58h24c6 0 8 10 0 12l-26 2z" fill="#FF7A18"/></g>
+  <g>
+  <ellipse cx="66" cy="80" rx="5.5" ry="6.5" fill="#1A1A1A"/><ellipse cx="94" cy="80" rx="5.5" ry="6.5" fill="#1A1A1A"/>
+  <circle cx="64" cy="77.5" r="2" fill="#FFFFFF"/><circle cx="92" cy="77.5" r="2" fill="#FFFFFF"/>
+  </g>
+<g fill="#DA291C" opacity="0.25"><ellipse cx="53" cy="94" rx="9" ry="6"/><ellipse cx="107" cy="94" rx="9" ry="6"/></g>
+<path d="M66 96c6 10 22 10 28 0" fill="none" stroke="#1A1A1A" stroke-width="5" stroke-linecap="round"/>
+</g></g>
+</g>
+<rect x="5" y="5" width="270" height="166" rx="26" fill="none" stroke="#1A1A1A" stroke-width="6"/>
+<rect x="14" y="14" width="252" height="148" rx="19" fill="none" stroke="#0E7C86" stroke-width="4" opacity="0.75"/>
+</svg>
