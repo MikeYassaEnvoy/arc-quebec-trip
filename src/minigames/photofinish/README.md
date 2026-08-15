@@ -71,6 +71,10 @@ photo blob store (`src/engine/photos.ts`). No content-pack `config` is required 
 
 ## Gameplay (tap-tap, no drag)
 
+- **Magnifier**: press-and-hold (~350 ms) any photo — grid card, matched tile or placed
+  slot — to view it full-screen; tap anywhere to close. A quick tap still selects; a
+  long-press swallows its trailing click so nothing gets armed by accident.
+
 - **Photo grid** (unpaired photos) and **stop chips** (unpaired, shuffled independently of
   the photo order) sit at the top. Tapping a photo arms it (pulses); tapping a chip while a
   photo is armed (or vice versa) creates a **pair**, which moves into the "Matched" tray.

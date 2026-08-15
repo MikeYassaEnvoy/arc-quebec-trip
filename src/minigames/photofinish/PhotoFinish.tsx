@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
+import type React from 'react';
 import type { MiniGameProps } from '../../types';
 import { findStep, loadLeg } from '../../engine/content';
 import { useRaceStore } from '../../engine/store';
@@ -170,6 +171,40 @@ export default function PhotoFinish({ onComplete, onExit }: MiniGameProps) {
   const [unpairedChipIds, setUnpairedChipIds] = useState<string[]>([]);
 
   const [message, setMessage] = useState<string | null>(null);
+
+  // Magnifier: long-press any photo (grid, tray, slot) to view it full-screen.
+  // A quick tap still selects — the press must be held ~350ms to magnify, and a
+  // magnified press swallows the following click so nothing gets accidentally armed.
+  const [zoomUrl, setZoomUrl] = useState<string | null>(null);
+  const pressTimer = useRef<number | null>(null);
+  const pressFired = useRef(false);
+  const startPress = (url?: string) => {
+    if (!url) return;
+    pressFired.current = false;
+    pressTimer.current = window.setTimeout(() => {
+      pressFired.current = true;
+      setZoomUrl(url);
+    }, 350);
+  };
+  const cancelPress = () => {
+    if (pressTimer.current !== null) window.clearTimeout(pressTimer.current);
+    pressTimer.current = null;
+  };
+  /** Wrap a tap handler so it is ignored when a long-press just fired. */
+  const tapUnlessZoomed = (fn: () => void) => () => {
+    if (pressFired.current) {
+      pressFired.current = false;
+      return;
+    }
+    fn();
+  };
+  const pressProps = (url?: string) => ({
+    onPointerDown: () => startPress(url),
+    onPointerUp: cancelPress,
+    onPointerLeave: cancelPress,
+    onPointerCancel: cancelPress,
+    onContextMenu: (e: React.SyntheticEvent) => e.preventDefault(),
+  });
   const [success, setSuccess] = useState(false);
   const collected = useRef(false);
 
@@ -378,10 +413,10 @@ export default function PhotoFinish({ onComplete, onExit }: MiniGameProps) {
 
       <div className="pf-board">
         {simple && (
-          <p className="pf-note">Only a few photos so far — just put them in order!</p>
+          <p className="pf-note">Only a few photos so far — just put them in order! Press and hold a photo to see it big.</p>
         )}
         {!simple && (
-          <p className="pf-note">Tap a photo, then tap its stop to match them.</p>
+          <p className="pf-note">Tap a photo, then tap its stop to match them. Press and hold any photo to see it big.</p>
         )}
 
         {!simple && (unpairedPhotoIds.length > 0 || unpairedChipIds.length > 0) && (
@@ -396,7 +431,8 @@ export default function PhotoFinish({ onComplete, onExit }: MiniGameProps) {
                       key={id}
                       type="button"
                       className={`pf-photo-card${isArmed ? ' armed' : ''}`}
-                      onClick={() => tapPhoto(id)}
+                      onClick={tapUnlessZoomed(() => tapPhoto(id))}
+                      {...pressProps(item?.url)}
                     >
                       {item?.url ? (
                         <img src={item.url} alt="A memory from the trip" className="pf-photo-img" />
@@ -443,7 +479,8 @@ export default function PhotoFinish({ onComplete, onExit }: MiniGameProps) {
                     key={tileId}
                     type="button"
                     className={`pf-tray-tile${isArmed ? ' armed' : ''}`}
-                    onClick={() => tapTrayTile(tileId)}
+                    onClick={tapUnlessZoomed(() => tapTrayTile(tileId))}
+                    {...pressProps(item?.url)}
                   >
                     {item?.url ? (
                       <img src={item.url} alt="A memory from the trip" className="pf-tray-img" />
@@ -471,7 +508,8 @@ export default function PhotoFinish({ onComplete, onExit }: MiniGameProps) {
                   key={i}
                   type="button"
                   className={`pf-slot${tileId ? ' filled' : ''}`}
-                  onClick={() => tapSlot(i)}
+                  onClick={tapUnlessZoomed(() => tapSlot(i))}
+                  {...pressProps(item?.url)}
                 >
                   <span className="pf-slot-num">{i + 1}</span>
                   {item?.url && <img src={item.url} alt="Placed memory" className="pf-slot-img" />}
@@ -486,6 +524,19 @@ export default function PhotoFinish({ onComplete, onExit }: MiniGameProps) {
           </div>
         </section>
       </div>
+
+      {zoomUrl && (
+        <div
+          className="pf-zoom"
+          role="dialog"
+          aria-modal="true"
+          onClick={() => setZoomUrl(null)}
+          onPointerUp={cancelPress}
+        >
+          <img src={zoomUrl} alt="Memory, magnified" className="pf-zoom-img" />
+          <p className="pf-zoom-hint">Tap anywhere to close</p>
+        </div>
+      )}
 
       <footer className="pf-foot">
         {message && (

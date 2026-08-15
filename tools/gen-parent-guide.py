@@ -150,7 +150,9 @@ LEGS = {
         note="Slimmed Aug 7: both breakfast judges and the Aquatarium cut — a "
              "lazy morning, then three stops between you and the trophy.",
         prep="**Big Apple mini-golf needs a counter check-in** — do it while "
-             "he reads the clue. **The finish line is LOCKED** until you arm it "
+             "he reads the clue. In Photo Finish, **press and hold any photo to "
+             "see it full-screen** — tell him this before he starts. **The finish "
+             "line is LOCKED** until you arm it "
              "in the parent menu — do the long-press quietly in the driveway "
              "before handing him the iPad. The apple-climb lookout and the animals are "
              "both on site — petting an animal auto-awards 🐑 Fearless. At "
